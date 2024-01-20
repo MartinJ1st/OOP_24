@@ -1,0 +1,3 @@
+C:/Users/Media/CLionProjects/OOP24/cmake-build-debug/CMakeFiles/OOP24.dir
+C:/Users/Media/CLionProjects/OOP24/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Media/CLionProjects/OOP24/cmake-build-debug/CMakeFiles/rebuild_cache.dir
