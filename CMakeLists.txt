@@ -3,4 +3,9 @@ project(OOP24)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(OOP24 main.cpp)
+add_executable(Aud0 Auditoriski/1/Aud0.cpp)
+add_executable(Aud1 Auditoriski/1/Aud1.cpp)
+add_executable(Aud2 Auditoriski/1/Aud2.cpp)
+add_executable(Aud3 Auditoriski/1/Aud3.cpp)
+add_executable(Aud4 Auditoriski/1/Aud4.cpp)
+add_executable(Aud5 Auditoriski/1/Aud5.cpp)
