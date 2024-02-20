@@ -11,7 +11,9 @@ void swapWithReferences(int &a, int &b) {
 
 void swapWithoutReferences(int a, int b) {
     int tmp = a;
+
     a = b;
+
     b = tmp;
 }
 

@@ -52,9 +52,11 @@ int main() {
     read(d2);
 
     int res = d1.compare(d2);
-    if (res == 0) {
+    if (res == 0)
+    {
         printf("Dates are equal\n");
-    } else if (res > 0) {
+    } else if (res > 0)
+    {
         printf("The difference in days is %d days.\n", d1.daysDiff(d2));
     } else {
         printf("The difference in days is %d days.\n", d2.daysDiff(d1));

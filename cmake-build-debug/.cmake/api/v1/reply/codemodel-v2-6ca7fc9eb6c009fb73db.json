@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "OOP24",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud0-Debug-673074a95725c7d69e48.json",
+					"name" : "Aud0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud1-Debug-d19a9a933903a2a96714.json",
+					"name" : "Aud1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud2-Debug-4fa2627ced951f3fbe15.json",
+					"name" : "Aud2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud3-Debug-b7dd98402732da1a295d.json",
+					"name" : "Aud3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud4-Debug-b827ee87074edd164c3c.json",
+					"name" : "Aud4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud5-Debug-d86b30e64def10ebc84e.json",
+					"name" : "Aud5",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug",
+		"source" : "C:/Users/Media/CLionProjects/OOP_24"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
