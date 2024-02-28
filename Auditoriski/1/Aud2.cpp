@@ -7,21 +7,20 @@
 
 using namespace std;
 
-
 struct Vector {
     float x;
     float y;
     float z;
 
-    float scalarProduct(Vector other) {
-        return x * other.x + y * other.y + z * other.z;
+    float scalarProduct(Vector vector2) {
+        return x * vector2.x + y * vector2.y + z * vector2.z;
     }
 
-    Vector vectorProduct(Vector other) {
+    Vector vectorProduct(Vector vector2) {
         Vector result;
-        result.x = y * other.z - z * other.y;
-        result.y = z * other.x - x * other.z;
-        result.z = x * other.y - y * other.x;
+        result.x = y * vector2.z - z * vector2.y;
+        result.y = z * vector2.x - x * vector2.z;
+        result.z = x * vector2.y - y * vector2.x;
         return result;
     }
 

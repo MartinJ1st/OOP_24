@@ -116,6 +116,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named P1.cpp
+
+# Build rule for target.
+P1.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1.cpp
+.PHONY : P1.cpp
+
+# fast build rule for target.
+P1.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.cpp.dir\build.make CMakeFiles/P1.cpp.dir/build
+.PHONY : P1.cpp/fast
+
+#=============================================================================
 # Target rules for targets named Aud0
 
 # Build rule for target.
@@ -140,6 +153,19 @@ Aud1: cmake_check_build_system
 Aud1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud1.dir\build.make CMakeFiles/Aud1.dir/build
 .PHONY : Aud1/fast
+
+#=============================================================================
+# Target rules for targets named Aud1.1
+
+# Build rule for target.
+Aud1.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud1.1
+.PHONY : Aud1.1
+
+# fast build rule for target.
+Aud1.1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud1.1.dir\build.make CMakeFiles/Aud1.1.dir/build
+.PHONY : Aud1.1/fast
 
 #=============================================================================
 # Target rules for targets named Aud2
@@ -216,6 +242,30 @@ Auditoriski/1/Aud0.s: Auditoriski/1/Aud0.cpp.s
 Auditoriski/1/Aud0.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud0.dir\build.make CMakeFiles/Aud0.dir/Auditoriski/1/Aud0.cpp.s
 .PHONY : Auditoriski/1/Aud0.cpp.s
+
+Auditoriski/1/Aud1.1.obj: Auditoriski/1/Aud1.1.cpp.obj
+.PHONY : Auditoriski/1/Aud1.1.obj
+
+# target to build an object file
+Auditoriski/1/Aud1.1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud1.1.dir\build.make CMakeFiles/Aud1.1.dir/Auditoriski/1/Aud1.1.cpp.obj
+.PHONY : Auditoriski/1/Aud1.1.cpp.obj
+
+Auditoriski/1/Aud1.1.i: Auditoriski/1/Aud1.1.cpp.i
+.PHONY : Auditoriski/1/Aud1.1.i
+
+# target to preprocess a source file
+Auditoriski/1/Aud1.1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud1.1.dir\build.make CMakeFiles/Aud1.1.dir/Auditoriski/1/Aud1.1.cpp.i
+.PHONY : Auditoriski/1/Aud1.1.cpp.i
+
+Auditoriski/1/Aud1.1.s: Auditoriski/1/Aud1.1.cpp.s
+.PHONY : Auditoriski/1/Aud1.1.s
+
+# target to generate assembly for a file
+Auditoriski/1/Aud1.1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud1.1.dir\build.make CMakeFiles/Aud1.1.dir/Auditoriski/1/Aud1.1.cpp.s
+.PHONY : Auditoriski/1/Aud1.1.cpp.s
 
 Auditoriski/1/Aud1.obj: Auditoriski/1/Aud1.cpp.obj
 .PHONY : Auditoriski/1/Aud1.obj
@@ -337,6 +387,30 @@ Auditoriski/1/Aud5.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.dir\build.make CMakeFiles/Aud5.dir/Auditoriski/1/Aud5.cpp.s
 .PHONY : Auditoriski/1/Aud5.cpp.s
 
+P1.obj: P1.cpp.obj
+.PHONY : P1.obj
+
+# target to build an object file
+P1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.cpp.dir\build.make CMakeFiles/P1.cpp.dir/P1.cpp.obj
+.PHONY : P1.cpp.obj
+
+P1.i: P1.cpp.i
+.PHONY : P1.i
+
+# target to preprocess a source file
+P1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.cpp.dir\build.make CMakeFiles/P1.cpp.dir/P1.cpp.i
+.PHONY : P1.cpp.i
+
+P1.s: P1.cpp.s
+.PHONY : P1.s
+
+# target to generate assembly for a file
+P1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.cpp.dir\build.make CMakeFiles/P1.cpp.dir/P1.cpp.s
+.PHONY : P1.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -347,13 +421,18 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Aud0
 	@echo ... Aud1
+	@echo ... Aud1.1
 	@echo ... Aud2
 	@echo ... Aud3
 	@echo ... Aud4
 	@echo ... Aud5
+	@echo ... P1.cpp
 	@echo ... Auditoriski/1/Aud0.obj
 	@echo ... Auditoriski/1/Aud0.i
 	@echo ... Auditoriski/1/Aud0.s
+	@echo ... Auditoriski/1/Aud1.1.obj
+	@echo ... Auditoriski/1/Aud1.1.i
+	@echo ... Auditoriski/1/Aud1.1.s
 	@echo ... Auditoriski/1/Aud1.obj
 	@echo ... Auditoriski/1/Aud1.i
 	@echo ... Auditoriski/1/Aud1.s
@@ -369,6 +448,9 @@ help:
 	@echo ... Auditoriski/1/Aud5.obj
 	@echo ... Auditoriski/1/Aud5.i
 	@echo ... Auditoriski/1/Aud5.s
+	@echo ... P1.obj
+	@echo ... P1.i
+	@echo ... P1.s
 .PHONY : help
 
 

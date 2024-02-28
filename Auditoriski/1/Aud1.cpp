@@ -12,12 +12,18 @@ struct Date {
     int day;
 
     int compare(Date other) {
-        if (year > other.year) return 1;
-        else if (year < other.year) return -1;
-        else { // d1.year == other.year
-            if (month > other.month) return 1;
-            else if (month < other.month) return -1;
-            else { // d1.month == other.month
+        if (year > other.year)
+            return 1;
+        else if (year < other.year)
+            return -1;
+        else
+        { // d1.year == other.year
+            if (month > other.month)
+                return 1;
+            else if (month < other.month)
+                return -1;
+            else
+            { // d1.month == other.month
                 if (day > other.day) return 1;
                 else if (day < other.day) return -1;
                 else return 0;
@@ -25,7 +31,7 @@ struct Date {
         }
     }
 
-    /**
+    /*
     * This function is aproximation
     */
     int daysDiff(Date other) {
