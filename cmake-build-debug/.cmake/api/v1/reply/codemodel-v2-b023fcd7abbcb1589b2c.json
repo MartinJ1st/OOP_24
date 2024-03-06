@@ -1,0 +1,357 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "OOP24",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1-Debug-22c16b345d4937ae5486.json",
+					"name" : "1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2-Debug-3b432979307d73512241.json",
+					"name" : "2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud0-Debug-d5135b31ff90a1459428.json",
+					"name" : "Aud0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud1-Debug-c464d3f4b5473729cd46.json",
+					"name" : "Aud1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud1.1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud1.1-Debug-103d0d0e17ffabab63bf.json",
+					"name" : "Aud1.1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud1.2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud1.2-Debug-1af72b3b4c4e8a9f0bbf.json",
+					"name" : "Aud1.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud2-Debug-105b96729b62fc06a267.json",
+					"name" : "Aud2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud3-Debug-3b1ef87291969d3a241b.json",
+					"name" : "Aud3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud3.1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud3.1-Debug-ea2db42969c6316fd648.json",
+					"name" : "Aud3.1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud4-Debug-26ec77ac2c5cdbbc72cb.json",
+					"name" : "Aud4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud4.1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud4.1-Debug-50d210b53f3ae1ec3b54.json",
+					"name" : "Aud4.1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud5-Debug-94e5c66f3a4053efe1a2.json",
+					"name" : "Aud5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud5.1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud5.1-Debug-7ff610859b3b73033334.json",
+					"name" : "Aud5.1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud5.2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud5.2-Debug-49710d2edcb85bbd9f12.json",
+					"name" : "Aud5.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud6.0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud6.0-Debug-9f008e93b4fb525e63dc.json",
+					"name" : "Aud6.0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud7-Debug-778163a44c1291847994.json",
+					"name" : "Aud7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud8-Debug-14e7c717730f23057019.json",
+					"name" : "Aud8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Aud9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aud9-Debug-657d155c09d71bba0694.json",
+					"name" : "Aud9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C-DC_objekti.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C-DC_objekti.cpp-Debug-a5031ee369d6d3cac3c7.json",
+					"name" : "C-DC_objekti.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Datumi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Datumi-Debug-0d285178abce8f7cd30c.json",
+					"name" : "Datumi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Datumi.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Datumi.cpp-Debug-dff6e8912c4853968777.json",
+					"name" : "Datumi.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Destruktor.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Destruktor.cpp-Debug-2fa1cfa03196d0c20340.json",
+					"name" : "Destruktor.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Galerija::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Galerija-Debug-90bb1ffa0acda891144c.json",
+					"name" : "Galerija",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Kol1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Kol1-Debug-6b029a98c57330f08c2e.json",
+					"name" : "Kol1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Kolok1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Kolok1-Debug-617e88ee7d3e25343e76.json",
+					"name" : "Kolok1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MyClass.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyClass.cpp-Debug-f9f8e45e0f0da59b1e42.json",
+					"name" : "MyClass.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "P1.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P1.cpp-Debug-020e0818b31a21607ef9.json",
+					"name" : "P1.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "P2.1.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P2.1.cpp-Debug-565598af52c0c48aa0f2.json",
+					"name" : "P2.1.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "P2.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P2.cpp-Debug-03fd0d62085f6cd5644d.json",
+					"name" : "P2.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SkiLift::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SkiLift-Debug-0675b5508b12e0938601.json",
+					"name" : "SkiLift",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SkiLiftC++::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SkiLiftC++-Debug-9267fc2d0b942e006299.json",
+					"name" : "SkiLiftC++",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Wizz.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Wizz.cpp-Debug-71fafd4ce63d00a7f3da.json",
+					"name" : "Wizz.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Wizz2.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Wizz2.cpp-Debug-90ead6859bdc21ac3885.json",
+					"name" : "Wizz2.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Wizz3.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Wizz3.cpp-Debug-354fbc236027f9e68566.json",
+					"name" : "Wizz3.cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug",
+		"source" : "C:/Users/Media/CLionProjects/OOP_24"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

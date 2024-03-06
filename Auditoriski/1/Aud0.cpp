@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstring>
 
 using namespace std;
 
@@ -19,6 +18,11 @@ void swapWithoutReferences(int a, int b) {
 int main() {
     int a, b;
     cin >> a >> b; //5 6
+
+
+//    int &ref = a;
+//    ref--;
+//    cout << a;
 
     swapWithoutReferences(a, b);
 

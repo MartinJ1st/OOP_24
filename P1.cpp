@@ -2,8 +2,20 @@
 
 using namespace std;
 
+union number {
+    int x;
+    double y;
+};
+
+union kript {
+    int broj;
+    unsigned char c[4];
+    float x;
+} sifra;
+
 enum months {
-    JAN = 1, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC
+    JAN = 1, FEB, MAR, APR, MAY, JUN,
+    JUL, AUG, SEP, OCT, NOV, DEC
 };
 typedef struct point {
     float x, y;
@@ -24,7 +36,7 @@ typedef struct rect {
 //tocka centar(pravoagolnik p) {
 //    tocka c;
 //    c.x = (p.pt1.x + p.pt2.x) / 2;
-//    c.y = (p.pt1.y + p.pt2.y) / 2;
+//    c.year = (p.pt1.year + p.pt2.year) / 2;
 //    return c;
 //}
 
@@ -69,14 +81,25 @@ int main() {
     prozor.pecati();
     cout << " e" << prozor.povrsina() << endl;
 
-    months mesec;
+    months month;
     int i;
-    const char *imeMesec[] = {"", "Januari", "Fevruari", "Mart", "April", "Maj", "Juni", "Juli", "Avgust", "Septemvri",
-                              "Oktomvri", "Noemvri", "Dekemvri"};
+    const char *monthName[] = {"", "Januari", "Fevruari", "Mart", "April", "Maj", "Juni", "Juli", "Avgust", "Septemvri",
+                               "Oktomvri ", "Noemvri ", "Dekemvri"};
+    for (i = JAN; i <= DEC; i++)
+        cout << i << " " << monthName[i] << endl;
 
-    for (i = JAN; i <= DEC; ++i) {
-        cout << i << " " << imeMesec[i] << endl;
-    }
+    number value;
+    value.x = 100; /* stavi cel broj vo unijata*/
+    cout << "Stavi cel broj vo unijata i ispechati gi dvata chlena " << endl << "int:" << value.x << endl << "double: "
+         << value.y << endl;
+
+    value.y = 100; /* stavi double vo istata unija*/
+    cout << "Stavi realen broj vo unijata i ispechati gi dvata chlena " << endl << "int:" << value.x << endl
+         << "double: " << value.y << endl;
+
+    sifra.x = 1234.5;
+    cout << sifra.broj << "," << sifra.c[0] << "," << sifra.c[1] << "," << sifra.c[2] << "," << sifra.c[3] << ","
+         << sifra.x;
     return 0;
 }
 
@@ -116,7 +139,7 @@ int main() {
 //typedef int celbroj;
 //typedef float realen;
 //celbroj I, j;
-//realen x, y;
+//realen x, godina;
 //
 //typedef struct student kandidat;
 //typedef kandidat *kan_ptr;

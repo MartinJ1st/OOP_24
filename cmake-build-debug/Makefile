@@ -116,6 +116,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Kol1
+
+# Build rule for target.
+Kol1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Kol1
+.PHONY : Kol1
+
+# fast build rule for target.
+Kol1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kol1.dir\build.make CMakeFiles/Kol1.dir/build
+.PHONY : Kol1/fast
+
+#=============================================================================
+# Target rules for targets named Kolok1
+
+# Build rule for target.
+Kolok1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Kolok1
+.PHONY : Kolok1
+
+# fast build rule for target.
+Kolok1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kolok1.dir\build.make CMakeFiles/Kolok1.dir/build
+.PHONY : Kolok1/fast
+
+#=============================================================================
+# Target rules for targets named Galerija
+
+# Build rule for target.
+Galerija: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Galerija
+.PHONY : Galerija
+
+# fast build rule for target.
+Galerija/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Galerija.dir\build.make CMakeFiles/Galerija.dir/build
+.PHONY : Galerija/fast
+
+#=============================================================================
+# Target rules for targets named Datumi
+
+# Build rule for target.
+Datumi: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Datumi
+.PHONY : Datumi
+
+# fast build rule for target.
+Datumi/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/build
+.PHONY : Datumi/fast
+
+#=============================================================================
+# Target rules for targets named SkiLift
+
+# Build rule for target.
+SkiLift: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SkiLift
+.PHONY : SkiLift
+
+# fast build rule for target.
+SkiLift/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLift.dir\build.make CMakeFiles/SkiLift.dir/build
+.PHONY : SkiLift/fast
+
+#=============================================================================
+# Target rules for targets named SkiLiftC++
+
+# Build rule for target.
+SkiLiftC++: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SkiLiftC++
+.PHONY : SkiLiftC++
+
+# fast build rule for target.
+SkiLiftC++/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLiftC++.dir\build.make CMakeFiles/SkiLiftC++.dir/build
+.PHONY : SkiLiftC++/fast
+
+#=============================================================================
 # Target rules for targets named P1.cpp
 
 # Build rule for target.
@@ -127,6 +205,84 @@ P1.cpp: cmake_check_build_system
 P1.cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.cpp.dir\build.make CMakeFiles/P1.cpp.dir/build
 .PHONY : P1.cpp/fast
+
+#=============================================================================
+# Target rules for targets named P2.cpp
+
+# Build rule for target.
+P2.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P2.cpp
+.PHONY : P2.cpp
+
+# fast build rule for target.
+P2.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.cpp.dir\build.make CMakeFiles/P2.cpp.dir/build
+.PHONY : P2.cpp/fast
+
+#=============================================================================
+# Target rules for targets named P2.1.cpp
+
+# Build rule for target.
+P2.1.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P2.1.cpp
+.PHONY : P2.1.cpp
+
+# fast build rule for target.
+P2.1.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.cpp.dir\build.make CMakeFiles/P2.1.cpp.dir/build
+.PHONY : P2.1.cpp/fast
+
+#=============================================================================
+# Target rules for targets named Destruktor.cpp
+
+# Build rule for target.
+Destruktor.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Destruktor.cpp
+.PHONY : Destruktor.cpp
+
+# fast build rule for target.
+Destruktor.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.cpp.dir\build.make CMakeFiles/Destruktor.cpp.dir/build
+.PHONY : Destruktor.cpp/fast
+
+#=============================================================================
+# Target rules for targets named Datumi.cpp
+
+# Build rule for target.
+Datumi.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Datumi.cpp
+.PHONY : Datumi.cpp
+
+# fast build rule for target.
+Datumi.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.cpp.dir\build.make CMakeFiles/Datumi.cpp.dir/build
+.PHONY : Datumi.cpp/fast
+
+#=============================================================================
+# Target rules for targets named MyClass.cpp
+
+# Build rule for target.
+MyClass.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyClass.cpp
+.PHONY : MyClass.cpp
+
+# fast build rule for target.
+MyClass.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.cpp.dir\build.make CMakeFiles/MyClass.cpp.dir/build
+.PHONY : MyClass.cpp/fast
+
+#=============================================================================
+# Target rules for targets named C-DC_objekti.cpp
+
+# Build rule for target.
+C-DC_objekti.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C-DC_objekti.cpp
+.PHONY : C-DC_objekti.cpp
+
+# fast build rule for target.
+C-DC_objekti.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.cpp.dir\build.make CMakeFiles/C-DC_objekti.cpp.dir/build
+.PHONY : C-DC_objekti.cpp/fast
 
 #=============================================================================
 # Target rules for targets named Aud0
@@ -168,6 +324,19 @@ Aud1.1/fast:
 .PHONY : Aud1.1/fast
 
 #=============================================================================
+# Target rules for targets named Aud1.2
+
+# Build rule for target.
+Aud1.2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud1.2
+.PHONY : Aud1.2
+
+# fast build rule for target.
+Aud1.2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud1.2.dir\build.make CMakeFiles/Aud1.2.dir/build
+.PHONY : Aud1.2/fast
+
+#=============================================================================
 # Target rules for targets named Aud2
 
 # Build rule for target.
@@ -194,6 +363,19 @@ Aud3/fast:
 .PHONY : Aud3/fast
 
 #=============================================================================
+# Target rules for targets named Aud3.1
+
+# Build rule for target.
+Aud3.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud3.1
+.PHONY : Aud3.1
+
+# fast build rule for target.
+Aud3.1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud3.1.dir\build.make CMakeFiles/Aud3.1.dir/build
+.PHONY : Aud3.1/fast
+
+#=============================================================================
 # Target rules for targets named Aud4
 
 # Build rule for target.
@@ -207,6 +389,19 @@ Aud4/fast:
 .PHONY : Aud4/fast
 
 #=============================================================================
+# Target rules for targets named Aud4.1
+
+# Build rule for target.
+Aud4.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud4.1
+.PHONY : Aud4.1
+
+# fast build rule for target.
+Aud4.1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud4.1.dir\build.make CMakeFiles/Aud4.1.dir/build
+.PHONY : Aud4.1/fast
+
+#=============================================================================
 # Target rules for targets named Aud5
 
 # Build rule for target.
@@ -218,6 +413,149 @@ Aud5: cmake_check_build_system
 Aud5/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.dir\build.make CMakeFiles/Aud5.dir/build
 .PHONY : Aud5/fast
+
+#=============================================================================
+# Target rules for targets named Aud5.1
+
+# Build rule for target.
+Aud5.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud5.1
+.PHONY : Aud5.1
+
+# fast build rule for target.
+Aud5.1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.1.dir\build.make CMakeFiles/Aud5.1.dir/build
+.PHONY : Aud5.1/fast
+
+#=============================================================================
+# Target rules for targets named Aud5.2
+
+# Build rule for target.
+Aud5.2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud5.2
+.PHONY : Aud5.2
+
+# fast build rule for target.
+Aud5.2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.2.dir\build.make CMakeFiles/Aud5.2.dir/build
+.PHONY : Aud5.2/fast
+
+#=============================================================================
+# Target rules for targets named Aud6.0
+
+# Build rule for target.
+Aud6.0: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud6.0
+.PHONY : Aud6.0
+
+# fast build rule for target.
+Aud6.0/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud6.0.dir\build.make CMakeFiles/Aud6.0.dir/build
+.PHONY : Aud6.0/fast
+
+#=============================================================================
+# Target rules for targets named Aud7
+
+# Build rule for target.
+Aud7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud7
+.PHONY : Aud7
+
+# fast build rule for target.
+Aud7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud7.dir\build.make CMakeFiles/Aud7.dir/build
+.PHONY : Aud7/fast
+
+#=============================================================================
+# Target rules for targets named Aud8
+
+# Build rule for target.
+Aud8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud8
+.PHONY : Aud8
+
+# fast build rule for target.
+Aud8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud8.dir\build.make CMakeFiles/Aud8.dir/build
+.PHONY : Aud8/fast
+
+#=============================================================================
+# Target rules for targets named Aud9
+
+# Build rule for target.
+Aud9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud9
+.PHONY : Aud9
+
+# fast build rule for target.
+Aud9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud9.dir\build.make CMakeFiles/Aud9.dir/build
+.PHONY : Aud9/fast
+
+#=============================================================================
+# Target rules for targets named 1
+
+# Build rule for target.
+1 : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1
+.PHONY : 1
+
+# fast build rule for target.
+1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/build
+.PHONY : 1/fast
+
+#=============================================================================
+# Target rules for targets named 2
+
+# Build rule for target.
+2 : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2
+.PHONY : 2
+
+# fast build rule for target.
+2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/build
+.PHONY : 2/fast
+
+#=============================================================================
+# Target rules for targets named Wizz.cpp
+
+# Build rule for target.
+Wizz.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Wizz.cpp
+.PHONY : Wizz.cpp
+
+# fast build rule for target.
+Wizz.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz.cpp.dir\build.make CMakeFiles/Wizz.cpp.dir/build
+.PHONY : Wizz.cpp/fast
+
+#=============================================================================
+# Target rules for targets named Wizz2.cpp
+
+# Build rule for target.
+Wizz2.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Wizz2.cpp
+.PHONY : Wizz2.cpp
+
+# fast build rule for target.
+Wizz2.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz2.cpp.dir\build.make CMakeFiles/Wizz2.cpp.dir/build
+.PHONY : Wizz2.cpp/fast
+
+#=============================================================================
+# Target rules for targets named Wizz3.cpp
+
+# Build rule for target.
+Wizz3.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Wizz3.cpp
+.PHONY : Wizz3.cpp
+
+# fast build rule for target.
+Wizz3.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz3.cpp.dir\build.make CMakeFiles/Wizz3.cpp.dir/build
+.PHONY : Wizz3.cpp/fast
 
 Auditoriski/1/Aud0.obj: Auditoriski/1/Aud0.cpp.obj
 .PHONY : Auditoriski/1/Aud0.obj
@@ -267,6 +605,30 @@ Auditoriski/1/Aud1.1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud1.1.dir\build.make CMakeFiles/Aud1.1.dir/Auditoriski/1/Aud1.1.cpp.s
 .PHONY : Auditoriski/1/Aud1.1.cpp.s
 
+Auditoriski/1/Aud1.2.obj: Auditoriski/1/Aud1.2.cpp.obj
+.PHONY : Auditoriski/1/Aud1.2.obj
+
+# target to build an object file
+Auditoriski/1/Aud1.2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud1.2.dir\build.make CMakeFiles/Aud1.2.dir/Auditoriski/1/Aud1.2.cpp.obj
+.PHONY : Auditoriski/1/Aud1.2.cpp.obj
+
+Auditoriski/1/Aud1.2.i: Auditoriski/1/Aud1.2.cpp.i
+.PHONY : Auditoriski/1/Aud1.2.i
+
+# target to preprocess a source file
+Auditoriski/1/Aud1.2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud1.2.dir\build.make CMakeFiles/Aud1.2.dir/Auditoriski/1/Aud1.2.cpp.i
+.PHONY : Auditoriski/1/Aud1.2.cpp.i
+
+Auditoriski/1/Aud1.2.s: Auditoriski/1/Aud1.2.cpp.s
+.PHONY : Auditoriski/1/Aud1.2.s
+
+# target to generate assembly for a file
+Auditoriski/1/Aud1.2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud1.2.dir\build.make CMakeFiles/Aud1.2.dir/Auditoriski/1/Aud1.2.cpp.s
+.PHONY : Auditoriski/1/Aud1.2.cpp.s
+
 Auditoriski/1/Aud1.obj: Auditoriski/1/Aud1.cpp.obj
 .PHONY : Auditoriski/1/Aud1.obj
 
@@ -315,6 +677,30 @@ Auditoriski/1/Aud2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud2.dir\build.make CMakeFiles/Aud2.dir/Auditoriski/1/Aud2.cpp.s
 .PHONY : Auditoriski/1/Aud2.cpp.s
 
+Auditoriski/1/Aud3.1.obj: Auditoriski/1/Aud3.1.cpp.obj
+.PHONY : Auditoriski/1/Aud3.1.obj
+
+# target to build an object file
+Auditoriski/1/Aud3.1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud3.1.dir\build.make CMakeFiles/Aud3.1.dir/Auditoriski/1/Aud3.1.cpp.obj
+.PHONY : Auditoriski/1/Aud3.1.cpp.obj
+
+Auditoriski/1/Aud3.1.i: Auditoriski/1/Aud3.1.cpp.i
+.PHONY : Auditoriski/1/Aud3.1.i
+
+# target to preprocess a source file
+Auditoriski/1/Aud3.1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud3.1.dir\build.make CMakeFiles/Aud3.1.dir/Auditoriski/1/Aud3.1.cpp.i
+.PHONY : Auditoriski/1/Aud3.1.cpp.i
+
+Auditoriski/1/Aud3.1.s: Auditoriski/1/Aud3.1.cpp.s
+.PHONY : Auditoriski/1/Aud3.1.s
+
+# target to generate assembly for a file
+Auditoriski/1/Aud3.1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud3.1.dir\build.make CMakeFiles/Aud3.1.dir/Auditoriski/1/Aud3.1.cpp.s
+.PHONY : Auditoriski/1/Aud3.1.cpp.s
+
 Auditoriski/1/Aud3.obj: Auditoriski/1/Aud3.cpp.obj
 .PHONY : Auditoriski/1/Aud3.obj
 
@@ -338,6 +724,30 @@ Auditoriski/1/Aud3.s: Auditoriski/1/Aud3.cpp.s
 Auditoriski/1/Aud3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud3.dir\build.make CMakeFiles/Aud3.dir/Auditoriski/1/Aud3.cpp.s
 .PHONY : Auditoriski/1/Aud3.cpp.s
+
+Auditoriski/1/Aud4.1.obj: Auditoriski/1/Aud4.1.cpp.obj
+.PHONY : Auditoriski/1/Aud4.1.obj
+
+# target to build an object file
+Auditoriski/1/Aud4.1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud4.1.dir\build.make CMakeFiles/Aud4.1.dir/Auditoriski/1/Aud4.1.cpp.obj
+.PHONY : Auditoriski/1/Aud4.1.cpp.obj
+
+Auditoriski/1/Aud4.1.i: Auditoriski/1/Aud4.1.cpp.i
+.PHONY : Auditoriski/1/Aud4.1.i
+
+# target to preprocess a source file
+Auditoriski/1/Aud4.1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud4.1.dir\build.make CMakeFiles/Aud4.1.dir/Auditoriski/1/Aud4.1.cpp.i
+.PHONY : Auditoriski/1/Aud4.1.cpp.i
+
+Auditoriski/1/Aud4.1.s: Auditoriski/1/Aud4.1.cpp.s
+.PHONY : Auditoriski/1/Aud4.1.s
+
+# target to generate assembly for a file
+Auditoriski/1/Aud4.1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud4.1.dir\build.make CMakeFiles/Aud4.1.dir/Auditoriski/1/Aud4.1.cpp.s
+.PHONY : Auditoriski/1/Aud4.1.cpp.s
 
 Auditoriski/1/Aud4.obj: Auditoriski/1/Aud4.cpp.obj
 .PHONY : Auditoriski/1/Aud4.obj
@@ -363,6 +773,54 @@ Auditoriski/1/Aud4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud4.dir\build.make CMakeFiles/Aud4.dir/Auditoriski/1/Aud4.cpp.s
 .PHONY : Auditoriski/1/Aud4.cpp.s
 
+Auditoriski/1/Aud5.1.obj: Auditoriski/1/Aud5.1.cpp.obj
+.PHONY : Auditoriski/1/Aud5.1.obj
+
+# target to build an object file
+Auditoriski/1/Aud5.1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.1.dir\build.make CMakeFiles/Aud5.1.dir/Auditoriski/1/Aud5.1.cpp.obj
+.PHONY : Auditoriski/1/Aud5.1.cpp.obj
+
+Auditoriski/1/Aud5.1.i: Auditoriski/1/Aud5.1.cpp.i
+.PHONY : Auditoriski/1/Aud5.1.i
+
+# target to preprocess a source file
+Auditoriski/1/Aud5.1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.1.dir\build.make CMakeFiles/Aud5.1.dir/Auditoriski/1/Aud5.1.cpp.i
+.PHONY : Auditoriski/1/Aud5.1.cpp.i
+
+Auditoriski/1/Aud5.1.s: Auditoriski/1/Aud5.1.cpp.s
+.PHONY : Auditoriski/1/Aud5.1.s
+
+# target to generate assembly for a file
+Auditoriski/1/Aud5.1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.1.dir\build.make CMakeFiles/Aud5.1.dir/Auditoriski/1/Aud5.1.cpp.s
+.PHONY : Auditoriski/1/Aud5.1.cpp.s
+
+Auditoriski/1/Aud5.2.obj: Auditoriski/1/Aud5.2.cpp.obj
+.PHONY : Auditoriski/1/Aud5.2.obj
+
+# target to build an object file
+Auditoriski/1/Aud5.2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.2.dir\build.make CMakeFiles/Aud5.2.dir/Auditoriski/1/Aud5.2.cpp.obj
+.PHONY : Auditoriski/1/Aud5.2.cpp.obj
+
+Auditoriski/1/Aud5.2.i: Auditoriski/1/Aud5.2.cpp.i
+.PHONY : Auditoriski/1/Aud5.2.i
+
+# target to preprocess a source file
+Auditoriski/1/Aud5.2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.2.dir\build.make CMakeFiles/Aud5.2.dir/Auditoriski/1/Aud5.2.cpp.i
+.PHONY : Auditoriski/1/Aud5.2.cpp.i
+
+Auditoriski/1/Aud5.2.s: Auditoriski/1/Aud5.2.cpp.s
+.PHONY : Auditoriski/1/Aud5.2.s
+
+# target to generate assembly for a file
+Auditoriski/1/Aud5.2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.2.dir\build.make CMakeFiles/Aud5.2.dir/Auditoriski/1/Aud5.2.cpp.s
+.PHONY : Auditoriski/1/Aud5.2.cpp.s
+
 Auditoriski/1/Aud5.obj: Auditoriski/1/Aud5.cpp.obj
 .PHONY : Auditoriski/1/Aud5.obj
 
@@ -386,6 +844,390 @@ Auditoriski/1/Aud5.s: Auditoriski/1/Aud5.cpp.s
 Auditoriski/1/Aud5.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.dir\build.make CMakeFiles/Aud5.dir/Auditoriski/1/Aud5.cpp.s
 .PHONY : Auditoriski/1/Aud5.cpp.s
+
+Auditoriski/2/Aud6.0.obj: Auditoriski/2/Aud6.0.cpp.obj
+.PHONY : Auditoriski/2/Aud6.0.obj
+
+# target to build an object file
+Auditoriski/2/Aud6.0.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud6.0.dir\build.make CMakeFiles/Aud6.0.dir/Auditoriski/2/Aud6.0.cpp.obj
+.PHONY : Auditoriski/2/Aud6.0.cpp.obj
+
+Auditoriski/2/Aud6.0.i: Auditoriski/2/Aud6.0.cpp.i
+.PHONY : Auditoriski/2/Aud6.0.i
+
+# target to preprocess a source file
+Auditoriski/2/Aud6.0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud6.0.dir\build.make CMakeFiles/Aud6.0.dir/Auditoriski/2/Aud6.0.cpp.i
+.PHONY : Auditoriski/2/Aud6.0.cpp.i
+
+Auditoriski/2/Aud6.0.s: Auditoriski/2/Aud6.0.cpp.s
+.PHONY : Auditoriski/2/Aud6.0.s
+
+# target to generate assembly for a file
+Auditoriski/2/Aud6.0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud6.0.dir\build.make CMakeFiles/Aud6.0.dir/Auditoriski/2/Aud6.0.cpp.s
+.PHONY : Auditoriski/2/Aud6.0.cpp.s
+
+Auditoriski/2/Aud7.obj: Auditoriski/2/Aud7.cpp.obj
+.PHONY : Auditoriski/2/Aud7.obj
+
+# target to build an object file
+Auditoriski/2/Aud7.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud7.dir\build.make CMakeFiles/Aud7.dir/Auditoriski/2/Aud7.cpp.obj
+.PHONY : Auditoriski/2/Aud7.cpp.obj
+
+Auditoriski/2/Aud7.i: Auditoriski/2/Aud7.cpp.i
+.PHONY : Auditoriski/2/Aud7.i
+
+# target to preprocess a source file
+Auditoriski/2/Aud7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud7.dir\build.make CMakeFiles/Aud7.dir/Auditoriski/2/Aud7.cpp.i
+.PHONY : Auditoriski/2/Aud7.cpp.i
+
+Auditoriski/2/Aud7.s: Auditoriski/2/Aud7.cpp.s
+.PHONY : Auditoriski/2/Aud7.s
+
+# target to generate assembly for a file
+Auditoriski/2/Aud7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud7.dir\build.make CMakeFiles/Aud7.dir/Auditoriski/2/Aud7.cpp.s
+.PHONY : Auditoriski/2/Aud7.cpp.s
+
+Auditoriski/2/Aud8.obj: Auditoriski/2/Aud8.cpp.obj
+.PHONY : Auditoriski/2/Aud8.obj
+
+# target to build an object file
+Auditoriski/2/Aud8.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud8.dir\build.make CMakeFiles/Aud8.dir/Auditoriski/2/Aud8.cpp.obj
+.PHONY : Auditoriski/2/Aud8.cpp.obj
+
+Auditoriski/2/Aud8.i: Auditoriski/2/Aud8.cpp.i
+.PHONY : Auditoriski/2/Aud8.i
+
+# target to preprocess a source file
+Auditoriski/2/Aud8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud8.dir\build.make CMakeFiles/Aud8.dir/Auditoriski/2/Aud8.cpp.i
+.PHONY : Auditoriski/2/Aud8.cpp.i
+
+Auditoriski/2/Aud8.s: Auditoriski/2/Aud8.cpp.s
+.PHONY : Auditoriski/2/Aud8.s
+
+# target to generate assembly for a file
+Auditoriski/2/Aud8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud8.dir\build.make CMakeFiles/Aud8.dir/Auditoriski/2/Aud8.cpp.s
+.PHONY : Auditoriski/2/Aud8.cpp.s
+
+Auditoriski/2/Aud9.obj: Auditoriski/2/Aud9.cpp.obj
+.PHONY : Auditoriski/2/Aud9.obj
+
+# target to build an object file
+Auditoriski/2/Aud9.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud9.dir\build.make CMakeFiles/Aud9.dir/Auditoriski/2/Aud9.cpp.obj
+.PHONY : Auditoriski/2/Aud9.cpp.obj
+
+Auditoriski/2/Aud9.i: Auditoriski/2/Aud9.cpp.i
+.PHONY : Auditoriski/2/Aud9.i
+
+# target to preprocess a source file
+Auditoriski/2/Aud9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud9.dir\build.make CMakeFiles/Aud9.dir/Auditoriski/2/Aud9.cpp.i
+.PHONY : Auditoriski/2/Aud9.cpp.i
+
+Auditoriski/2/Aud9.s: Auditoriski/2/Aud9.cpp.s
+.PHONY : Auditoriski/2/Aud9.s
+
+# target to generate assembly for a file
+Auditoriski/2/Aud9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud9.dir\build.make CMakeFiles/Aud9.dir/Auditoriski/2/Aud9.cpp.s
+.PHONY : Auditoriski/2/Aud9.cpp.s
+
+C-DC_objekti.obj: C-DC_objekti.cpp.obj
+.PHONY : C-DC_objekti.obj
+
+# target to build an object file
+C-DC_objekti.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.cpp.dir\build.make CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.obj
+.PHONY : C-DC_objekti.cpp.obj
+
+C-DC_objekti.i: C-DC_objekti.cpp.i
+.PHONY : C-DC_objekti.i
+
+# target to preprocess a source file
+C-DC_objekti.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.cpp.dir\build.make CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.i
+.PHONY : C-DC_objekti.cpp.i
+
+C-DC_objekti.s: C-DC_objekti.cpp.s
+.PHONY : C-DC_objekti.s
+
+# target to generate assembly for a file
+C-DC_objekti.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.cpp.dir\build.make CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.s
+.PHONY : C-DC_objekti.cpp.s
+
+Datumi.obj: Datumi.cpp.obj
+.PHONY : Datumi.obj
+
+# target to build an object file
+Datumi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.cpp.dir\build.make CMakeFiles/Datumi.cpp.dir/Datumi.cpp.obj
+.PHONY : Datumi.cpp.obj
+
+Datumi.i: Datumi.cpp.i
+.PHONY : Datumi.i
+
+# target to preprocess a source file
+Datumi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.cpp.dir\build.make CMakeFiles/Datumi.cpp.dir/Datumi.cpp.i
+.PHONY : Datumi.cpp.i
+
+Datumi.s: Datumi.cpp.s
+.PHONY : Datumi.s
+
+# target to generate assembly for a file
+Datumi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.cpp.dir\build.make CMakeFiles/Datumi.cpp.dir/Datumi.cpp.s
+.PHONY : Datumi.cpp.s
+
+Destruktor.obj: Destruktor.cpp.obj
+.PHONY : Destruktor.obj
+
+# target to build an object file
+Destruktor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.cpp.dir\build.make CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.obj
+.PHONY : Destruktor.cpp.obj
+
+Destruktor.i: Destruktor.cpp.i
+.PHONY : Destruktor.i
+
+# target to preprocess a source file
+Destruktor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.cpp.dir\build.make CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.i
+.PHONY : Destruktor.cpp.i
+
+Destruktor.s: Destruktor.cpp.s
+.PHONY : Destruktor.s
+
+# target to generate assembly for a file
+Destruktor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.cpp.dir\build.make CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.s
+.PHONY : Destruktor.cpp.s
+
+Kolokviumski/Datumi.obj: Kolokviumski/Datumi.cpp.obj
+.PHONY : Kolokviumski/Datumi.obj
+
+# target to build an object file
+Kolokviumski/Datumi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.obj
+.PHONY : Kolokviumski/Datumi.cpp.obj
+
+Kolokviumski/Datumi.i: Kolokviumski/Datumi.cpp.i
+.PHONY : Kolokviumski/Datumi.i
+
+# target to preprocess a source file
+Kolokviumski/Datumi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.i
+.PHONY : Kolokviumski/Datumi.cpp.i
+
+Kolokviumski/Datumi.s: Kolokviumski/Datumi.cpp.s
+.PHONY : Kolokviumski/Datumi.s
+
+# target to generate assembly for a file
+Kolokviumski/Datumi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.s
+.PHONY : Kolokviumski/Datumi.cpp.s
+
+Kolokviumski/Galerija.obj: Kolokviumski/Galerija.cpp.obj
+.PHONY : Kolokviumski/Galerija.obj
+
+# target to build an object file
+Kolokviumski/Galerija.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Galerija.dir\build.make CMakeFiles/Galerija.dir/Kolokviumski/Galerija.cpp.obj
+.PHONY : Kolokviumski/Galerija.cpp.obj
+
+Kolokviumski/Galerija.i: Kolokviumski/Galerija.cpp.i
+.PHONY : Kolokviumski/Galerija.i
+
+# target to preprocess a source file
+Kolokviumski/Galerija.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Galerija.dir\build.make CMakeFiles/Galerija.dir/Kolokviumski/Galerija.cpp.i
+.PHONY : Kolokviumski/Galerija.cpp.i
+
+Kolokviumski/Galerija.s: Kolokviumski/Galerija.cpp.s
+.PHONY : Kolokviumski/Galerija.s
+
+# target to generate assembly for a file
+Kolokviumski/Galerija.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Galerija.dir\build.make CMakeFiles/Galerija.dir/Kolokviumski/Galerija.cpp.s
+.PHONY : Kolokviumski/Galerija.cpp.s
+
+Kolokviumski/Kol1.obj: Kolokviumski/Kol1.cpp.obj
+.PHONY : Kolokviumski/Kol1.obj
+
+# target to build an object file
+Kolokviumski/Kol1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kol1.dir\build.make CMakeFiles/Kol1.dir/Kolokviumski/Kol1.cpp.obj
+.PHONY : Kolokviumski/Kol1.cpp.obj
+
+Kolokviumski/Kol1.i: Kolokviumski/Kol1.cpp.i
+.PHONY : Kolokviumski/Kol1.i
+
+# target to preprocess a source file
+Kolokviumski/Kol1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kol1.dir\build.make CMakeFiles/Kol1.dir/Kolokviumski/Kol1.cpp.i
+.PHONY : Kolokviumski/Kol1.cpp.i
+
+Kolokviumski/Kol1.s: Kolokviumski/Kol1.cpp.s
+.PHONY : Kolokviumski/Kol1.s
+
+# target to generate assembly for a file
+Kolokviumski/Kol1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kol1.dir\build.make CMakeFiles/Kol1.dir/Kolokviumski/Kol1.cpp.s
+.PHONY : Kolokviumski/Kol1.cpp.s
+
+Kolokviumski/Kolok1.obj: Kolokviumski/Kolok1.cpp.obj
+.PHONY : Kolokviumski/Kolok1.obj
+
+# target to build an object file
+Kolokviumski/Kolok1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kolok1.dir\build.make CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.obj
+.PHONY : Kolokviumski/Kolok1.cpp.obj
+
+Kolokviumski/Kolok1.i: Kolokviumski/Kolok1.cpp.i
+.PHONY : Kolokviumski/Kolok1.i
+
+# target to preprocess a source file
+Kolokviumski/Kolok1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kolok1.dir\build.make CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.i
+.PHONY : Kolokviumski/Kolok1.cpp.i
+
+Kolokviumski/Kolok1.s: Kolokviumski/Kolok1.cpp.s
+.PHONY : Kolokviumski/Kolok1.s
+
+# target to generate assembly for a file
+Kolokviumski/Kolok1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kolok1.dir\build.make CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.s
+.PHONY : Kolokviumski/Kolok1.cpp.s
+
+Kolokviumski/SkiLift.obj: Kolokviumski/SkiLift.cpp.obj
+.PHONY : Kolokviumski/SkiLift.obj
+
+# target to build an object file
+Kolokviumski/SkiLift.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLift.dir\build.make CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.obj
+.PHONY : Kolokviumski/SkiLift.cpp.obj
+
+Kolokviumski/SkiLift.i: Kolokviumski/SkiLift.cpp.i
+.PHONY : Kolokviumski/SkiLift.i
+
+# target to preprocess a source file
+Kolokviumski/SkiLift.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLift.dir\build.make CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.i
+.PHONY : Kolokviumski/SkiLift.cpp.i
+
+Kolokviumski/SkiLift.s: Kolokviumski/SkiLift.cpp.s
+.PHONY : Kolokviumski/SkiLift.s
+
+# target to generate assembly for a file
+Kolokviumski/SkiLift.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLift.dir\build.make CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.s
+.PHONY : Kolokviumski/SkiLift.cpp.s
+
+Kolokviumski/SkiLiftC++.obj: Kolokviumski/SkiLiftC++.cpp.obj
+.PHONY : Kolokviumski/SkiLiftC++.obj
+
+# target to build an object file
+Kolokviumski/SkiLiftC++.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLiftC++.dir\build.make CMakeFiles/SkiLiftC++.dir/Kolokviumski/SkiLiftC++.cpp.obj
+.PHONY : Kolokviumski/SkiLiftC++.cpp.obj
+
+Kolokviumski/SkiLiftC++.i: Kolokviumski/SkiLiftC++.cpp.i
+.PHONY : Kolokviumski/SkiLiftC++.i
+
+# target to preprocess a source file
+Kolokviumski/SkiLiftC++.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLiftC++.dir\build.make CMakeFiles/SkiLiftC++.dir/Kolokviumski/SkiLiftC++.cpp.i
+.PHONY : Kolokviumski/SkiLiftC++.cpp.i
+
+Kolokviumski/SkiLiftC++.s: Kolokviumski/SkiLiftC++.cpp.s
+.PHONY : Kolokviumski/SkiLiftC++.s
+
+# target to generate assembly for a file
+Kolokviumski/SkiLiftC++.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLiftC++.dir\build.make CMakeFiles/SkiLiftC++.dir/Kolokviumski/SkiLiftC++.cpp.s
+.PHONY : Kolokviumski/SkiLiftC++.cpp.s
+
+Labs/1.obj: Labs/1.cpp.obj
+.PHONY : Labs/1.obj
+
+# target to build an object file
+Labs/1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/Labs/1.cpp.obj
+.PHONY : Labs/1.cpp.obj
+
+Labs/1.i: Labs/1.cpp.i
+.PHONY : Labs/1.i
+
+# target to preprocess a source file
+Labs/1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/Labs/1.cpp.i
+.PHONY : Labs/1.cpp.i
+
+Labs/1.s: Labs/1.cpp.s
+.PHONY : Labs/1.s
+
+# target to generate assembly for a file
+Labs/1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/Labs/1.cpp.s
+.PHONY : Labs/1.cpp.s
+
+Labs/2.obj: Labs/2.cpp.obj
+.PHONY : Labs/2.obj
+
+# target to build an object file
+Labs/2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/Labs/2.cpp.obj
+.PHONY : Labs/2.cpp.obj
+
+Labs/2.i: Labs/2.cpp.i
+.PHONY : Labs/2.i
+
+# target to preprocess a source file
+Labs/2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/Labs/2.cpp.i
+.PHONY : Labs/2.cpp.i
+
+Labs/2.s: Labs/2.cpp.s
+.PHONY : Labs/2.s
+
+# target to generate assembly for a file
+Labs/2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/Labs/2.cpp.s
+.PHONY : Labs/2.cpp.s
+
+MyClass.obj: MyClass.cpp.obj
+.PHONY : MyClass.obj
+
+# target to build an object file
+MyClass.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.cpp.dir\build.make CMakeFiles/MyClass.cpp.dir/MyClass.cpp.obj
+.PHONY : MyClass.cpp.obj
+
+MyClass.i: MyClass.cpp.i
+.PHONY : MyClass.i
+
+# target to preprocess a source file
+MyClass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.cpp.dir\build.make CMakeFiles/MyClass.cpp.dir/MyClass.cpp.i
+.PHONY : MyClass.cpp.i
+
+MyClass.s: MyClass.cpp.s
+.PHONY : MyClass.s
+
+# target to generate assembly for a file
+MyClass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.cpp.dir\build.make CMakeFiles/MyClass.cpp.dir/MyClass.cpp.s
+.PHONY : MyClass.cpp.s
 
 P1.obj: P1.cpp.obj
 .PHONY : P1.obj
@@ -411,6 +1253,126 @@ P1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.cpp.dir\build.make CMakeFiles/P1.cpp.dir/P1.cpp.s
 .PHONY : P1.cpp.s
 
+P2.1.obj: P2.1.cpp.obj
+.PHONY : P2.1.obj
+
+# target to build an object file
+P2.1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.cpp.dir\build.make CMakeFiles/P2.1.cpp.dir/P2.1.cpp.obj
+.PHONY : P2.1.cpp.obj
+
+P2.1.i: P2.1.cpp.i
+.PHONY : P2.1.i
+
+# target to preprocess a source file
+P2.1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.cpp.dir\build.make CMakeFiles/P2.1.cpp.dir/P2.1.cpp.i
+.PHONY : P2.1.cpp.i
+
+P2.1.s: P2.1.cpp.s
+.PHONY : P2.1.s
+
+# target to generate assembly for a file
+P2.1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.cpp.dir\build.make CMakeFiles/P2.1.cpp.dir/P2.1.cpp.s
+.PHONY : P2.1.cpp.s
+
+P2.obj: P2.cpp.obj
+.PHONY : P2.obj
+
+# target to build an object file
+P2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.cpp.dir\build.make CMakeFiles/P2.cpp.dir/P2.cpp.obj
+.PHONY : P2.cpp.obj
+
+P2.i: P2.cpp.i
+.PHONY : P2.i
+
+# target to preprocess a source file
+P2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.cpp.dir\build.make CMakeFiles/P2.cpp.dir/P2.cpp.i
+.PHONY : P2.cpp.i
+
+P2.s: P2.cpp.s
+.PHONY : P2.s
+
+# target to generate assembly for a file
+P2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.cpp.dir\build.make CMakeFiles/P2.cpp.dir/P2.cpp.s
+.PHONY : P2.cpp.s
+
+Wizz.obj: Wizz.cpp.obj
+.PHONY : Wizz.obj
+
+# target to build an object file
+Wizz.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz.cpp.dir\build.make CMakeFiles/Wizz.cpp.dir/Wizz.cpp.obj
+.PHONY : Wizz.cpp.obj
+
+Wizz.i: Wizz.cpp.i
+.PHONY : Wizz.i
+
+# target to preprocess a source file
+Wizz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz.cpp.dir\build.make CMakeFiles/Wizz.cpp.dir/Wizz.cpp.i
+.PHONY : Wizz.cpp.i
+
+Wizz.s: Wizz.cpp.s
+.PHONY : Wizz.s
+
+# target to generate assembly for a file
+Wizz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz.cpp.dir\build.make CMakeFiles/Wizz.cpp.dir/Wizz.cpp.s
+.PHONY : Wizz.cpp.s
+
+Wizz2.obj: Wizz2.cpp.obj
+.PHONY : Wizz2.obj
+
+# target to build an object file
+Wizz2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz2.cpp.dir\build.make CMakeFiles/Wizz2.cpp.dir/Wizz2.cpp.obj
+.PHONY : Wizz2.cpp.obj
+
+Wizz2.i: Wizz2.cpp.i
+.PHONY : Wizz2.i
+
+# target to preprocess a source file
+Wizz2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz2.cpp.dir\build.make CMakeFiles/Wizz2.cpp.dir/Wizz2.cpp.i
+.PHONY : Wizz2.cpp.i
+
+Wizz2.s: Wizz2.cpp.s
+.PHONY : Wizz2.s
+
+# target to generate assembly for a file
+Wizz2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz2.cpp.dir\build.make CMakeFiles/Wizz2.cpp.dir/Wizz2.cpp.s
+.PHONY : Wizz2.cpp.s
+
+Wizz3.obj: Wizz3.cpp.obj
+.PHONY : Wizz3.obj
+
+# target to build an object file
+Wizz3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz3.cpp.dir\build.make CMakeFiles/Wizz3.cpp.dir/Wizz3.cpp.obj
+.PHONY : Wizz3.cpp.obj
+
+Wizz3.i: Wizz3.cpp.i
+.PHONY : Wizz3.i
+
+# target to preprocess a source file
+Wizz3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz3.cpp.dir\build.make CMakeFiles/Wizz3.cpp.dir/Wizz3.cpp.i
+.PHONY : Wizz3.cpp.i
+
+Wizz3.s: Wizz3.cpp.s
+.PHONY : Wizz3.s
+
+# target to generate assembly for a file
+Wizz3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz3.cpp.dir\build.make CMakeFiles/Wizz3.cpp.dir/Wizz3.cpp.s
+.PHONY : Wizz3.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -419,38 +1381,142 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 1
+	@echo ... 2
 	@echo ... Aud0
 	@echo ... Aud1
 	@echo ... Aud1.1
+	@echo ... Aud1.2
 	@echo ... Aud2
 	@echo ... Aud3
+	@echo ... Aud3.1
 	@echo ... Aud4
+	@echo ... Aud4.1
 	@echo ... Aud5
+	@echo ... Aud5.1
+	@echo ... Aud5.2
+	@echo ... Aud6.0
+	@echo ... Aud7
+	@echo ... Aud8
+	@echo ... Aud9
+	@echo ... C-DC_objekti.cpp
+	@echo ... Datumi
+	@echo ... Datumi.cpp
+	@echo ... Destruktor.cpp
+	@echo ... Galerija
+	@echo ... Kol1
+	@echo ... Kolok1
+	@echo ... MyClass.cpp
 	@echo ... P1.cpp
+	@echo ... P2.1.cpp
+	@echo ... P2.cpp
+	@echo ... SkiLift
+	@echo ... SkiLiftC++
+	@echo ... Wizz.cpp
+	@echo ... Wizz2.cpp
+	@echo ... Wizz3.cpp
 	@echo ... Auditoriski/1/Aud0.obj
 	@echo ... Auditoriski/1/Aud0.i
 	@echo ... Auditoriski/1/Aud0.s
 	@echo ... Auditoriski/1/Aud1.1.obj
 	@echo ... Auditoriski/1/Aud1.1.i
 	@echo ... Auditoriski/1/Aud1.1.s
+	@echo ... Auditoriski/1/Aud1.2.obj
+	@echo ... Auditoriski/1/Aud1.2.i
+	@echo ... Auditoriski/1/Aud1.2.s
 	@echo ... Auditoriski/1/Aud1.obj
 	@echo ... Auditoriski/1/Aud1.i
 	@echo ... Auditoriski/1/Aud1.s
 	@echo ... Auditoriski/1/Aud2.obj
 	@echo ... Auditoriski/1/Aud2.i
 	@echo ... Auditoriski/1/Aud2.s
+	@echo ... Auditoriski/1/Aud3.1.obj
+	@echo ... Auditoriski/1/Aud3.1.i
+	@echo ... Auditoriski/1/Aud3.1.s
 	@echo ... Auditoriski/1/Aud3.obj
 	@echo ... Auditoriski/1/Aud3.i
 	@echo ... Auditoriski/1/Aud3.s
+	@echo ... Auditoriski/1/Aud4.1.obj
+	@echo ... Auditoriski/1/Aud4.1.i
+	@echo ... Auditoriski/1/Aud4.1.s
 	@echo ... Auditoriski/1/Aud4.obj
 	@echo ... Auditoriski/1/Aud4.i
 	@echo ... Auditoriski/1/Aud4.s
+	@echo ... Auditoriski/1/Aud5.1.obj
+	@echo ... Auditoriski/1/Aud5.1.i
+	@echo ... Auditoriski/1/Aud5.1.s
+	@echo ... Auditoriski/1/Aud5.2.obj
+	@echo ... Auditoriski/1/Aud5.2.i
+	@echo ... Auditoriski/1/Aud5.2.s
 	@echo ... Auditoriski/1/Aud5.obj
 	@echo ... Auditoriski/1/Aud5.i
 	@echo ... Auditoriski/1/Aud5.s
+	@echo ... Auditoriski/2/Aud6.0.obj
+	@echo ... Auditoriski/2/Aud6.0.i
+	@echo ... Auditoriski/2/Aud6.0.s
+	@echo ... Auditoriski/2/Aud7.obj
+	@echo ... Auditoriski/2/Aud7.i
+	@echo ... Auditoriski/2/Aud7.s
+	@echo ... Auditoriski/2/Aud8.obj
+	@echo ... Auditoriski/2/Aud8.i
+	@echo ... Auditoriski/2/Aud8.s
+	@echo ... Auditoriski/2/Aud9.obj
+	@echo ... Auditoriski/2/Aud9.i
+	@echo ... Auditoriski/2/Aud9.s
+	@echo ... C-DC_objekti.obj
+	@echo ... C-DC_objekti.i
+	@echo ... C-DC_objekti.s
+	@echo ... Datumi.obj
+	@echo ... Datumi.i
+	@echo ... Datumi.s
+	@echo ... Destruktor.obj
+	@echo ... Destruktor.i
+	@echo ... Destruktor.s
+	@echo ... Kolokviumski/Datumi.obj
+	@echo ... Kolokviumski/Datumi.i
+	@echo ... Kolokviumski/Datumi.s
+	@echo ... Kolokviumski/Galerija.obj
+	@echo ... Kolokviumski/Galerija.i
+	@echo ... Kolokviumski/Galerija.s
+	@echo ... Kolokviumski/Kol1.obj
+	@echo ... Kolokviumski/Kol1.i
+	@echo ... Kolokviumski/Kol1.s
+	@echo ... Kolokviumski/Kolok1.obj
+	@echo ... Kolokviumski/Kolok1.i
+	@echo ... Kolokviumski/Kolok1.s
+	@echo ... Kolokviumski/SkiLift.obj
+	@echo ... Kolokviumski/SkiLift.i
+	@echo ... Kolokviumski/SkiLift.s
+	@echo ... Kolokviumski/SkiLiftC++.obj
+	@echo ... Kolokviumski/SkiLiftC++.i
+	@echo ... Kolokviumski/SkiLiftC++.s
+	@echo ... Labs/1.obj
+	@echo ... Labs/1.i
+	@echo ... Labs/1.s
+	@echo ... Labs/2.obj
+	@echo ... Labs/2.i
+	@echo ... Labs/2.s
+	@echo ... MyClass.obj
+	@echo ... MyClass.i
+	@echo ... MyClass.s
 	@echo ... P1.obj
 	@echo ... P1.i
 	@echo ... P1.s
+	@echo ... P2.1.obj
+	@echo ... P2.1.i
+	@echo ... P2.1.s
+	@echo ... P2.obj
+	@echo ... P2.i
+	@echo ... P2.s
+	@echo ... Wizz.obj
+	@echo ... Wizz.i
+	@echo ... Wizz.s
+	@echo ... Wizz2.obj
+	@echo ... Wizz2.i
+	@echo ... Wizz2.s
+	@echo ... Wizz3.obj
+	@echo ... Wizz3.i
+	@echo ... Wizz3.s
 .PHONY : help
 
 

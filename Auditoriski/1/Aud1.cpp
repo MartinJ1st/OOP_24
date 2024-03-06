@@ -63,9 +63,9 @@ int main() {
         printf("Dates are equal\n");
     } else if (res > 0)
     {
-        printf("The difference in days is %d days.\n", d1.daysDiff(d2));
+        printf("The difference in days is %day days.\n", d1.daysDiff(d2));
     } else {
-        printf("The difference in days is %d days.\n", d2.daysDiff(d1));
+        printf("The difference in days is %day days.\n", d2.daysDiff(d1));
     }
     return 0;
 }
