@@ -67,7 +67,13 @@ public:
     }
 };
 
-bool checkEmail(char *address);
+bool checkEmail(char *address) {
+    int count = 0;
+    while (*address != 0)
+        if ('@' == *address++)
+            count++;
+    return (1 == count);
+}
 
 int main() {
     char to[100], from[100], subject[200], body[1000];
@@ -87,12 +93,4 @@ int main() {
         cout << "Invalid email address!" << endl;
     }
     return 0;
-}
-
-bool checkEmail(char *address) {
-    int count = 0;
-    while (*address != 0)
-        if ('@' == *address++)
-            count++;
-    return (1 == count);
 }
