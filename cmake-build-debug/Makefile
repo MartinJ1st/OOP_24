@@ -155,17 +155,17 @@ Galerija/fast:
 .PHONY : Galerija/fast
 
 #=============================================================================
-# Target rules for targets named Datumi
+# Target rules for targets named DatumiPovik
 
 # Build rule for target.
-Datumi: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Datumi
-.PHONY : Datumi
+DatumiPovik: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DatumiPovik
+.PHONY : DatumiPovik
 
 # fast build rule for target.
-Datumi/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/build
-.PHONY : Datumi/fast
+DatumiPovik/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DatumiPovik.dir\build.make CMakeFiles/DatumiPovik.dir/build
+.PHONY : DatumiPovik/fast
 
 #=============================================================================
 # Target rules for targets named SkiLift
@@ -194,95 +194,95 @@ SkiLiftC++/fast:
 .PHONY : SkiLiftC++/fast
 
 #=============================================================================
-# Target rules for targets named P1.cpp
+# Target rules for targets named P1
 
 # Build rule for target.
-P1.cpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1.cpp
-.PHONY : P1.cpp
+P1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1
+.PHONY : P1
 
 # fast build rule for target.
-P1.cpp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.cpp.dir\build.make CMakeFiles/P1.cpp.dir/build
-.PHONY : P1.cpp/fast
+P1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.dir\build.make CMakeFiles/P1.dir/build
+.PHONY : P1/fast
 
 #=============================================================================
-# Target rules for targets named P2.cpp
+# Target rules for targets named P2
 
 # Build rule for target.
-P2.cpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P2.cpp
-.PHONY : P2.cpp
+P2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P2
+.PHONY : P2
 
 # fast build rule for target.
-P2.cpp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.cpp.dir\build.make CMakeFiles/P2.cpp.dir/build
-.PHONY : P2.cpp/fast
+P2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.dir\build.make CMakeFiles/P2.dir/build
+.PHONY : P2/fast
 
 #=============================================================================
-# Target rules for targets named P2.1.cpp
+# Target rules for targets named P2.1
 
 # Build rule for target.
-P2.1.cpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P2.1.cpp
-.PHONY : P2.1.cpp
+P2.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P2.1
+.PHONY : P2.1
 
 # fast build rule for target.
-P2.1.cpp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.cpp.dir\build.make CMakeFiles/P2.1.cpp.dir/build
-.PHONY : P2.1.cpp/fast
+P2.1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.dir\build.make CMakeFiles/P2.1.dir/build
+.PHONY : P2.1/fast
 
 #=============================================================================
-# Target rules for targets named Destruktor.cpp
+# Target rules for targets named Destruktor
 
 # Build rule for target.
-Destruktor.cpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Destruktor.cpp
-.PHONY : Destruktor.cpp
+Destruktor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Destruktor
+.PHONY : Destruktor
 
 # fast build rule for target.
-Destruktor.cpp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.cpp.dir\build.make CMakeFiles/Destruktor.cpp.dir/build
-.PHONY : Destruktor.cpp/fast
+Destruktor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.dir\build.make CMakeFiles/Destruktor.dir/build
+.PHONY : Destruktor/fast
 
 #=============================================================================
-# Target rules for targets named Datumi.cpp
+# Target rules for targets named Datumi
 
 # Build rule for target.
-Datumi.cpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Datumi.cpp
-.PHONY : Datumi.cpp
+Datumi: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Datumi
+.PHONY : Datumi
 
 # fast build rule for target.
-Datumi.cpp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.cpp.dir\build.make CMakeFiles/Datumi.cpp.dir/build
-.PHONY : Datumi.cpp/fast
+Datumi/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/build
+.PHONY : Datumi/fast
 
 #=============================================================================
-# Target rules for targets named MyClass.cpp
+# Target rules for targets named MyClass
 
 # Build rule for target.
-MyClass.cpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyClass.cpp
-.PHONY : MyClass.cpp
+MyClass: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyClass
+.PHONY : MyClass
 
 # fast build rule for target.
-MyClass.cpp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.cpp.dir\build.make CMakeFiles/MyClass.cpp.dir/build
-.PHONY : MyClass.cpp/fast
+MyClass/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.dir\build.make CMakeFiles/MyClass.dir/build
+.PHONY : MyClass/fast
 
 #=============================================================================
-# Target rules for targets named C-DC_objekti.cpp
+# Target rules for targets named C-DC_objekti
 
 # Build rule for target.
-C-DC_objekti.cpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C-DC_objekti.cpp
-.PHONY : C-DC_objekti.cpp
+C-DC_objekti: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C-DC_objekti
+.PHONY : C-DC_objekti
 
 # fast build rule for target.
-C-DC_objekti.cpp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.cpp.dir\build.make CMakeFiles/C-DC_objekti.cpp.dir/build
-.PHONY : C-DC_objekti.cpp/fast
+C-DC_objekti/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.dir\build.make CMakeFiles/C-DC_objekti.dir/build
+.PHONY : C-DC_objekti/fast
 
 #=============================================================================
 # Target rules for targets named Aud0
@@ -941,101 +941,29 @@ Auditoriski/2/Aud9.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud9.dir\build.make CMakeFiles/Aud9.dir/Auditoriski/2/Aud9.cpp.s
 .PHONY : Auditoriski/2/Aud9.cpp.s
 
-C-DC_objekti.obj: C-DC_objekti.cpp.obj
-.PHONY : C-DC_objekti.obj
+Kolokviumski/DatumiPovik.obj: Kolokviumski/DatumiPovik.cpp.obj
+.PHONY : Kolokviumski/DatumiPovik.obj
 
 # target to build an object file
-C-DC_objekti.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.cpp.dir\build.make CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.obj
-.PHONY : C-DC_objekti.cpp.obj
+Kolokviumski/DatumiPovik.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DatumiPovik.dir\build.make CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.obj
+.PHONY : Kolokviumski/DatumiPovik.cpp.obj
 
-C-DC_objekti.i: C-DC_objekti.cpp.i
-.PHONY : C-DC_objekti.i
-
-# target to preprocess a source file
-C-DC_objekti.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.cpp.dir\build.make CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.i
-.PHONY : C-DC_objekti.cpp.i
-
-C-DC_objekti.s: C-DC_objekti.cpp.s
-.PHONY : C-DC_objekti.s
-
-# target to generate assembly for a file
-C-DC_objekti.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.cpp.dir\build.make CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.s
-.PHONY : C-DC_objekti.cpp.s
-
-Datumi.obj: Datumi.cpp.obj
-.PHONY : Datumi.obj
-
-# target to build an object file
-Datumi.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.cpp.dir\build.make CMakeFiles/Datumi.cpp.dir/Datumi.cpp.obj
-.PHONY : Datumi.cpp.obj
-
-Datumi.i: Datumi.cpp.i
-.PHONY : Datumi.i
+Kolokviumski/DatumiPovik.i: Kolokviumski/DatumiPovik.cpp.i
+.PHONY : Kolokviumski/DatumiPovik.i
 
 # target to preprocess a source file
-Datumi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.cpp.dir\build.make CMakeFiles/Datumi.cpp.dir/Datumi.cpp.i
-.PHONY : Datumi.cpp.i
+Kolokviumski/DatumiPovik.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DatumiPovik.dir\build.make CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.i
+.PHONY : Kolokviumski/DatumiPovik.cpp.i
 
-Datumi.s: Datumi.cpp.s
-.PHONY : Datumi.s
-
-# target to generate assembly for a file
-Datumi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.cpp.dir\build.make CMakeFiles/Datumi.cpp.dir/Datumi.cpp.s
-.PHONY : Datumi.cpp.s
-
-Destruktor.obj: Destruktor.cpp.obj
-.PHONY : Destruktor.obj
-
-# target to build an object file
-Destruktor.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.cpp.dir\build.make CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.obj
-.PHONY : Destruktor.cpp.obj
-
-Destruktor.i: Destruktor.cpp.i
-.PHONY : Destruktor.i
-
-# target to preprocess a source file
-Destruktor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.cpp.dir\build.make CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.i
-.PHONY : Destruktor.cpp.i
-
-Destruktor.s: Destruktor.cpp.s
-.PHONY : Destruktor.s
+Kolokviumski/DatumiPovik.s: Kolokviumski/DatumiPovik.cpp.s
+.PHONY : Kolokviumski/DatumiPovik.s
 
 # target to generate assembly for a file
-Destruktor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.cpp.dir\build.make CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.s
-.PHONY : Destruktor.cpp.s
-
-Kolokviumski/Datumi.obj: Kolokviumski/Datumi.cpp.obj
-.PHONY : Kolokviumski/Datumi.obj
-
-# target to build an object file
-Kolokviumski/Datumi.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.obj
-.PHONY : Kolokviumski/Datumi.cpp.obj
-
-Kolokviumski/Datumi.i: Kolokviumski/Datumi.cpp.i
-.PHONY : Kolokviumski/Datumi.i
-
-# target to preprocess a source file
-Kolokviumski/Datumi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.i
-.PHONY : Kolokviumski/Datumi.cpp.i
-
-Kolokviumski/Datumi.s: Kolokviumski/Datumi.cpp.s
-.PHONY : Kolokviumski/Datumi.s
-
-# target to generate assembly for a file
-Kolokviumski/Datumi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.s
-.PHONY : Kolokviumski/Datumi.cpp.s
+Kolokviumski/DatumiPovik.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DatumiPovik.dir\build.make CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.s
+.PHONY : Kolokviumski/DatumiPovik.cpp.s
 
 Kolokviumski/Galerija.obj: Kolokviumski/Galerija.cpp.obj
 .PHONY : Kolokviumski/Galerija.obj
@@ -1205,173 +1133,245 @@ Labs/2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/Labs/2.cpp.s
 .PHONY : Labs/2.cpp.s
 
-MyClass.obj: MyClass.cpp.obj
-.PHONY : MyClass.obj
+Predavanja/C-DC_objekti.obj: Predavanja/C-DC_objekti.cpp.obj
+.PHONY : Predavanja/C-DC_objekti.obj
 
 # target to build an object file
-MyClass.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.cpp.dir\build.make CMakeFiles/MyClass.cpp.dir/MyClass.cpp.obj
-.PHONY : MyClass.cpp.obj
+Predavanja/C-DC_objekti.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.dir\build.make CMakeFiles/C-DC_objekti.dir/Predavanja/C-DC_objekti.cpp.obj
+.PHONY : Predavanja/C-DC_objekti.cpp.obj
 
-MyClass.i: MyClass.cpp.i
-.PHONY : MyClass.i
+Predavanja/C-DC_objekti.i: Predavanja/C-DC_objekti.cpp.i
+.PHONY : Predavanja/C-DC_objekti.i
 
 # target to preprocess a source file
-MyClass.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.cpp.dir\build.make CMakeFiles/MyClass.cpp.dir/MyClass.cpp.i
-.PHONY : MyClass.cpp.i
+Predavanja/C-DC_objekti.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.dir\build.make CMakeFiles/C-DC_objekti.dir/Predavanja/C-DC_objekti.cpp.i
+.PHONY : Predavanja/C-DC_objekti.cpp.i
 
-MyClass.s: MyClass.cpp.s
-.PHONY : MyClass.s
+Predavanja/C-DC_objekti.s: Predavanja/C-DC_objekti.cpp.s
+.PHONY : Predavanja/C-DC_objekti.s
 
 # target to generate assembly for a file
-MyClass.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.cpp.dir\build.make CMakeFiles/MyClass.cpp.dir/MyClass.cpp.s
-.PHONY : MyClass.cpp.s
+Predavanja/C-DC_objekti.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.dir\build.make CMakeFiles/C-DC_objekti.dir/Predavanja/C-DC_objekti.cpp.s
+.PHONY : Predavanja/C-DC_objekti.cpp.s
 
-P1.obj: P1.cpp.obj
-.PHONY : P1.obj
+Predavanja/Datumi.obj: Predavanja/Datumi.cpp.obj
+.PHONY : Predavanja/Datumi.obj
 
 # target to build an object file
-P1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.cpp.dir\build.make CMakeFiles/P1.cpp.dir/P1.cpp.obj
-.PHONY : P1.cpp.obj
+Predavanja/Datumi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj
+.PHONY : Predavanja/Datumi.cpp.obj
 
-P1.i: P1.cpp.i
-.PHONY : P1.i
+Predavanja/Datumi.i: Predavanja/Datumi.cpp.i
+.PHONY : Predavanja/Datumi.i
 
 # target to preprocess a source file
-P1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.cpp.dir\build.make CMakeFiles/P1.cpp.dir/P1.cpp.i
-.PHONY : P1.cpp.i
+Predavanja/Datumi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.i
+.PHONY : Predavanja/Datumi.cpp.i
 
-P1.s: P1.cpp.s
-.PHONY : P1.s
+Predavanja/Datumi.s: Predavanja/Datumi.cpp.s
+.PHONY : Predavanja/Datumi.s
 
 # target to generate assembly for a file
-P1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.cpp.dir\build.make CMakeFiles/P1.cpp.dir/P1.cpp.s
-.PHONY : P1.cpp.s
+Predavanja/Datumi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.s
+.PHONY : Predavanja/Datumi.cpp.s
 
-P2.1.obj: P2.1.cpp.obj
-.PHONY : P2.1.obj
+Predavanja/Destruktor.obj: Predavanja/Destruktor.cpp.obj
+.PHONY : Predavanja/Destruktor.obj
 
 # target to build an object file
-P2.1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.cpp.dir\build.make CMakeFiles/P2.1.cpp.dir/P2.1.cpp.obj
-.PHONY : P2.1.cpp.obj
+Predavanja/Destruktor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.dir\build.make CMakeFiles/Destruktor.dir/Predavanja/Destruktor.cpp.obj
+.PHONY : Predavanja/Destruktor.cpp.obj
 
-P2.1.i: P2.1.cpp.i
-.PHONY : P2.1.i
+Predavanja/Destruktor.i: Predavanja/Destruktor.cpp.i
+.PHONY : Predavanja/Destruktor.i
 
 # target to preprocess a source file
-P2.1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.cpp.dir\build.make CMakeFiles/P2.1.cpp.dir/P2.1.cpp.i
-.PHONY : P2.1.cpp.i
+Predavanja/Destruktor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.dir\build.make CMakeFiles/Destruktor.dir/Predavanja/Destruktor.cpp.i
+.PHONY : Predavanja/Destruktor.cpp.i
 
-P2.1.s: P2.1.cpp.s
-.PHONY : P2.1.s
+Predavanja/Destruktor.s: Predavanja/Destruktor.cpp.s
+.PHONY : Predavanja/Destruktor.s
 
 # target to generate assembly for a file
-P2.1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.cpp.dir\build.make CMakeFiles/P2.1.cpp.dir/P2.1.cpp.s
-.PHONY : P2.1.cpp.s
+Predavanja/Destruktor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.dir\build.make CMakeFiles/Destruktor.dir/Predavanja/Destruktor.cpp.s
+.PHONY : Predavanja/Destruktor.cpp.s
 
-P2.obj: P2.cpp.obj
-.PHONY : P2.obj
+Predavanja/MyClass.obj: Predavanja/MyClass.cpp.obj
+.PHONY : Predavanja/MyClass.obj
 
 # target to build an object file
-P2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.cpp.dir\build.make CMakeFiles/P2.cpp.dir/P2.cpp.obj
-.PHONY : P2.cpp.obj
+Predavanja/MyClass.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.dir\build.make CMakeFiles/MyClass.dir/Predavanja/MyClass.cpp.obj
+.PHONY : Predavanja/MyClass.cpp.obj
 
-P2.i: P2.cpp.i
-.PHONY : P2.i
+Predavanja/MyClass.i: Predavanja/MyClass.cpp.i
+.PHONY : Predavanja/MyClass.i
 
 # target to preprocess a source file
-P2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.cpp.dir\build.make CMakeFiles/P2.cpp.dir/P2.cpp.i
-.PHONY : P2.cpp.i
+Predavanja/MyClass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.dir\build.make CMakeFiles/MyClass.dir/Predavanja/MyClass.cpp.i
+.PHONY : Predavanja/MyClass.cpp.i
 
-P2.s: P2.cpp.s
-.PHONY : P2.s
+Predavanja/MyClass.s: Predavanja/MyClass.cpp.s
+.PHONY : Predavanja/MyClass.s
 
 # target to generate assembly for a file
-P2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.cpp.dir\build.make CMakeFiles/P2.cpp.dir/P2.cpp.s
-.PHONY : P2.cpp.s
+Predavanja/MyClass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.dir\build.make CMakeFiles/MyClass.dir/Predavanja/MyClass.cpp.s
+.PHONY : Predavanja/MyClass.cpp.s
 
-Wizz.obj: Wizz.cpp.obj
-.PHONY : Wizz.obj
+Predavanja/P1.obj: Predavanja/P1.cpp.obj
+.PHONY : Predavanja/P1.obj
 
 # target to build an object file
-Wizz.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz.cpp.dir\build.make CMakeFiles/Wizz.cpp.dir/Wizz.cpp.obj
-.PHONY : Wizz.cpp.obj
+Predavanja/P1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.dir\build.make CMakeFiles/P1.dir/Predavanja/P1.cpp.obj
+.PHONY : Predavanja/P1.cpp.obj
 
-Wizz.i: Wizz.cpp.i
-.PHONY : Wizz.i
+Predavanja/P1.i: Predavanja/P1.cpp.i
+.PHONY : Predavanja/P1.i
 
 # target to preprocess a source file
-Wizz.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz.cpp.dir\build.make CMakeFiles/Wizz.cpp.dir/Wizz.cpp.i
-.PHONY : Wizz.cpp.i
+Predavanja/P1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.dir\build.make CMakeFiles/P1.dir/Predavanja/P1.cpp.i
+.PHONY : Predavanja/P1.cpp.i
 
-Wizz.s: Wizz.cpp.s
-.PHONY : Wizz.s
+Predavanja/P1.s: Predavanja/P1.cpp.s
+.PHONY : Predavanja/P1.s
 
 # target to generate assembly for a file
-Wizz.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz.cpp.dir\build.make CMakeFiles/Wizz.cpp.dir/Wizz.cpp.s
-.PHONY : Wizz.cpp.s
+Predavanja/P1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.dir\build.make CMakeFiles/P1.dir/Predavanja/P1.cpp.s
+.PHONY : Predavanja/P1.cpp.s
 
-Wizz2.obj: Wizz2.cpp.obj
-.PHONY : Wizz2.obj
+Predavanja/P2.1.obj: Predavanja/P2.1.cpp.obj
+.PHONY : Predavanja/P2.1.obj
 
 # target to build an object file
-Wizz2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz2.cpp.dir\build.make CMakeFiles/Wizz2.cpp.dir/Wizz2.cpp.obj
-.PHONY : Wizz2.cpp.obj
+Predavanja/P2.1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.dir\build.make CMakeFiles/P2.1.dir/Predavanja/P2.1.cpp.obj
+.PHONY : Predavanja/P2.1.cpp.obj
 
-Wizz2.i: Wizz2.cpp.i
-.PHONY : Wizz2.i
+Predavanja/P2.1.i: Predavanja/P2.1.cpp.i
+.PHONY : Predavanja/P2.1.i
 
 # target to preprocess a source file
-Wizz2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz2.cpp.dir\build.make CMakeFiles/Wizz2.cpp.dir/Wizz2.cpp.i
-.PHONY : Wizz2.cpp.i
+Predavanja/P2.1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.dir\build.make CMakeFiles/P2.1.dir/Predavanja/P2.1.cpp.i
+.PHONY : Predavanja/P2.1.cpp.i
 
-Wizz2.s: Wizz2.cpp.s
-.PHONY : Wizz2.s
+Predavanja/P2.1.s: Predavanja/P2.1.cpp.s
+.PHONY : Predavanja/P2.1.s
 
 # target to generate assembly for a file
-Wizz2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz2.cpp.dir\build.make CMakeFiles/Wizz2.cpp.dir/Wizz2.cpp.s
-.PHONY : Wizz2.cpp.s
+Predavanja/P2.1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.dir\build.make CMakeFiles/P2.1.dir/Predavanja/P2.1.cpp.s
+.PHONY : Predavanja/P2.1.cpp.s
 
-Wizz3.obj: Wizz3.cpp.obj
-.PHONY : Wizz3.obj
+Predavanja/P2.obj: Predavanja/P2.cpp.obj
+.PHONY : Predavanja/P2.obj
 
 # target to build an object file
-Wizz3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz3.cpp.dir\build.make CMakeFiles/Wizz3.cpp.dir/Wizz3.cpp.obj
-.PHONY : Wizz3.cpp.obj
+Predavanja/P2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.dir\build.make CMakeFiles/P2.dir/Predavanja/P2.cpp.obj
+.PHONY : Predavanja/P2.cpp.obj
 
-Wizz3.i: Wizz3.cpp.i
-.PHONY : Wizz3.i
+Predavanja/P2.i: Predavanja/P2.cpp.i
+.PHONY : Predavanja/P2.i
 
 # target to preprocess a source file
-Wizz3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz3.cpp.dir\build.make CMakeFiles/Wizz3.cpp.dir/Wizz3.cpp.i
-.PHONY : Wizz3.cpp.i
+Predavanja/P2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.dir\build.make CMakeFiles/P2.dir/Predavanja/P2.cpp.i
+.PHONY : Predavanja/P2.cpp.i
 
-Wizz3.s: Wizz3.cpp.s
-.PHONY : Wizz3.s
+Predavanja/P2.s: Predavanja/P2.cpp.s
+.PHONY : Predavanja/P2.s
 
 # target to generate assembly for a file
-Wizz3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz3.cpp.dir\build.make CMakeFiles/Wizz3.cpp.dir/Wizz3.cpp.s
-.PHONY : Wizz3.cpp.s
+Predavanja/P2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.dir\build.make CMakeFiles/P2.dir/Predavanja/P2.cpp.s
+.PHONY : Predavanja/P2.cpp.s
+
+Predavanja/Wizz.obj: Predavanja/Wizz.cpp.obj
+.PHONY : Predavanja/Wizz.obj
+
+# target to build an object file
+Predavanja/Wizz.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz.cpp.dir\build.make CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.obj
+.PHONY : Predavanja/Wizz.cpp.obj
+
+Predavanja/Wizz.i: Predavanja/Wizz.cpp.i
+.PHONY : Predavanja/Wizz.i
+
+# target to preprocess a source file
+Predavanja/Wizz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz.cpp.dir\build.make CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.i
+.PHONY : Predavanja/Wizz.cpp.i
+
+Predavanja/Wizz.s: Predavanja/Wizz.cpp.s
+.PHONY : Predavanja/Wizz.s
+
+# target to generate assembly for a file
+Predavanja/Wizz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz.cpp.dir\build.make CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.s
+.PHONY : Predavanja/Wizz.cpp.s
+
+Predavanja/Wizz2.obj: Predavanja/Wizz2.cpp.obj
+.PHONY : Predavanja/Wizz2.obj
+
+# target to build an object file
+Predavanja/Wizz2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz2.cpp.dir\build.make CMakeFiles/Wizz2.cpp.dir/Predavanja/Wizz2.cpp.obj
+.PHONY : Predavanja/Wizz2.cpp.obj
+
+Predavanja/Wizz2.i: Predavanja/Wizz2.cpp.i
+.PHONY : Predavanja/Wizz2.i
+
+# target to preprocess a source file
+Predavanja/Wizz2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz2.cpp.dir\build.make CMakeFiles/Wizz2.cpp.dir/Predavanja/Wizz2.cpp.i
+.PHONY : Predavanja/Wizz2.cpp.i
+
+Predavanja/Wizz2.s: Predavanja/Wizz2.cpp.s
+.PHONY : Predavanja/Wizz2.s
+
+# target to generate assembly for a file
+Predavanja/Wizz2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz2.cpp.dir\build.make CMakeFiles/Wizz2.cpp.dir/Predavanja/Wizz2.cpp.s
+.PHONY : Predavanja/Wizz2.cpp.s
+
+Predavanja/Wizz3.obj: Predavanja/Wizz3.cpp.obj
+.PHONY : Predavanja/Wizz3.obj
+
+# target to build an object file
+Predavanja/Wizz3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz3.cpp.dir\build.make CMakeFiles/Wizz3.cpp.dir/Predavanja/Wizz3.cpp.obj
+.PHONY : Predavanja/Wizz3.cpp.obj
+
+Predavanja/Wizz3.i: Predavanja/Wizz3.cpp.i
+.PHONY : Predavanja/Wizz3.i
+
+# target to preprocess a source file
+Predavanja/Wizz3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz3.cpp.dir\build.make CMakeFiles/Wizz3.cpp.dir/Predavanja/Wizz3.cpp.i
+.PHONY : Predavanja/Wizz3.cpp.i
+
+Predavanja/Wizz3.s: Predavanja/Wizz3.cpp.s
+.PHONY : Predavanja/Wizz3.s
+
+# target to generate assembly for a file
+Predavanja/Wizz3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz3.cpp.dir\build.make CMakeFiles/Wizz3.cpp.dir/Predavanja/Wizz3.cpp.s
+.PHONY : Predavanja/Wizz3.cpp.s
 
 # Help Target
 help:
@@ -1399,17 +1399,17 @@ help:
 	@echo ... Aud7
 	@echo ... Aud8
 	@echo ... Aud9
-	@echo ... C-DC_objekti.cpp
+	@echo ... C-DC_objekti
 	@echo ... Datumi
-	@echo ... Datumi.cpp
-	@echo ... Destruktor.cpp
+	@echo ... DatumiPovik
+	@echo ... Destruktor
 	@echo ... Galerija
 	@echo ... Kol1
 	@echo ... Kolok1
-	@echo ... MyClass.cpp
-	@echo ... P1.cpp
-	@echo ... P2.1.cpp
-	@echo ... P2.cpp
+	@echo ... MyClass
+	@echo ... P1
+	@echo ... P2
+	@echo ... P2.1
 	@echo ... SkiLift
 	@echo ... SkiLiftC++
 	@echo ... Wizz.cpp
@@ -1463,18 +1463,9 @@ help:
 	@echo ... Auditoriski/2/Aud9.obj
 	@echo ... Auditoriski/2/Aud9.i
 	@echo ... Auditoriski/2/Aud9.s
-	@echo ... C-DC_objekti.obj
-	@echo ... C-DC_objekti.i
-	@echo ... C-DC_objekti.s
-	@echo ... Datumi.obj
-	@echo ... Datumi.i
-	@echo ... Datumi.s
-	@echo ... Destruktor.obj
-	@echo ... Destruktor.i
-	@echo ... Destruktor.s
-	@echo ... Kolokviumski/Datumi.obj
-	@echo ... Kolokviumski/Datumi.i
-	@echo ... Kolokviumski/Datumi.s
+	@echo ... Kolokviumski/DatumiPovik.obj
+	@echo ... Kolokviumski/DatumiPovik.i
+	@echo ... Kolokviumski/DatumiPovik.s
 	@echo ... Kolokviumski/Galerija.obj
 	@echo ... Kolokviumski/Galerija.i
 	@echo ... Kolokviumski/Galerija.s
@@ -1496,27 +1487,36 @@ help:
 	@echo ... Labs/2.obj
 	@echo ... Labs/2.i
 	@echo ... Labs/2.s
-	@echo ... MyClass.obj
-	@echo ... MyClass.i
-	@echo ... MyClass.s
-	@echo ... P1.obj
-	@echo ... P1.i
-	@echo ... P1.s
-	@echo ... P2.1.obj
-	@echo ... P2.1.i
-	@echo ... P2.1.s
-	@echo ... P2.obj
-	@echo ... P2.i
-	@echo ... P2.s
-	@echo ... Wizz.obj
-	@echo ... Wizz.i
-	@echo ... Wizz.s
-	@echo ... Wizz2.obj
-	@echo ... Wizz2.i
-	@echo ... Wizz2.s
-	@echo ... Wizz3.obj
-	@echo ... Wizz3.i
-	@echo ... Wizz3.s
+	@echo ... Predavanja/C-DC_objekti.obj
+	@echo ... Predavanja/C-DC_objekti.i
+	@echo ... Predavanja/C-DC_objekti.s
+	@echo ... Predavanja/Datumi.obj
+	@echo ... Predavanja/Datumi.i
+	@echo ... Predavanja/Datumi.s
+	@echo ... Predavanja/Destruktor.obj
+	@echo ... Predavanja/Destruktor.i
+	@echo ... Predavanja/Destruktor.s
+	@echo ... Predavanja/MyClass.obj
+	@echo ... Predavanja/MyClass.i
+	@echo ... Predavanja/MyClass.s
+	@echo ... Predavanja/P1.obj
+	@echo ... Predavanja/P1.i
+	@echo ... Predavanja/P1.s
+	@echo ... Predavanja/P2.1.obj
+	@echo ... Predavanja/P2.1.i
+	@echo ... Predavanja/P2.1.s
+	@echo ... Predavanja/P2.obj
+	@echo ... Predavanja/P2.i
+	@echo ... Predavanja/P2.s
+	@echo ... Predavanja/Wizz.obj
+	@echo ... Predavanja/Wizz.i
+	@echo ... Predavanja/Wizz.s
+	@echo ... Predavanja/Wizz2.obj
+	@echo ... Predavanja/Wizz2.i
+	@echo ... Predavanja/Wizz2.s
+	@echo ... Predavanja/Wizz3.obj
+	@echo ... Predavanja/Wizz3.i
+	@echo ... Predavanja/Wizz3.s
 .PHONY : help
 
 
