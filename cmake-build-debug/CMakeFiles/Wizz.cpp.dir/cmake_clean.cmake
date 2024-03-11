@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Wizz.cpp.dir/Wizz.cpp.obj"
-  "CMakeFiles/Wizz.cpp.dir/Wizz.cpp.obj.d"
+  "CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.obj"
+  "CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.obj.d"
   "Wizz.cpp.exe"
   "Wizz.cpp.exe.manifest"
   "Wizz.cpp.pdb"

@@ -68,28 +68,28 @@ include CMakeFiles/Wizz.cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Wizz.cpp.dir/flags.make
 
-CMakeFiles/Wizz.cpp.dir/Wizz.cpp.obj: CMakeFiles/Wizz.cpp.dir/flags.make
-CMakeFiles/Wizz.cpp.dir/Wizz.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Wizz.cpp
-CMakeFiles/Wizz.cpp.dir/Wizz.cpp.obj: CMakeFiles/Wizz.cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Wizz.cpp.dir/Wizz.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wizz.cpp.dir/Wizz.cpp.obj -MF CMakeFiles\Wizz.cpp.dir\Wizz.cpp.obj.d -o CMakeFiles\Wizz.cpp.dir\Wizz.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Wizz.cpp
+CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.obj: CMakeFiles/Wizz.cpp.dir/flags.make
+CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Predavanja/Wizz.cpp
+CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.obj: CMakeFiles/Wizz.cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.obj -MF CMakeFiles\Wizz.cpp.dir\Predavanja\Wizz.cpp.obj.d -o CMakeFiles\Wizz.cpp.dir\Predavanja\Wizz.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Predavanja\Wizz.cpp
 
-CMakeFiles/Wizz.cpp.dir/Wizz.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Wizz.cpp.dir/Wizz.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Wizz.cpp > CMakeFiles\Wizz.cpp.dir\Wizz.cpp.i
+CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Predavanja\Wizz.cpp > CMakeFiles\Wizz.cpp.dir\Predavanja\Wizz.cpp.i
 
-CMakeFiles/Wizz.cpp.dir/Wizz.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Wizz.cpp.dir/Wizz.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Wizz.cpp -o CMakeFiles\Wizz.cpp.dir\Wizz.cpp.s
+CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Predavanja\Wizz.cpp -o CMakeFiles\Wizz.cpp.dir\Predavanja\Wizz.cpp.s
 
 # Object files for target Wizz.cpp
 Wizz_cpp_OBJECTS = \
-"CMakeFiles/Wizz.cpp.dir/Wizz.cpp.obj"
+"CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.obj"
 
 # External object files for target Wizz.cpp
 Wizz_cpp_EXTERNAL_OBJECTS =
 
-Wizz.cpp.exe: CMakeFiles/Wizz.cpp.dir/Wizz.cpp.obj
+Wizz.cpp.exe: CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.obj
 Wizz.cpp.exe: CMakeFiles/Wizz.cpp.dir/build.make
 Wizz.cpp.exe: CMakeFiles/Wizz.cpp.dir/linkLibs.rsp
 Wizz.cpp.exe: CMakeFiles/Wizz.cpp.dir/objects1.rsp

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Media/CLionProjects/OOP_24/Destruktor.cpp" "CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.obj" "gcc" "CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.obj.d"
+  "C:/Users/Media/CLionProjects/OOP_24/Predavanja/Destruktor.cpp" "CMakeFiles/Destruktor.cpp.dir/Predavanja/Destruktor.cpp.obj" "gcc" "CMakeFiles/Destruktor.cpp.dir/Predavanja/Destruktor.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MyClass.cpp.dir/MyClass.cpp.obj"
-  "CMakeFiles/MyClass.cpp.dir/MyClass.cpp.obj.d"
+  "CMakeFiles/MyClass.cpp.dir/Predavanja/MyClass.cpp.obj"
+  "CMakeFiles/MyClass.cpp.dir/Predavanja/MyClass.cpp.obj.d"
   "MyClass.cpp.exe"
   "MyClass.cpp.exe.manifest"
   "MyClass.cpp.pdb"

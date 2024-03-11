@@ -68,28 +68,28 @@ include CMakeFiles/Datumi.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Datumi.dir/flags.make
 
-CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.obj: CMakeFiles/Datumi.dir/flags.make
-CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/Datumi.cpp
-CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.obj: CMakeFiles/Datumi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.obj -MF CMakeFiles\Datumi.dir\Kolokviumski\Datumi.cpp.obj.d -o CMakeFiles\Datumi.dir\Kolokviumski\Datumi.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\Datumi.cpp
+CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj: CMakeFiles/Datumi.dir/flags.make
+CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Predavanja/Datumi.cpp
+CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj: CMakeFiles/Datumi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj -MF CMakeFiles\Datumi.dir\Predavanja\Datumi.cpp.obj.d -o CMakeFiles\Datumi.dir\Predavanja\Datumi.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Predavanja\Datumi.cpp
 
-CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\Datumi.cpp > CMakeFiles\Datumi.dir\Kolokviumski\Datumi.cpp.i
+CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Predavanja\Datumi.cpp > CMakeFiles\Datumi.dir\Predavanja\Datumi.cpp.i
 
-CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\Datumi.cpp -o CMakeFiles\Datumi.dir\Kolokviumski\Datumi.cpp.s
+CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Predavanja\Datumi.cpp -o CMakeFiles\Datumi.dir\Predavanja\Datumi.cpp.s
 
 # Object files for target Datumi
 Datumi_OBJECTS = \
-"CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.obj"
+"CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj"
 
 # External object files for target Datumi
 Datumi_EXTERNAL_OBJECTS =
 
-Datumi.exe: CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.obj
+Datumi.exe: CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj
 Datumi.exe: CMakeFiles/Datumi.dir/build.make
 Datumi.exe: CMakeFiles/Datumi.dir/linkLibs.rsp
 Datumi.exe: CMakeFiles/Datumi.dir/objects1.rsp

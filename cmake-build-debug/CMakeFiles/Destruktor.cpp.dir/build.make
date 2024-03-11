@@ -68,28 +68,28 @@ include CMakeFiles/Destruktor.cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Destruktor.cpp.dir/flags.make
 
-CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.obj: CMakeFiles/Destruktor.cpp.dir/flags.make
-CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Destruktor.cpp
-CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.obj: CMakeFiles/Destruktor.cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.obj -MF CMakeFiles\Destruktor.cpp.dir\Destruktor.cpp.obj.d -o CMakeFiles\Destruktor.cpp.dir\Destruktor.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Destruktor.cpp
+CMakeFiles/Destruktor.cpp.dir/Predavanja/Destruktor.cpp.obj: CMakeFiles/Destruktor.cpp.dir/flags.make
+CMakeFiles/Destruktor.cpp.dir/Predavanja/Destruktor.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Predavanja/Destruktor.cpp
+CMakeFiles/Destruktor.cpp.dir/Predavanja/Destruktor.cpp.obj: CMakeFiles/Destruktor.cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Destruktor.cpp.dir/Predavanja/Destruktor.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Destruktor.cpp.dir/Predavanja/Destruktor.cpp.obj -MF CMakeFiles\Destruktor.cpp.dir\Predavanja\Destruktor.cpp.obj.d -o CMakeFiles\Destruktor.cpp.dir\Predavanja\Destruktor.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Predavanja\Destruktor.cpp
 
-CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Destruktor.cpp > CMakeFiles\Destruktor.cpp.dir\Destruktor.cpp.i
+CMakeFiles/Destruktor.cpp.dir/Predavanja/Destruktor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Destruktor.cpp.dir/Predavanja/Destruktor.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Predavanja\Destruktor.cpp > CMakeFiles\Destruktor.cpp.dir\Predavanja\Destruktor.cpp.i
 
-CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Destruktor.cpp -o CMakeFiles\Destruktor.cpp.dir\Destruktor.cpp.s
+CMakeFiles/Destruktor.cpp.dir/Predavanja/Destruktor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Destruktor.cpp.dir/Predavanja/Destruktor.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Predavanja\Destruktor.cpp -o CMakeFiles\Destruktor.cpp.dir\Predavanja\Destruktor.cpp.s
 
 # Object files for target Destruktor.cpp
 Destruktor_cpp_OBJECTS = \
-"CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.obj"
+"CMakeFiles/Destruktor.cpp.dir/Predavanja/Destruktor.cpp.obj"
 
 # External object files for target Destruktor.cpp
 Destruktor_cpp_EXTERNAL_OBJECTS =
 
-Destruktor.cpp.exe: CMakeFiles/Destruktor.cpp.dir/Destruktor.cpp.obj
+Destruktor.cpp.exe: CMakeFiles/Destruktor.cpp.dir/Predavanja/Destruktor.cpp.obj
 Destruktor.cpp.exe: CMakeFiles/Destruktor.cpp.dir/build.make
 Destruktor.cpp.exe: CMakeFiles/Destruktor.cpp.dir/linkLibs.rsp
 Destruktor.cpp.exe: CMakeFiles/Destruktor.cpp.dir/objects1.rsp

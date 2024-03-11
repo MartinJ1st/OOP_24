@@ -68,28 +68,28 @@ include CMakeFiles/MyClass.cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MyClass.cpp.dir/flags.make
 
-CMakeFiles/MyClass.cpp.dir/MyClass.cpp.obj: CMakeFiles/MyClass.cpp.dir/flags.make
-CMakeFiles/MyClass.cpp.dir/MyClass.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/MyClass.cpp
-CMakeFiles/MyClass.cpp.dir/MyClass.cpp.obj: CMakeFiles/MyClass.cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyClass.cpp.dir/MyClass.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyClass.cpp.dir/MyClass.cpp.obj -MF CMakeFiles\MyClass.cpp.dir\MyClass.cpp.obj.d -o CMakeFiles\MyClass.cpp.dir\MyClass.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\MyClass.cpp
+CMakeFiles/MyClass.cpp.dir/Predavanja/MyClass.cpp.obj: CMakeFiles/MyClass.cpp.dir/flags.make
+CMakeFiles/MyClass.cpp.dir/Predavanja/MyClass.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Predavanja/MyClass.cpp
+CMakeFiles/MyClass.cpp.dir/Predavanja/MyClass.cpp.obj: CMakeFiles/MyClass.cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyClass.cpp.dir/Predavanja/MyClass.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyClass.cpp.dir/Predavanja/MyClass.cpp.obj -MF CMakeFiles\MyClass.cpp.dir\Predavanja\MyClass.cpp.obj.d -o CMakeFiles\MyClass.cpp.dir\Predavanja\MyClass.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Predavanja\MyClass.cpp
 
-CMakeFiles/MyClass.cpp.dir/MyClass.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyClass.cpp.dir/MyClass.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\MyClass.cpp > CMakeFiles\MyClass.cpp.dir\MyClass.cpp.i
+CMakeFiles/MyClass.cpp.dir/Predavanja/MyClass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyClass.cpp.dir/Predavanja/MyClass.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Predavanja\MyClass.cpp > CMakeFiles\MyClass.cpp.dir\Predavanja\MyClass.cpp.i
 
-CMakeFiles/MyClass.cpp.dir/MyClass.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyClass.cpp.dir/MyClass.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\MyClass.cpp -o CMakeFiles\MyClass.cpp.dir\MyClass.cpp.s
+CMakeFiles/MyClass.cpp.dir/Predavanja/MyClass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyClass.cpp.dir/Predavanja/MyClass.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Predavanja\MyClass.cpp -o CMakeFiles\MyClass.cpp.dir\Predavanja\MyClass.cpp.s
 
 # Object files for target MyClass.cpp
 MyClass_cpp_OBJECTS = \
-"CMakeFiles/MyClass.cpp.dir/MyClass.cpp.obj"
+"CMakeFiles/MyClass.cpp.dir/Predavanja/MyClass.cpp.obj"
 
 # External object files for target MyClass.cpp
 MyClass_cpp_EXTERNAL_OBJECTS =
 
-MyClass.cpp.exe: CMakeFiles/MyClass.cpp.dir/MyClass.cpp.obj
+MyClass.cpp.exe: CMakeFiles/MyClass.cpp.dir/Predavanja/MyClass.cpp.obj
 MyClass.cpp.exe: CMakeFiles/MyClass.cpp.dir/build.make
 MyClass.cpp.exe: CMakeFiles/MyClass.cpp.dir/linkLibs.rsp
 MyClass.cpp.exe: CMakeFiles/MyClass.cpp.dir/objects1.rsp

@@ -68,28 +68,28 @@ include CMakeFiles/P2.1.cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/P2.1.cpp.dir/flags.make
 
-CMakeFiles/P2.1.cpp.dir/P2.1.cpp.obj: CMakeFiles/P2.1.cpp.dir/flags.make
-CMakeFiles/P2.1.cpp.dir/P2.1.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/P2.1.cpp
-CMakeFiles/P2.1.cpp.dir/P2.1.cpp.obj: CMakeFiles/P2.1.cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/P2.1.cpp.dir/P2.1.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/P2.1.cpp.dir/P2.1.cpp.obj -MF CMakeFiles\P2.1.cpp.dir\P2.1.cpp.obj.d -o CMakeFiles\P2.1.cpp.dir\P2.1.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\P2.1.cpp
+CMakeFiles/P2.1.cpp.dir/Predavanja/P2.1.cpp.obj: CMakeFiles/P2.1.cpp.dir/flags.make
+CMakeFiles/P2.1.cpp.dir/Predavanja/P2.1.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Predavanja/P2.1.cpp
+CMakeFiles/P2.1.cpp.dir/Predavanja/P2.1.cpp.obj: CMakeFiles/P2.1.cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/P2.1.cpp.dir/Predavanja/P2.1.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/P2.1.cpp.dir/Predavanja/P2.1.cpp.obj -MF CMakeFiles\P2.1.cpp.dir\Predavanja\P2.1.cpp.obj.d -o CMakeFiles\P2.1.cpp.dir\Predavanja\P2.1.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Predavanja\P2.1.cpp
 
-CMakeFiles/P2.1.cpp.dir/P2.1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/P2.1.cpp.dir/P2.1.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\P2.1.cpp > CMakeFiles\P2.1.cpp.dir\P2.1.cpp.i
+CMakeFiles/P2.1.cpp.dir/Predavanja/P2.1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/P2.1.cpp.dir/Predavanja/P2.1.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Predavanja\P2.1.cpp > CMakeFiles\P2.1.cpp.dir\Predavanja\P2.1.cpp.i
 
-CMakeFiles/P2.1.cpp.dir/P2.1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/P2.1.cpp.dir/P2.1.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\P2.1.cpp -o CMakeFiles\P2.1.cpp.dir\P2.1.cpp.s
+CMakeFiles/P2.1.cpp.dir/Predavanja/P2.1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/P2.1.cpp.dir/Predavanja/P2.1.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Predavanja\P2.1.cpp -o CMakeFiles\P2.1.cpp.dir\Predavanja\P2.1.cpp.s
 
 # Object files for target P2.1.cpp
 P2_1_cpp_OBJECTS = \
-"CMakeFiles/P2.1.cpp.dir/P2.1.cpp.obj"
+"CMakeFiles/P2.1.cpp.dir/Predavanja/P2.1.cpp.obj"
 
 # External object files for target P2.1.cpp
 P2_1_cpp_EXTERNAL_OBJECTS =
 
-P2.1.cpp.exe: CMakeFiles/P2.1.cpp.dir/P2.1.cpp.obj
+P2.1.cpp.exe: CMakeFiles/P2.1.cpp.dir/Predavanja/P2.1.cpp.obj
 P2.1.cpp.exe: CMakeFiles/P2.1.cpp.dir/build.make
 P2.1.cpp.exe: CMakeFiles/P2.1.cpp.dir/linkLibs.rsp
 P2.1.cpp.exe: CMakeFiles/P2.1.cpp.dir/objects1.rsp

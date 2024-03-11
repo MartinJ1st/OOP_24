@@ -68,28 +68,28 @@ include CMakeFiles/C-DC_objekti.cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C-DC_objekti.cpp.dir/flags.make
 
-CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.obj: CMakeFiles/C-DC_objekti.cpp.dir/flags.make
-CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/C-DC_objekti.cpp
-CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.obj: CMakeFiles/C-DC_objekti.cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.obj -MF CMakeFiles\C-DC_objekti.cpp.dir\C-DC_objekti.cpp.obj.d -o CMakeFiles\C-DC_objekti.cpp.dir\C-DC_objekti.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\C-DC_objekti.cpp
+CMakeFiles/C-DC_objekti.cpp.dir/Predavanja/C-DC_objekti.cpp.obj: CMakeFiles/C-DC_objekti.cpp.dir/flags.make
+CMakeFiles/C-DC_objekti.cpp.dir/Predavanja/C-DC_objekti.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Predavanja/C-DC_objekti.cpp
+CMakeFiles/C-DC_objekti.cpp.dir/Predavanja/C-DC_objekti.cpp.obj: CMakeFiles/C-DC_objekti.cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C-DC_objekti.cpp.dir/Predavanja/C-DC_objekti.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C-DC_objekti.cpp.dir/Predavanja/C-DC_objekti.cpp.obj -MF CMakeFiles\C-DC_objekti.cpp.dir\Predavanja\C-DC_objekti.cpp.obj.d -o CMakeFiles\C-DC_objekti.cpp.dir\Predavanja\C-DC_objekti.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Predavanja\C-DC_objekti.cpp
 
-CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\C-DC_objekti.cpp > CMakeFiles\C-DC_objekti.cpp.dir\C-DC_objekti.cpp.i
+CMakeFiles/C-DC_objekti.cpp.dir/Predavanja/C-DC_objekti.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/C-DC_objekti.cpp.dir/Predavanja/C-DC_objekti.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Predavanja\C-DC_objekti.cpp > CMakeFiles\C-DC_objekti.cpp.dir\Predavanja\C-DC_objekti.cpp.i
 
-CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\C-DC_objekti.cpp -o CMakeFiles\C-DC_objekti.cpp.dir\C-DC_objekti.cpp.s
+CMakeFiles/C-DC_objekti.cpp.dir/Predavanja/C-DC_objekti.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/C-DC_objekti.cpp.dir/Predavanja/C-DC_objekti.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Predavanja\C-DC_objekti.cpp -o CMakeFiles\C-DC_objekti.cpp.dir\Predavanja\C-DC_objekti.cpp.s
 
 # Object files for target C-DC_objekti.cpp
 C__DC_objekti_cpp_OBJECTS = \
-"CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.obj"
+"CMakeFiles/C-DC_objekti.cpp.dir/Predavanja/C-DC_objekti.cpp.obj"
 
 # External object files for target C-DC_objekti.cpp
 C__DC_objekti_cpp_EXTERNAL_OBJECTS =
 
-C-DC_objekti.cpp.exe: CMakeFiles/C-DC_objekti.cpp.dir/C-DC_objekti.cpp.obj
+C-DC_objekti.cpp.exe: CMakeFiles/C-DC_objekti.cpp.dir/Predavanja/C-DC_objekti.cpp.obj
 C-DC_objekti.cpp.exe: CMakeFiles/C-DC_objekti.cpp.dir/build.make
 C-DC_objekti.cpp.exe: CMakeFiles/C-DC_objekti.cpp.dir/linkLibs.rsp
 C-DC_objekti.cpp.exe: CMakeFiles/C-DC_objekti.cpp.dir/objects1.rsp

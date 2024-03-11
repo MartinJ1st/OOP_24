@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.obj"
-  "CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.obj.d"
+  "CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj"
+  "CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj.d"
   "Datumi.exe"
   "Datumi.exe.manifest"
   "Datumi.pdb"

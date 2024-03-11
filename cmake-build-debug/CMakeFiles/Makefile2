@@ -65,16 +65,16 @@ CMAKE_BINARY_DIR = C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug
 all: CMakeFiles/Kol1.dir/all
 all: CMakeFiles/Kolok1.dir/all
 all: CMakeFiles/Galerija.dir/all
-all: CMakeFiles/Datumi.dir/all
+all: CMakeFiles/DatumiPovik.dir/all
 all: CMakeFiles/SkiLift.dir/all
 all: CMakeFiles/SkiLiftC++.dir/all
-all: CMakeFiles/P1.cpp.dir/all
-all: CMakeFiles/P2.cpp.dir/all
-all: CMakeFiles/P2.1.cpp.dir/all
-all: CMakeFiles/Destruktor.cpp.dir/all
-all: CMakeFiles/Datumi.cpp.dir/all
-all: CMakeFiles/MyClass.cpp.dir/all
-all: CMakeFiles/C-DC_objekti.cpp.dir/all
+all: CMakeFiles/P1.dir/all
+all: CMakeFiles/P2.dir/all
+all: CMakeFiles/P2.1.dir/all
+all: CMakeFiles/Destruktor.dir/all
+all: CMakeFiles/Datumi.dir/all
+all: CMakeFiles/MyClass.dir/all
+all: CMakeFiles/C-DC_objekti.dir/all
 all: CMakeFiles/Aud0.dir/all
 all: CMakeFiles/Aud1.dir/all
 all: CMakeFiles/Aud1.1.dir/all
@@ -106,16 +106,16 @@ preinstall:
 clean: CMakeFiles/Kol1.dir/clean
 clean: CMakeFiles/Kolok1.dir/clean
 clean: CMakeFiles/Galerija.dir/clean
-clean: CMakeFiles/Datumi.dir/clean
+clean: CMakeFiles/DatumiPovik.dir/clean
 clean: CMakeFiles/SkiLift.dir/clean
 clean: CMakeFiles/SkiLiftC++.dir/clean
-clean: CMakeFiles/P1.cpp.dir/clean
-clean: CMakeFiles/P2.cpp.dir/clean
-clean: CMakeFiles/P2.1.cpp.dir/clean
-clean: CMakeFiles/Destruktor.cpp.dir/clean
-clean: CMakeFiles/Datumi.cpp.dir/clean
-clean: CMakeFiles/MyClass.cpp.dir/clean
-clean: CMakeFiles/C-DC_objekti.cpp.dir/clean
+clean: CMakeFiles/P1.dir/clean
+clean: CMakeFiles/P2.dir/clean
+clean: CMakeFiles/P2.1.dir/clean
+clean: CMakeFiles/Destruktor.dir/clean
+clean: CMakeFiles/Datumi.dir/clean
+clean: CMakeFiles/MyClass.dir/clean
+clean: CMakeFiles/C-DC_objekti.dir/clean
 clean: CMakeFiles/Aud0.dir/clean
 clean: CMakeFiles/Aud1.dir/clean
 clean: CMakeFiles/Aud1.1.dir/clean
@@ -218,30 +218,30 @@ CMakeFiles/Galerija.dir/clean:
 .PHONY : CMakeFiles/Galerija.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Datumi.dir
+# Target rules for target CMakeFiles/DatumiPovik.dir
 
 # All Build rule for target.
-CMakeFiles/Datumi.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target Datumi"
-.PHONY : CMakeFiles/Datumi.dir/all
+CMakeFiles/DatumiPovik.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DatumiPovik.dir\build.make CMakeFiles/DatumiPovik.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DatumiPovik.dir\build.make CMakeFiles/DatumiPovik.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target DatumiPovik"
+.PHONY : CMakeFiles/DatumiPovik.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Datumi.dir/rule: cmake_check_build_system
+CMakeFiles/DatumiPovik.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Datumi.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/DatumiPovik.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Datumi.dir/rule
+.PHONY : CMakeFiles/DatumiPovik.dir/rule
 
 # Convenience name for target.
-Datumi: CMakeFiles/Datumi.dir/rule
-.PHONY : Datumi
+DatumiPovik: CMakeFiles/DatumiPovik.dir/rule
+.PHONY : DatumiPovik
 
 # clean rule for target.
-CMakeFiles/Datumi.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/clean
-.PHONY : CMakeFiles/Datumi.dir/clean
+CMakeFiles/DatumiPovik.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DatumiPovik.dir\build.make CMakeFiles/DatumiPovik.dir/clean
+.PHONY : CMakeFiles/DatumiPovik.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/SkiLift.dir
@@ -296,186 +296,186 @@ CMakeFiles/SkiLiftC++.dir/clean:
 .PHONY : CMakeFiles/SkiLiftC++.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/P1.cpp.dir
+# Target rules for target CMakeFiles/P1.dir
 
 # All Build rule for target.
-CMakeFiles/P1.cpp.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.cpp.dir\build.make CMakeFiles/P1.cpp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.cpp.dir\build.make CMakeFiles/P1.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target P1.cpp"
-.PHONY : CMakeFiles/P1.cpp.dir/all
+CMakeFiles/P1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.dir\build.make CMakeFiles/P1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.dir\build.make CMakeFiles/P1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target P1"
+.PHONY : CMakeFiles/P1.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/P1.cpp.dir/rule: cmake_check_build_system
+CMakeFiles/P1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/P1.cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/P1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/P1.cpp.dir/rule
+.PHONY : CMakeFiles/P1.dir/rule
 
 # Convenience name for target.
-P1.cpp: CMakeFiles/P1.cpp.dir/rule
-.PHONY : P1.cpp
+P1: CMakeFiles/P1.dir/rule
+.PHONY : P1
 
 # clean rule for target.
-CMakeFiles/P1.cpp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.cpp.dir\build.make CMakeFiles/P1.cpp.dir/clean
-.PHONY : CMakeFiles/P1.cpp.dir/clean
+CMakeFiles/P1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.dir\build.make CMakeFiles/P1.dir/clean
+.PHONY : CMakeFiles/P1.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/P2.cpp.dir
+# Target rules for target CMakeFiles/P2.dir
 
 # All Build rule for target.
-CMakeFiles/P2.cpp.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.cpp.dir\build.make CMakeFiles/P2.cpp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.cpp.dir\build.make CMakeFiles/P2.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target P2.cpp"
-.PHONY : CMakeFiles/P2.cpp.dir/all
+CMakeFiles/P2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.dir\build.make CMakeFiles/P2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.dir\build.make CMakeFiles/P2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target P2"
+.PHONY : CMakeFiles/P2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/P2.cpp.dir/rule: cmake_check_build_system
+CMakeFiles/P2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/P2.cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/P2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/P2.cpp.dir/rule
+.PHONY : CMakeFiles/P2.dir/rule
 
 # Convenience name for target.
-P2.cpp: CMakeFiles/P2.cpp.dir/rule
-.PHONY : P2.cpp
+P2: CMakeFiles/P2.dir/rule
+.PHONY : P2
 
 # clean rule for target.
-CMakeFiles/P2.cpp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.cpp.dir\build.make CMakeFiles/P2.cpp.dir/clean
-.PHONY : CMakeFiles/P2.cpp.dir/clean
+CMakeFiles/P2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.dir\build.make CMakeFiles/P2.dir/clean
+.PHONY : CMakeFiles/P2.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/P2.1.cpp.dir
+# Target rules for target CMakeFiles/P2.1.dir
 
 # All Build rule for target.
-CMakeFiles/P2.1.cpp.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.cpp.dir\build.make CMakeFiles/P2.1.cpp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.cpp.dir\build.make CMakeFiles/P2.1.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target P2.1.cpp"
-.PHONY : CMakeFiles/P2.1.cpp.dir/all
+CMakeFiles/P2.1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.dir\build.make CMakeFiles/P2.1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.dir\build.make CMakeFiles/P2.1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target P2.1"
+.PHONY : CMakeFiles/P2.1.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/P2.1.cpp.dir/rule: cmake_check_build_system
+CMakeFiles/P2.1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/P2.1.cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/P2.1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/P2.1.cpp.dir/rule
+.PHONY : CMakeFiles/P2.1.dir/rule
 
 # Convenience name for target.
-P2.1.cpp: CMakeFiles/P2.1.cpp.dir/rule
-.PHONY : P2.1.cpp
+P2.1: CMakeFiles/P2.1.dir/rule
+.PHONY : P2.1
 
 # clean rule for target.
-CMakeFiles/P2.1.cpp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.cpp.dir\build.make CMakeFiles/P2.1.cpp.dir/clean
-.PHONY : CMakeFiles/P2.1.cpp.dir/clean
+CMakeFiles/P2.1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.dir\build.make CMakeFiles/P2.1.dir/clean
+.PHONY : CMakeFiles/P2.1.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Destruktor.cpp.dir
+# Target rules for target CMakeFiles/Destruktor.dir
 
 # All Build rule for target.
-CMakeFiles/Destruktor.cpp.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.cpp.dir\build.make CMakeFiles/Destruktor.cpp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.cpp.dir\build.make CMakeFiles/Destruktor.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target Destruktor.cpp"
-.PHONY : CMakeFiles/Destruktor.cpp.dir/all
+CMakeFiles/Destruktor.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.dir\build.make CMakeFiles/Destruktor.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.dir\build.make CMakeFiles/Destruktor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target Destruktor"
+.PHONY : CMakeFiles/Destruktor.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Destruktor.cpp.dir/rule: cmake_check_build_system
+CMakeFiles/Destruktor.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Destruktor.cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Destruktor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Destruktor.cpp.dir/rule
+.PHONY : CMakeFiles/Destruktor.dir/rule
 
 # Convenience name for target.
-Destruktor.cpp: CMakeFiles/Destruktor.cpp.dir/rule
-.PHONY : Destruktor.cpp
+Destruktor: CMakeFiles/Destruktor.dir/rule
+.PHONY : Destruktor
 
 # clean rule for target.
-CMakeFiles/Destruktor.cpp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.cpp.dir\build.make CMakeFiles/Destruktor.cpp.dir/clean
-.PHONY : CMakeFiles/Destruktor.cpp.dir/clean
+CMakeFiles/Destruktor.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.dir\build.make CMakeFiles/Destruktor.dir/clean
+.PHONY : CMakeFiles/Destruktor.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Datumi.cpp.dir
+# Target rules for target CMakeFiles/Datumi.dir
 
 # All Build rule for target.
-CMakeFiles/Datumi.cpp.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.cpp.dir\build.make CMakeFiles/Datumi.cpp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.cpp.dir\build.make CMakeFiles/Datumi.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target Datumi.cpp"
-.PHONY : CMakeFiles/Datumi.cpp.dir/all
+CMakeFiles/Datumi.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target Datumi"
+.PHONY : CMakeFiles/Datumi.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Datumi.cpp.dir/rule: cmake_check_build_system
+CMakeFiles/Datumi.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Datumi.cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Datumi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Datumi.cpp.dir/rule
+.PHONY : CMakeFiles/Datumi.dir/rule
 
 # Convenience name for target.
-Datumi.cpp: CMakeFiles/Datumi.cpp.dir/rule
-.PHONY : Datumi.cpp
+Datumi: CMakeFiles/Datumi.dir/rule
+.PHONY : Datumi
 
 # clean rule for target.
-CMakeFiles/Datumi.cpp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.cpp.dir\build.make CMakeFiles/Datumi.cpp.dir/clean
-.PHONY : CMakeFiles/Datumi.cpp.dir/clean
+CMakeFiles/Datumi.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/clean
+.PHONY : CMakeFiles/Datumi.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/MyClass.cpp.dir
+# Target rules for target CMakeFiles/MyClass.dir
 
 # All Build rule for target.
-CMakeFiles/MyClass.cpp.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.cpp.dir\build.make CMakeFiles/MyClass.cpp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.cpp.dir\build.make CMakeFiles/MyClass.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target MyClass.cpp"
-.PHONY : CMakeFiles/MyClass.cpp.dir/all
+CMakeFiles/MyClass.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.dir\build.make CMakeFiles/MyClass.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.dir\build.make CMakeFiles/MyClass.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target MyClass"
+.PHONY : CMakeFiles/MyClass.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/MyClass.cpp.dir/rule: cmake_check_build_system
+CMakeFiles/MyClass.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MyClass.cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MyClass.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/MyClass.cpp.dir/rule
+.PHONY : CMakeFiles/MyClass.dir/rule
 
 # Convenience name for target.
-MyClass.cpp: CMakeFiles/MyClass.cpp.dir/rule
-.PHONY : MyClass.cpp
+MyClass: CMakeFiles/MyClass.dir/rule
+.PHONY : MyClass
 
 # clean rule for target.
-CMakeFiles/MyClass.cpp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.cpp.dir\build.make CMakeFiles/MyClass.cpp.dir/clean
-.PHONY : CMakeFiles/MyClass.cpp.dir/clean
+CMakeFiles/MyClass.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.dir\build.make CMakeFiles/MyClass.dir/clean
+.PHONY : CMakeFiles/MyClass.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/C-DC_objekti.cpp.dir
+# Target rules for target CMakeFiles/C-DC_objekti.dir
 
 # All Build rule for target.
-CMakeFiles/C-DC_objekti.cpp.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.cpp.dir\build.make CMakeFiles/C-DC_objekti.cpp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.cpp.dir\build.make CMakeFiles/C-DC_objekti.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target C-DC_objekti.cpp"
-.PHONY : CMakeFiles/C-DC_objekti.cpp.dir/all
+CMakeFiles/C-DC_objekti.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.dir\build.make CMakeFiles/C-DC_objekti.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.dir\build.make CMakeFiles/C-DC_objekti.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target C-DC_objekti"
+.PHONY : CMakeFiles/C-DC_objekti.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/C-DC_objekti.cpp.dir/rule: cmake_check_build_system
+CMakeFiles/C-DC_objekti.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/C-DC_objekti.cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/C-DC_objekti.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/C-DC_objekti.cpp.dir/rule
+.PHONY : CMakeFiles/C-DC_objekti.dir/rule
 
 # Convenience name for target.
-C-DC_objekti.cpp: CMakeFiles/C-DC_objekti.cpp.dir/rule
-.PHONY : C-DC_objekti.cpp
+C-DC_objekti: CMakeFiles/C-DC_objekti.dir/rule
+.PHONY : C-DC_objekti
 
 # clean rule for target.
-CMakeFiles/C-DC_objekti.cpp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.cpp.dir\build.make CMakeFiles/C-DC_objekti.cpp.dir/clean
-.PHONY : CMakeFiles/C-DC_objekti.cpp.dir/clean
+CMakeFiles/C-DC_objekti.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C-DC_objekti.dir\build.make CMakeFiles/C-DC_objekti.dir/clean
+.PHONY : CMakeFiles/C-DC_objekti.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Aud0.dir

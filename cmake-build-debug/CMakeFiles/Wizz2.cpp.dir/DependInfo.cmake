@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Media/CLionProjects/OOP_24/Wizz2.cpp" "CMakeFiles/Wizz2.cpp.dir/Wizz2.cpp.obj" "gcc" "CMakeFiles/Wizz2.cpp.dir/Wizz2.cpp.obj.d"
+  "C:/Users/Media/CLionProjects/OOP_24/Predavanja/Wizz2.cpp" "CMakeFiles/Wizz2.cpp.dir/Predavanja/Wizz2.cpp.obj" "gcc" "CMakeFiles/Wizz2.cpp.dir/Predavanja/Wizz2.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

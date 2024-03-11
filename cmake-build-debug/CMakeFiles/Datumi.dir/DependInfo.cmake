@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/Datumi.cpp" "CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.obj" "gcc" "CMakeFiles/Datumi.dir/Kolokviumski/Datumi.cpp.obj.d"
+  "C:/Users/Media/CLionProjects/OOP_24/Predavanja/Datumi.cpp" "CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj" "gcc" "CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
