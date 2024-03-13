@@ -285,6 +285,149 @@ C-DC_objekti/fast:
 .PHONY : C-DC_objekti/fast
 
 #=============================================================================
+# Target rules for targets named VgnezdenaKlasa
+
+# Build rule for target.
+VgnezdenaKlasa: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 VgnezdenaKlasa
+.PHONY : VgnezdenaKlasa
+
+# fast build rule for target.
+VgnezdenaKlasa/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VgnezdenaKlasa.dir\build.make CMakeFiles/VgnezdenaKlasa.dir/build
+.PHONY : VgnezdenaKlasa/fast
+
+#=============================================================================
+# Target rules for targets named ObjektVoObjekt
+
+# Build rule for target.
+ObjektVoObjekt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ObjektVoObjekt
+.PHONY : ObjektVoObjekt
+
+# fast build rule for target.
+ObjektVoObjekt/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjektVoObjekt.dir\build.make CMakeFiles/ObjektVoObjekt.dir/build
+.PHONY : ObjektVoObjekt/fast
+
+#=============================================================================
+# Target rules for targets named PrijatelFunkcii
+
+# Build rule for target.
+PrijatelFunkcii: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PrijatelFunkcii
+.PHONY : PrijatelFunkcii
+
+# fast build rule for target.
+PrijatelFunkcii/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrijatelFunkcii.dir\build.make CMakeFiles/PrijatelFunkcii.dir/build
+.PHONY : PrijatelFunkcii/fast
+
+#=============================================================================
+# Target rules for targets named Transakcii
+
+# Build rule for target.
+Transakcii: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Transakcii
+.PHONY : Transakcii
+
+# fast build rule for target.
+Transakcii/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Transakcii.dir\build.make CMakeFiles/Transakcii.dir/build
+.PHONY : Transakcii/fast
+
+#=============================================================================
+# Target rules for targets named Motor
+
+# Build rule for target.
+Motor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Motor
+.PHONY : Motor
+
+# fast build rule for target.
+Motor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor.dir\build.make CMakeFiles/Motor.dir/build
+.PHONY : Motor/fast
+
+#=============================================================================
+# Target rules for targets named Fudbaleri
+
+# Build rule for target.
+Fudbaleri: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Fudbaleri
+.PHONY : Fudbaleri
+
+# fast build rule for target.
+Fudbaleri/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fudbaleri.dir\build.make CMakeFiles/Fudbaleri.dir/build
+.PHONY : Fudbaleri/fast
+
+#=============================================================================
+# Target rules for targets named Student
+
+# Build rule for target.
+Student: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Student
+.PHONY : Student
+
+# fast build rule for target.
+Student/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Student.dir\build.make CMakeFiles/Student.dir/build
+.PHONY : Student/fast
+
+#=============================================================================
+# Target rules for targets named Prodavnica
+
+# Build rule for target.
+Prodavnica: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Prodavnica
+.PHONY : Prodavnica
+
+# fast build rule for target.
+Prodavnica/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prodavnica.dir\build.make CMakeFiles/Prodavnica.dir/build
+.PHONY : Prodavnica/fast
+
+#=============================================================================
+# Target rules for targets named Invoice
+
+# Build rule for target.
+Invoice: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Invoice
+.PHONY : Invoice
+
+# fast build rule for target.
+Invoice/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Invoice.dir\build.make CMakeFiles/Invoice.dir/build
+.PHONY : Invoice/fast
+
+#=============================================================================
+# Target rules for targets named Book
+
+# Build rule for target.
+Book: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Book
+.PHONY : Book
+
+# fast build rule for target.
+Book/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Book.dir\build.make CMakeFiles/Book.dir/build
+.PHONY : Book/fast
+
+#=============================================================================
+# Target rules for targets named Vehicle
+
+# Build rule for target.
+Vehicle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Vehicle
+.PHONY : Vehicle
+
+# fast build rule for target.
+Vehicle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vehicle.dir\build.make CMakeFiles/Vehicle.dir/build
+.PHONY : Vehicle/fast
+
+#=============================================================================
 # Target rules for targets named Aud0
 
 # Build rule for target.
@@ -467,6 +610,19 @@ Aud7/fast:
 .PHONY : Aud7/fast
 
 #=============================================================================
+# Target rules for targets named Aud7.1
+
+# Build rule for target.
+Aud7.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud7.1
+.PHONY : Aud7.1
+
+# fast build rule for target.
+Aud7.1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud7.1.dir\build.make CMakeFiles/Aud7.1.dir/build
+.PHONY : Aud7.1/fast
+
+#=============================================================================
 # Target rules for targets named Aud8
 
 # Build rule for target.
@@ -480,6 +636,19 @@ Aud8/fast:
 .PHONY : Aud8/fast
 
 #=============================================================================
+# Target rules for targets named Aud8.1
+
+# Build rule for target.
+Aud8.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud8.1
+.PHONY : Aud8.1
+
+# fast build rule for target.
+Aud8.1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud8.1.dir\build.make CMakeFiles/Aud8.1.dir/build
+.PHONY : Aud8.1/fast
+
+#=============================================================================
 # Target rules for targets named Aud9
 
 # Build rule for target.
@@ -491,6 +660,58 @@ Aud9: cmake_check_build_system
 Aud9/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud9.dir\build.make CMakeFiles/Aud9.dir/build
 .PHONY : Aud9/fast
+
+#=============================================================================
+# Target rules for targets named Aud10
+
+# Build rule for target.
+Aud10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud10
+.PHONY : Aud10
+
+# fast build rule for target.
+Aud10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud10.dir\build.make CMakeFiles/Aud10.dir/build
+.PHONY : Aud10/fast
+
+#=============================================================================
+# Target rules for targets named Aud10.1
+
+# Build rule for target.
+Aud10.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud10.1
+.PHONY : Aud10.1
+
+# fast build rule for target.
+Aud10.1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud10.1.dir\build.make CMakeFiles/Aud10.1.dir/build
+.PHONY : Aud10.1/fast
+
+#=============================================================================
+# Target rules for targets named Aud11
+
+# Build rule for target.
+Aud11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud11
+.PHONY : Aud11
+
+# fast build rule for target.
+Aud11/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud11.dir\build.make CMakeFiles/Aud11.dir/build
+.PHONY : Aud11/fast
+
+#=============================================================================
+# Target rules for targets named Aud12
+
+# Build rule for target.
+Aud12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud12
+.PHONY : Aud12
+
+# fast build rule for target.
+Aud12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud12.dir\build.make CMakeFiles/Aud12.dir/build
+.PHONY : Aud12/fast
 
 #=============================================================================
 # Target rules for targets named 1
@@ -869,6 +1090,30 @@ Auditoriski/2/Aud6.0.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud6.0.dir\build.make CMakeFiles/Aud6.0.dir/Auditoriski/2/Aud6.0.cpp.s
 .PHONY : Auditoriski/2/Aud6.0.cpp.s
 
+Auditoriski/2/Aud7.1.obj: Auditoriski/2/Aud7.1.cpp.obj
+.PHONY : Auditoriski/2/Aud7.1.obj
+
+# target to build an object file
+Auditoriski/2/Aud7.1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud7.1.dir\build.make CMakeFiles/Aud7.1.dir/Auditoriski/2/Aud7.1.cpp.obj
+.PHONY : Auditoriski/2/Aud7.1.cpp.obj
+
+Auditoriski/2/Aud7.1.i: Auditoriski/2/Aud7.1.cpp.i
+.PHONY : Auditoriski/2/Aud7.1.i
+
+# target to preprocess a source file
+Auditoriski/2/Aud7.1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud7.1.dir\build.make CMakeFiles/Aud7.1.dir/Auditoriski/2/Aud7.1.cpp.i
+.PHONY : Auditoriski/2/Aud7.1.cpp.i
+
+Auditoriski/2/Aud7.1.s: Auditoriski/2/Aud7.1.cpp.s
+.PHONY : Auditoriski/2/Aud7.1.s
+
+# target to generate assembly for a file
+Auditoriski/2/Aud7.1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud7.1.dir\build.make CMakeFiles/Aud7.1.dir/Auditoriski/2/Aud7.1.cpp.s
+.PHONY : Auditoriski/2/Aud7.1.cpp.s
+
 Auditoriski/2/Aud7.obj: Auditoriski/2/Aud7.cpp.obj
 .PHONY : Auditoriski/2/Aud7.obj
 
@@ -892,6 +1137,30 @@ Auditoriski/2/Aud7.s: Auditoriski/2/Aud7.cpp.s
 Auditoriski/2/Aud7.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud7.dir\build.make CMakeFiles/Aud7.dir/Auditoriski/2/Aud7.cpp.s
 .PHONY : Auditoriski/2/Aud7.cpp.s
+
+Auditoriski/2/Aud8.1.obj: Auditoriski/2/Aud8.1.cpp.obj
+.PHONY : Auditoriski/2/Aud8.1.obj
+
+# target to build an object file
+Auditoriski/2/Aud8.1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud8.1.dir\build.make CMakeFiles/Aud8.1.dir/Auditoriski/2/Aud8.1.cpp.obj
+.PHONY : Auditoriski/2/Aud8.1.cpp.obj
+
+Auditoriski/2/Aud8.1.i: Auditoriski/2/Aud8.1.cpp.i
+.PHONY : Auditoriski/2/Aud8.1.i
+
+# target to preprocess a source file
+Auditoriski/2/Aud8.1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud8.1.dir\build.make CMakeFiles/Aud8.1.dir/Auditoriski/2/Aud8.1.cpp.i
+.PHONY : Auditoriski/2/Aud8.1.cpp.i
+
+Auditoriski/2/Aud8.1.s: Auditoriski/2/Aud8.1.cpp.s
+.PHONY : Auditoriski/2/Aud8.1.s
+
+# target to generate assembly for a file
+Auditoriski/2/Aud8.1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud8.1.dir\build.make CMakeFiles/Aud8.1.dir/Auditoriski/2/Aud8.1.cpp.s
+.PHONY : Auditoriski/2/Aud8.1.cpp.s
 
 Auditoriski/2/Aud8.obj: Auditoriski/2/Aud8.cpp.obj
 .PHONY : Auditoriski/2/Aud8.obj
@@ -940,6 +1209,105 @@ Auditoriski/2/Aud9.s: Auditoriski/2/Aud9.cpp.s
 Auditoriski/2/Aud9.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud9.dir\build.make CMakeFiles/Aud9.dir/Auditoriski/2/Aud9.cpp.s
 .PHONY : Auditoriski/2/Aud9.cpp.s
+
+Auditoriski/3/Aud10.1.obj: Auditoriski/3/Aud10.1.cpp.obj
+.PHONY : Auditoriski/3/Aud10.1.obj
+
+# target to build an object file
+Auditoriski/3/Aud10.1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud10.1.dir\build.make CMakeFiles/Aud10.1.dir/Auditoriski/3/Aud10.1.cpp.obj
+.PHONY : Auditoriski/3/Aud10.1.cpp.obj
+
+Auditoriski/3/Aud10.1.i: Auditoriski/3/Aud10.1.cpp.i
+.PHONY : Auditoriski/3/Aud10.1.i
+
+# target to preprocess a source file
+Auditoriski/3/Aud10.1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud10.1.dir\build.make CMakeFiles/Aud10.1.dir/Auditoriski/3/Aud10.1.cpp.i
+.PHONY : Auditoriski/3/Aud10.1.cpp.i
+
+Auditoriski/3/Aud10.1.s: Auditoriski/3/Aud10.1.cpp.s
+.PHONY : Auditoriski/3/Aud10.1.s
+
+# target to generate assembly for a file
+Auditoriski/3/Aud10.1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud10.1.dir\build.make CMakeFiles/Aud10.1.dir/Auditoriski/3/Aud10.1.cpp.s
+.PHONY : Auditoriski/3/Aud10.1.cpp.s
+
+Auditoriski/3/Aud10.obj: Auditoriski/3/Aud10.cpp.obj
+.PHONY : Auditoriski/3/Aud10.obj
+
+# target to build an object file
+Auditoriski/3/Aud10.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud10.dir\build.make CMakeFiles/Aud10.dir/Auditoriski/3/Aud10.cpp.obj
+.PHONY : Auditoriski/3/Aud10.cpp.obj
+
+Auditoriski/3/Aud10.i: Auditoriski/3/Aud10.cpp.i
+.PHONY : Auditoriski/3/Aud10.i
+
+# target to preprocess a source file
+Auditoriski/3/Aud10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud10.dir\build.make CMakeFiles/Aud10.dir/Auditoriski/3/Aud10.cpp.i
+.PHONY : Auditoriski/3/Aud10.cpp.i
+
+Auditoriski/3/Aud10.s: Auditoriski/3/Aud10.cpp.s
+.PHONY : Auditoriski/3/Aud10.s
+
+# target to generate assembly for a file
+Auditoriski/3/Aud10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud10.dir\build.make CMakeFiles/Aud10.dir/Auditoriski/3/Aud10.cpp.s
+.PHONY : Auditoriski/3/Aud10.cpp.s
+
+Auditoriski/3/Aud11.obj: Auditoriski/3/Aud11.cpp.obj
+.PHONY : Auditoriski/3/Aud11.obj
+
+# target to build an object file
+Auditoriski/3/Aud11.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud11.dir\build.make CMakeFiles/Aud11.dir/Auditoriski/3/Aud11.cpp.obj
+.PHONY : Auditoriski/3/Aud11.cpp.obj
+
+Auditoriski/3/Aud11.i: Auditoriski/3/Aud11.cpp.i
+.PHONY : Auditoriski/3/Aud11.i
+
+# target to preprocess a source file
+Auditoriski/3/Aud11.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud11.dir\build.make CMakeFiles/Aud11.dir/Auditoriski/3/Aud11.cpp.i
+.PHONY : Auditoriski/3/Aud11.cpp.i
+
+Auditoriski/3/Aud11.s: Auditoriski/3/Aud11.cpp.s
+.PHONY : Auditoriski/3/Aud11.s
+
+# target to generate assembly for a file
+Auditoriski/3/Aud11.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud11.dir\build.make CMakeFiles/Aud11.dir/Auditoriski/3/Aud11.cpp.s
+.PHONY : Auditoriski/3/Aud11.cpp.s
+
+Auditoriski/3/Aud12.obj: Auditoriski/3/Aud12.cpp.obj
+.PHONY : Auditoriski/3/Aud12.obj
+
+# target to build an object file
+Auditoriski/3/Aud12.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud12.dir\build.make CMakeFiles/Aud12.dir/Auditoriski/3/Aud12.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/Auditoriski/3/Aud12.cpp.obj
+.PHONY : Auditoriski/3/Aud12.cpp.obj
+
+Auditoriski/3/Aud12.i: Auditoriski/3/Aud12.cpp.i
+.PHONY : Auditoriski/3/Aud12.i
+
+# target to preprocess a source file
+Auditoriski/3/Aud12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud12.dir\build.make CMakeFiles/Aud12.dir/Auditoriski/3/Aud12.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/Auditoriski/3/Aud12.cpp.i
+.PHONY : Auditoriski/3/Aud12.cpp.i
+
+Auditoriski/3/Aud12.s: Auditoriski/3/Aud12.cpp.s
+.PHONY : Auditoriski/3/Aud12.s
+
+# target to generate assembly for a file
+Auditoriski/3/Aud12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud12.dir\build.make CMakeFiles/Aud12.dir/Auditoriski/3/Aud12.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/Auditoriski/3/Aud12.cpp.s
+.PHONY : Auditoriski/3/Aud12.cpp.s
 
 Kolokviumski/DatumiPovik.obj: Kolokviumski/DatumiPovik.cpp.obj
 .PHONY : Kolokviumski/DatumiPovik.obj
@@ -1109,6 +1477,198 @@ Labs/1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/Labs/1.cpp.s
 .PHONY : Labs/1.cpp.s
 
+Labs/1_nedela/Book.obj: Labs/1_nedela/Book.cpp.obj
+.PHONY : Labs/1_nedela/Book.obj
+
+# target to build an object file
+Labs/1_nedela/Book.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Book.dir\build.make CMakeFiles/Book.dir/Labs/1_nedela/Book.cpp.obj
+.PHONY : Labs/1_nedela/Book.cpp.obj
+
+Labs/1_nedela/Book.i: Labs/1_nedela/Book.cpp.i
+.PHONY : Labs/1_nedela/Book.i
+
+# target to preprocess a source file
+Labs/1_nedela/Book.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Book.dir\build.make CMakeFiles/Book.dir/Labs/1_nedela/Book.cpp.i
+.PHONY : Labs/1_nedela/Book.cpp.i
+
+Labs/1_nedela/Book.s: Labs/1_nedela/Book.cpp.s
+.PHONY : Labs/1_nedela/Book.s
+
+# target to generate assembly for a file
+Labs/1_nedela/Book.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Book.dir\build.make CMakeFiles/Book.dir/Labs/1_nedela/Book.cpp.s
+.PHONY : Labs/1_nedela/Book.cpp.s
+
+Labs/1_nedela/Fudbaleri.obj: Labs/1_nedela/Fudbaleri.cpp.obj
+.PHONY : Labs/1_nedela/Fudbaleri.obj
+
+# target to build an object file
+Labs/1_nedela/Fudbaleri.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fudbaleri.dir\build.make CMakeFiles/Fudbaleri.dir/Labs/1_nedela/Fudbaleri.cpp.obj
+.PHONY : Labs/1_nedela/Fudbaleri.cpp.obj
+
+Labs/1_nedela/Fudbaleri.i: Labs/1_nedela/Fudbaleri.cpp.i
+.PHONY : Labs/1_nedela/Fudbaleri.i
+
+# target to preprocess a source file
+Labs/1_nedela/Fudbaleri.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fudbaleri.dir\build.make CMakeFiles/Fudbaleri.dir/Labs/1_nedela/Fudbaleri.cpp.i
+.PHONY : Labs/1_nedela/Fudbaleri.cpp.i
+
+Labs/1_nedela/Fudbaleri.s: Labs/1_nedela/Fudbaleri.cpp.s
+.PHONY : Labs/1_nedela/Fudbaleri.s
+
+# target to generate assembly for a file
+Labs/1_nedela/Fudbaleri.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fudbaleri.dir\build.make CMakeFiles/Fudbaleri.dir/Labs/1_nedela/Fudbaleri.cpp.s
+.PHONY : Labs/1_nedela/Fudbaleri.cpp.s
+
+Labs/1_nedela/Invoice.obj: Labs/1_nedela/Invoice.cpp.obj
+.PHONY : Labs/1_nedela/Invoice.obj
+
+# target to build an object file
+Labs/1_nedela/Invoice.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Invoice.dir\build.make CMakeFiles/Invoice.dir/Labs/1_nedela/Invoice.cpp.obj
+.PHONY : Labs/1_nedela/Invoice.cpp.obj
+
+Labs/1_nedela/Invoice.i: Labs/1_nedela/Invoice.cpp.i
+.PHONY : Labs/1_nedela/Invoice.i
+
+# target to preprocess a source file
+Labs/1_nedela/Invoice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Invoice.dir\build.make CMakeFiles/Invoice.dir/Labs/1_nedela/Invoice.cpp.i
+.PHONY : Labs/1_nedela/Invoice.cpp.i
+
+Labs/1_nedela/Invoice.s: Labs/1_nedela/Invoice.cpp.s
+.PHONY : Labs/1_nedela/Invoice.s
+
+# target to generate assembly for a file
+Labs/1_nedela/Invoice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Invoice.dir\build.make CMakeFiles/Invoice.dir/Labs/1_nedela/Invoice.cpp.s
+.PHONY : Labs/1_nedela/Invoice.cpp.s
+
+Labs/1_nedela/Motor.obj: Labs/1_nedela/Motor.cpp.obj
+.PHONY : Labs/1_nedela/Motor.obj
+
+# target to build an object file
+Labs/1_nedela/Motor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor.dir\build.make CMakeFiles/Motor.dir/Labs/1_nedela/Motor.cpp.obj
+.PHONY : Labs/1_nedela/Motor.cpp.obj
+
+Labs/1_nedela/Motor.i: Labs/1_nedela/Motor.cpp.i
+.PHONY : Labs/1_nedela/Motor.i
+
+# target to preprocess a source file
+Labs/1_nedela/Motor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor.dir\build.make CMakeFiles/Motor.dir/Labs/1_nedela/Motor.cpp.i
+.PHONY : Labs/1_nedela/Motor.cpp.i
+
+Labs/1_nedela/Motor.s: Labs/1_nedela/Motor.cpp.s
+.PHONY : Labs/1_nedela/Motor.s
+
+# target to generate assembly for a file
+Labs/1_nedela/Motor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor.dir\build.make CMakeFiles/Motor.dir/Labs/1_nedela/Motor.cpp.s
+.PHONY : Labs/1_nedela/Motor.cpp.s
+
+Labs/1_nedela/Prodavnica.obj: Labs/1_nedela/Prodavnica.cpp.obj
+.PHONY : Labs/1_nedela/Prodavnica.obj
+
+# target to build an object file
+Labs/1_nedela/Prodavnica.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prodavnica.dir\build.make CMakeFiles/Prodavnica.dir/Labs/1_nedela/Prodavnica.cpp.obj
+.PHONY : Labs/1_nedela/Prodavnica.cpp.obj
+
+Labs/1_nedela/Prodavnica.i: Labs/1_nedela/Prodavnica.cpp.i
+.PHONY : Labs/1_nedela/Prodavnica.i
+
+# target to preprocess a source file
+Labs/1_nedela/Prodavnica.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prodavnica.dir\build.make CMakeFiles/Prodavnica.dir/Labs/1_nedela/Prodavnica.cpp.i
+.PHONY : Labs/1_nedela/Prodavnica.cpp.i
+
+Labs/1_nedela/Prodavnica.s: Labs/1_nedela/Prodavnica.cpp.s
+.PHONY : Labs/1_nedela/Prodavnica.s
+
+# target to generate assembly for a file
+Labs/1_nedela/Prodavnica.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prodavnica.dir\build.make CMakeFiles/Prodavnica.dir/Labs/1_nedela/Prodavnica.cpp.s
+.PHONY : Labs/1_nedela/Prodavnica.cpp.s
+
+Labs/1_nedela/Student.obj: Labs/1_nedela/Student.cpp.obj
+.PHONY : Labs/1_nedela/Student.obj
+
+# target to build an object file
+Labs/1_nedela/Student.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Student.dir\build.make CMakeFiles/Student.dir/Labs/1_nedela/Student.cpp.obj
+.PHONY : Labs/1_nedela/Student.cpp.obj
+
+Labs/1_nedela/Student.i: Labs/1_nedela/Student.cpp.i
+.PHONY : Labs/1_nedela/Student.i
+
+# target to preprocess a source file
+Labs/1_nedela/Student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Student.dir\build.make CMakeFiles/Student.dir/Labs/1_nedela/Student.cpp.i
+.PHONY : Labs/1_nedela/Student.cpp.i
+
+Labs/1_nedela/Student.s: Labs/1_nedela/Student.cpp.s
+.PHONY : Labs/1_nedela/Student.s
+
+# target to generate assembly for a file
+Labs/1_nedela/Student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Student.dir\build.make CMakeFiles/Student.dir/Labs/1_nedela/Student.cpp.s
+.PHONY : Labs/1_nedela/Student.cpp.s
+
+Labs/1_nedela/Transakcii.obj: Labs/1_nedela/Transakcii.cpp.obj
+.PHONY : Labs/1_nedela/Transakcii.obj
+
+# target to build an object file
+Labs/1_nedela/Transakcii.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Transakcii.dir\build.make CMakeFiles/Transakcii.dir/Labs/1_nedela/Transakcii.cpp.obj
+.PHONY : Labs/1_nedela/Transakcii.cpp.obj
+
+Labs/1_nedela/Transakcii.i: Labs/1_nedela/Transakcii.cpp.i
+.PHONY : Labs/1_nedela/Transakcii.i
+
+# target to preprocess a source file
+Labs/1_nedela/Transakcii.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Transakcii.dir\build.make CMakeFiles/Transakcii.dir/Labs/1_nedela/Transakcii.cpp.i
+.PHONY : Labs/1_nedela/Transakcii.cpp.i
+
+Labs/1_nedela/Transakcii.s: Labs/1_nedela/Transakcii.cpp.s
+.PHONY : Labs/1_nedela/Transakcii.s
+
+# target to generate assembly for a file
+Labs/1_nedela/Transakcii.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Transakcii.dir\build.make CMakeFiles/Transakcii.dir/Labs/1_nedela/Transakcii.cpp.s
+.PHONY : Labs/1_nedela/Transakcii.cpp.s
+
+Labs/1_nedela/Vehicle.obj: Labs/1_nedela/Vehicle.cpp.obj
+.PHONY : Labs/1_nedela/Vehicle.obj
+
+# target to build an object file
+Labs/1_nedela/Vehicle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vehicle.dir\build.make CMakeFiles/Vehicle.dir/Labs/1_nedela/Vehicle.cpp.obj
+.PHONY : Labs/1_nedela/Vehicle.cpp.obj
+
+Labs/1_nedela/Vehicle.i: Labs/1_nedela/Vehicle.cpp.i
+.PHONY : Labs/1_nedela/Vehicle.i
+
+# target to preprocess a source file
+Labs/1_nedela/Vehicle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vehicle.dir\build.make CMakeFiles/Vehicle.dir/Labs/1_nedela/Vehicle.cpp.i
+.PHONY : Labs/1_nedela/Vehicle.cpp.i
+
+Labs/1_nedela/Vehicle.s: Labs/1_nedela/Vehicle.cpp.s
+.PHONY : Labs/1_nedela/Vehicle.s
+
+# target to generate assembly for a file
+Labs/1_nedela/Vehicle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vehicle.dir\build.make CMakeFiles/Vehicle.dir/Labs/1_nedela/Vehicle.cpp.s
+.PHONY : Labs/1_nedela/Vehicle.cpp.s
+
 Labs/2.obj: Labs/2.cpp.obj
 .PHONY : Labs/2.obj
 
@@ -1229,6 +1789,30 @@ Predavanja/MyClass.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.dir\build.make CMakeFiles/MyClass.dir/Predavanja/MyClass.cpp.s
 .PHONY : Predavanja/MyClass.cpp.s
 
+Predavanja/ObjektVoObjekt.obj: Predavanja/ObjektVoObjekt.cpp.obj
+.PHONY : Predavanja/ObjektVoObjekt.obj
+
+# target to build an object file
+Predavanja/ObjektVoObjekt.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjektVoObjekt.dir\build.make CMakeFiles/ObjektVoObjekt.dir/Predavanja/ObjektVoObjekt.cpp.obj
+.PHONY : Predavanja/ObjektVoObjekt.cpp.obj
+
+Predavanja/ObjektVoObjekt.i: Predavanja/ObjektVoObjekt.cpp.i
+.PHONY : Predavanja/ObjektVoObjekt.i
+
+# target to preprocess a source file
+Predavanja/ObjektVoObjekt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjektVoObjekt.dir\build.make CMakeFiles/ObjektVoObjekt.dir/Predavanja/ObjektVoObjekt.cpp.i
+.PHONY : Predavanja/ObjektVoObjekt.cpp.i
+
+Predavanja/ObjektVoObjekt.s: Predavanja/ObjektVoObjekt.cpp.s
+.PHONY : Predavanja/ObjektVoObjekt.s
+
+# target to generate assembly for a file
+Predavanja/ObjektVoObjekt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjektVoObjekt.dir\build.make CMakeFiles/ObjektVoObjekt.dir/Predavanja/ObjektVoObjekt.cpp.s
+.PHONY : Predavanja/ObjektVoObjekt.cpp.s
+
 Predavanja/P1.obj: Predavanja/P1.cpp.obj
 .PHONY : Predavanja/P1.obj
 
@@ -1300,6 +1884,54 @@ Predavanja/P2.s: Predavanja/P2.cpp.s
 Predavanja/P2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.dir\build.make CMakeFiles/P2.dir/Predavanja/P2.cpp.s
 .PHONY : Predavanja/P2.cpp.s
+
+Predavanja/PrijatelFunkcii.obj: Predavanja/PrijatelFunkcii.cpp.obj
+.PHONY : Predavanja/PrijatelFunkcii.obj
+
+# target to build an object file
+Predavanja/PrijatelFunkcii.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrijatelFunkcii.dir\build.make CMakeFiles/PrijatelFunkcii.dir/Predavanja/PrijatelFunkcii.cpp.obj
+.PHONY : Predavanja/PrijatelFunkcii.cpp.obj
+
+Predavanja/PrijatelFunkcii.i: Predavanja/PrijatelFunkcii.cpp.i
+.PHONY : Predavanja/PrijatelFunkcii.i
+
+# target to preprocess a source file
+Predavanja/PrijatelFunkcii.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrijatelFunkcii.dir\build.make CMakeFiles/PrijatelFunkcii.dir/Predavanja/PrijatelFunkcii.cpp.i
+.PHONY : Predavanja/PrijatelFunkcii.cpp.i
+
+Predavanja/PrijatelFunkcii.s: Predavanja/PrijatelFunkcii.cpp.s
+.PHONY : Predavanja/PrijatelFunkcii.s
+
+# target to generate assembly for a file
+Predavanja/PrijatelFunkcii.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrijatelFunkcii.dir\build.make CMakeFiles/PrijatelFunkcii.dir/Predavanja/PrijatelFunkcii.cpp.s
+.PHONY : Predavanja/PrijatelFunkcii.cpp.s
+
+Predavanja/VgnezdenaKlasa.obj: Predavanja/VgnezdenaKlasa.cpp.obj
+.PHONY : Predavanja/VgnezdenaKlasa.obj
+
+# target to build an object file
+Predavanja/VgnezdenaKlasa.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VgnezdenaKlasa.dir\build.make CMakeFiles/VgnezdenaKlasa.dir/Predavanja/VgnezdenaKlasa.cpp.obj
+.PHONY : Predavanja/VgnezdenaKlasa.cpp.obj
+
+Predavanja/VgnezdenaKlasa.i: Predavanja/VgnezdenaKlasa.cpp.i
+.PHONY : Predavanja/VgnezdenaKlasa.i
+
+# target to preprocess a source file
+Predavanja/VgnezdenaKlasa.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VgnezdenaKlasa.dir\build.make CMakeFiles/VgnezdenaKlasa.dir/Predavanja/VgnezdenaKlasa.cpp.i
+.PHONY : Predavanja/VgnezdenaKlasa.cpp.i
+
+Predavanja/VgnezdenaKlasa.s: Predavanja/VgnezdenaKlasa.cpp.s
+.PHONY : Predavanja/VgnezdenaKlasa.s
+
+# target to generate assembly for a file
+Predavanja/VgnezdenaKlasa.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VgnezdenaKlasa.dir\build.make CMakeFiles/VgnezdenaKlasa.dir/Predavanja/VgnezdenaKlasa.cpp.s
+.PHONY : Predavanja/VgnezdenaKlasa.cpp.s
 
 Predavanja/Wizz.obj: Predavanja/Wizz.cpp.obj
 .PHONY : Predavanja/Wizz.obj
@@ -1387,6 +2019,10 @@ help:
 	@echo ... Aud1
 	@echo ... Aud1.1
 	@echo ... Aud1.2
+	@echo ... Aud10
+	@echo ... Aud10.1
+	@echo ... Aud11
+	@echo ... Aud12
 	@echo ... Aud2
 	@echo ... Aud3
 	@echo ... Aud3.1
@@ -1397,21 +2033,34 @@ help:
 	@echo ... Aud5.2
 	@echo ... Aud6.0
 	@echo ... Aud7
+	@echo ... Aud7.1
 	@echo ... Aud8
+	@echo ... Aud8.1
 	@echo ... Aud9
+	@echo ... Book
 	@echo ... C-DC_objekti
 	@echo ... Datumi
 	@echo ... DatumiPovik
 	@echo ... Destruktor
+	@echo ... Fudbaleri
 	@echo ... Galerija
+	@echo ... Invoice
 	@echo ... Kol1
 	@echo ... Kolok1
+	@echo ... Motor
 	@echo ... MyClass
+	@echo ... ObjektVoObjekt
 	@echo ... P1
 	@echo ... P2
 	@echo ... P2.1
+	@echo ... PrijatelFunkcii
+	@echo ... Prodavnica
 	@echo ... SkiLift
 	@echo ... SkiLiftC++
+	@echo ... Student
+	@echo ... Transakcii
+	@echo ... Vehicle
+	@echo ... VgnezdenaKlasa
 	@echo ... Wizz.cpp
 	@echo ... Wizz2.cpp
 	@echo ... Wizz3.cpp
@@ -1454,15 +2103,33 @@ help:
 	@echo ... Auditoriski/2/Aud6.0.obj
 	@echo ... Auditoriski/2/Aud6.0.i
 	@echo ... Auditoriski/2/Aud6.0.s
+	@echo ... Auditoriski/2/Aud7.1.obj
+	@echo ... Auditoriski/2/Aud7.1.i
+	@echo ... Auditoriski/2/Aud7.1.s
 	@echo ... Auditoriski/2/Aud7.obj
 	@echo ... Auditoriski/2/Aud7.i
 	@echo ... Auditoriski/2/Aud7.s
+	@echo ... Auditoriski/2/Aud8.1.obj
+	@echo ... Auditoriski/2/Aud8.1.i
+	@echo ... Auditoriski/2/Aud8.1.s
 	@echo ... Auditoriski/2/Aud8.obj
 	@echo ... Auditoriski/2/Aud8.i
 	@echo ... Auditoriski/2/Aud8.s
 	@echo ... Auditoriski/2/Aud9.obj
 	@echo ... Auditoriski/2/Aud9.i
 	@echo ... Auditoriski/2/Aud9.s
+	@echo ... Auditoriski/3/Aud10.1.obj
+	@echo ... Auditoriski/3/Aud10.1.i
+	@echo ... Auditoriski/3/Aud10.1.s
+	@echo ... Auditoriski/3/Aud10.obj
+	@echo ... Auditoriski/3/Aud10.i
+	@echo ... Auditoriski/3/Aud10.s
+	@echo ... Auditoriski/3/Aud11.obj
+	@echo ... Auditoriski/3/Aud11.i
+	@echo ... Auditoriski/3/Aud11.s
+	@echo ... Auditoriski/3/Aud12.obj
+	@echo ... Auditoriski/3/Aud12.i
+	@echo ... Auditoriski/3/Aud12.s
 	@echo ... Kolokviumski/DatumiPovik.obj
 	@echo ... Kolokviumski/DatumiPovik.i
 	@echo ... Kolokviumski/DatumiPovik.s
@@ -1484,6 +2151,30 @@ help:
 	@echo ... Labs/1.obj
 	@echo ... Labs/1.i
 	@echo ... Labs/1.s
+	@echo ... Labs/1_nedela/Book.obj
+	@echo ... Labs/1_nedela/Book.i
+	@echo ... Labs/1_nedela/Book.s
+	@echo ... Labs/1_nedela/Fudbaleri.obj
+	@echo ... Labs/1_nedela/Fudbaleri.i
+	@echo ... Labs/1_nedela/Fudbaleri.s
+	@echo ... Labs/1_nedela/Invoice.obj
+	@echo ... Labs/1_nedela/Invoice.i
+	@echo ... Labs/1_nedela/Invoice.s
+	@echo ... Labs/1_nedela/Motor.obj
+	@echo ... Labs/1_nedela/Motor.i
+	@echo ... Labs/1_nedela/Motor.s
+	@echo ... Labs/1_nedela/Prodavnica.obj
+	@echo ... Labs/1_nedela/Prodavnica.i
+	@echo ... Labs/1_nedela/Prodavnica.s
+	@echo ... Labs/1_nedela/Student.obj
+	@echo ... Labs/1_nedela/Student.i
+	@echo ... Labs/1_nedela/Student.s
+	@echo ... Labs/1_nedela/Transakcii.obj
+	@echo ... Labs/1_nedela/Transakcii.i
+	@echo ... Labs/1_nedela/Transakcii.s
+	@echo ... Labs/1_nedela/Vehicle.obj
+	@echo ... Labs/1_nedela/Vehicle.i
+	@echo ... Labs/1_nedela/Vehicle.s
 	@echo ... Labs/2.obj
 	@echo ... Labs/2.i
 	@echo ... Labs/2.s
@@ -1499,6 +2190,9 @@ help:
 	@echo ... Predavanja/MyClass.obj
 	@echo ... Predavanja/MyClass.i
 	@echo ... Predavanja/MyClass.s
+	@echo ... Predavanja/ObjektVoObjekt.obj
+	@echo ... Predavanja/ObjektVoObjekt.i
+	@echo ... Predavanja/ObjektVoObjekt.s
 	@echo ... Predavanja/P1.obj
 	@echo ... Predavanja/P1.i
 	@echo ... Predavanja/P1.s
@@ -1508,6 +2202,12 @@ help:
 	@echo ... Predavanja/P2.obj
 	@echo ... Predavanja/P2.i
 	@echo ... Predavanja/P2.s
+	@echo ... Predavanja/PrijatelFunkcii.obj
+	@echo ... Predavanja/PrijatelFunkcii.i
+	@echo ... Predavanja/PrijatelFunkcii.s
+	@echo ... Predavanja/VgnezdenaKlasa.obj
+	@echo ... Predavanja/VgnezdenaKlasa.i
+	@echo ... Predavanja/VgnezdenaKlasa.s
 	@echo ... Predavanja/Wizz.obj
 	@echo ... Predavanja/Wizz.i
 	@echo ... Predavanja/Wizz.s

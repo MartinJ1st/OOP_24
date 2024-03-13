@@ -18,6 +18,18 @@ add_executable(Destruktor Predavanja/Destruktor.cpp)
 add_executable(Datumi Predavanja/Datumi.cpp)
 add_executable(MyClass Predavanja/MyClass.cpp)
 add_executable(C-DC_objekti Predavanja/C-DC_objekti.cpp)
+add_executable(VgnezdenaKlasa Predavanja/VgnezdenaKlasa.cpp)
+add_executable(ObjektVoObjekt Predavanja/ObjektVoObjekt.cpp)
+add_executable(PrijatelFunkcii Predavanja/PrijatelFunkcii.cpp)
+
+add_executable(Transakcii Labs/1_nedela/Transakcii.cpp)
+add_executable(Motor Labs/1_nedela/Motor.cpp)
+add_executable(Fudbaleri Labs/1_nedela/Fudbaleri.cpp)
+add_executable(Student Labs/1_nedela/Student.cpp)
+add_executable(Prodavnica Labs/1_nedela/Prodavnica.cpp)
+add_executable(Invoice Labs/1_nedela/Invoice.cpp)
+add_executable(Book Labs/1_nedela/Book.cpp)
+add_executable(Vehicle Labs/1_nedela/Vehicle.cpp)
 
 
 add_executable(Aud0 Auditoriski/1/Aud0.cpp)
@@ -35,11 +47,17 @@ add_executable(Aud5.2 Auditoriski/1/Aud5.2.cpp)
 
 add_executable(Aud6.0 Auditoriski/2/Aud6.0.cpp)
 add_executable(Aud7 Auditoriski/2/Aud7.cpp)
+add_executable(Aud7.1 Auditoriski/2/Aud7.1.cpp)
 add_executable(Aud8 Auditoriski/2/Aud8.cpp)
+add_executable(Aud8.1 Auditoriski/2/Aud8.1.cpp)
 add_executable(Aud9 Auditoriski/2/Aud9.cpp)
 
+add_executable(Aud10 Auditoriski/3/Aud10.cpp)
+add_executable(Aud10.1 Auditoriski/3/Aud10.1.cpp)
+add_executable(Aud11 Auditoriski/3/Aud11.cpp)
+add_executable(Aud12 Auditoriski/3/Aud12.cpp)
 
-add_executable(1 Labs/1.cpp)
+add_executable(1 Labs/1.cpp Auditoriski/3/Aud12.cpp)
 add_executable(2 Labs/2.cpp)
 
 add_executable(Wizz.cpp Predavanja/Wizz.cpp)

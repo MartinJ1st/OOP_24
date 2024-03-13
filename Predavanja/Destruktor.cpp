@@ -2,6 +2,8 @@
 
 using namespace std;
 
+#define PI 3.14159
+
 class Sphere { // Klasa sfera
 public:
     float r; // radius
@@ -20,16 +22,16 @@ public:
         cout << "Sphere (" << x << ", " << y << ", " << z << ", " << r << ") destroyed\n";
     }
 
-    float volume() { return (r * r * r * 4 * PI / 3); }
+    double volume() { return (r * r * r * 4 * PI / 3); }
 
-    float surface_area() { return (r * r * 4 * PI); }
+    double surface_area() { return (r * r * 4 * PI); }
 };
 
 int main() {
 
     Sphere s(1.0, 2.0, 3.0, 4.0);
     Sphere t; // bez parametri
-    cout << "X = " << s.x << ", Y = " << s.y;
+    cout << "X = " << s.x << ", Class = " << s.y;
     cout << ", Z = " << s.z << ", R = " << s.r << "\n";
     t = s;
     cout << "The volume of t is " << t.volume() << "\n";

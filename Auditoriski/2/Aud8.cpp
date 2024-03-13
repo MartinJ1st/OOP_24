@@ -11,24 +11,24 @@
 
 using namespace std;
 
-enum position {
+enum pozicija {
     employee, manager, owner
 };
 
 class Vraboten {
 private:
-    char name[100];
-    int salary;
-    position pos;
+    char ime[100];
+    int plata;
+    pozicija p;
 
 public:
     // Constructors
     Vraboten() {}
 
-    Vraboten(char *n, int s, position p) {
-        strcpy(name, n);
-        salary = s;
-        pos = p;
+    Vraboten(char *n, int s, pozicija p) {
+        strcpy(ime, n);
+        plata = s;
+        p = p;
     }
 
     // Destruktor
@@ -36,27 +36,27 @@ public:
     }
 
     void setName(char const *n) {
-        strcpy(name, n);
+        strcpy(ime, n);
     }
 
     void setSalary(int const s) {
-        salary = s;
+        plata = s;
     }
 
-    void setPosition(position p) {
-        pos = p;
+    void setPosition(pozicija p) {
+        p = p;
     }
 
     char const *getName() {
-        return name;
+        return ime;
     }
 
     int const getSalary() {
-        return salary;
+        return plata;
     }
 
-    position const getPosition() {
-        return pos;
+    pozicija const getPosition() {
+        return p;
     }
 };
 
@@ -82,7 +82,7 @@ int main() {
         cin >> pos;
         employees[i].setName(name);
         employees[i].setSalary(salary);
-        employees[i].setPosition((position) pos);
+        employees[i].setPosition((pozicija) pos);
     }
 
     bubbleSort(employees, n);

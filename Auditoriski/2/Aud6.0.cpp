@@ -4,6 +4,11 @@ private: - deklaracija na promenlivi i metodi koi ne se vidlivi nadvor od klasat
 public: - deklaracija na promenlivi i metodi koi se vidlivi nadvor od klasata
 };
 */
+
+
+// konstruktor se povikuva koga se kreira instanca - nov objekt
+// destruktor se povikuva ednas za sekoj eden objekt - vo momentot koga se unistuva objektot
+
 #include <iostream>
 
 using namespace std;
@@ -45,6 +50,7 @@ public:
 //Пример ex1.cpp
 //
 //        Cuboid c(10, 15, 20);
+//
 //1.3. Животен циклус на објектите
 //Конструктор (Constructor) - посебен метод на секоја класа кој се повикува секогаш кога се креира (инстанцира)
 // објект од класата
