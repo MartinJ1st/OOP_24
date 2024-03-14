@@ -22,6 +22,7 @@ C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Prodavnica.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Invoice.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Book.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Vehicle.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Prosek.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud0.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud1.1.dir

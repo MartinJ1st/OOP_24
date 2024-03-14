@@ -76,6 +76,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Invoice.dir/DependInfo.cmake"
   "CMakeFiles/Book.dir/DependInfo.cmake"
   "CMakeFiles/Vehicle.dir/DependInfo.cmake"
+  "CMakeFiles/Prosek.dir/DependInfo.cmake"
   "CMakeFiles/Aud0.dir/DependInfo.cmake"
   "CMakeFiles/Aud1.dir/DependInfo.cmake"
   "CMakeFiles/Aud1.1.dir/DependInfo.cmake"

@@ -428,6 +428,19 @@ Vehicle/fast:
 .PHONY : Vehicle/fast
 
 #=============================================================================
+# Target rules for targets named Prosek
+
+# Build rule for target.
+Prosek: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Prosek
+.PHONY : Prosek
+
+# fast build rule for target.
+Prosek/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prosek.dir\build.make CMakeFiles/Prosek.dir/build
+.PHONY : Prosek/fast
+
+#=============================================================================
 # Target rules for targets named Aud0
 
 # Build rule for target.
@@ -1597,6 +1610,30 @@ Labs/1_nedela/Prodavnica.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prodavnica.dir\build.make CMakeFiles/Prodavnica.dir/Labs/1_nedela/Prodavnica.cpp.s
 .PHONY : Labs/1_nedela/Prodavnica.cpp.s
 
+Labs/1_nedela/Prosek.obj: Labs/1_nedela/Prosek.cpp.obj
+.PHONY : Labs/1_nedela/Prosek.obj
+
+# target to build an object file
+Labs/1_nedela/Prosek.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prosek.dir\build.make CMakeFiles/Prosek.dir/Labs/1_nedela/Prosek.cpp.obj
+.PHONY : Labs/1_nedela/Prosek.cpp.obj
+
+Labs/1_nedela/Prosek.i: Labs/1_nedela/Prosek.cpp.i
+.PHONY : Labs/1_nedela/Prosek.i
+
+# target to preprocess a source file
+Labs/1_nedela/Prosek.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prosek.dir\build.make CMakeFiles/Prosek.dir/Labs/1_nedela/Prosek.cpp.i
+.PHONY : Labs/1_nedela/Prosek.cpp.i
+
+Labs/1_nedela/Prosek.s: Labs/1_nedela/Prosek.cpp.s
+.PHONY : Labs/1_nedela/Prosek.s
+
+# target to generate assembly for a file
+Labs/1_nedela/Prosek.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prosek.dir\build.make CMakeFiles/Prosek.dir/Labs/1_nedela/Prosek.cpp.s
+.PHONY : Labs/1_nedela/Prosek.cpp.s
+
 Labs/1_nedela/Student.obj: Labs/1_nedela/Student.cpp.obj
 .PHONY : Labs/1_nedela/Student.obj
 
@@ -2055,6 +2092,7 @@ help:
 	@echo ... P2.1
 	@echo ... PrijatelFunkcii
 	@echo ... Prodavnica
+	@echo ... Prosek
 	@echo ... SkiLift
 	@echo ... SkiLiftC++
 	@echo ... Student
@@ -2166,6 +2204,9 @@ help:
 	@echo ... Labs/1_nedela/Prodavnica.obj
 	@echo ... Labs/1_nedela/Prodavnica.i
 	@echo ... Labs/1_nedela/Prodavnica.s
+	@echo ... Labs/1_nedela/Prosek.obj
+	@echo ... Labs/1_nedela/Prosek.i
+	@echo ... Labs/1_nedela/Prosek.s
 	@echo ... Labs/1_nedela/Student.obj
 	@echo ... Labs/1_nedela/Student.i
 	@echo ... Labs/1_nedela/Student.s

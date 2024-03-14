@@ -30,6 +30,7 @@ add_executable(Prodavnica Labs/1_nedela/Prodavnica.cpp)
 add_executable(Invoice Labs/1_nedela/Invoice.cpp)
 add_executable(Book Labs/1_nedela/Book.cpp)
 add_executable(Vehicle Labs/1_nedela/Vehicle.cpp)
+add_executable(Prosek Labs/1_nedela/Prosek.cpp)
 
 
 add_executable(Aud0 Auditoriski/1/Aud0.cpp)
