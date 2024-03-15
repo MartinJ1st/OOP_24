@@ -39,7 +39,7 @@ struct Gallery {
 
 //Kako Globalna f-ja
 //void print(Gallery g) {
-//    cout << g.name << endl;
+//    cout << g.ime << endl;
 //    for (int i = 0; i < g.n; ++i) {
 //        g.pieces[i].print();
 //    }
