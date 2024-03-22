@@ -26,6 +26,23 @@ public:
         godina = y;
     }
 
+    void printD() {
+        cout << den << "." << mesec << "." << godina << endl;
+    }
+
+    int getDen() {
+        return den;
+    }
+
+    int getMesec() {
+        return mesec;
+    }
+
+    int getGodina() {
+        return godina;
+    }
+
+
     ~Datum() {}
 };
 
@@ -36,13 +53,10 @@ private:
     Datum d;
 
 public:
-    // Constructors
     Vraboten() {
-        cout << "Konstrukcija" << endl;
     }
 
     Vraboten(char i[], int pp, Datum dd) {
-        cout << "Konstrukcija" << endl;
         strcpy(ime, i);
         plata = pp;
         d = dd;
@@ -50,7 +64,6 @@ public:
 
     // Destruktor
     ~Vraboten() {
-        cout << "Destrukcija" << endl;
     }
 
     void set_ime(char i[]) {
@@ -69,37 +82,86 @@ public:
         return plata;
     }
 
-    int get_pozicija() {
-        return d;
-    }
-
     char *get_ime() {
         return ime;
     }
 
     void print() {
-
         cout << ime << " " << plata << " " << endl;
+        d.printD();
     }
 
     /* void set_all(char i[], int pp, pozicija poz) {
         strcpy(ime, i);
         plata = pp;
-        p = poz;
+        d=dat;
      } */
 
+
+    Datum get_datum() {
+        return d;
+    }
 };
 
-void bubbleSort(Vraboten vraboteni[], int n) {
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - i - 1; j++) {
-            if (vraboteni[j].get_plata() < vraboteni[j + 1].get_plata()) {
-                Vraboten temp = vraboteni[j];
-                vraboteni[j] = vraboteni[j + 1];
-                vraboteni[j + 1] = temp;
-            }
+//void bubbleSort(Vraboten vraboteni[], int n) {
+//    for (int i = 0; i < n - 1; i++) {
+//        for (int j = 0; j < n - i - 1; j++) {
+//            if (vraboteni[j].get_plata() < vraboteni[j + 1].get_plata()) {
+//                Vraboten temp = vraboteni[j];
+//                vraboteni[j] = vraboteni[j + 1];
+//                vraboteni[j + 1] = temp;
+//            }
+//        }
+//    }
+//}
+
+void bestPaid(Vraboten vraboteni[], int n) {
+    Vraboten max = vraboteni[0];
+    for (int i = 1; i < n; i++) {
+        if (vraboteni[i].get_plata() > max.get_plata()) {
+            max = vraboteni[i];
         }
     }
+    max.print();
+}
+
+//1-prviot datum e poblizu do denes 0 ako se isti 2- vtoriot e poblizu do denes
+int compareDates(Datum d1, Datum d2) {
+    if (d1.getGodina() > d2.getGodina()) {
+        return 1;
+    } else if (d2.getGodina() > d1.getGodina()) {
+        return 2;
+    } else if (d1.getMesec() > d2.getMesec()) {
+        return 1;
+    } else if (d2.getMesec() > d1.getMesec()) {
+        { return 2; }
+    } else if (d1.getDen() > d2.getDen()) {
+        return 1;
+    } else if (d2.getDen() > d1.getDen()) {
+        return 2;
+    } else {
+        return 0;
+    }
+}
+
+void youngestWorker(Vraboten vraboteni[], int n) {
+    int index = 0;
+    for (int i = 1; i < n; i++) {
+        if (compareDates(vraboteni[index].get_datum(), vraboteni[i].get_datum()) == 2) {
+            index = i;
+        }
+    }
+    vraboteni[index].print();
+}
+
+Vraboten bestPaidV(Vraboten vraboteni[], int n) {
+    Vraboten max = vraboteni[0];
+    for (int i = 1; i < n; i++) {
+        if (vraboteni[i].get_plata() > max.get_plata()) {
+            max = vraboteni[i];
+        }
+    }
+    return max;
 }
 
 int main() {
@@ -107,18 +169,23 @@ int main() {
     int n;
     cin >> n;
     char ime[30];
-    int plata, den,mesec,godina;
+    int plata, den, mesec, godina;
     for (int i = 0; i < n; ++i) {
-        cin >> ime >> plata >> den>>mesec>>godina;
+        cin >> ime >> plata >> den >> mesec >> godina;
         vraboteni[i].set_ime(ime);
         vraboteni[i].set_plata(plata);
-        vraboteni[i].set_pozicija((pozicija) p);
+        Datum d(den, mesec, godina);
+        vraboteni[i].set_datum(d);
     }
-    bubbleSort(vraboteni, n);
-    for (int i = 0; i < n; ++i) {
-        vraboteni[i].print();
-    }
+//    for (int i = 0; i < n; ++i) {
+//        vraboteni[i].print();
+//    }
+
+    bestPaid(vraboteni, n);
+    //Vraboten max = bestPaidV(vraboteni, n);
+    //max.print();
+    youngestWorker(vraboteni, n);
     return 0;
-}
 
 }
+

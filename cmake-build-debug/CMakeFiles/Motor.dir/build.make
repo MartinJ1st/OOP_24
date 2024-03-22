@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/Motor.dir/Labs/1_nedela/Motor.cpp.obj: CMakeFiles/Motor.dir/flags.mak
 CMakeFiles/Motor.dir/Labs/1_nedela/Motor.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Labs/1_nedela/Motor.cpp
 CMakeFiles/Motor.dir/Labs/1_nedela/Motor.cpp.obj: CMakeFiles/Motor.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Motor.dir/Labs/1_nedela/Motor.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motor.dir/Labs/1_nedela/Motor.cpp.obj -MF CMakeFiles\Motor.dir\Labs\1_nedela\Motor.cpp.obj.d -o CMakeFiles\Motor.dir\Labs\1_nedela\Motor.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Labs\1_nedela\Motor.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motor.dir/Labs/1_nedela/Motor.cpp.obj -MF CMakeFiles\Motor.dir\Labs\1_nedela\Motor.cpp.obj.d -o CMakeFiles\Motor.dir\Labs\1_nedela\Motor.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Labs\1_nedela\Motor.cpp
 
 CMakeFiles/Motor.dir/Labs/1_nedela/Motor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Motor.dir/Labs/1_nedela/Motor.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Labs\1_nedela\Motor.cpp > CMakeFiles\Motor.dir\Labs\1_nedela\Motor.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Labs\1_nedela\Motor.cpp > CMakeFiles\Motor.dir\Labs\1_nedela\Motor.cpp.i
 
 CMakeFiles/Motor.dir/Labs/1_nedela/Motor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Motor.dir/Labs/1_nedela/Motor.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Labs\1_nedela\Motor.cpp -o CMakeFiles\Motor.dir\Labs\1_nedela\Motor.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Labs\1_nedela\Motor.cpp -o CMakeFiles\Motor.dir\Labs\1_nedela\Motor.cpp.s
 
 # Object files for target Motor
 Motor_OBJECTS = \

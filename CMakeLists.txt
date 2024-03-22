@@ -33,6 +33,15 @@ add_executable(Vehicle Labs/1_nedela/Vehicle.cpp)
 add_executable(Prosek Labs/1_nedela/Prosek.cpp)
 
 
+add_executable(MobilePhone Labs/2_nedela/MobilePhone.cpp)
+add_executable(Kosarka Labs/2_nedela/Kosarka.cpp)
+add_executable(Drzavi Labs/2_nedela/Drzavi.cpp)
+add_executable(Alien Labs/2_nedela/Alien.cpp)
+add_executable(BookClass Labs/2_nedela/BookClass.cpp)
+add_executable(Employee Labs/2_nedela/Employee.cpp)
+add_executable(FoodProduct Labs/2_nedela/FoodProduct.cpp)
+add_executable(Programmer Labs/2_nedela/Programmer.cpp)
+
 add_executable(Aud0 Auditoriski/1/Aud0.cpp)
 add_executable(Aud1 Auditoriski/1/Aud1.cpp)
 add_executable(Aud1.1 Auditoriski/1/Aud1.1.cpp)
@@ -57,6 +66,9 @@ add_executable(Aud10 Auditoriski/3/Aud10.cpp)
 add_executable(Aud10.1 Auditoriski/3/Aud10.1.cpp)
 add_executable(Aud11 Auditoriski/3/Aud11.cpp)
 add_executable(Aud12 Auditoriski/3/Aud12.cpp)
+add_executable(Aud12.1 Auditoriski/3/Aud12.1.cpp)
+
+add_executable(Aud13 Auditoriski/4/Aud13.cpp)
 
 add_executable(1 Labs/1.cpp Auditoriski/3/Aud12.cpp)
 add_executable(2 Labs/2.cpp)

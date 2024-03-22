@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/Aud4.dir/Auditoriski/1/Aud4.cpp.obj: CMakeFiles/Aud4.dir/flags.make
 CMakeFiles/Aud4.dir/Auditoriski/1/Aud4.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Auditoriski/1/Aud4.cpp
 CMakeFiles/Aud4.dir/Auditoriski/1/Aud4.cpp.obj: CMakeFiles/Aud4.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Aud4.dir/Auditoriski/1/Aud4.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aud4.dir/Auditoriski/1/Aud4.cpp.obj -MF CMakeFiles\Aud4.dir\Auditoriski\1\Aud4.cpp.obj.d -o CMakeFiles\Aud4.dir\Auditoriski\1\Aud4.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Auditoriski\1\Aud4.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aud4.dir/Auditoriski/1/Aud4.cpp.obj -MF CMakeFiles\Aud4.dir\Auditoriski\1\Aud4.cpp.obj.d -o CMakeFiles\Aud4.dir\Auditoriski\1\Aud4.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Auditoriski\1\Aud4.cpp
 
 CMakeFiles/Aud4.dir/Auditoriski/1/Aud4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Aud4.dir/Auditoriski/1/Aud4.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Auditoriski\1\Aud4.cpp > CMakeFiles\Aud4.dir\Auditoriski\1\Aud4.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Auditoriski\1\Aud4.cpp > CMakeFiles\Aud4.dir\Auditoriski\1\Aud4.cpp.i
 
 CMakeFiles/Aud4.dir/Auditoriski/1/Aud4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Aud4.dir/Auditoriski/1/Aud4.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Auditoriski\1\Aud4.cpp -o CMakeFiles\Aud4.dir\Auditoriski\1\Aud4.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Auditoriski\1\Aud4.cpp -o CMakeFiles\Aud4.dir\Auditoriski\1\Aud4.cpp.s
 
 # Object files for target Aud4
 Aud4_OBJECTS = \

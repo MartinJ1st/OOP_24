@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj: CMakeFiles/Datumi.dir/flags.mak
 CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Predavanja/Datumi.cpp
 CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj: CMakeFiles/Datumi.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj -MF CMakeFiles\Datumi.dir\Predavanja\Datumi.cpp.obj.d -o CMakeFiles\Datumi.dir\Predavanja\Datumi.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Predavanja\Datumi.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.obj -MF CMakeFiles\Datumi.dir\Predavanja\Datumi.cpp.obj.d -o CMakeFiles\Datumi.dir\Predavanja\Datumi.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Predavanja\Datumi.cpp
 
 CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Predavanja\Datumi.cpp > CMakeFiles\Datumi.dir\Predavanja\Datumi.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Predavanja\Datumi.cpp > CMakeFiles\Datumi.dir\Predavanja\Datumi.cpp.i
 
 CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Datumi.dir/Predavanja/Datumi.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Predavanja\Datumi.cpp -o CMakeFiles\Datumi.dir\Predavanja\Datumi.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Predavanja\Datumi.cpp -o CMakeFiles\Datumi.dir\Predavanja\Datumi.cpp.s
 
 # Object files for target Datumi
 Datumi_OBJECTS = \
