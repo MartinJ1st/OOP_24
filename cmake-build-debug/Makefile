@@ -324,6 +324,19 @@ PrijatelFunkcii/fast:
 .PHONY : PrijatelFunkcii/fast
 
 #=============================================================================
+# Target rules for targets named Preoptovaruvanje1
+
+# Build rule for target.
+Preoptovaruvanje1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Preoptovaruvanje1
+.PHONY : Preoptovaruvanje1
+
+# fast build rule for target.
+Preoptovaruvanje1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Preoptovaruvanje1.dir\build.make CMakeFiles/Preoptovaruvanje1.dir/build
+.PHONY : Preoptovaruvanje1/fast
+
+#=============================================================================
 # Target rules for targets named Transakcii
 
 # Build rule for target.
@@ -543,6 +556,45 @@ Programmer: cmake_check_build_system
 Programmer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Programmer.dir\build.make CMakeFiles/Programmer.dir/build
 .PHONY : Programmer/fast
+
+#=============================================================================
+# Target rules for targets named Gamer
+
+# Build rule for target.
+Gamer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Gamer
+.PHONY : Gamer
+
+# fast build rule for target.
+Gamer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gamer.dir\build.make CMakeFiles/Gamer.dir/build
+.PHONY : Gamer/fast
+
+#=============================================================================
+# Target rules for targets named Vraboten3
+
+# Build rule for target.
+Vraboten3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Vraboten3
+.PHONY : Vraboten3
+
+# fast build rule for target.
+Vraboten3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vraboten3.dir\build.make CMakeFiles/Vraboten3.dir/build
+.PHONY : Vraboten3/fast
+
+#=============================================================================
+# Target rules for targets named 1va
+
+# Build rule for target.
+1va: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1va
+.PHONY : 1va
+
+# fast build rule for target.
+1va/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1va.dir\build.make CMakeFiles/1va.dir/build
+.PHONY : 1va/fast
 
 #=============================================================================
 # Target rules for targets named Aud0
@@ -855,6 +907,45 @@ Aud13: cmake_check_build_system
 Aud13/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud13.dir\build.make CMakeFiles/Aud13.dir/build
 .PHONY : Aud13/fast
+
+#=============================================================================
+# Target rules for targets named Aud13.1
+
+# Build rule for target.
+Aud13.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud13.1
+.PHONY : Aud13.1
+
+# fast build rule for target.
+Aud13.1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud13.1.dir\build.make CMakeFiles/Aud13.1.dir/build
+.PHONY : Aud13.1/fast
+
+#=============================================================================
+# Target rules for targets named Aud14
+
+# Build rule for target.
+Aud14: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud14
+.PHONY : Aud14
+
+# fast build rule for target.
+Aud14/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud14.dir\build.make CMakeFiles/Aud14.dir/build
+.PHONY : Aud14/fast
+
+#=============================================================================
+# Target rules for targets named Aud15
+
+# Build rule for target.
+Aud15: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud15
+.PHONY : Aud15
+
+# fast build rule for target.
+Aud15/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud15.dir\build.make CMakeFiles/Aud15.dir/build
+.PHONY : Aud15/fast
 
 #=============================================================================
 # Target rules for targets named 1
@@ -1476,6 +1567,30 @@ Auditoriski/3/Aud12.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/Auditoriski/3/Aud12.cpp.s
 .PHONY : Auditoriski/3/Aud12.cpp.s
 
+Auditoriski/4/Aud13.1.obj: Auditoriski/4/Aud13.1.cpp.obj
+.PHONY : Auditoriski/4/Aud13.1.obj
+
+# target to build an object file
+Auditoriski/4/Aud13.1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud13.1.dir\build.make CMakeFiles/Aud13.1.dir/Auditoriski/4/Aud13.1.cpp.obj
+.PHONY : Auditoriski/4/Aud13.1.cpp.obj
+
+Auditoriski/4/Aud13.1.i: Auditoriski/4/Aud13.1.cpp.i
+.PHONY : Auditoriski/4/Aud13.1.i
+
+# target to preprocess a source file
+Auditoriski/4/Aud13.1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud13.1.dir\build.make CMakeFiles/Aud13.1.dir/Auditoriski/4/Aud13.1.cpp.i
+.PHONY : Auditoriski/4/Aud13.1.cpp.i
+
+Auditoriski/4/Aud13.1.s: Auditoriski/4/Aud13.1.cpp.s
+.PHONY : Auditoriski/4/Aud13.1.s
+
+# target to generate assembly for a file
+Auditoriski/4/Aud13.1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud13.1.dir\build.make CMakeFiles/Aud13.1.dir/Auditoriski/4/Aud13.1.cpp.s
+.PHONY : Auditoriski/4/Aud13.1.cpp.s
+
 Auditoriski/4/Aud13.obj: Auditoriski/4/Aud13.cpp.obj
 .PHONY : Auditoriski/4/Aud13.obj
 
@@ -1499,6 +1614,54 @@ Auditoriski/4/Aud13.s: Auditoriski/4/Aud13.cpp.s
 Auditoriski/4/Aud13.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud13.dir\build.make CMakeFiles/Aud13.dir/Auditoriski/4/Aud13.cpp.s
 .PHONY : Auditoriski/4/Aud13.cpp.s
+
+Auditoriski/4/Aud14.obj: Auditoriski/4/Aud14.cpp.obj
+.PHONY : Auditoriski/4/Aud14.obj
+
+# target to build an object file
+Auditoriski/4/Aud14.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud14.dir\build.make CMakeFiles/Aud14.dir/Auditoriski/4/Aud14.cpp.obj
+.PHONY : Auditoriski/4/Aud14.cpp.obj
+
+Auditoriski/4/Aud14.i: Auditoriski/4/Aud14.cpp.i
+.PHONY : Auditoriski/4/Aud14.i
+
+# target to preprocess a source file
+Auditoriski/4/Aud14.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud14.dir\build.make CMakeFiles/Aud14.dir/Auditoriski/4/Aud14.cpp.i
+.PHONY : Auditoriski/4/Aud14.cpp.i
+
+Auditoriski/4/Aud14.s: Auditoriski/4/Aud14.cpp.s
+.PHONY : Auditoriski/4/Aud14.s
+
+# target to generate assembly for a file
+Auditoriski/4/Aud14.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud14.dir\build.make CMakeFiles/Aud14.dir/Auditoriski/4/Aud14.cpp.s
+.PHONY : Auditoriski/4/Aud14.cpp.s
+
+Auditoriski/4/Aud15.obj: Auditoriski/4/Aud15.cpp.obj
+.PHONY : Auditoriski/4/Aud15.obj
+
+# target to build an object file
+Auditoriski/4/Aud15.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud15.dir\build.make CMakeFiles/Aud15.dir/Auditoriski/4/Aud15.cpp.obj
+.PHONY : Auditoriski/4/Aud15.cpp.obj
+
+Auditoriski/4/Aud15.i: Auditoriski/4/Aud15.cpp.i
+.PHONY : Auditoriski/4/Aud15.i
+
+# target to preprocess a source file
+Auditoriski/4/Aud15.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud15.dir\build.make CMakeFiles/Aud15.dir/Auditoriski/4/Aud15.cpp.i
+.PHONY : Auditoriski/4/Aud15.cpp.i
+
+Auditoriski/4/Aud15.s: Auditoriski/4/Aud15.cpp.s
+.PHONY : Auditoriski/4/Aud15.s
+
+# target to generate assembly for a file
+Auditoriski/4/Aud15.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud15.dir\build.make CMakeFiles/Aud15.dir/Auditoriski/4/Aud15.cpp.s
+.PHONY : Auditoriski/4/Aud15.cpp.s
 
 Kolokviumski/DatumiPovik.obj: Kolokviumski/DatumiPovik.cpp.obj
 .PHONY : Kolokviumski/DatumiPovik.obj
@@ -1643,6 +1806,30 @@ Kolokviumski/SkiLiftC++.s: Kolokviumski/SkiLiftC++.cpp.s
 Kolokviumski/SkiLiftC++.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLiftC++.dir\build.make CMakeFiles/SkiLiftC++.dir/Kolokviumski/SkiLiftC++.cpp.s
 .PHONY : Kolokviumski/SkiLiftC++.cpp.s
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.obj: Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.obj
+
+# target to build an object file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1va.dir\build.make CMakeFiles/1va.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.cpp.obj
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.i: Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.i
+
+# target to preprocess a source file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1va.dir\build.make CMakeFiles/1va.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.cpp.i
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.s: Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.s
+
+# target to generate assembly for a file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1va.dir\build.make CMakeFiles/1va.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.cpp.s
 
 Labs/1.obj: Labs/1.cpp.obj
 .PHONY : Labs/1.obj
@@ -2100,6 +2287,54 @@ Labs/2_nedela/Programmer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Programmer.dir\build.make CMakeFiles/Programmer.dir/Labs/2_nedela/Programmer.cpp.s
 .PHONY : Labs/2_nedela/Programmer.cpp.s
 
+Labs/3_nedela/Gamer.obj: Labs/3_nedela/Gamer.cpp.obj
+.PHONY : Labs/3_nedela/Gamer.obj
+
+# target to build an object file
+Labs/3_nedela/Gamer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gamer.dir\build.make CMakeFiles/Gamer.dir/Labs/3_nedela/Gamer.cpp.obj
+.PHONY : Labs/3_nedela/Gamer.cpp.obj
+
+Labs/3_nedela/Gamer.i: Labs/3_nedela/Gamer.cpp.i
+.PHONY : Labs/3_nedela/Gamer.i
+
+# target to preprocess a source file
+Labs/3_nedela/Gamer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gamer.dir\build.make CMakeFiles/Gamer.dir/Labs/3_nedela/Gamer.cpp.i
+.PHONY : Labs/3_nedela/Gamer.cpp.i
+
+Labs/3_nedela/Gamer.s: Labs/3_nedela/Gamer.cpp.s
+.PHONY : Labs/3_nedela/Gamer.s
+
+# target to generate assembly for a file
+Labs/3_nedela/Gamer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gamer.dir\build.make CMakeFiles/Gamer.dir/Labs/3_nedela/Gamer.cpp.s
+.PHONY : Labs/3_nedela/Gamer.cpp.s
+
+Labs/3_nedela/Vraboten3.obj: Labs/3_nedela/Vraboten3.cpp.obj
+.PHONY : Labs/3_nedela/Vraboten3.obj
+
+# target to build an object file
+Labs/3_nedela/Vraboten3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vraboten3.dir\build.make CMakeFiles/Vraboten3.dir/Labs/3_nedela/Vraboten3.cpp.obj
+.PHONY : Labs/3_nedela/Vraboten3.cpp.obj
+
+Labs/3_nedela/Vraboten3.i: Labs/3_nedela/Vraboten3.cpp.i
+.PHONY : Labs/3_nedela/Vraboten3.i
+
+# target to preprocess a source file
+Labs/3_nedela/Vraboten3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vraboten3.dir\build.make CMakeFiles/Vraboten3.dir/Labs/3_nedela/Vraboten3.cpp.i
+.PHONY : Labs/3_nedela/Vraboten3.cpp.i
+
+Labs/3_nedela/Vraboten3.s: Labs/3_nedela/Vraboten3.cpp.s
+.PHONY : Labs/3_nedela/Vraboten3.s
+
+# target to generate assembly for a file
+Labs/3_nedela/Vraboten3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vraboten3.dir\build.make CMakeFiles/Vraboten3.dir/Labs/3_nedela/Vraboten3.cpp.s
+.PHONY : Labs/3_nedela/Vraboten3.cpp.s
+
 Predavanja/C-DC_objekti.obj: Predavanja/C-DC_objekti.cpp.obj
 .PHONY : Predavanja/C-DC_objekti.obj
 
@@ -2292,6 +2527,30 @@ Predavanja/P2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.dir\build.make CMakeFiles/P2.dir/Predavanja/P2.cpp.s
 .PHONY : Predavanja/P2.cpp.s
 
+Predavanja/Preoptovaruvanje1.obj: Predavanja/Preoptovaruvanje1.cpp.obj
+.PHONY : Predavanja/Preoptovaruvanje1.obj
+
+# target to build an object file
+Predavanja/Preoptovaruvanje1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Preoptovaruvanje1.dir\build.make CMakeFiles/Preoptovaruvanje1.dir/Predavanja/Preoptovaruvanje1.cpp.obj
+.PHONY : Predavanja/Preoptovaruvanje1.cpp.obj
+
+Predavanja/Preoptovaruvanje1.i: Predavanja/Preoptovaruvanje1.cpp.i
+.PHONY : Predavanja/Preoptovaruvanje1.i
+
+# target to preprocess a source file
+Predavanja/Preoptovaruvanje1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Preoptovaruvanje1.dir\build.make CMakeFiles/Preoptovaruvanje1.dir/Predavanja/Preoptovaruvanje1.cpp.i
+.PHONY : Predavanja/Preoptovaruvanje1.cpp.i
+
+Predavanja/Preoptovaruvanje1.s: Predavanja/Preoptovaruvanje1.cpp.s
+.PHONY : Predavanja/Preoptovaruvanje1.s
+
+# target to generate assembly for a file
+Predavanja/Preoptovaruvanje1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Preoptovaruvanje1.dir\build.make CMakeFiles/Preoptovaruvanje1.dir/Predavanja/Preoptovaruvanje1.cpp.s
+.PHONY : Predavanja/Preoptovaruvanje1.cpp.s
+
 Predavanja/PrijatelFunkcii.obj: Predavanja/PrijatelFunkcii.cpp.obj
 .PHONY : Predavanja/PrijatelFunkcii.obj
 
@@ -2421,6 +2680,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 1
+	@echo ... 1va
 	@echo ... 2
 	@echo ... Alien
 	@echo ... Aud0
@@ -2433,6 +2693,9 @@ help:
 	@echo ... Aud12
 	@echo ... Aud12.1
 	@echo ... Aud13
+	@echo ... Aud13.1
+	@echo ... Aud14
+	@echo ... Aud15
 	@echo ... Aud2
 	@echo ... Aud3
 	@echo ... Aud3.1
@@ -2458,6 +2721,7 @@ help:
 	@echo ... FoodProduct
 	@echo ... Fudbaleri
 	@echo ... Galerija
+	@echo ... Gamer
 	@echo ... Invoice
 	@echo ... Kol1
 	@echo ... Kolok1
@@ -2469,6 +2733,7 @@ help:
 	@echo ... P1
 	@echo ... P2
 	@echo ... P2.1
+	@echo ... Preoptovaruvanje1
 	@echo ... PrijatelFunkcii
 	@echo ... Prodavnica
 	@echo ... Programmer
@@ -2479,6 +2744,7 @@ help:
 	@echo ... Transakcii
 	@echo ... Vehicle
 	@echo ... VgnezdenaKlasa
+	@echo ... Vraboten3
 	@echo ... Wizz.cpp
 	@echo ... Wizz2.cpp
 	@echo ... Wizz3.cpp
@@ -2551,9 +2817,18 @@ help:
 	@echo ... Auditoriski/3/Aud12.obj
 	@echo ... Auditoriski/3/Aud12.i
 	@echo ... Auditoriski/3/Aud12.s
+	@echo ... Auditoriski/4/Aud13.1.obj
+	@echo ... Auditoriski/4/Aud13.1.i
+	@echo ... Auditoriski/4/Aud13.1.s
 	@echo ... Auditoriski/4/Aud13.obj
 	@echo ... Auditoriski/4/Aud13.i
 	@echo ... Auditoriski/4/Aud13.s
+	@echo ... Auditoriski/4/Aud14.obj
+	@echo ... Auditoriski/4/Aud14.i
+	@echo ... Auditoriski/4/Aud14.s
+	@echo ... Auditoriski/4/Aud15.obj
+	@echo ... Auditoriski/4/Aud15.i
+	@echo ... Auditoriski/4/Aud15.s
 	@echo ... Kolokviumski/DatumiPovik.obj
 	@echo ... Kolokviumski/DatumiPovik.i
 	@echo ... Kolokviumski/DatumiPovik.s
@@ -2572,6 +2847,9 @@ help:
 	@echo ... Kolokviumski/SkiLiftC++.obj
 	@echo ... Kolokviumski/SkiLiftC++.i
 	@echo ... Kolokviumski/SkiLiftC++.s
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.obj
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.i
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.s
 	@echo ... Labs/1.obj
 	@echo ... Labs/1.i
 	@echo ... Labs/1.s
@@ -2629,6 +2907,12 @@ help:
 	@echo ... Labs/2_nedela/Programmer.obj
 	@echo ... Labs/2_nedela/Programmer.i
 	@echo ... Labs/2_nedela/Programmer.s
+	@echo ... Labs/3_nedela/Gamer.obj
+	@echo ... Labs/3_nedela/Gamer.i
+	@echo ... Labs/3_nedela/Gamer.s
+	@echo ... Labs/3_nedela/Vraboten3.obj
+	@echo ... Labs/3_nedela/Vraboten3.i
+	@echo ... Labs/3_nedela/Vraboten3.s
 	@echo ... Predavanja/C-DC_objekti.obj
 	@echo ... Predavanja/C-DC_objekti.i
 	@echo ... Predavanja/C-DC_objekti.s
@@ -2653,6 +2937,9 @@ help:
 	@echo ... Predavanja/P2.obj
 	@echo ... Predavanja/P2.i
 	@echo ... Predavanja/P2.s
+	@echo ... Predavanja/Preoptovaruvanje1.obj
+	@echo ... Predavanja/Preoptovaruvanje1.i
+	@echo ... Predavanja/Preoptovaruvanje1.s
 	@echo ... Predavanja/PrijatelFunkcii.obj
 	@echo ... Predavanja/PrijatelFunkcii.i
 	@echo ... Predavanja/PrijatelFunkcii.s

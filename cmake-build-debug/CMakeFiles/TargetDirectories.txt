@@ -14,6 +14,7 @@ C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/C-DC_objekti.di
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/VgnezdenaKlasa.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/ObjektVoObjekt.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/PrijatelFunkcii.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Preoptovaruvanje1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Transakcii.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Motor.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Fudbaleri.dir
@@ -31,6 +32,9 @@ C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/BookClass.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Employee.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/FoodProduct.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Programmer.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Gamer.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Vraboten3.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/1va.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud0.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud1.1.dir
@@ -55,6 +59,9 @@ C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud11.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud12.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud12.1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud13.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud13.1.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud14.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud15.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/2.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Wizz.cpp.dir
