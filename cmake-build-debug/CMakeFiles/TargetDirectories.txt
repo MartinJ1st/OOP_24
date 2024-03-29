@@ -34,7 +34,11 @@ C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/FoodProduct.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Programmer.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Gamer.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Vraboten3.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/IDVraboten.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/DrzavaTax.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/1va.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/2ra.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/3ta.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud0.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud1.1.dir
@@ -62,6 +66,11 @@ C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud13.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud13.1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud14.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud15.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud16.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud17.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud18.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud19.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Vlatko1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/2.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Wizz.cpp.dir

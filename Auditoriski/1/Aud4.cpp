@@ -42,8 +42,8 @@ void normalize(char *name, bool allUppercase = false) {
     }
 }
 
-/*void normalize(char *ime) {
-    normalize(ime, false);
+/*void normalize(char *name) {
+    normalize(name, false);
 }
 */
 void read(Student &s) {

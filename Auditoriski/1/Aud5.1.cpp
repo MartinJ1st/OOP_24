@@ -64,7 +64,7 @@ int main() {
             cin >> drzava.gradovi[i].ime;
             cin >> drzava.gradovi[i].n;
             for (int j = 0; j < drzava.gradovi[i].n; ++j) {
-                cin >> drzava.gradovi[i].coveci[j].ime;
+                cin >> drzava.gradovi[i].coveci[j].name;
                 cin >> drzava.gradovi[i].coveci[j].prezime;
                 cin >> drzava.gradovi[i].coveci[j].datum.day;
                 cin >> drzava.gradovi[i].coveci[j].datum.month;

@@ -92,7 +92,7 @@ public:
     }
 
     /* void set_all(char i[], int pp, pozicija poz) {
-        strcpy(ime, i);
+        strcpy(name, i);
         plata = pp;
         d=dat;
      } */
@@ -182,8 +182,8 @@ int main() {
 //    }
 
     bestPaid(vraboteni, n);
-    //Vraboten max = bestPaidV(vraboteni, n);
-    //max.print();
+    //Vraboten minmax = bestPaidV(vraboteni, n);
+    //minmax.print();
     youngestWorker(vraboteni, n);
     return 0;
 

@@ -104,13 +104,13 @@ int main() {
 }
 
 //struct student {
-//    char ime[30];
+//    char name[30];
 //    int indeks;
 //    float prosek;
 //};
 //
 //struct Fakultet {
-//    char ime[20];
+//    char name[20];
 //    student studenti[1000];
 //
 //};
@@ -122,7 +122,7 @@ int main() {
 //student *pok;
 //
 //struct vraboten {
-//    char ime[20];
+//    char name[20];
 //    char prezime[20];
 //    int vozrast;
 //    char pol;
@@ -154,18 +154,18 @@ int main() {
 ////    cout<<(*pok).prosek;
 ////    cout<<(&s1)->prosek;
 //    Fakultet FINKI;
-//    //FINKI.studenti[0].ime="Sega";
+//    //FINKI.studenti[0].name="Sega";
 //
 //
 //    Univerzitet ukim;
-//    ukim.fakultet[0].studenti[0].ime[0];
-//    cout << Martin.ime << " " << najdobar.indeks << " " << Maksim.prosek;
+//    ukim.fakultet[0].studenti[0].name[0];
+//    cout << Martin.name << " " << najdobar.indeks << " " << Maksim.prosek;
 //}
 
 /*
 
 struct produkt {
-    char ime[30];
+    char name[30];
     float cena;
 };
 
