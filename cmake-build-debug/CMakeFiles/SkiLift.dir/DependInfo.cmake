@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/SkiLift.cpp" "CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.obj" "gcc" "CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.obj.d"
+  "C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp" "CMakeFiles/SkiLift.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.obj" "gcc" "CMakeFiles/SkiLift.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -2,8 +2,8 @@ C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Kol1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Kolok1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Galerija.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/DatumiPovik.dir
-C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/SkiLift.dir
-C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/SkiLiftC++.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/ProductKolok.cpp.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/CallKolokvium.cpp.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/P1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/P2.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/P2.1.dir
@@ -15,6 +15,7 @@ C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/VgnezdenaKlasa.
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/ObjektVoObjekt.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/PrijatelFunkcii.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Preoptovaruvanje1.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/String1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Transakcii.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Motor.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Fudbaleri.dir
@@ -39,6 +40,18 @@ C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/DrzavaTax.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/1va.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/2ra.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/3ta.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/4ta.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/5ta.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/7ma.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/8ma.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/9ta.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/10ta.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/11ta.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/17ta.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/18ta.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/20ta.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/21va.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/22ra.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud0.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Aud1.1.dir

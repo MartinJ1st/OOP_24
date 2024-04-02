@@ -92,7 +92,7 @@ public:
     }
 
     /* void set_all(char i[], int pp, pozicija poz) {
-        strcpy(name, i);
+        strcpy(ime, i);
         plata = pp;
         d=dat;
      } */

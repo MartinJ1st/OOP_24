@@ -68,28 +68,28 @@ include CMakeFiles/SkiLift.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SkiLift.dir/flags.make
 
-CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.obj: CMakeFiles/SkiLift.dir/flags.make
-CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/SkiLift.cpp
-CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.obj: CMakeFiles/SkiLift.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.obj -MF CMakeFiles\SkiLift.dir\Kolokviumski\SkiLift.cpp.obj.d -o CMakeFiles\SkiLift.dir\Kolokviumski\SkiLift.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\SkiLift.cpp
+CMakeFiles/SkiLift.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.obj: CMakeFiles/SkiLift.dir/flags.make
+CMakeFiles/SkiLift.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp
+CMakeFiles/SkiLift.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.obj: CMakeFiles/SkiLift.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SkiLift.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SkiLift.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.obj -MF CMakeFiles\SkiLift.dir\Kolokviumski\ZadaciZaVezbanje1Kolokvium\18ta.cpp.obj.d -o CMakeFiles\SkiLift.dir\Kolokviumski\ZadaciZaVezbanje1Kolokvium\18ta.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\ZadaciZaVezbanje1Kolokvium\18ta.cpp
 
-CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\SkiLift.cpp > CMakeFiles\SkiLift.dir\Kolokviumski\SkiLift.cpp.i
+CMakeFiles/SkiLift.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SkiLift.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\ZadaciZaVezbanje1Kolokvium\18ta.cpp > CMakeFiles\SkiLift.dir\Kolokviumski\ZadaciZaVezbanje1Kolokvium\18ta.cpp.i
 
-CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\SkiLift.cpp -o CMakeFiles\SkiLift.dir\Kolokviumski\SkiLift.cpp.s
+CMakeFiles/SkiLift.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SkiLift.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\ZadaciZaVezbanje1Kolokvium\18ta.cpp -o CMakeFiles\SkiLift.dir\Kolokviumski\ZadaciZaVezbanje1Kolokvium\18ta.cpp.s
 
 # Object files for target SkiLift
 SkiLift_OBJECTS = \
-"CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.obj"
+"CMakeFiles/SkiLift.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.obj"
 
 # External object files for target SkiLift
 SkiLift_EXTERNAL_OBJECTS =
 
-SkiLift.exe: CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.obj
+SkiLift.exe: CMakeFiles/SkiLift.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.obj
 SkiLift.exe: CMakeFiles/SkiLift.dir/build.make
 SkiLift.exe: CMakeFiles/SkiLift.dir/linkLibs.rsp
 SkiLift.exe: CMakeFiles/SkiLift.dir/objects1.rsp

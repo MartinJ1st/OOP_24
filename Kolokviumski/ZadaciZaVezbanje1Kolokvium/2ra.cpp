@@ -6,6 +6,15 @@ class List {
 private:
     int *niza;
     int n;
+
+    void copy(const List &l) {
+        this->n = l.n;
+        this->niza = new int[n];
+        for (int i = 0; i < n; i++) {
+            this->niza[i] = l.niza[i];
+        }
+    }
+
 public:
     List() {
         n = 0;
@@ -21,11 +30,7 @@ public:
     }
 
     List(const List &l) {
-        n = l.n;
-        niza = new int[n];
-        for (int i = 0; i < n; i++) {
-            niza[i] = l.niza[i];
-        }
+        copy(l);
     }
 
     ~List() {
@@ -35,21 +40,17 @@ public:
     List &operator=(const List &l) {
         if (this != &l) {
             delete[] niza;
-            n = l.n;
-            niza = new int[n];
-            for (int i = 0; i < n; i++) {
-                niza[i] = l.niza[i];
-            }
+            copy(l);
         }
         return *this;
     }
 
-    void pecati() {
+    void print() {
+        cout << n << ": ";
         for (int i = 0; i < n; i++) {
-            cout << i << ": " << niza[i] << " ";
+            cout << niza[i] << " ";
         }
-        cout << "sum: " << sum() << " average: " << average();
-        cout << endl;
+        cout << "sum: " << sum() << " average: " << average() << endl;
     }
 
     int sum() {
@@ -61,78 +62,102 @@ public:
     }
 
     double average() {
-        return (double) sum() / n;
+        return (double) sum() / (n * 1.0);
     }
+
+    int getN() {
+        return n;
+    }
+
 };
 
 class ListContainer {
 private:
-    List *niza;
+    List *lists;
     int n;
     int tries;
+
+    void copy(const ListContainer &lc) {
+        this->n = lc.n;
+        this->lists = new List[n];
+        for (int i = 0; i < n; i++) {
+            this->lists[i] = lc.lists[i];
+        }
+        this->tries = lc.tries;
+    }
+
 public:
     ListContainer() {
-        niza = new List[0];
         n = 0;
+        lists = new List[0];
         tries = 0;
     }
 
     ListContainer(const ListContainer &lc) {
-        n = lc.n;
-        niza = new List[n];
-        for (int i = 0; i < n; i++) {
-            niza[i] = lc.niza[i];
-        }
-        tries = lc.tries;
+        copy(lc);
     }
 
     ~ListContainer() {
-        delete[] niza;
+        delete[] lists;
     }
 
-    ListContainer operator=(const ListContainer &lc) {
+    ListContainer &operator=(const ListContainer &lc) {
         if (this != &lc) {
-            delete[] niza;
-            n = lc.n;
-            niza = new List[n];
-            for (int i = 0; i < n; i++) {
-                niza[i] = lc.niza[i];
-            }
-            tries = lc.tries;
+            delete[] lists;
+            copy(lc);
         }
         return *this;
     }
 
-    void print() {
-        if (tries == 0) {
-            for (int i = 0; i < n; i++) {
-                cout << "List number: " << i << " List info:";
-                niza[i].pecati();
+    void addNewList(List &l) {
+        tries++;
+        bool alreadyExists = false;
+        for (int i = 0; i < n; i++) {
+            if (lists[i].sum() == l.sum()) {
+                alreadyExists = true;
+                break;
             }
-        } else cout << "The list is empty" << endl;
+        }
+        if (!alreadyExists) {
+            List *tmp = new List[n + 1];
+            for (int i = 0; i < n; i++) {
+                tmp[i] = lists[i];
+            }
+            tmp[n++] = l;
+            delete[] lists;
+            lists = tmp;
+        }
     }
 
-    void addNewList(List l) {
-        List *tmp = new List[n + 1];
-        for (int i = 0; i < n; i++) {
-            tmp[i] = niza[i];
+    void print() {
+        if (n == 0) {
+            cout << "The list is empty" << endl;
+            return;
         }
-        tmp[n++] = l;
-        delete[] niza;
-        niza = tmp;
+        for (int i = 0; i < n; i++) {
+            cout << "List number: " << i + 1 << " List info: ";
+            lists[i].print();
+        }
+        cout << "Sum: " << sum() << " Average: " << average() << endl;
+        cout << "Successful attempts: " << n << " Failed attempts: " << abs(n-tries) << endl;
     }
 
     int sum() {
         int sum = 0;
         for (int i = 0; i < n; i++) {
-            sum += niza[i].sum();
+            sum += lists[i].sum();
         }
         return sum;
-
     }
 
     double average() {
-        return (double) sum() / n;
+        double sum = 0;
+        int num = 0;
+        for (int i = 0; i < n; i++) {
+            sum += lists[i].sum();
+            num += lists[i].getN();
+        }
+        return sum / num;
     }
 };
 

@@ -57,7 +57,7 @@ void bestOffer(Gallery *gallery, int type, int n) {
         }
     }
 
-    cout << "Najefikasno delo od tip " << ((type == 1) ? "slika" : "skulptura") << " go nudi galerijata " << best.name;
+    cout << "Najefikasno delo od type " << ((type == 1) ? "slika" : "skulptura") << " go nudi galerijata " << best.name;
 }
 
 int main() {

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.obj"
-  "CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.obj.d"
+  "CMakeFiles/SkiLift.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.obj"
+  "CMakeFiles/SkiLift.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.obj.d"
   "SkiLift.exe"
   "SkiLift.exe.manifest"
   "SkiLift.pdb"

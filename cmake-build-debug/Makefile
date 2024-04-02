@@ -168,30 +168,30 @@ DatumiPovik/fast:
 .PHONY : DatumiPovik/fast
 
 #=============================================================================
-# Target rules for targets named SkiLift
+# Target rules for targets named ProductKolok.cpp
 
 # Build rule for target.
-SkiLift: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SkiLift
-.PHONY : SkiLift
+ProductKolok.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ProductKolok.cpp
+.PHONY : ProductKolok.cpp
 
 # fast build rule for target.
-SkiLift/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLift.dir\build.make CMakeFiles/SkiLift.dir/build
-.PHONY : SkiLift/fast
+ProductKolok.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/build
+.PHONY : ProductKolok.cpp/fast
 
 #=============================================================================
-# Target rules for targets named SkiLiftC++
+# Target rules for targets named CallKolokvium.cpp
 
 # Build rule for target.
-SkiLiftC++: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SkiLiftC++
-.PHONY : SkiLiftC++
+CallKolokvium.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CallKolokvium.cpp
+.PHONY : CallKolokvium.cpp
 
 # fast build rule for target.
-SkiLiftC++/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLiftC++.dir\build.make CMakeFiles/SkiLiftC++.dir/build
-.PHONY : SkiLiftC++/fast
+CallKolokvium.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/build
+.PHONY : CallKolokvium.cpp/fast
 
 #=============================================================================
 # Target rules for targets named P1
@@ -335,6 +335,19 @@ Preoptovaruvanje1: cmake_check_build_system
 Preoptovaruvanje1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Preoptovaruvanje1.dir\build.make CMakeFiles/Preoptovaruvanje1.dir/build
 .PHONY : Preoptovaruvanje1/fast
+
+#=============================================================================
+# Target rules for targets named String1
+
+# Build rule for target.
+String1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 String1
+.PHONY : String1
+
+# fast build rule for target.
+String1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String1.dir\build.make CMakeFiles/String1.dir/build
+.PHONY : String1/fast
 
 #=============================================================================
 # Target rules for targets named Transakcii
@@ -647,6 +660,162 @@ DrzavaTax/fast:
 3ta/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3ta.dir\build.make CMakeFiles/3ta.dir/build
 .PHONY : 3ta/fast
+
+#=============================================================================
+# Target rules for targets named 4ta
+
+# Build rule for target.
+4ta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 4ta
+.PHONY : 4ta
+
+# fast build rule for target.
+4ta/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4ta.dir\build.make CMakeFiles/4ta.dir/build
+.PHONY : 4ta/fast
+
+#=============================================================================
+# Target rules for targets named 5ta
+
+# Build rule for target.
+5ta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 5ta
+.PHONY : 5ta
+
+# fast build rule for target.
+5ta/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5ta.dir\build.make CMakeFiles/5ta.dir/build
+.PHONY : 5ta/fast
+
+#=============================================================================
+# Target rules for targets named 7ma
+
+# Build rule for target.
+7ma: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 7ma
+.PHONY : 7ma
+
+# fast build rule for target.
+7ma/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7ma.dir\build.make CMakeFiles/7ma.dir/build
+.PHONY : 7ma/fast
+
+#=============================================================================
+# Target rules for targets named 8ma
+
+# Build rule for target.
+8ma: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 8ma
+.PHONY : 8ma
+
+# fast build rule for target.
+8ma/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8ma.dir\build.make CMakeFiles/8ma.dir/build
+.PHONY : 8ma/fast
+
+#=============================================================================
+# Target rules for targets named 9ta
+
+# Build rule for target.
+9ta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 9ta
+.PHONY : 9ta
+
+# fast build rule for target.
+9ta/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9ta.dir\build.make CMakeFiles/9ta.dir/build
+.PHONY : 9ta/fast
+
+#=============================================================================
+# Target rules for targets named 10ta
+
+# Build rule for target.
+10ta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10ta
+.PHONY : 10ta
+
+# fast build rule for target.
+10ta/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10ta.dir\build.make CMakeFiles/10ta.dir/build
+.PHONY : 10ta/fast
+
+#=============================================================================
+# Target rules for targets named 11ta
+
+# Build rule for target.
+11ta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 11ta
+.PHONY : 11ta
+
+# fast build rule for target.
+11ta/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11ta.dir\build.make CMakeFiles/11ta.dir/build
+.PHONY : 11ta/fast
+
+#=============================================================================
+# Target rules for targets named 17ta
+
+# Build rule for target.
+17ta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 17ta
+.PHONY : 17ta
+
+# fast build rule for target.
+17ta/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\17ta.dir\build.make CMakeFiles/17ta.dir/build
+.PHONY : 17ta/fast
+
+#=============================================================================
+# Target rules for targets named 18ta
+
+# Build rule for target.
+18ta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 18ta
+.PHONY : 18ta
+
+# fast build rule for target.
+18ta/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\18ta.dir\build.make CMakeFiles/18ta.dir/build
+.PHONY : 18ta/fast
+
+#=============================================================================
+# Target rules for targets named 20ta
+
+# Build rule for target.
+20ta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 20ta
+.PHONY : 20ta
+
+# fast build rule for target.
+20ta/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\20ta.dir\build.make CMakeFiles/20ta.dir/build
+.PHONY : 20ta/fast
+
+#=============================================================================
+# Target rules for targets named 21va
+
+# Build rule for target.
+21va: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 21va
+.PHONY : 21va
+
+# fast build rule for target.
+21va/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21va.dir\build.make CMakeFiles/21va.dir/build
+.PHONY : 21va/fast
+
+#=============================================================================
+# Target rules for targets named 22ra
+
+# Build rule for target.
+22ra: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 22ra
+.PHONY : 22ra
+
+# fast build rule for target.
+22ra/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\22ra.dir\build.make CMakeFiles/22ra.dir/build
+.PHONY : 22ra/fast
 
 #=============================================================================
 # Target rules for targets named Aud0
@@ -1900,6 +2069,30 @@ Auditoriski/5/Vlatko1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vlatko1.dir\build.make CMakeFiles/Vlatko1.dir/Auditoriski/5/Vlatko1.cpp.s
 .PHONY : Auditoriski/5/Vlatko1.cpp.s
 
+CallKolokvium.obj: CallKolokvium.cpp.obj
+.PHONY : CallKolokvium.obj
+
+# target to build an object file
+CallKolokvium.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/CallKolokvium.cpp.obj
+.PHONY : CallKolokvium.cpp.obj
+
+CallKolokvium.i: CallKolokvium.cpp.i
+.PHONY : CallKolokvium.i
+
+# target to preprocess a source file
+CallKolokvium.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/CallKolokvium.cpp.i
+.PHONY : CallKolokvium.cpp.i
+
+CallKolokvium.s: CallKolokvium.cpp.s
+.PHONY : CallKolokvium.s
+
+# target to generate assembly for a file
+CallKolokvium.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/CallKolokvium.cpp.s
+.PHONY : CallKolokvium.cpp.s
+
 Kolokviumski/DatumiPovik.obj: Kolokviumski/DatumiPovik.cpp.obj
 .PHONY : Kolokviumski/DatumiPovik.obj
 
@@ -1996,53 +2189,101 @@ Kolokviumski/Kolok1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kolok1.dir\build.make CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.s
 .PHONY : Kolokviumski/Kolok1.cpp.s
 
-Kolokviumski/SkiLift.obj: Kolokviumski/SkiLift.cpp.obj
-.PHONY : Kolokviumski/SkiLift.obj
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.obj: Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.obj
 
 # target to build an object file
-Kolokviumski/SkiLift.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLift.dir\build.make CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.obj
-.PHONY : Kolokviumski/SkiLift.cpp.obj
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10ta.dir\build.make CMakeFiles/10ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.cpp.obj
 
-Kolokviumski/SkiLift.i: Kolokviumski/SkiLift.cpp.i
-.PHONY : Kolokviumski/SkiLift.i
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.i: Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.i
 
 # target to preprocess a source file
-Kolokviumski/SkiLift.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLift.dir\build.make CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.i
-.PHONY : Kolokviumski/SkiLift.cpp.i
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10ta.dir\build.make CMakeFiles/10ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.cpp.i
 
-Kolokviumski/SkiLift.s: Kolokviumski/SkiLift.cpp.s
-.PHONY : Kolokviumski/SkiLift.s
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.s: Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.s
 
 # target to generate assembly for a file
-Kolokviumski/SkiLift.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLift.dir\build.make CMakeFiles/SkiLift.dir/Kolokviumski/SkiLift.cpp.s
-.PHONY : Kolokviumski/SkiLift.cpp.s
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10ta.dir\build.make CMakeFiles/10ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.cpp.s
 
-Kolokviumski/SkiLiftC++.obj: Kolokviumski/SkiLiftC++.cpp.obj
-.PHONY : Kolokviumski/SkiLiftC++.obj
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.obj: Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.obj
 
 # target to build an object file
-Kolokviumski/SkiLiftC++.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLiftC++.dir\build.make CMakeFiles/SkiLiftC++.dir/Kolokviumski/SkiLiftC++.cpp.obj
-.PHONY : Kolokviumski/SkiLiftC++.cpp.obj
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11ta.dir\build.make CMakeFiles/11ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.cpp.obj
 
-Kolokviumski/SkiLiftC++.i: Kolokviumski/SkiLiftC++.cpp.i
-.PHONY : Kolokviumski/SkiLiftC++.i
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.i: Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.i
 
 # target to preprocess a source file
-Kolokviumski/SkiLiftC++.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLiftC++.dir\build.make CMakeFiles/SkiLiftC++.dir/Kolokviumski/SkiLiftC++.cpp.i
-.PHONY : Kolokviumski/SkiLiftC++.cpp.i
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11ta.dir\build.make CMakeFiles/11ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.cpp.i
 
-Kolokviumski/SkiLiftC++.s: Kolokviumski/SkiLiftC++.cpp.s
-.PHONY : Kolokviumski/SkiLiftC++.s
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.s: Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.s
 
 # target to generate assembly for a file
-Kolokviumski/SkiLiftC++.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SkiLiftC++.dir\build.make CMakeFiles/SkiLiftC++.dir/Kolokviumski/SkiLiftC++.cpp.s
-.PHONY : Kolokviumski/SkiLiftC++.cpp.s
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11ta.dir\build.make CMakeFiles/11ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.cpp.s
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.obj: Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.obj
+
+# target to build an object file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\17ta.dir\build.make CMakeFiles/17ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.cpp.obj
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.i: Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.i
+
+# target to preprocess a source file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\17ta.dir\build.make CMakeFiles/17ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.cpp.i
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.s: Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.s
+
+# target to generate assembly for a file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\17ta.dir\build.make CMakeFiles/17ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.cpp.s
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.obj: Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.obj
+
+# target to build an object file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\18ta.dir\build.make CMakeFiles/18ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.obj
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.i: Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.i
+
+# target to preprocess a source file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\18ta.dir\build.make CMakeFiles/18ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.i
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.s: Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.s
+
+# target to generate assembly for a file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\18ta.dir\build.make CMakeFiles/18ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.cpp.s
 
 Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.obj: Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.cpp.obj
 .PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.obj
@@ -2067,6 +2308,78 @@ Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.s: Kolokviumski/ZadaciZaVezbanje1Kol
 Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1va.dir\build.make CMakeFiles/1va.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.cpp.s
 .PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.cpp.s
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.obj: Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.obj
+
+# target to build an object file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\20ta.dir\build.make CMakeFiles/20ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.cpp.obj
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.i: Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.i
+
+# target to preprocess a source file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\20ta.dir\build.make CMakeFiles/20ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.cpp.i
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.s: Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.s
+
+# target to generate assembly for a file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\20ta.dir\build.make CMakeFiles/20ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.cpp.s
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.obj: Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.obj
+
+# target to build an object file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21va.dir\build.make CMakeFiles/21va.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.cpp.obj
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.i: Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.i
+
+# target to preprocess a source file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21va.dir\build.make CMakeFiles/21va.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.cpp.i
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.s: Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.s
+
+# target to generate assembly for a file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21va.dir\build.make CMakeFiles/21va.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.cpp.s
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.obj: Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.obj
+
+# target to build an object file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\22ra.dir\build.make CMakeFiles/22ra.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.cpp.obj
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.i: Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.i
+
+# target to preprocess a source file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\22ra.dir\build.make CMakeFiles/22ra.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.cpp.i
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.s: Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.s
+
+# target to generate assembly for a file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\22ra.dir\build.make CMakeFiles/22ra.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.cpp.s
 
 Kolokviumski/ZadaciZaVezbanje1Kolokvium/2ra.obj: Kolokviumski/ZadaciZaVezbanje1Kolokvium/2ra.cpp.obj
 .PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/2ra.obj
@@ -2115,6 +2428,126 @@ Kolokviumski/ZadaciZaVezbanje1Kolokvium/3ta.s: Kolokviumski/ZadaciZaVezbanje1Kol
 Kolokviumski/ZadaciZaVezbanje1Kolokvium/3ta.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3ta.dir\build.make CMakeFiles/3ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/3ta.cpp.s
 .PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/3ta.cpp.s
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.obj: Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.obj
+
+# target to build an object file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4ta.dir\build.make CMakeFiles/4ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.cpp.obj
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.i: Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.i
+
+# target to preprocess a source file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4ta.dir\build.make CMakeFiles/4ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.cpp.i
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.s: Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.s
+
+# target to generate assembly for a file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4ta.dir\build.make CMakeFiles/4ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.cpp.s
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.obj: Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.obj
+
+# target to build an object file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5ta.dir\build.make CMakeFiles/5ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.cpp.obj
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.i: Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.i
+
+# target to preprocess a source file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5ta.dir\build.make CMakeFiles/5ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.cpp.i
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.s: Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.s
+
+# target to generate assembly for a file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5ta.dir\build.make CMakeFiles/5ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.cpp.s
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.obj: Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.obj
+
+# target to build an object file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7ma.dir\build.make CMakeFiles/7ma.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.cpp.obj
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.i: Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.i
+
+# target to preprocess a source file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7ma.dir\build.make CMakeFiles/7ma.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.cpp.i
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.s: Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.s
+
+# target to generate assembly for a file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7ma.dir\build.make CMakeFiles/7ma.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.cpp.s
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.obj: Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.obj
+
+# target to build an object file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8ma.dir\build.make CMakeFiles/8ma.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.cpp.obj
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.i: Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.i
+
+# target to preprocess a source file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8ma.dir\build.make CMakeFiles/8ma.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.cpp.i
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.s: Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.s
+
+# target to generate assembly for a file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8ma.dir\build.make CMakeFiles/8ma.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.cpp.s
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.obj: Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.obj
+
+# target to build an object file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9ta.dir\build.make CMakeFiles/9ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.cpp.obj
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.cpp.obj
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.i: Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.i
+
+# target to preprocess a source file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9ta.dir\build.make CMakeFiles/9ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.cpp.i
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.cpp.i
+
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.s: Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.s
+
+# target to generate assembly for a file
+Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9ta.dir\build.make CMakeFiles/9ta.dir/Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.cpp.s
+.PHONY : Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.cpp.s
 
 Labs/1.obj: Labs/1.cpp.obj
 .PHONY : Labs/1.obj
@@ -2908,6 +3341,30 @@ Predavanja/PrijatelFunkcii.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrijatelFunkcii.dir\build.make CMakeFiles/PrijatelFunkcii.dir/Predavanja/PrijatelFunkcii.cpp.s
 .PHONY : Predavanja/PrijatelFunkcii.cpp.s
 
+Predavanja/String1.obj: Predavanja/String1.cpp.obj
+.PHONY : Predavanja/String1.obj
+
+# target to build an object file
+Predavanja/String1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String1.dir\build.make CMakeFiles/String1.dir/Predavanja/String1.cpp.obj
+.PHONY : Predavanja/String1.cpp.obj
+
+Predavanja/String1.i: Predavanja/String1.cpp.i
+.PHONY : Predavanja/String1.i
+
+# target to preprocess a source file
+Predavanja/String1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String1.dir\build.make CMakeFiles/String1.dir/Predavanja/String1.cpp.i
+.PHONY : Predavanja/String1.cpp.i
+
+Predavanja/String1.s: Predavanja/String1.cpp.s
+.PHONY : Predavanja/String1.s
+
+# target to generate assembly for a file
+Predavanja/String1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String1.dir\build.make CMakeFiles/String1.dir/Predavanja/String1.cpp.s
+.PHONY : Predavanja/String1.cpp.s
+
 Predavanja/VgnezdenaKlasa.obj: Predavanja/VgnezdenaKlasa.cpp.obj
 .PHONY : Predavanja/VgnezdenaKlasa.obj
 
@@ -3004,6 +3461,30 @@ Predavanja/Wizz3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz3.cpp.dir\build.make CMakeFiles/Wizz3.cpp.dir/Predavanja/Wizz3.cpp.s
 .PHONY : Predavanja/Wizz3.cpp.s
 
+ProductKolok.obj: ProductKolok.cpp.obj
+.PHONY : ProductKolok.obj
+
+# target to build an object file
+ProductKolok.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/ProductKolok.cpp.obj
+.PHONY : ProductKolok.cpp.obj
+
+ProductKolok.i: ProductKolok.cpp.i
+.PHONY : ProductKolok.i
+
+# target to preprocess a source file
+ProductKolok.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/ProductKolok.cpp.i
+.PHONY : ProductKolok.cpp.i
+
+ProductKolok.s: ProductKolok.cpp.s
+.PHONY : ProductKolok.s
+
+# target to generate assembly for a file
+ProductKolok.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/ProductKolok.cpp.s
+.PHONY : ProductKolok.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -3013,10 +3494,22 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 1
+	@echo ... 10ta
+	@echo ... 11ta
+	@echo ... 17ta
+	@echo ... 18ta
 	@echo ... 1va
 	@echo ... 2
+	@echo ... 20ta
+	@echo ... 21va
+	@echo ... 22ra
 	@echo ... 2ra
 	@echo ... 3ta
+	@echo ... 4ta
+	@echo ... 5ta
+	@echo ... 7ma
+	@echo ... 8ma
+	@echo ... 9ta
 	@echo ... Alien
 	@echo ... Aud0
 	@echo ... Aud1
@@ -3052,6 +3545,7 @@ help:
 	@echo ... Book
 	@echo ... BookClass
 	@echo ... C-DC_objekti
+	@echo ... CallKolokvium.cpp
 	@echo ... Datumi
 	@echo ... DatumiPovik
 	@echo ... Destruktor
@@ -3077,10 +3571,10 @@ help:
 	@echo ... Preoptovaruvanje1
 	@echo ... PrijatelFunkcii
 	@echo ... Prodavnica
+	@echo ... ProductKolok.cpp
 	@echo ... Programmer
 	@echo ... Prosek
-	@echo ... SkiLift
-	@echo ... SkiLiftC++
+	@echo ... String1
 	@echo ... Student
 	@echo ... Transakcii
 	@echo ... Vehicle
@@ -3186,6 +3680,9 @@ help:
 	@echo ... Auditoriski/5/Vlatko1.obj
 	@echo ... Auditoriski/5/Vlatko1.i
 	@echo ... Auditoriski/5/Vlatko1.s
+	@echo ... CallKolokvium.obj
+	@echo ... CallKolokvium.i
+	@echo ... CallKolokvium.s
 	@echo ... Kolokviumski/DatumiPovik.obj
 	@echo ... Kolokviumski/DatumiPovik.i
 	@echo ... Kolokviumski/DatumiPovik.s
@@ -3198,21 +3695,51 @@ help:
 	@echo ... Kolokviumski/Kolok1.obj
 	@echo ... Kolokviumski/Kolok1.i
 	@echo ... Kolokviumski/Kolok1.s
-	@echo ... Kolokviumski/SkiLift.obj
-	@echo ... Kolokviumski/SkiLift.i
-	@echo ... Kolokviumski/SkiLift.s
-	@echo ... Kolokviumski/SkiLiftC++.obj
-	@echo ... Kolokviumski/SkiLiftC++.i
-	@echo ... Kolokviumski/SkiLiftC++.s
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.obj
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.i
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/10ta.s
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.obj
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.i
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/11ta.s
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.obj
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.i
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/17ta.s
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.obj
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.i
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/18ta.s
 	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.obj
 	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.i
 	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/1va.s
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.obj
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.i
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/20ta.s
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.obj
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.i
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/21va.s
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.obj
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.i
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/22ra.s
 	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/2ra.obj
 	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/2ra.i
 	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/2ra.s
 	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/3ta.obj
 	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/3ta.i
 	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/3ta.s
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.obj
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.i
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/4ta.s
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.obj
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.i
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/5ta.s
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.obj
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.i
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/7ma.s
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.obj
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.i
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/8ma.s
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.obj
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.i
+	@echo ... Kolokviumski/ZadaciZaVezbanje1Kolokvium/9ta.s
 	@echo ... Labs/1.obj
 	@echo ... Labs/1.i
 	@echo ... Labs/1.s
@@ -3312,6 +3839,9 @@ help:
 	@echo ... Predavanja/PrijatelFunkcii.obj
 	@echo ... Predavanja/PrijatelFunkcii.i
 	@echo ... Predavanja/PrijatelFunkcii.s
+	@echo ... Predavanja/String1.obj
+	@echo ... Predavanja/String1.i
+	@echo ... Predavanja/String1.s
 	@echo ... Predavanja/VgnezdenaKlasa.obj
 	@echo ... Predavanja/VgnezdenaKlasa.i
 	@echo ... Predavanja/VgnezdenaKlasa.s
@@ -3324,6 +3854,9 @@ help:
 	@echo ... Predavanja/Wizz3.obj
 	@echo ... Predavanja/Wizz3.i
 	@echo ... Predavanja/Wizz3.s
+	@echo ... ProductKolok.obj
+	@echo ... ProductKolok.i
+	@echo ... ProductKolok.s
 .PHONY : help
 
 

@@ -169,7 +169,7 @@ public:
 
     void print() {
 
-        cout << "Alien name: " << name << endl;
+        cout << "Alien ime: " << name << endl;
         cout << "Alien age: " << age << endl;
         cout << "Alien home planet: " << homePlanet << endl;
         cout << "Favourite space object closest to earth: ";
