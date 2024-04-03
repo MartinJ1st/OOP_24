@@ -58,9 +58,9 @@ int main() {
         scanf("%f", &md[i].cena);
 
         for (j = 0; j < md[i].br_pac; j++) {
-            scanf("%s", &md[i].niza[j].ime);
-            scanf("%d", &md[i].niza[j].zdrastveno);
-            scanf("%d", &md[i].niza[j].pregledi);
+            scanf("%s", &md[i].laptopi[j].ime);
+            scanf("%d", &md[i].laptopi[j].zdrastveno);
+            scanf("%d", &md[i].laptopi[j].pregledi);
         }
     }
     najuspesen_doktor(md, n);

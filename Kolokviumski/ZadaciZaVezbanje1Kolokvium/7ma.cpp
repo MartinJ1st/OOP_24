@@ -53,7 +53,7 @@ void najdobar_park(ZabavenPark *niza, int n) {
 
 int main() {
     int n;
-    //kreiraj niza od maksimum 100 zabavni parkovi
+    //kreiraj laptopi od maksimum 100 zabavni parkovi
     ZabavenPark ff[100];
     cin >> n;
     //citanje na podatocite

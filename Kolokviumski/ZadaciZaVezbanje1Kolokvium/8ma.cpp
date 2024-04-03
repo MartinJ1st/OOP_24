@@ -13,13 +13,13 @@ struct Laptop {
 
 struct ITStore {
     char ime[100], location[100];
-    Laptop niza[100];
+    Laptop laptopi[100];
     int n;
 
     void print() {
         cout << ime << " " << location << endl;
         for (int i = 0; i < n; i++) {
-            cout << niza[i].ime << " " << niza[i].size << " " << niza[i].cena << endl;
+            cout << laptopi[i].ime << " " << laptopi[i].size << " " << laptopi[i].cena << endl;
         }
     }
 };
@@ -31,9 +31,9 @@ void najeftina_ponuda(ITStore s[], int n) {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < s[i].n; j++) {
             // Check if the computer is portable and has touch option
-            if (s[i].niza[j].size <= 15 && s[i].niza[j].touch) {
-                if (min == -1 || s[i].niza[j].cena < min) {
-                    min = s[i].niza[j].cena;
+            if (s[i].laptopi[j].size <= 15 && s[i].laptopi[j].touch) {
+                if (min == -1 || s[i].laptopi[j].cena < min) {
+                    min = s[i].laptopi[j].cena;
                     minI = i;
                     minJ = j;
                 }
@@ -42,8 +42,9 @@ void najeftina_ponuda(ITStore s[], int n) {
     }
 
     if (minI != -1 && minJ != -1) {
-        cout << "Najeftina ponuda: " << s[minI].ime << " " << s[minI].location << endl;
-        cout << s[minI].niza[minJ].cena << endl;
+        cout << "Najeftina ponuda ima prodavnicata:" << endl;
+        cout<< s[minI].ime << " " << s[minI].location << endl;
+        cout << "Najniskata cena iznesuva: " << s[minI].laptopi[minJ].cena << endl;
     } else {
         cout << "Nema dostapni ponudi za prenosni kompjuteri so touch opcija." << endl;
     }
@@ -55,16 +56,13 @@ int main() {
     int n;
     cin >> n; //broj na IT prodavnici
 
-    //vnesuvanje na prodavnicite edna po edna, zaedno so raspolozlivite laptopvi vo niv
-
-
-
-    //pecatenje na site prodavnici
-
-
-
-
-    //povik na glavnata metoda
+    for (int i = 0; i < n; ++i) {
+        cin >> s[i].ime >> s[i].location >> s[i].n;
+        for (int j = 0; j < s[i].n; ++j) {
+            cin >> s[i].laptopi[j].ime >> s[i].laptopi[j].size >> s[i].laptopi[j].touch >> s[i].laptopi[j].cena;
+        }
+        s[i].print();
+    }
     najeftina_ponuda(s, n);
 
     return 0;
