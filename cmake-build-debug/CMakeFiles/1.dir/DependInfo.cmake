@@ -8,12 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Media/CLionProjects/OOP_24/Auditoriski/3/Aud12.cpp" "CMakeFiles/1.dir/Auditoriski/3/Aud12.cpp.obj" "gcc" "CMakeFiles/1.dir/Auditoriski/3/Aud12.cpp.obj.d"
   "C:/Users/Media/CLionProjects/OOP_24/Labs/1.cpp" "CMakeFiles/1.dir/Labs/1.cpp.obj" "gcc" "CMakeFiles/1.dir/Labs/1.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
 set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

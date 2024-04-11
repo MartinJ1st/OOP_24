@@ -91,7 +91,7 @@ public:
         delete[] spisok;
     }
 
-    Paralelka &operator+=(Ucenik u) {
+    Paralelka &operator+=(Ucenik &u) {
         Ucenik *tmp = new Ucenik[vkupno + 1];
         for (int i = 0; i < vkupno; i++)
             tmp[i] = spisok[i];

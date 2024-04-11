@@ -5,7 +5,7 @@ using namespace std;
 
 class Profile {
 private:
-    char ime[15];
+    char ime[30];
     int br_prijateli, godina;
     static int max_prijateli;
 public:
@@ -23,12 +23,12 @@ public:
         this->godina = profile.godina;
     }
 
-    bool operator==(Profile &p) {
-        if (br_prijateli == p.br_prijateli)
-            return true;
-        else
-            return false;
-    }
+//    bool operator==(Profile &p) {
+//        if (br_prijateli == p.br_prijateli)
+//            return true;
+//        else
+//            return false;
+//    }
 
     bool operator>(Profile &p) {
         if (godina == p.godina)
@@ -69,7 +69,24 @@ public:
         return e;
     }
 
+    friend class SocialMedia;
+
     friend bool operator==(int broj, Profile &profile);
+
+    Profile operator+(Profile &p) {
+        char ime_zaednicko[30];
+        strcpy(ime_zaednicko, this->ime);
+        strcat(ime_zaednicko, p.ime);
+        int godinaz = 0;
+        int brPrijateli = this->br_prijateli + p.br_prijateli;
+        if (this->godina > p.godina) {
+
+            int i = this->godina;
+        } else {
+            int i = p.godina;
+        }
+        Profile zaednicki(ime_zaednicko, brPrijateli, godinaz);
+    }
 };
 
 class SocialMedia {
@@ -94,6 +111,7 @@ public:
         delete[] niza;
         niza = pomosna;
     }
+
 };
 
 int Profile::max_prijateli = 5000;
@@ -108,22 +126,25 @@ bool operator==(int broj, Profile &profile) {
 int main() {
     Profile p("Ime", 15, 1980);
     Profile p1("Ime", 15, 1970);
-    // ==
-    cout << (p == p1) << endl;//p.sporedi(p1);
-    p == 25;
-    25 == p;
-    // >
-    cout << (p > p1) << endl;//p.pogolem(p1);
-    // +=
-    // p += 20; //p.dodadi(20);
-    //p++ ili ++p
-    p++;
+//    // ==
+//    cout << (p == p1) << endl;//p.sporedi(p1);
+//    p == 25;
+//    25 == p;
+//    // >
+//    cout << (p > p1) << endl;//p.pogolem(p1);
+//    // +=
+//    // p += 20; //p.dodadi(20);
+//    //p++ ili ++p
+//    p++;
     ++p;
-    // >>
-    cin >> p;
-    // <<
-    cout << p;
+//    // >>
+//    cin >> p;
+//    // <<
+//    cout << p;
+//
+//    SocialMedia k("Ime");
+//    k += p;
 
-    SocialMedia k("Ime");
-    k += p;
+    Profile zaednicki = p + p1;
+    cout << zaednicki;
 }

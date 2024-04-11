@@ -11,7 +11,7 @@ struct student {
         cout << "Student " << n + 1 << endl;
         cout << "Enter index" << endl;
         cin >> index;
-        cout << "Enter name" << endl;
+        cout << "Enter ime" << endl;
         cin >> name;
         cout << "Enter phone number" << endl;
         cin >> phone_number;
