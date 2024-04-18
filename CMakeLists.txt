@@ -4,6 +4,9 @@ project(OOP24)
 set(CMAKE_CXX_STANDARD 17)
 
 
+add_executable(Call Kolokviumski/1kolokvium/Call.cpp)
+add_executable(Bank Kolokviumski/1kolokvium/Bank.cpp)
+
 add_executable(DOOMHAMMER.cpp DOOMHAMMER.cpp)
 add_executable(ChocolateFactory Labs/4_nedela/ChocolateFactory.cpp)
 add_executable(StudentOnline Labs/4_nedela/StudentOnline.cpp)
@@ -42,7 +45,14 @@ add_executable(VgnezdenaKlasa Predavanja/VgnezdenaKlasa.cpp)
 add_executable(ObjektVoObjekt Predavanja/ObjektVoObjekt.cpp)
 add_executable(PrijatelFunkcii Predavanja/PrijatelFunkcii.cpp)
 add_executable(Preoptovaruvanje1 Predavanja/Preoptovaruvanje1.cpp)
-add_executable(String1 Predavanja/String1.cpp)
+add_executable(String1 Predavanja/Lekcija7/String1.cpp)
+add_executable(String2 Predavanja/Lekcija7/String2.cpp)
+add_executable(String3 Predavanja/Lekcija7/String3.cpp)
+add_executable(String4 Predavanja/Lekcija7/String4.cpp)
+add_executable(String5 Predavanja/Lekcija7/String5.cpp)
+add_executable(String6 Predavanja/Lekcija7/String6.cpp)
+add_executable(String7 Predavanja/Lekcija7/String7.cpp)
+add_executable(String8 Predavanja/Lekcija7/String8.cpp)
 
 add_executable(Transakcii Labs/1_nedela/Transakcii.cpp)
 add_executable(Motor Labs/1_nedela/Motor.cpp)
@@ -151,6 +161,10 @@ add_executable(OperatoriStefan11 Auditoriski/5/OperatoriStefan11.cpp)
 add_executable(StudnentStefan Auditoriski/5/StudentStefan.cpp)
 add_executable(Sentence Auditoriski/5/Sentence.cpp)
 add_executable(StringBuiler Auditoriski/5/StringBuilder.cpp)
+
+add_executable(Aud23 Auditoriski/6/Aud23.cpp)
+add_executable(Aud24 Auditoriski/6/Aud24.cpp)
+
 
 add_executable(1 Labs/1.cpp)
 add_executable(2 Labs/2.cpp)

@@ -23,7 +23,7 @@ public:
 Date::Date(int yr, int mn, int dy) {
     if (dy <= 0 || dy > 31) {
         d = 1;
-        cerr << "error datum " << dy << endl;
+        cerr << "error date " << dy << endl;
     } else d = dy;
     if (mn <= 0 || mn > 12) {
         m = 1;

@@ -125,7 +125,7 @@ void bestPaid(Vraboten vraboteni[], int n) {
     max.print();
 }
 
-//1-prviot datum e poblizu do denes 0 ako se isti 2- vtoriot e poblizu do denes
+//1-prviot date e poblizu do denes 0 ako se isti 2- vtoriot e poblizu do denes
 int compareDates(Datum d1, Datum d2) {
     if (d1.getGodina() > d2.getGodina()) {
         return 1;
