@@ -3,20 +3,27 @@ project(OOP24)
 
 set(CMAKE_CXX_STANDARD 17)
 
-
 add_executable(Call Kolokviumski/1kolokvium/Call.cpp)
 add_executable(Bank Kolokviumski/1kolokvium/Bank.cpp)
 
 add_executable(DOOMHAMMER.cpp DOOMHAMMER.cpp)
+
 add_executable(ChocolateFactory Labs/4_nedela/ChocolateFactory.cpp)
 add_executable(StudentOnline Labs/4_nedela/StudentOnline.cpp)
+
+add_executable(zad1 Labs/6_nedela/zad1.cpp)
+add_executable(zad2 Labs/6_nedela/zad2.cpp)
+add_executable(zad3 Labs/6_nedela/zad3.cpp)
+add_executable(zad4 Labs/6_nedela/zad4.cpp)
+add_executable(zad5 Labs/6_nedela/zad5.cpp)
+add_executable(zad6 Labs/6_nedela/zad6.cpp)
 
 add_executable(Kol1 Kolokviumski/Kol1.cpp)
 add_executable(Kolok1 Kolokviumski/Kolok1.cpp)
 add_executable(Galerija Kolokviumski/Galerija.cpp)
 add_executable(DatumiPovik Kolokviumski/DatumiPovik.cpp)
-add_executable(ProductKolok.cpp ProductKolok.cpp)
-add_executable(CallKolokvium.cpp CallKolokvium.cpp)
+add_executable(ProductKolok.cpp Kolokviumski/ProductKolok.cpp)
+add_executable(CallKolokvium.cpp Kolokviumski/CallKolokvium.cpp)
 add_executable(lanska3 Kolokviumski/Flight.cpp)
 add_executable(zadacaStefan1 Kolokviumski/zadacaStefan1.cpp)
 add_executable(zadacaStefan2 Kolokviumski/zadacaStefan2.cpp)
@@ -45,14 +52,30 @@ add_executable(VgnezdenaKlasa Predavanja/VgnezdenaKlasa.cpp)
 add_executable(ObjektVoObjekt Predavanja/ObjektVoObjekt.cpp)
 add_executable(PrijatelFunkcii Predavanja/PrijatelFunkcii.cpp)
 add_executable(Preoptovaruvanje1 Predavanja/Preoptovaruvanje1.cpp)
-add_executable(String1 Predavanja/Lekcija7/String1.cpp)
-add_executable(String2 Predavanja/Lekcija7/String2.cpp)
-add_executable(String3 Predavanja/Lekcija7/String3.cpp)
-add_executable(String4 Predavanja/Lekcija7/String4.cpp)
-add_executable(String5 Predavanja/Lekcija7/String5.cpp)
-add_executable(String6 Predavanja/Lekcija7/String6.cpp)
-add_executable(String7 Predavanja/Lekcija7/String7.cpp)
-add_executable(String8 Predavanja/Lekcija7/String8.cpp)
+
+add_executable(String1 Predavanja/Lekcija7-String/String1.cpp)
+add_executable(String2 Predavanja/Lekcija7-String/String2.cpp)
+add_executable(String3 Predavanja/Lekcija7-String/String3.cpp)
+add_executable(String4 Predavanja/Lekcija7-String/String4.cpp)
+add_executable(String5 Predavanja/Lekcija7-String/String5.cpp)
+add_executable(String6 Predavanja/Lekcija7-String/String6.cpp)
+add_executable(String7 Predavanja/Lekcija7-String/String7.cpp)
+add_executable(String8 Predavanja/Lekcija7-String/String8.cpp)
+
+add_executable(Nasleduvanje1 Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.cpp)
+add_executable(Nasleduvanje2 Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.cpp)
+add_executable(Nasleduvanje3 Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.cpp)
+add_executable(Nasleduvanje4 Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.cpp)
+add_executable(Nasleduvanje5 Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.cpp)
+add_executable(Nasleduvanje6 Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.cpp)
+
+add_executable(Polimorfizam1 Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.cpp)
+add_executable(Polimorfizam2 Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.cpp)
+add_executable(Polimorfizam3 Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.cpp)
+add_executable(Polimorfizam4 Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.cpp)
+
+
+
 
 add_executable(Transakcii Labs/1_nedela/Transakcii.cpp)
 add_executable(Motor Labs/1_nedela/Motor.cpp)
@@ -164,6 +187,12 @@ add_executable(StringBuiler Auditoriski/5/StringBuilder.cpp)
 
 add_executable(Aud23 Auditoriski/6/Aud23.cpp)
 add_executable(Aud24 Auditoriski/6/Aud24.cpp)
+
+add_executable(Aud25 Auditoriski/7/Aud25.cpp)
+add_executable(Aud26 Auditoriski/7/Aud26.cpp)
+
+add_executable(Aud27 Auditoriski/8/Aud27.cpp)
+add_executable(Aud28 Auditoriski/8/Aud28.cpp)
 
 
 add_executable(1 Labs/1.cpp)

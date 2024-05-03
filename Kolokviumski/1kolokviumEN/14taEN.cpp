@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string.h>
+
 using namespace std;
 
 class Person {
@@ -7,20 +8,24 @@ private:
     char name[20];
     int year;
 public:
-    Person (char *name, int year) {
+    Person(char *name, int year) {
         strcpy(this->name, name);
         this->year = year;
     }
-    Person () {
+
+    Person() {
         strcpy(this->name, "");
     }
+
     bool operator==(char *name) {
         return strcmp(this->name, name) == 0;
     }
-    char const * getName() {
+
+    char const *getName() {
         return name;
     }
-    void print() {cout << name << " (" << year << ")";}
+
+    void print() { cout << name << " (" << year << ")"; }
 };
 
 class Song {
@@ -43,6 +48,7 @@ public:
         for (int i = 0; i < numberRatings; i++) this->ratings[i] = ratings[i];
 
     }
+
     Song(const Song &k) {
         strcpy(this->title, k.title);
         this->numberPerformers = k.numberPerformers;
@@ -52,20 +58,22 @@ public:
         for (int i = 0; i < k.numberRatings; i++) this->ratings[i] = k.ratings[i];
 
     }
+
     Song operator=(const Song &k) {
         if (&k == this) return *this;
         strcpy(this->title, k.title);
         this->numberPerformers = k.numberPerformers;
         for (int i = 0; i < k.numberPerformers; i++) this->performers[i] = k.performers[i];
         this->numberRatings = k.numberRatings;
-        delete [] ratings;
+        delete[] ratings;
         this->ratings = new int[k.numberRatings];
         for (int i = 0; i < k.numberRatings; i++) this->ratings[i] = k.ratings[i];
         return *this;
     }
 
-    int getnumberPerformers() {return numberPerformers;}
-    Person operator[](int i) {if (i < numberPerformers && i >= 0) return performers[i]; else return Person();}
+    int getnumberPerformers() { return numberPerformers; }
+
+    Person operator[](int i) { if (i < numberPerformers && i >= 0) return performers[i]; else return Person(); }
 
     // complete the class
 
@@ -82,21 +90,25 @@ public:
         this->title = new char[strlen(title) + 1];
         strcpy(this->title, title);
     }
+
     Movie(const Movie &v) {
         this->popularity = v.popularity;
         this->title = new char[strlen(v.title) + 1];
         strcpy(this->title, v.title);
     }
+
     Movie operator=(const Movie &v) {
         if (this == &v) return *this;
         this->popularity = v.popularity;
-        delete [] title;
+        delete[] title;
         this->title = new char[strlen(v.title) + 1];
         strcpy(this->title, v.title);
         return *this;
     }
-    void print()  {cout << "Movie:" << title << endl;}
-    virtual ~Movie() {delete [] title;}
+
+    void print() { cout << "Movie:" << title << endl; }
+
+    virtual ~Movie() { delete[] title; }
 
 };
 
@@ -125,21 +137,20 @@ int main() {
         cin >> title >> popularity >> songPopularity;
 
 
-        MovieSong ok(title, performers, numberOfPerformers, ratings, numberOfRatings, title, popularity, songPopularity);
+        MovieSong ok(title, performers, numberOfPerformers, ratings, numberOfRatings, title, popularity,
+                     songPopularity);
         cout << "Object of class MovieSong is created";
 
     } else if (type == 2) // function print in song
     {
         cout << "-----TEST print-----" << endl;
         cin >> title >> numberOfPerformers;
-        for (int i = 0; i < numberOfPerformers; i++)
-        {
+        for (int i = 0; i < numberOfPerformers; i++) {
             cin >> name >> year;
             performers[i] = Person(name, year);
         }
         cin >> numberOfRatings;
-        for (int i = 0; i < numberOfRatings; i++)
-        {
+        for (int i = 0; i < numberOfRatings; i++) {
             cin >> rating;
             ratings[i] = rating;
         }
@@ -151,14 +162,12 @@ int main() {
     {
         cout << "-----TEST getTotalRating-----" << endl;
         cin >> title >> numberOfPerformers;
-        for (int i = 0; i < numberOfPerformers; i++)
-        {
+        for (int i = 0; i < numberOfPerformers; i++) {
             cin >> name >> year;
             performers[i] = Person(name, year);
         }
         cin >> numberOfRatings;
-        for (int i = 0; i < numberOfRatings; i++)
-        {
+        for (int i = 0; i < numberOfRatings; i++) {
             cin >> rating;
             ratings[i] = rating;
         }
@@ -170,60 +179,57 @@ int main() {
     {
         cout << "-----TEST getTotalRating-----" << endl;
         cin >> title >> numberOfPerformers;
-        for (int i = 0; i < numberOfPerformers; i++)
-        {
+        for (int i = 0; i < numberOfPerformers; i++) {
             cin >> name >> year;
             performers[i] = Person(name, year);
         }
         cin >> numberOfRatings;
-        for (int i = 0; i < numberOfRatings; i++)
-        {
+        for (int i = 0; i < numberOfRatings; i++) {
             cin >> rating;
             ratings[i] = rating;
         }
         cin >> title >> popularity >> songPopularity;
 
-        MovieSong fp(title, performers, numberOfPerformers, ratings, numberOfRatings, title, popularity, songPopularity);
+        MovieSong fp(title, performers, numberOfPerformers, ratings, numberOfRatings, title, popularity,
+                     songPopularity);
         cout << "Total rating: " << fp.getTotalRating() << endl;
 
     } else if (type == 5) //funkcija print vo MovieSong
     {
         cout << "-----TEST print -----" << endl;
         cin >> title >> numberOfPerformers;
-        for (int i = 0; i < numberOfPerformers; i++)
-        {
+        for (int i = 0; i < numberOfPerformers; i++) {
             cin >> name >> year;
             performers[i] = Person(name, year);
         }
         cin >> numberOfRatings;
-        for (int i = 0; i < numberOfRatings; i++)
-        {
+        for (int i = 0; i < numberOfRatings; i++) {
             cin >> rating;
             ratings[i] = rating;
         }
         cin >> title >> popularity >> songPopularity;
 
-        MovieSong fp(title, performers, numberOfPerformers, ratings, numberOfRatings, title, popularity, songPopularity);
+        MovieSong fp(title, performers, numberOfPerformers, ratings, numberOfRatings, title, popularity,
+                     songPopularity);
         fp.print();
 
     } else if (type == 6) //all classes
     {
         cout << "-----TEST Song and MovieSong-----" << endl;
         cin >> title >> numberOfPerformers;
-        for (int i = 0; i < numberOfPerformers; i++)
-        {
+        for (int i = 0; i < numberOfPerformers; i++) {
             cin >> name >> year;
             performers[i] = Person(name, year);
         }
         cin >> numberOfRatings;
-        for (int i = 0; i < numberOfRatings; i++)
-        {
+        for (int i = 0; i < numberOfRatings; i++) {
             cin >> rating;
             ratings[i] = rating;
         }
         cin >> title >> popularity >> songPopularity;
 
-        Song *p = new MovieSong(title, performers, numberOfPerformers, ratings, numberOfRatings, title, popularity, songPopularity);
+        Song *p = new MovieSong(title, performers, numberOfPerformers, ratings, numberOfRatings, title, popularity,
+                                songPopularity);
         p->print();
         cout << "Total rating: " << p->getTotalRating() << endl;
         delete p;
@@ -234,18 +240,16 @@ int main() {
         cout << "-----TEST average rating-----" << endl;
         int k, opt;
         cin >> k;
-        Song **pesni = new Song*[k];
+        Song **pesni = new Song *[k];
         for (int j = 0; j < k; j++) {
             cin >> opt; //1 Song 2 MovieSong
             cin >> title >> numberOfPerformers;
-            for (int i = 0; i < numberOfPerformers; i++)
-            {
+            for (int i = 0; i < numberOfPerformers; i++) {
                 cin >> name >> year;
                 performers[i] = Person(name, year);
             }
             cin >> numberOfRatings;
-            for (int i = 0; i < numberOfRatings; i++)
-            {
+            for (int i = 0; i < numberOfRatings; i++) {
                 cin >> rating;
                 ratings[i] = rating;
             }
@@ -253,31 +257,30 @@ int main() {
                 pesni[j] = new Song(title, performers, numberOfPerformers, ratings, numberOfRatings);
             } else {
                 cin >> title >> popularity >> songPopularity;
-                pesni[j] = new MovieSong(title, performers, numberOfPerformers, ratings, numberOfRatings, title, popularity, songPopularity);
+                pesni[j] = new MovieSong(title, performers, numberOfPerformers, ratings, numberOfRatings, title,
+                                         popularity, songPopularity);
             }
         }
 
         cout << "Average rating of the songs is " << averageRating(pesni, k);
         for (int j = 0; j < k; j++) delete pesni[j];
-        delete [] pesni;
+        delete[] pesni;
 
     } else if (type == 8) // function print songs
     {
         cout << "-----TEST print songs-----" << endl;
         int k, opt;
         cin >> k;
-        Song **pesni = new Song*[k];
+        Song **pesni = new Song *[k];
         for (int j = 0; j < k; j++) {
             cin >> opt; //1 Song 2 MovieSong
             cin >> title >> numberOfPerformers;
-            for (int i = 0; i < numberOfPerformers; i++)
-            {
+            for (int i = 0; i < numberOfPerformers; i++) {
                 cin >> name >> year;
                 performers[i] = Person(name, year);
             }
             cin >> numberOfRatings;
-            for (int i = 0; i < numberOfRatings; i++)
-            {
+            for (int i = 0; i < numberOfRatings; i++) {
                 cin >> rating;
                 ratings[i] = rating;
             }
@@ -285,14 +288,15 @@ int main() {
                 pesni[j] = new Song(title, performers, numberOfPerformers, ratings, numberOfRatings);
             } else {
                 cin >> title >> popularity >> songPopularity;
-                pesni[j] = new MovieSong(title, performers, numberOfPerformers, ratings, numberOfRatings, title, popularity, songPopularity);
+                pesni[j] = new MovieSong(title, performers, numberOfPerformers, ratings, numberOfRatings, title,
+                                         popularity, songPopularity);
             }
         }
         cin >> perfomer;
         cout << "Songs of " << perfomer << " are:" << endl;
         printSongs(perfomer, pesni, k);
         for (int j = 0; j < k; j++) delete pesni[j];
-        delete [] pesni;
+        delete[] pesni;
 
     }
 

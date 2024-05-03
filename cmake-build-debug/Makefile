@@ -116,6 +116,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Call
+
+# Build rule for target.
+Call: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Call
+.PHONY : Call
+
+# fast build rule for target.
+Call/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Call.dir\build.make CMakeFiles/Call.dir/build
+.PHONY : Call/fast
+
+#=============================================================================
+# Target rules for targets named Bank
+
+# Build rule for target.
+Bank: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Bank
+.PHONY : Bank
+
+# fast build rule for target.
+Bank/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/build
+.PHONY : Bank/fast
+
+#=============================================================================
 # Target rules for targets named DOOMHAMMER.cpp
 
 # Build rule for target.
@@ -153,6 +179,84 @@ StudentOnline: cmake_check_build_system
 StudentOnline/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentOnline.dir\build.make CMakeFiles/StudentOnline.dir/build
 .PHONY : StudentOnline/fast
+
+#=============================================================================
+# Target rules for targets named zad1
+
+# Build rule for target.
+zad1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 zad1
+.PHONY : zad1
+
+# fast build rule for target.
+zad1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad1.dir\build.make CMakeFiles/zad1.dir/build
+.PHONY : zad1/fast
+
+#=============================================================================
+# Target rules for targets named zad2
+
+# Build rule for target.
+zad2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 zad2
+.PHONY : zad2
+
+# fast build rule for target.
+zad2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad2.dir\build.make CMakeFiles/zad2.dir/build
+.PHONY : zad2/fast
+
+#=============================================================================
+# Target rules for targets named zad3
+
+# Build rule for target.
+zad3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 zad3
+.PHONY : zad3
+
+# fast build rule for target.
+zad3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad3.dir\build.make CMakeFiles/zad3.dir/build
+.PHONY : zad3/fast
+
+#=============================================================================
+# Target rules for targets named zad4
+
+# Build rule for target.
+zad4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 zad4
+.PHONY : zad4
+
+# fast build rule for target.
+zad4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad4.dir\build.make CMakeFiles/zad4.dir/build
+.PHONY : zad4/fast
+
+#=============================================================================
+# Target rules for targets named zad5
+
+# Build rule for target.
+zad5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 zad5
+.PHONY : zad5
+
+# fast build rule for target.
+zad5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad5.dir\build.make CMakeFiles/zad5.dir/build
+.PHONY : zad5/fast
+
+#=============================================================================
+# Target rules for targets named zad6
+
+# Build rule for target.
+zad6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 zad6
+.PHONY : zad6
+
+# fast build rule for target.
+zad6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad6.dir\build.make CMakeFiles/zad6.dir/build
+.PHONY : zad6/fast
 
 #=============================================================================
 # Target rules for targets named Kol1
@@ -569,6 +673,227 @@ String1: cmake_check_build_system
 String1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\String1.dir\build.make CMakeFiles/String1.dir/build
 .PHONY : String1/fast
+
+#=============================================================================
+# Target rules for targets named String2
+
+# Build rule for target.
+String2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 String2
+.PHONY : String2
+
+# fast build rule for target.
+String2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String2.dir\build.make CMakeFiles/String2.dir/build
+.PHONY : String2/fast
+
+#=============================================================================
+# Target rules for targets named String3
+
+# Build rule for target.
+String3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 String3
+.PHONY : String3
+
+# fast build rule for target.
+String3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String3.dir\build.make CMakeFiles/String3.dir/build
+.PHONY : String3/fast
+
+#=============================================================================
+# Target rules for targets named String4
+
+# Build rule for target.
+String4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 String4
+.PHONY : String4
+
+# fast build rule for target.
+String4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String4.dir\build.make CMakeFiles/String4.dir/build
+.PHONY : String4/fast
+
+#=============================================================================
+# Target rules for targets named String5
+
+# Build rule for target.
+String5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 String5
+.PHONY : String5
+
+# fast build rule for target.
+String5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String5.dir\build.make CMakeFiles/String5.dir/build
+.PHONY : String5/fast
+
+#=============================================================================
+# Target rules for targets named String6
+
+# Build rule for target.
+String6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 String6
+.PHONY : String6
+
+# fast build rule for target.
+String6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String6.dir\build.make CMakeFiles/String6.dir/build
+.PHONY : String6/fast
+
+#=============================================================================
+# Target rules for targets named String7
+
+# Build rule for target.
+String7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 String7
+.PHONY : String7
+
+# fast build rule for target.
+String7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String7.dir\build.make CMakeFiles/String7.dir/build
+.PHONY : String7/fast
+
+#=============================================================================
+# Target rules for targets named String8
+
+# Build rule for target.
+String8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 String8
+.PHONY : String8
+
+# fast build rule for target.
+String8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String8.dir\build.make CMakeFiles/String8.dir/build
+.PHONY : String8/fast
+
+#=============================================================================
+# Target rules for targets named Nasleduvanje1
+
+# Build rule for target.
+Nasleduvanje1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Nasleduvanje1
+.PHONY : Nasleduvanje1
+
+# fast build rule for target.
+Nasleduvanje1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje1.dir\build.make CMakeFiles/Nasleduvanje1.dir/build
+.PHONY : Nasleduvanje1/fast
+
+#=============================================================================
+# Target rules for targets named Nasleduvanje2
+
+# Build rule for target.
+Nasleduvanje2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Nasleduvanje2
+.PHONY : Nasleduvanje2
+
+# fast build rule for target.
+Nasleduvanje2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje2.dir\build.make CMakeFiles/Nasleduvanje2.dir/build
+.PHONY : Nasleduvanje2/fast
+
+#=============================================================================
+# Target rules for targets named Nasleduvanje3
+
+# Build rule for target.
+Nasleduvanje3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Nasleduvanje3
+.PHONY : Nasleduvanje3
+
+# fast build rule for target.
+Nasleduvanje3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje3.dir\build.make CMakeFiles/Nasleduvanje3.dir/build
+.PHONY : Nasleduvanje3/fast
+
+#=============================================================================
+# Target rules for targets named Nasleduvanje4
+
+# Build rule for target.
+Nasleduvanje4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Nasleduvanje4
+.PHONY : Nasleduvanje4
+
+# fast build rule for target.
+Nasleduvanje4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje4.dir\build.make CMakeFiles/Nasleduvanje4.dir/build
+.PHONY : Nasleduvanje4/fast
+
+#=============================================================================
+# Target rules for targets named Nasleduvanje5
+
+# Build rule for target.
+Nasleduvanje5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Nasleduvanje5
+.PHONY : Nasleduvanje5
+
+# fast build rule for target.
+Nasleduvanje5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje5.dir\build.make CMakeFiles/Nasleduvanje5.dir/build
+.PHONY : Nasleduvanje5/fast
+
+#=============================================================================
+# Target rules for targets named Nasleduvanje6
+
+# Build rule for target.
+Nasleduvanje6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Nasleduvanje6
+.PHONY : Nasleduvanje6
+
+# fast build rule for target.
+Nasleduvanje6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje6.dir\build.make CMakeFiles/Nasleduvanje6.dir/build
+.PHONY : Nasleduvanje6/fast
+
+#=============================================================================
+# Target rules for targets named Polimorfizam1
+
+# Build rule for target.
+Polimorfizam1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Polimorfizam1
+.PHONY : Polimorfizam1
+
+# fast build rule for target.
+Polimorfizam1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam1.dir\build.make CMakeFiles/Polimorfizam1.dir/build
+.PHONY : Polimorfizam1/fast
+
+#=============================================================================
+# Target rules for targets named Polimorfizam2
+
+# Build rule for target.
+Polimorfizam2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Polimorfizam2
+.PHONY : Polimorfizam2
+
+# fast build rule for target.
+Polimorfizam2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam2.dir\build.make CMakeFiles/Polimorfizam2.dir/build
+.PHONY : Polimorfizam2/fast
+
+#=============================================================================
+# Target rules for targets named Polimorfizam3
+
+# Build rule for target.
+Polimorfizam3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Polimorfizam3
+.PHONY : Polimorfizam3
+
+# fast build rule for target.
+Polimorfizam3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam3.dir\build.make CMakeFiles/Polimorfizam3.dir/build
+.PHONY : Polimorfizam3/fast
+
+#=============================================================================
+# Target rules for targets named Polimorfizam4
+
+# Build rule for target.
+Polimorfizam4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Polimorfizam4
+.PHONY : Polimorfizam4
+
+# fast build rule for target.
+Polimorfizam4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam4.dir\build.make CMakeFiles/Polimorfizam4.dir/build
+.PHONY : Polimorfizam4/fast
 
 #=============================================================================
 # Target rules for targets named Transakcii
@@ -1832,6 +2157,84 @@ StringBuiler/fast:
 .PHONY : StringBuiler/fast
 
 #=============================================================================
+# Target rules for targets named Aud23
+
+# Build rule for target.
+Aud23: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud23
+.PHONY : Aud23
+
+# fast build rule for target.
+Aud23/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud23.dir\build.make CMakeFiles/Aud23.dir/build
+.PHONY : Aud23/fast
+
+#=============================================================================
+# Target rules for targets named Aud24
+
+# Build rule for target.
+Aud24: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud24
+.PHONY : Aud24
+
+# fast build rule for target.
+Aud24/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud24.dir\build.make CMakeFiles/Aud24.dir/build
+.PHONY : Aud24/fast
+
+#=============================================================================
+# Target rules for targets named Aud25
+
+# Build rule for target.
+Aud25: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud25
+.PHONY : Aud25
+
+# fast build rule for target.
+Aud25/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud25.dir\build.make CMakeFiles/Aud25.dir/build
+.PHONY : Aud25/fast
+
+#=============================================================================
+# Target rules for targets named Aud26
+
+# Build rule for target.
+Aud26: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud26
+.PHONY : Aud26
+
+# fast build rule for target.
+Aud26/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud26.dir\build.make CMakeFiles/Aud26.dir/build
+.PHONY : Aud26/fast
+
+#=============================================================================
+# Target rules for targets named Aud27
+
+# Build rule for target.
+Aud27: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud27
+.PHONY : Aud27
+
+# fast build rule for target.
+Aud27/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud27.dir\build.make CMakeFiles/Aud27.dir/build
+.PHONY : Aud27/fast
+
+#=============================================================================
+# Target rules for targets named Aud28
+
+# Build rule for target.
+Aud28: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud28
+.PHONY : Aud28
+
+# fast build rule for target.
+Aud28/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud28.dir\build.make CMakeFiles/Aud28.dir/build
+.PHONY : Aud28/fast
+
+#=============================================================================
 # Target rules for targets named 1
 
 # Build rule for target.
@@ -2904,29 +3307,149 @@ Auditoriski/5/Vlatko1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vlatko1.dir\build.make CMakeFiles/Vlatko1.dir/Auditoriski/5/Vlatko1.cpp.s
 .PHONY : Auditoriski/5/Vlatko1.cpp.s
 
-CallKolokvium.obj: CallKolokvium.cpp.obj
-.PHONY : CallKolokvium.obj
+Auditoriski/6/Aud23.obj: Auditoriski/6/Aud23.cpp.obj
+.PHONY : Auditoriski/6/Aud23.obj
 
 # target to build an object file
-CallKolokvium.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/CallKolokvium.cpp.obj
-.PHONY : CallKolokvium.cpp.obj
+Auditoriski/6/Aud23.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud23.dir\build.make CMakeFiles/Aud23.dir/Auditoriski/6/Aud23.cpp.obj
+.PHONY : Auditoriski/6/Aud23.cpp.obj
 
-CallKolokvium.i: CallKolokvium.cpp.i
-.PHONY : CallKolokvium.i
+Auditoriski/6/Aud23.i: Auditoriski/6/Aud23.cpp.i
+.PHONY : Auditoriski/6/Aud23.i
 
 # target to preprocess a source file
-CallKolokvium.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/CallKolokvium.cpp.i
-.PHONY : CallKolokvium.cpp.i
+Auditoriski/6/Aud23.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud23.dir\build.make CMakeFiles/Aud23.dir/Auditoriski/6/Aud23.cpp.i
+.PHONY : Auditoriski/6/Aud23.cpp.i
 
-CallKolokvium.s: CallKolokvium.cpp.s
-.PHONY : CallKolokvium.s
+Auditoriski/6/Aud23.s: Auditoriski/6/Aud23.cpp.s
+.PHONY : Auditoriski/6/Aud23.s
 
 # target to generate assembly for a file
-CallKolokvium.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/CallKolokvium.cpp.s
-.PHONY : CallKolokvium.cpp.s
+Auditoriski/6/Aud23.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud23.dir\build.make CMakeFiles/Aud23.dir/Auditoriski/6/Aud23.cpp.s
+.PHONY : Auditoriski/6/Aud23.cpp.s
+
+Auditoriski/6/Aud24.obj: Auditoriski/6/Aud24.cpp.obj
+.PHONY : Auditoriski/6/Aud24.obj
+
+# target to build an object file
+Auditoriski/6/Aud24.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud24.dir\build.make CMakeFiles/Aud24.dir/Auditoriski/6/Aud24.cpp.obj
+.PHONY : Auditoriski/6/Aud24.cpp.obj
+
+Auditoriski/6/Aud24.i: Auditoriski/6/Aud24.cpp.i
+.PHONY : Auditoriski/6/Aud24.i
+
+# target to preprocess a source file
+Auditoriski/6/Aud24.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud24.dir\build.make CMakeFiles/Aud24.dir/Auditoriski/6/Aud24.cpp.i
+.PHONY : Auditoriski/6/Aud24.cpp.i
+
+Auditoriski/6/Aud24.s: Auditoriski/6/Aud24.cpp.s
+.PHONY : Auditoriski/6/Aud24.s
+
+# target to generate assembly for a file
+Auditoriski/6/Aud24.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud24.dir\build.make CMakeFiles/Aud24.dir/Auditoriski/6/Aud24.cpp.s
+.PHONY : Auditoriski/6/Aud24.cpp.s
+
+Auditoriski/7/Aud25.obj: Auditoriski/7/Aud25.cpp.obj
+.PHONY : Auditoriski/7/Aud25.obj
+
+# target to build an object file
+Auditoriski/7/Aud25.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud25.dir\build.make CMakeFiles/Aud25.dir/Auditoriski/7/Aud25.cpp.obj
+.PHONY : Auditoriski/7/Aud25.cpp.obj
+
+Auditoriski/7/Aud25.i: Auditoriski/7/Aud25.cpp.i
+.PHONY : Auditoriski/7/Aud25.i
+
+# target to preprocess a source file
+Auditoriski/7/Aud25.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud25.dir\build.make CMakeFiles/Aud25.dir/Auditoriski/7/Aud25.cpp.i
+.PHONY : Auditoriski/7/Aud25.cpp.i
+
+Auditoriski/7/Aud25.s: Auditoriski/7/Aud25.cpp.s
+.PHONY : Auditoriski/7/Aud25.s
+
+# target to generate assembly for a file
+Auditoriski/7/Aud25.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud25.dir\build.make CMakeFiles/Aud25.dir/Auditoriski/7/Aud25.cpp.s
+.PHONY : Auditoriski/7/Aud25.cpp.s
+
+Auditoriski/7/Aud26.obj: Auditoriski/7/Aud26.cpp.obj
+.PHONY : Auditoriski/7/Aud26.obj
+
+# target to build an object file
+Auditoriski/7/Aud26.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud26.dir\build.make CMakeFiles/Aud26.dir/Auditoriski/7/Aud26.cpp.obj
+.PHONY : Auditoriski/7/Aud26.cpp.obj
+
+Auditoriski/7/Aud26.i: Auditoriski/7/Aud26.cpp.i
+.PHONY : Auditoriski/7/Aud26.i
+
+# target to preprocess a source file
+Auditoriski/7/Aud26.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud26.dir\build.make CMakeFiles/Aud26.dir/Auditoriski/7/Aud26.cpp.i
+.PHONY : Auditoriski/7/Aud26.cpp.i
+
+Auditoriski/7/Aud26.s: Auditoriski/7/Aud26.cpp.s
+.PHONY : Auditoriski/7/Aud26.s
+
+# target to generate assembly for a file
+Auditoriski/7/Aud26.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud26.dir\build.make CMakeFiles/Aud26.dir/Auditoriski/7/Aud26.cpp.s
+.PHONY : Auditoriski/7/Aud26.cpp.s
+
+Auditoriski/8/Aud27.obj: Auditoriski/8/Aud27.cpp.obj
+.PHONY : Auditoriski/8/Aud27.obj
+
+# target to build an object file
+Auditoriski/8/Aud27.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud27.dir\build.make CMakeFiles/Aud27.dir/Auditoriski/8/Aud27.cpp.obj
+.PHONY : Auditoriski/8/Aud27.cpp.obj
+
+Auditoriski/8/Aud27.i: Auditoriski/8/Aud27.cpp.i
+.PHONY : Auditoriski/8/Aud27.i
+
+# target to preprocess a source file
+Auditoriski/8/Aud27.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud27.dir\build.make CMakeFiles/Aud27.dir/Auditoriski/8/Aud27.cpp.i
+.PHONY : Auditoriski/8/Aud27.cpp.i
+
+Auditoriski/8/Aud27.s: Auditoriski/8/Aud27.cpp.s
+.PHONY : Auditoriski/8/Aud27.s
+
+# target to generate assembly for a file
+Auditoriski/8/Aud27.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud27.dir\build.make CMakeFiles/Aud27.dir/Auditoriski/8/Aud27.cpp.s
+.PHONY : Auditoriski/8/Aud27.cpp.s
+
+Auditoriski/8/Aud28.obj: Auditoriski/8/Aud28.cpp.obj
+.PHONY : Auditoriski/8/Aud28.obj
+
+# target to build an object file
+Auditoriski/8/Aud28.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud28.dir\build.make CMakeFiles/Aud28.dir/Auditoriski/8/Aud28.cpp.obj
+.PHONY : Auditoriski/8/Aud28.cpp.obj
+
+Auditoriski/8/Aud28.i: Auditoriski/8/Aud28.cpp.i
+.PHONY : Auditoriski/8/Aud28.i
+
+# target to preprocess a source file
+Auditoriski/8/Aud28.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud28.dir\build.make CMakeFiles/Aud28.dir/Auditoriski/8/Aud28.cpp.i
+.PHONY : Auditoriski/8/Aud28.cpp.i
+
+Auditoriski/8/Aud28.s: Auditoriski/8/Aud28.cpp.s
+.PHONY : Auditoriski/8/Aud28.s
+
+# target to generate assembly for a file
+Auditoriski/8/Aud28.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud28.dir\build.make CMakeFiles/Aud28.dir/Auditoriski/8/Aud28.cpp.s
+.PHONY : Auditoriski/8/Aud28.cpp.s
 
 DOOMHAMMER.obj: DOOMHAMMER.cpp.obj
 .PHONY : DOOMHAMMER.obj
@@ -2951,6 +3474,54 @@ DOOMHAMMER.s: DOOMHAMMER.cpp.s
 DOOMHAMMER.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DOOMHAMMER.cpp.dir\build.make CMakeFiles/DOOMHAMMER.cpp.dir/DOOMHAMMER.cpp.s
 .PHONY : DOOMHAMMER.cpp.s
+
+Kolokviumski/1kolokvium/Bank.obj: Kolokviumski/1kolokvium/Bank.cpp.obj
+.PHONY : Kolokviumski/1kolokvium/Bank.obj
+
+# target to build an object file
+Kolokviumski/1kolokvium/Bank.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/Kolokviumski/1kolokvium/Bank.cpp.obj
+.PHONY : Kolokviumski/1kolokvium/Bank.cpp.obj
+
+Kolokviumski/1kolokvium/Bank.i: Kolokviumski/1kolokvium/Bank.cpp.i
+.PHONY : Kolokviumski/1kolokvium/Bank.i
+
+# target to preprocess a source file
+Kolokviumski/1kolokvium/Bank.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/Kolokviumski/1kolokvium/Bank.cpp.i
+.PHONY : Kolokviumski/1kolokvium/Bank.cpp.i
+
+Kolokviumski/1kolokvium/Bank.s: Kolokviumski/1kolokvium/Bank.cpp.s
+.PHONY : Kolokviumski/1kolokvium/Bank.s
+
+# target to generate assembly for a file
+Kolokviumski/1kolokvium/Bank.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/Kolokviumski/1kolokvium/Bank.cpp.s
+.PHONY : Kolokviumski/1kolokvium/Bank.cpp.s
+
+Kolokviumski/1kolokvium/Call.obj: Kolokviumski/1kolokvium/Call.cpp.obj
+.PHONY : Kolokviumski/1kolokvium/Call.obj
+
+# target to build an object file
+Kolokviumski/1kolokvium/Call.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Call.dir\build.make CMakeFiles/Call.dir/Kolokviumski/1kolokvium/Call.cpp.obj
+.PHONY : Kolokviumski/1kolokvium/Call.cpp.obj
+
+Kolokviumski/1kolokvium/Call.i: Kolokviumski/1kolokvium/Call.cpp.i
+.PHONY : Kolokviumski/1kolokvium/Call.i
+
+# target to preprocess a source file
+Kolokviumski/1kolokvium/Call.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Call.dir\build.make CMakeFiles/Call.dir/Kolokviumski/1kolokvium/Call.cpp.i
+.PHONY : Kolokviumski/1kolokvium/Call.cpp.i
+
+Kolokviumski/1kolokvium/Call.s: Kolokviumski/1kolokvium/Call.cpp.s
+.PHONY : Kolokviumski/1kolokvium/Call.s
+
+# target to generate assembly for a file
+Kolokviumski/1kolokvium/Call.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Call.dir\build.make CMakeFiles/Call.dir/Kolokviumski/1kolokvium/Call.cpp.s
+.PHONY : Kolokviumski/1kolokvium/Call.cpp.s
 
 Kolokviumski/1kolokviumEN/11taEN.obj: Kolokviumski/1kolokviumEN/11taEN.cpp.obj
 .PHONY : Kolokviumski/1kolokviumEN/11taEN.obj
@@ -3792,6 +4363,30 @@ Kolokviumski/BusLine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BusLine.dir\build.make CMakeFiles/BusLine.dir/Kolokviumski/BusLine.cpp.s
 .PHONY : Kolokviumski/BusLine.cpp.s
 
+Kolokviumski/CallKolokvium.obj: Kolokviumski/CallKolokvium.cpp.obj
+.PHONY : Kolokviumski/CallKolokvium.obj
+
+# target to build an object file
+Kolokviumski/CallKolokvium.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/Kolokviumski/CallKolokvium.cpp.obj
+.PHONY : Kolokviumski/CallKolokvium.cpp.obj
+
+Kolokviumski/CallKolokvium.i: Kolokviumski/CallKolokvium.cpp.i
+.PHONY : Kolokviumski/CallKolokvium.i
+
+# target to preprocess a source file
+Kolokviumski/CallKolokvium.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/Kolokviumski/CallKolokvium.cpp.i
+.PHONY : Kolokviumski/CallKolokvium.cpp.i
+
+Kolokviumski/CallKolokvium.s: Kolokviumski/CallKolokvium.cpp.s
+.PHONY : Kolokviumski/CallKolokvium.s
+
+# target to generate assembly for a file
+Kolokviumski/CallKolokvium.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/Kolokviumski/CallKolokvium.cpp.s
+.PHONY : Kolokviumski/CallKolokvium.cpp.s
+
 Kolokviumski/Char.obj: Kolokviumski/Char.cpp.obj
 .PHONY : Kolokviumski/Char.obj
 
@@ -4055,6 +4650,30 @@ Kolokviumski/Parovi2.s: Kolokviumski/Parovi2.cpp.s
 Kolokviumski/Parovi2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parovi2.dir\build.make CMakeFiles/Parovi2.dir/Kolokviumski/Parovi2.cpp.s
 .PHONY : Kolokviumski/Parovi2.cpp.s
+
+Kolokviumski/ProductKolok.obj: Kolokviumski/ProductKolok.cpp.obj
+.PHONY : Kolokviumski/ProductKolok.obj
+
+# target to build an object file
+Kolokviumski/ProductKolok.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/Kolokviumski/ProductKolok.cpp.obj
+.PHONY : Kolokviumski/ProductKolok.cpp.obj
+
+Kolokviumski/ProductKolok.i: Kolokviumski/ProductKolok.cpp.i
+.PHONY : Kolokviumski/ProductKolok.i
+
+# target to preprocess a source file
+Kolokviumski/ProductKolok.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/Kolokviumski/ProductKolok.cpp.i
+.PHONY : Kolokviumski/ProductKolok.cpp.i
+
+Kolokviumski/ProductKolok.s: Kolokviumski/ProductKolok.cpp.s
+.PHONY : Kolokviumski/ProductKolok.s
+
+# target to generate assembly for a file
+Kolokviumski/ProductKolok.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/Kolokviumski/ProductKolok.cpp.s
+.PHONY : Kolokviumski/ProductKolok.cpp.s
 
 Kolokviumski/Speaker.obj: Kolokviumski/Speaker.cpp.obj
 .PHONY : Kolokviumski/Speaker.obj
@@ -4800,6 +5419,150 @@ Labs/4_nedela/StudentOnline.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentOnline.dir\build.make CMakeFiles/StudentOnline.dir/Labs/4_nedela/StudentOnline.cpp.s
 .PHONY : Labs/4_nedela/StudentOnline.cpp.s
 
+Labs/6_nedela/zad1.obj: Labs/6_nedela/zad1.cpp.obj
+.PHONY : Labs/6_nedela/zad1.obj
+
+# target to build an object file
+Labs/6_nedela/zad1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad1.dir\build.make CMakeFiles/zad1.dir/Labs/6_nedela/zad1.cpp.obj
+.PHONY : Labs/6_nedela/zad1.cpp.obj
+
+Labs/6_nedela/zad1.i: Labs/6_nedela/zad1.cpp.i
+.PHONY : Labs/6_nedela/zad1.i
+
+# target to preprocess a source file
+Labs/6_nedela/zad1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad1.dir\build.make CMakeFiles/zad1.dir/Labs/6_nedela/zad1.cpp.i
+.PHONY : Labs/6_nedela/zad1.cpp.i
+
+Labs/6_nedela/zad1.s: Labs/6_nedela/zad1.cpp.s
+.PHONY : Labs/6_nedela/zad1.s
+
+# target to generate assembly for a file
+Labs/6_nedela/zad1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad1.dir\build.make CMakeFiles/zad1.dir/Labs/6_nedela/zad1.cpp.s
+.PHONY : Labs/6_nedela/zad1.cpp.s
+
+Labs/6_nedela/zad2.obj: Labs/6_nedela/zad2.cpp.obj
+.PHONY : Labs/6_nedela/zad2.obj
+
+# target to build an object file
+Labs/6_nedela/zad2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad2.dir\build.make CMakeFiles/zad2.dir/Labs/6_nedela/zad2.cpp.obj
+.PHONY : Labs/6_nedela/zad2.cpp.obj
+
+Labs/6_nedela/zad2.i: Labs/6_nedela/zad2.cpp.i
+.PHONY : Labs/6_nedela/zad2.i
+
+# target to preprocess a source file
+Labs/6_nedela/zad2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad2.dir\build.make CMakeFiles/zad2.dir/Labs/6_nedela/zad2.cpp.i
+.PHONY : Labs/6_nedela/zad2.cpp.i
+
+Labs/6_nedela/zad2.s: Labs/6_nedela/zad2.cpp.s
+.PHONY : Labs/6_nedela/zad2.s
+
+# target to generate assembly for a file
+Labs/6_nedela/zad2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad2.dir\build.make CMakeFiles/zad2.dir/Labs/6_nedela/zad2.cpp.s
+.PHONY : Labs/6_nedela/zad2.cpp.s
+
+Labs/6_nedela/zad3.obj: Labs/6_nedela/zad3.cpp.obj
+.PHONY : Labs/6_nedela/zad3.obj
+
+# target to build an object file
+Labs/6_nedela/zad3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad3.dir\build.make CMakeFiles/zad3.dir/Labs/6_nedela/zad3.cpp.obj
+.PHONY : Labs/6_nedela/zad3.cpp.obj
+
+Labs/6_nedela/zad3.i: Labs/6_nedela/zad3.cpp.i
+.PHONY : Labs/6_nedela/zad3.i
+
+# target to preprocess a source file
+Labs/6_nedela/zad3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad3.dir\build.make CMakeFiles/zad3.dir/Labs/6_nedela/zad3.cpp.i
+.PHONY : Labs/6_nedela/zad3.cpp.i
+
+Labs/6_nedela/zad3.s: Labs/6_nedela/zad3.cpp.s
+.PHONY : Labs/6_nedela/zad3.s
+
+# target to generate assembly for a file
+Labs/6_nedela/zad3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad3.dir\build.make CMakeFiles/zad3.dir/Labs/6_nedela/zad3.cpp.s
+.PHONY : Labs/6_nedela/zad3.cpp.s
+
+Labs/6_nedela/zad4.obj: Labs/6_nedela/zad4.cpp.obj
+.PHONY : Labs/6_nedela/zad4.obj
+
+# target to build an object file
+Labs/6_nedela/zad4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad4.dir\build.make CMakeFiles/zad4.dir/Labs/6_nedela/zad4.cpp.obj
+.PHONY : Labs/6_nedela/zad4.cpp.obj
+
+Labs/6_nedela/zad4.i: Labs/6_nedela/zad4.cpp.i
+.PHONY : Labs/6_nedela/zad4.i
+
+# target to preprocess a source file
+Labs/6_nedela/zad4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad4.dir\build.make CMakeFiles/zad4.dir/Labs/6_nedela/zad4.cpp.i
+.PHONY : Labs/6_nedela/zad4.cpp.i
+
+Labs/6_nedela/zad4.s: Labs/6_nedela/zad4.cpp.s
+.PHONY : Labs/6_nedela/zad4.s
+
+# target to generate assembly for a file
+Labs/6_nedela/zad4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad4.dir\build.make CMakeFiles/zad4.dir/Labs/6_nedela/zad4.cpp.s
+.PHONY : Labs/6_nedela/zad4.cpp.s
+
+Labs/6_nedela/zad5.obj: Labs/6_nedela/zad5.cpp.obj
+.PHONY : Labs/6_nedela/zad5.obj
+
+# target to build an object file
+Labs/6_nedela/zad5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad5.dir\build.make CMakeFiles/zad5.dir/Labs/6_nedela/zad5.cpp.obj
+.PHONY : Labs/6_nedela/zad5.cpp.obj
+
+Labs/6_nedela/zad5.i: Labs/6_nedela/zad5.cpp.i
+.PHONY : Labs/6_nedela/zad5.i
+
+# target to preprocess a source file
+Labs/6_nedela/zad5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad5.dir\build.make CMakeFiles/zad5.dir/Labs/6_nedela/zad5.cpp.i
+.PHONY : Labs/6_nedela/zad5.cpp.i
+
+Labs/6_nedela/zad5.s: Labs/6_nedela/zad5.cpp.s
+.PHONY : Labs/6_nedela/zad5.s
+
+# target to generate assembly for a file
+Labs/6_nedela/zad5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad5.dir\build.make CMakeFiles/zad5.dir/Labs/6_nedela/zad5.cpp.s
+.PHONY : Labs/6_nedela/zad5.cpp.s
+
+Labs/6_nedela/zad6.obj: Labs/6_nedela/zad6.cpp.obj
+.PHONY : Labs/6_nedela/zad6.obj
+
+# target to build an object file
+Labs/6_nedela/zad6.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad6.dir\build.make CMakeFiles/zad6.dir/Labs/6_nedela/zad6.cpp.obj
+.PHONY : Labs/6_nedela/zad6.cpp.obj
+
+Labs/6_nedela/zad6.i: Labs/6_nedela/zad6.cpp.i
+.PHONY : Labs/6_nedela/zad6.i
+
+# target to preprocess a source file
+Labs/6_nedela/zad6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad6.dir\build.make CMakeFiles/zad6.dir/Labs/6_nedela/zad6.cpp.i
+.PHONY : Labs/6_nedela/zad6.cpp.i
+
+Labs/6_nedela/zad6.s: Labs/6_nedela/zad6.cpp.s
+.PHONY : Labs/6_nedela/zad6.s
+
+# target to generate assembly for a file
+Labs/6_nedela/zad6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad6.dir\build.make CMakeFiles/zad6.dir/Labs/6_nedela/zad6.cpp.s
+.PHONY : Labs/6_nedela/zad6.cpp.s
+
 Predavanja/C-DC_objekti.obj: Predavanja/C-DC_objekti.cpp.obj
 .PHONY : Predavanja/C-DC_objekti.obj
 
@@ -4871,6 +5634,438 @@ Predavanja/Destruktor.s: Predavanja/Destruktor.cpp.s
 Predavanja/Destruktor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.dir\build.make CMakeFiles/Destruktor.dir/Predavanja/Destruktor.cpp.s
 .PHONY : Predavanja/Destruktor.cpp.s
+
+Predavanja/Lekcija7-String/String1.obj: Predavanja/Lekcija7-String/String1.cpp.obj
+.PHONY : Predavanja/Lekcija7-String/String1.obj
+
+# target to build an object file
+Predavanja/Lekcija7-String/String1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String1.dir\build.make CMakeFiles/String1.dir/Predavanja/Lekcija7-String/String1.cpp.obj
+.PHONY : Predavanja/Lekcija7-String/String1.cpp.obj
+
+Predavanja/Lekcija7-String/String1.i: Predavanja/Lekcija7-String/String1.cpp.i
+.PHONY : Predavanja/Lekcija7-String/String1.i
+
+# target to preprocess a source file
+Predavanja/Lekcija7-String/String1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String1.dir\build.make CMakeFiles/String1.dir/Predavanja/Lekcija7-String/String1.cpp.i
+.PHONY : Predavanja/Lekcija7-String/String1.cpp.i
+
+Predavanja/Lekcija7-String/String1.s: Predavanja/Lekcija7-String/String1.cpp.s
+.PHONY : Predavanja/Lekcija7-String/String1.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija7-String/String1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String1.dir\build.make CMakeFiles/String1.dir/Predavanja/Lekcija7-String/String1.cpp.s
+.PHONY : Predavanja/Lekcija7-String/String1.cpp.s
+
+Predavanja/Lekcija7-String/String2.obj: Predavanja/Lekcija7-String/String2.cpp.obj
+.PHONY : Predavanja/Lekcija7-String/String2.obj
+
+# target to build an object file
+Predavanja/Lekcija7-String/String2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String2.dir\build.make CMakeFiles/String2.dir/Predavanja/Lekcija7-String/String2.cpp.obj
+.PHONY : Predavanja/Lekcija7-String/String2.cpp.obj
+
+Predavanja/Lekcija7-String/String2.i: Predavanja/Lekcija7-String/String2.cpp.i
+.PHONY : Predavanja/Lekcija7-String/String2.i
+
+# target to preprocess a source file
+Predavanja/Lekcija7-String/String2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String2.dir\build.make CMakeFiles/String2.dir/Predavanja/Lekcija7-String/String2.cpp.i
+.PHONY : Predavanja/Lekcija7-String/String2.cpp.i
+
+Predavanja/Lekcija7-String/String2.s: Predavanja/Lekcija7-String/String2.cpp.s
+.PHONY : Predavanja/Lekcija7-String/String2.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija7-String/String2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String2.dir\build.make CMakeFiles/String2.dir/Predavanja/Lekcija7-String/String2.cpp.s
+.PHONY : Predavanja/Lekcija7-String/String2.cpp.s
+
+Predavanja/Lekcija7-String/String3.obj: Predavanja/Lekcija7-String/String3.cpp.obj
+.PHONY : Predavanja/Lekcija7-String/String3.obj
+
+# target to build an object file
+Predavanja/Lekcija7-String/String3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String3.dir\build.make CMakeFiles/String3.dir/Predavanja/Lekcija7-String/String3.cpp.obj
+.PHONY : Predavanja/Lekcija7-String/String3.cpp.obj
+
+Predavanja/Lekcija7-String/String3.i: Predavanja/Lekcija7-String/String3.cpp.i
+.PHONY : Predavanja/Lekcija7-String/String3.i
+
+# target to preprocess a source file
+Predavanja/Lekcija7-String/String3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String3.dir\build.make CMakeFiles/String3.dir/Predavanja/Lekcija7-String/String3.cpp.i
+.PHONY : Predavanja/Lekcija7-String/String3.cpp.i
+
+Predavanja/Lekcija7-String/String3.s: Predavanja/Lekcija7-String/String3.cpp.s
+.PHONY : Predavanja/Lekcija7-String/String3.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija7-String/String3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String3.dir\build.make CMakeFiles/String3.dir/Predavanja/Lekcija7-String/String3.cpp.s
+.PHONY : Predavanja/Lekcija7-String/String3.cpp.s
+
+Predavanja/Lekcija7-String/String4.obj: Predavanja/Lekcija7-String/String4.cpp.obj
+.PHONY : Predavanja/Lekcija7-String/String4.obj
+
+# target to build an object file
+Predavanja/Lekcija7-String/String4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String4.dir\build.make CMakeFiles/String4.dir/Predavanja/Lekcija7-String/String4.cpp.obj
+.PHONY : Predavanja/Lekcija7-String/String4.cpp.obj
+
+Predavanja/Lekcija7-String/String4.i: Predavanja/Lekcija7-String/String4.cpp.i
+.PHONY : Predavanja/Lekcija7-String/String4.i
+
+# target to preprocess a source file
+Predavanja/Lekcija7-String/String4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String4.dir\build.make CMakeFiles/String4.dir/Predavanja/Lekcija7-String/String4.cpp.i
+.PHONY : Predavanja/Lekcija7-String/String4.cpp.i
+
+Predavanja/Lekcija7-String/String4.s: Predavanja/Lekcija7-String/String4.cpp.s
+.PHONY : Predavanja/Lekcija7-String/String4.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija7-String/String4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String4.dir\build.make CMakeFiles/String4.dir/Predavanja/Lekcija7-String/String4.cpp.s
+.PHONY : Predavanja/Lekcija7-String/String4.cpp.s
+
+Predavanja/Lekcija7-String/String5.obj: Predavanja/Lekcija7-String/String5.cpp.obj
+.PHONY : Predavanja/Lekcija7-String/String5.obj
+
+# target to build an object file
+Predavanja/Lekcija7-String/String5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String5.dir\build.make CMakeFiles/String5.dir/Predavanja/Lekcija7-String/String5.cpp.obj
+.PHONY : Predavanja/Lekcija7-String/String5.cpp.obj
+
+Predavanja/Lekcija7-String/String5.i: Predavanja/Lekcija7-String/String5.cpp.i
+.PHONY : Predavanja/Lekcija7-String/String5.i
+
+# target to preprocess a source file
+Predavanja/Lekcija7-String/String5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String5.dir\build.make CMakeFiles/String5.dir/Predavanja/Lekcija7-String/String5.cpp.i
+.PHONY : Predavanja/Lekcija7-String/String5.cpp.i
+
+Predavanja/Lekcija7-String/String5.s: Predavanja/Lekcija7-String/String5.cpp.s
+.PHONY : Predavanja/Lekcija7-String/String5.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija7-String/String5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String5.dir\build.make CMakeFiles/String5.dir/Predavanja/Lekcija7-String/String5.cpp.s
+.PHONY : Predavanja/Lekcija7-String/String5.cpp.s
+
+Predavanja/Lekcija7-String/String6.obj: Predavanja/Lekcija7-String/String6.cpp.obj
+.PHONY : Predavanja/Lekcija7-String/String6.obj
+
+# target to build an object file
+Predavanja/Lekcija7-String/String6.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String6.dir\build.make CMakeFiles/String6.dir/Predavanja/Lekcija7-String/String6.cpp.obj
+.PHONY : Predavanja/Lekcija7-String/String6.cpp.obj
+
+Predavanja/Lekcija7-String/String6.i: Predavanja/Lekcija7-String/String6.cpp.i
+.PHONY : Predavanja/Lekcija7-String/String6.i
+
+# target to preprocess a source file
+Predavanja/Lekcija7-String/String6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String6.dir\build.make CMakeFiles/String6.dir/Predavanja/Lekcija7-String/String6.cpp.i
+.PHONY : Predavanja/Lekcija7-String/String6.cpp.i
+
+Predavanja/Lekcija7-String/String6.s: Predavanja/Lekcija7-String/String6.cpp.s
+.PHONY : Predavanja/Lekcija7-String/String6.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija7-String/String6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String6.dir\build.make CMakeFiles/String6.dir/Predavanja/Lekcija7-String/String6.cpp.s
+.PHONY : Predavanja/Lekcija7-String/String6.cpp.s
+
+Predavanja/Lekcija7-String/String7.obj: Predavanja/Lekcija7-String/String7.cpp.obj
+.PHONY : Predavanja/Lekcija7-String/String7.obj
+
+# target to build an object file
+Predavanja/Lekcija7-String/String7.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String7.dir\build.make CMakeFiles/String7.dir/Predavanja/Lekcija7-String/String7.cpp.obj
+.PHONY : Predavanja/Lekcija7-String/String7.cpp.obj
+
+Predavanja/Lekcija7-String/String7.i: Predavanja/Lekcija7-String/String7.cpp.i
+.PHONY : Predavanja/Lekcija7-String/String7.i
+
+# target to preprocess a source file
+Predavanja/Lekcija7-String/String7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String7.dir\build.make CMakeFiles/String7.dir/Predavanja/Lekcija7-String/String7.cpp.i
+.PHONY : Predavanja/Lekcija7-String/String7.cpp.i
+
+Predavanja/Lekcija7-String/String7.s: Predavanja/Lekcija7-String/String7.cpp.s
+.PHONY : Predavanja/Lekcija7-String/String7.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija7-String/String7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String7.dir\build.make CMakeFiles/String7.dir/Predavanja/Lekcija7-String/String7.cpp.s
+.PHONY : Predavanja/Lekcija7-String/String7.cpp.s
+
+Predavanja/Lekcija7-String/String8.obj: Predavanja/Lekcija7-String/String8.cpp.obj
+.PHONY : Predavanja/Lekcija7-String/String8.obj
+
+# target to build an object file
+Predavanja/Lekcija7-String/String8.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String8.dir\build.make CMakeFiles/String8.dir/Predavanja/Lekcija7-String/String8.cpp.obj
+.PHONY : Predavanja/Lekcija7-String/String8.cpp.obj
+
+Predavanja/Lekcija7-String/String8.i: Predavanja/Lekcija7-String/String8.cpp.i
+.PHONY : Predavanja/Lekcija7-String/String8.i
+
+# target to preprocess a source file
+Predavanja/Lekcija7-String/String8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String8.dir\build.make CMakeFiles/String8.dir/Predavanja/Lekcija7-String/String8.cpp.i
+.PHONY : Predavanja/Lekcija7-String/String8.cpp.i
+
+Predavanja/Lekcija7-String/String8.s: Predavanja/Lekcija7-String/String8.cpp.s
+.PHONY : Predavanja/Lekcija7-String/String8.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija7-String/String8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String8.dir\build.make CMakeFiles/String8.dir/Predavanja/Lekcija7-String/String8.cpp.s
+.PHONY : Predavanja/Lekcija7-String/String8.cpp.s
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.obj: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.cpp.obj
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.obj
+
+# target to build an object file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje1.dir\build.make CMakeFiles/Nasleduvanje1.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.cpp.obj
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.cpp.obj
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.i: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.cpp.i
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.i
+
+# target to preprocess a source file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje1.dir\build.make CMakeFiles/Nasleduvanje1.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.cpp.i
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.cpp.i
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.s: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.cpp.s
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje1.dir\build.make CMakeFiles/Nasleduvanje1.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.cpp.s
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.cpp.s
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.obj: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.cpp.obj
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.obj
+
+# target to build an object file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje2.dir\build.make CMakeFiles/Nasleduvanje2.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.cpp.obj
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.cpp.obj
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.i: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.cpp.i
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.i
+
+# target to preprocess a source file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje2.dir\build.make CMakeFiles/Nasleduvanje2.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.cpp.i
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.cpp.i
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.s: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.cpp.s
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje2.dir\build.make CMakeFiles/Nasleduvanje2.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.cpp.s
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.cpp.s
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.obj: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.cpp.obj
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.obj
+
+# target to build an object file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje3.dir\build.make CMakeFiles/Nasleduvanje3.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.cpp.obj
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.cpp.obj
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.i: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.cpp.i
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.i
+
+# target to preprocess a source file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje3.dir\build.make CMakeFiles/Nasleduvanje3.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.cpp.i
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.cpp.i
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.s: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.cpp.s
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje3.dir\build.make CMakeFiles/Nasleduvanje3.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.cpp.s
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.cpp.s
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.obj: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.cpp.obj
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.obj
+
+# target to build an object file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje4.dir\build.make CMakeFiles/Nasleduvanje4.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.cpp.obj
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.cpp.obj
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.i: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.cpp.i
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.i
+
+# target to preprocess a source file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje4.dir\build.make CMakeFiles/Nasleduvanje4.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.cpp.i
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.cpp.i
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.s: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.cpp.s
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje4.dir\build.make CMakeFiles/Nasleduvanje4.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.cpp.s
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.cpp.s
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.obj: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.cpp.obj
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.obj
+
+# target to build an object file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje5.dir\build.make CMakeFiles/Nasleduvanje5.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.cpp.obj
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.cpp.obj
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.i: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.cpp.i
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.i
+
+# target to preprocess a source file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje5.dir\build.make CMakeFiles/Nasleduvanje5.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.cpp.i
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.cpp.i
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.s: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.cpp.s
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje5.dir\build.make CMakeFiles/Nasleduvanje5.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.cpp.s
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.cpp.s
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.obj: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.cpp.obj
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.obj
+
+# target to build an object file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje6.dir\build.make CMakeFiles/Nasleduvanje6.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.cpp.obj
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.cpp.obj
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.i: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.cpp.i
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.i
+
+# target to preprocess a source file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje6.dir\build.make CMakeFiles/Nasleduvanje6.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.cpp.i
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.cpp.i
+
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.s: Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.cpp.s
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje6.dir\build.make CMakeFiles/Nasleduvanje6.dir/Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.cpp.s
+.PHONY : Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.cpp.s
+
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.obj: Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.cpp.obj
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.obj
+
+# target to build an object file
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam1.dir\build.make CMakeFiles/Polimorfizam1.dir/Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.cpp.obj
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.cpp.obj
+
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.i: Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.cpp.i
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.i
+
+# target to preprocess a source file
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam1.dir\build.make CMakeFiles/Polimorfizam1.dir/Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.cpp.i
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.cpp.i
+
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.s: Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.cpp.s
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam1.dir\build.make CMakeFiles/Polimorfizam1.dir/Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.cpp.s
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.cpp.s
+
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.obj: Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.cpp.obj
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.obj
+
+# target to build an object file
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam2.dir\build.make CMakeFiles/Polimorfizam2.dir/Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.cpp.obj
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.cpp.obj
+
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.i: Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.cpp.i
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.i
+
+# target to preprocess a source file
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam2.dir\build.make CMakeFiles/Polimorfizam2.dir/Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.cpp.i
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.cpp.i
+
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.s: Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.cpp.s
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam2.dir\build.make CMakeFiles/Polimorfizam2.dir/Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.cpp.s
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.cpp.s
+
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.obj: Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.cpp.obj
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.obj
+
+# target to build an object file
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam3.dir\build.make CMakeFiles/Polimorfizam3.dir/Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.cpp.obj
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.cpp.obj
+
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.i: Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.cpp.i
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.i
+
+# target to preprocess a source file
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam3.dir\build.make CMakeFiles/Polimorfizam3.dir/Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.cpp.i
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.cpp.i
+
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.s: Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.cpp.s
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam3.dir\build.make CMakeFiles/Polimorfizam3.dir/Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.cpp.s
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.cpp.s
+
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.obj: Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.cpp.obj
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.obj
+
+# target to build an object file
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam4.dir\build.make CMakeFiles/Polimorfizam4.dir/Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.cpp.obj
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.cpp.obj
+
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.i: Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.cpp.i
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.i
+
+# target to preprocess a source file
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam4.dir\build.make CMakeFiles/Polimorfizam4.dir/Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.cpp.i
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.cpp.i
+
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.s: Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.cpp.s
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam4.dir\build.make CMakeFiles/Polimorfizam4.dir/Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.cpp.s
+.PHONY : Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.cpp.s
 
 Predavanja/MyClass.obj: Predavanja/MyClass.cpp.obj
 .PHONY : Predavanja/MyClass.obj
@@ -5040,30 +6235,6 @@ Predavanja/PrijatelFunkcii.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrijatelFunkcii.dir\build.make CMakeFiles/PrijatelFunkcii.dir/Predavanja/PrijatelFunkcii.cpp.s
 .PHONY : Predavanja/PrijatelFunkcii.cpp.s
 
-Predavanja/String1.obj: Predavanja/String1.cpp.obj
-.PHONY : Predavanja/String1.obj
-
-# target to build an object file
-Predavanja/String1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\String1.dir\build.make CMakeFiles/String1.dir/Predavanja/String1.cpp.obj
-.PHONY : Predavanja/String1.cpp.obj
-
-Predavanja/String1.i: Predavanja/String1.cpp.i
-.PHONY : Predavanja/String1.i
-
-# target to preprocess a source file
-Predavanja/String1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\String1.dir\build.make CMakeFiles/String1.dir/Predavanja/String1.cpp.i
-.PHONY : Predavanja/String1.cpp.i
-
-Predavanja/String1.s: Predavanja/String1.cpp.s
-.PHONY : Predavanja/String1.s
-
-# target to generate assembly for a file
-Predavanja/String1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\String1.dir\build.make CMakeFiles/String1.dir/Predavanja/String1.cpp.s
-.PHONY : Predavanja/String1.cpp.s
-
 Predavanja/VgnezdenaKlasa.obj: Predavanja/VgnezdenaKlasa.cpp.obj
 .PHONY : Predavanja/VgnezdenaKlasa.obj
 
@@ -5160,30 +6331,6 @@ Predavanja/Wizz3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz3.cpp.dir\build.make CMakeFiles/Wizz3.cpp.dir/Predavanja/Wizz3.cpp.s
 .PHONY : Predavanja/Wizz3.cpp.s
 
-ProductKolok.obj: ProductKolok.cpp.obj
-.PHONY : ProductKolok.obj
-
-# target to build an object file
-ProductKolok.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/ProductKolok.cpp.obj
-.PHONY : ProductKolok.cpp.obj
-
-ProductKolok.i: ProductKolok.cpp.i
-.PHONY : ProductKolok.i
-
-# target to preprocess a source file
-ProductKolok.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/ProductKolok.cpp.i
-.PHONY : ProductKolok.cpp.i
-
-ProductKolok.s: ProductKolok.cpp.s
-.PHONY : ProductKolok.s
-
-# target to generate assembly for a file
-ProductKolok.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/ProductKolok.cpp.s
-.PHONY : ProductKolok.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -5250,6 +6397,12 @@ help:
 	@echo ... Aud20
 	@echo ... Aud21
 	@echo ... Aud22
+	@echo ... Aud23
+	@echo ... Aud24
+	@echo ... Aud25
+	@echo ... Aud26
+	@echo ... Aud27
+	@echo ... Aud28
 	@echo ... Aud3
 	@echo ... Aud3.1
 	@echo ... Aud4
@@ -5263,10 +6416,12 @@ help:
 	@echo ... Aud8
 	@echo ... Aud8.1
 	@echo ... Aud9
+	@echo ... Bank
 	@echo ... Book
 	@echo ... BookClass
 	@echo ... BusLine
 	@echo ... C-DC_objekti
+	@echo ... Call
 	@echo ... CallKolokvium.cpp
 	@echo ... Char
 	@echo ... ChocolateFactory
@@ -5292,6 +6447,12 @@ help:
 	@echo ... MobilePhone
 	@echo ... Motor
 	@echo ... MyClass
+	@echo ... Nasleduvanje1
+	@echo ... Nasleduvanje2
+	@echo ... Nasleduvanje3
+	@echo ... Nasleduvanje4
+	@echo ... Nasleduvanje5
+	@echo ... Nasleduvanje6
 	@echo ... ObjektVoObjekt
 	@echo ... OperatoriStefan10
 	@echo ... OperatoriStefan11
@@ -5300,6 +6461,10 @@ help:
 	@echo ... P2.1
 	@echo ... Parovi1
 	@echo ... Parovi2
+	@echo ... Polimorfizam1
+	@echo ... Polimorfizam2
+	@echo ... Polimorfizam3
+	@echo ... Polimorfizam4
 	@echo ... Preoptovaruvanje1
 	@echo ... PrijatelFunkcii
 	@echo ... Prodavnica
@@ -5312,6 +6477,13 @@ help:
 	@echo ... StaticPost
 	@echo ... StefanStudentiKolokviumska
 	@echo ... String1
+	@echo ... String2
+	@echo ... String3
+	@echo ... String4
+	@echo ... String5
+	@echo ... String6
+	@echo ... String7
+	@echo ... String8
 	@echo ... StringBuiler
 	@echo ... Student
 	@echo ... StudentOnline
@@ -5327,6 +6499,12 @@ help:
 	@echo ... Wizz3.cpp
 	@echo ... lanska2
 	@echo ... lanska3
+	@echo ... zad1
+	@echo ... zad2
+	@echo ... zad3
+	@echo ... zad4
+	@echo ... zad5
+	@echo ... zad6
 	@echo ... zadacaStefan1
 	@echo ... zadacaStefan2
 	@echo ... Auditoriski/1/Aud0.obj
@@ -5455,12 +6633,33 @@ help:
 	@echo ... Auditoriski/5/Vlatko1.obj
 	@echo ... Auditoriski/5/Vlatko1.i
 	@echo ... Auditoriski/5/Vlatko1.s
-	@echo ... CallKolokvium.obj
-	@echo ... CallKolokvium.i
-	@echo ... CallKolokvium.s
+	@echo ... Auditoriski/6/Aud23.obj
+	@echo ... Auditoriski/6/Aud23.i
+	@echo ... Auditoriski/6/Aud23.s
+	@echo ... Auditoriski/6/Aud24.obj
+	@echo ... Auditoriski/6/Aud24.i
+	@echo ... Auditoriski/6/Aud24.s
+	@echo ... Auditoriski/7/Aud25.obj
+	@echo ... Auditoriski/7/Aud25.i
+	@echo ... Auditoriski/7/Aud25.s
+	@echo ... Auditoriski/7/Aud26.obj
+	@echo ... Auditoriski/7/Aud26.i
+	@echo ... Auditoriski/7/Aud26.s
+	@echo ... Auditoriski/8/Aud27.obj
+	@echo ... Auditoriski/8/Aud27.i
+	@echo ... Auditoriski/8/Aud27.s
+	@echo ... Auditoriski/8/Aud28.obj
+	@echo ... Auditoriski/8/Aud28.i
+	@echo ... Auditoriski/8/Aud28.s
 	@echo ... DOOMHAMMER.obj
 	@echo ... DOOMHAMMER.i
 	@echo ... DOOMHAMMER.s
+	@echo ... Kolokviumski/1kolokvium/Bank.obj
+	@echo ... Kolokviumski/1kolokvium/Bank.i
+	@echo ... Kolokviumski/1kolokvium/Bank.s
+	@echo ... Kolokviumski/1kolokvium/Call.obj
+	@echo ... Kolokviumski/1kolokvium/Call.i
+	@echo ... Kolokviumski/1kolokvium/Call.s
 	@echo ... Kolokviumski/1kolokviumEN/11taEN.obj
 	@echo ... Kolokviumski/1kolokviumEN/11taEN.i
 	@echo ... Kolokviumski/1kolokviumEN/11taEN.s
@@ -5566,6 +6765,9 @@ help:
 	@echo ... Kolokviumski/BusLine.obj
 	@echo ... Kolokviumski/BusLine.i
 	@echo ... Kolokviumski/BusLine.s
+	@echo ... Kolokviumski/CallKolokvium.obj
+	@echo ... Kolokviumski/CallKolokvium.i
+	@echo ... Kolokviumski/CallKolokvium.s
 	@echo ... Kolokviumski/Char.obj
 	@echo ... Kolokviumski/Char.i
 	@echo ... Kolokviumski/Char.s
@@ -5599,6 +6801,9 @@ help:
 	@echo ... Kolokviumski/Parovi2.obj
 	@echo ... Kolokviumski/Parovi2.i
 	@echo ... Kolokviumski/Parovi2.s
+	@echo ... Kolokviumski/ProductKolok.obj
+	@echo ... Kolokviumski/ProductKolok.i
+	@echo ... Kolokviumski/ProductKolok.s
 	@echo ... Kolokviumski/Speaker.obj
 	@echo ... Kolokviumski/Speaker.i
 	@echo ... Kolokviumski/Speaker.s
@@ -5692,6 +6897,24 @@ help:
 	@echo ... Labs/4_nedela/StudentOnline.obj
 	@echo ... Labs/4_nedela/StudentOnline.i
 	@echo ... Labs/4_nedela/StudentOnline.s
+	@echo ... Labs/6_nedela/zad1.obj
+	@echo ... Labs/6_nedela/zad1.i
+	@echo ... Labs/6_nedela/zad1.s
+	@echo ... Labs/6_nedela/zad2.obj
+	@echo ... Labs/6_nedela/zad2.i
+	@echo ... Labs/6_nedela/zad2.s
+	@echo ... Labs/6_nedela/zad3.obj
+	@echo ... Labs/6_nedela/zad3.i
+	@echo ... Labs/6_nedela/zad3.s
+	@echo ... Labs/6_nedela/zad4.obj
+	@echo ... Labs/6_nedela/zad4.i
+	@echo ... Labs/6_nedela/zad4.s
+	@echo ... Labs/6_nedela/zad5.obj
+	@echo ... Labs/6_nedela/zad5.i
+	@echo ... Labs/6_nedela/zad5.s
+	@echo ... Labs/6_nedela/zad6.obj
+	@echo ... Labs/6_nedela/zad6.i
+	@echo ... Labs/6_nedela/zad6.s
 	@echo ... Predavanja/C-DC_objekti.obj
 	@echo ... Predavanja/C-DC_objekti.i
 	@echo ... Predavanja/C-DC_objekti.s
@@ -5701,6 +6924,60 @@ help:
 	@echo ... Predavanja/Destruktor.obj
 	@echo ... Predavanja/Destruktor.i
 	@echo ... Predavanja/Destruktor.s
+	@echo ... Predavanja/Lekcija7-String/String1.obj
+	@echo ... Predavanja/Lekcija7-String/String1.i
+	@echo ... Predavanja/Lekcija7-String/String1.s
+	@echo ... Predavanja/Lekcija7-String/String2.obj
+	@echo ... Predavanja/Lekcija7-String/String2.i
+	@echo ... Predavanja/Lekcija7-String/String2.s
+	@echo ... Predavanja/Lekcija7-String/String3.obj
+	@echo ... Predavanja/Lekcija7-String/String3.i
+	@echo ... Predavanja/Lekcija7-String/String3.s
+	@echo ... Predavanja/Lekcija7-String/String4.obj
+	@echo ... Predavanja/Lekcija7-String/String4.i
+	@echo ... Predavanja/Lekcija7-String/String4.s
+	@echo ... Predavanja/Lekcija7-String/String5.obj
+	@echo ... Predavanja/Lekcija7-String/String5.i
+	@echo ... Predavanja/Lekcija7-String/String5.s
+	@echo ... Predavanja/Lekcija7-String/String6.obj
+	@echo ... Predavanja/Lekcija7-String/String6.i
+	@echo ... Predavanja/Lekcija7-String/String6.s
+	@echo ... Predavanja/Lekcija7-String/String7.obj
+	@echo ... Predavanja/Lekcija7-String/String7.i
+	@echo ... Predavanja/Lekcija7-String/String7.s
+	@echo ... Predavanja/Lekcija7-String/String8.obj
+	@echo ... Predavanja/Lekcija7-String/String8.i
+	@echo ... Predavanja/Lekcija7-String/String8.s
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.obj
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.i
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje1.s
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.obj
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.i
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje2.s
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.obj
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.i
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje3.s
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.obj
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.i
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje4.s
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.obj
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.i
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje5.s
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.obj
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.i
+	@echo ... Predavanja/Lekcija8-Nasleduvanje/Nasleduvanje6.s
+	@echo ... Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.obj
+	@echo ... Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.i
+	@echo ... Predavanja/Lekcija9-Polimorfizam/Polimorfizam1.s
+	@echo ... Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.obj
+	@echo ... Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.i
+	@echo ... Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.s
+	@echo ... Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.obj
+	@echo ... Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.i
+	@echo ... Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.s
+	@echo ... Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.obj
+	@echo ... Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.i
+	@echo ... Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.s
 	@echo ... Predavanja/MyClass.obj
 	@echo ... Predavanja/MyClass.i
 	@echo ... Predavanja/MyClass.s
@@ -5722,9 +6999,6 @@ help:
 	@echo ... Predavanja/PrijatelFunkcii.obj
 	@echo ... Predavanja/PrijatelFunkcii.i
 	@echo ... Predavanja/PrijatelFunkcii.s
-	@echo ... Predavanja/String1.obj
-	@echo ... Predavanja/String1.i
-	@echo ... Predavanja/String1.s
 	@echo ... Predavanja/VgnezdenaKlasa.obj
 	@echo ... Predavanja/VgnezdenaKlasa.i
 	@echo ... Predavanja/VgnezdenaKlasa.s
@@ -5737,9 +7011,6 @@ help:
 	@echo ... Predavanja/Wizz3.obj
 	@echo ... Predavanja/Wizz3.i
 	@echo ... Predavanja/Wizz3.s
-	@echo ... ProductKolok.obj
-	@echo ... ProductKolok.i
-	@echo ... ProductKolok.s
 .PHONY : help
 
 

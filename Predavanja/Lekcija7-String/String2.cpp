@@ -8,19 +8,19 @@ using namespace std;
 
 int main() {
     string firstName, secondName;
-    cout << "Enter your name: " << endl;
+    cout << "Enter your ime: " << endl;
     getline(cin, firstName);
-    cout << "Enter your friend's name: " << endl;
+    cout << "Enter your friend's ime: " << endl;
     getline(cin, secondName);
-    cout << "Your name: " << firstName << endl;
-    cout << "Your friend's name: " << secondName << endl;
+    cout << "Your ime: " << firstName << endl;
+    cout << "Your friend's ime: " << secondName << endl;
     int res = firstName.compare(secondName);
     if (res == 0)
         cout << "Both names are the same." << std::endl;
     else if (res < 0)
-        cout << "Your name is smaller as compared to your friend's name." << res << endl;
+        cout << "Your ime is smaller as compared to your friend's ime." << res << endl;
     else
-        cout << "Your name is greater as compared to your friend's name."
+        cout << "Your ime is greater as compared to your friend's ime."
              << res << endl;
 
 

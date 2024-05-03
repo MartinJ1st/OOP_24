@@ -47,13 +47,13 @@ public:
     }
 
     friend ostream &operator<<(ostream &out, const Vehicle &v) {
-        //ID: NE1234SA Driver's name: Stefan Passenger capacity: 3 Location: 2 kms driven: 0
-        return out << "ID: " << v.id << " Driver's name: " << v.driver << " Passenger capacity: " << v.maxPassengers
+        //ID: NE1234SA Driver's ime: Stefan Passenger capacity: 3 Location: 2 kms driven: 0
+        return out << "ID: " << v.id << " Driver's ime: " << v.driver << " Passenger capacity: " << v.maxPassengers
                    << " Location: " << v.location << " kms driven: " << v.kms;
     }
 
 //    friend ostream &operator<<(ostream &os, const Vehicle &vehicle) {
-//        os << "ID: " << vehicle.id << " Driver's name: " << vehicle.driver << " Location: " << vehicle.location
+//        os << "ID: " << vehicle.id << " Driver's ime: " << vehicle.driver << " Location: " << vehicle.location
 //           << " Pass: " << vehicle.maxPassengers << " kms: " << vehicle.kms;
 //        return os;
 //    }

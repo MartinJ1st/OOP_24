@@ -62,9 +62,17 @@ CMAKE_BINARY_DIR = C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Call.dir/all
+all: CMakeFiles/Bank.dir/all
 all: CMakeFiles/DOOMHAMMER.cpp.dir/all
 all: CMakeFiles/ChocolateFactory.dir/all
 all: CMakeFiles/StudentOnline.dir/all
+all: CMakeFiles/zad1.dir/all
+all: CMakeFiles/zad2.dir/all
+all: CMakeFiles/zad3.dir/all
+all: CMakeFiles/zad4.dir/all
+all: CMakeFiles/zad5.dir/all
+all: CMakeFiles/zad6.dir/all
 all: CMakeFiles/Kol1.dir/all
 all: CMakeFiles/Kolok1.dir/all
 all: CMakeFiles/Galerija.dir/all
@@ -97,6 +105,23 @@ all: CMakeFiles/ObjektVoObjekt.dir/all
 all: CMakeFiles/PrijatelFunkcii.dir/all
 all: CMakeFiles/Preoptovaruvanje1.dir/all
 all: CMakeFiles/String1.dir/all
+all: CMakeFiles/String2.dir/all
+all: CMakeFiles/String3.dir/all
+all: CMakeFiles/String4.dir/all
+all: CMakeFiles/String5.dir/all
+all: CMakeFiles/String6.dir/all
+all: CMakeFiles/String7.dir/all
+all: CMakeFiles/String8.dir/all
+all: CMakeFiles/Nasleduvanje1.dir/all
+all: CMakeFiles/Nasleduvanje2.dir/all
+all: CMakeFiles/Nasleduvanje3.dir/all
+all: CMakeFiles/Nasleduvanje4.dir/all
+all: CMakeFiles/Nasleduvanje5.dir/all
+all: CMakeFiles/Nasleduvanje6.dir/all
+all: CMakeFiles/Polimorfizam1.dir/all
+all: CMakeFiles/Polimorfizam2.dir/all
+all: CMakeFiles/Polimorfizam3.dir/all
+all: CMakeFiles/Polimorfizam4.dir/all
 all: CMakeFiles/Transakcii.dir/all
 all: CMakeFiles/Motor.dir/all
 all: CMakeFiles/Fudbaleri.dir/all
@@ -194,6 +219,12 @@ all: CMakeFiles/OperatoriStefan11.dir/all
 all: CMakeFiles/StudnentStefan.dir/all
 all: CMakeFiles/Sentence.dir/all
 all: CMakeFiles/StringBuiler.dir/all
+all: CMakeFiles/Aud23.dir/all
+all: CMakeFiles/Aud24.dir/all
+all: CMakeFiles/Aud25.dir/all
+all: CMakeFiles/Aud26.dir/all
+all: CMakeFiles/Aud27.dir/all
+all: CMakeFiles/Aud28.dir/all
 all: CMakeFiles/1.dir/all
 all: CMakeFiles/2.dir/all
 all: CMakeFiles/Wizz.cpp.dir/all
@@ -206,9 +237,17 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Call.dir/clean
+clean: CMakeFiles/Bank.dir/clean
 clean: CMakeFiles/DOOMHAMMER.cpp.dir/clean
 clean: CMakeFiles/ChocolateFactory.dir/clean
 clean: CMakeFiles/StudentOnline.dir/clean
+clean: CMakeFiles/zad1.dir/clean
+clean: CMakeFiles/zad2.dir/clean
+clean: CMakeFiles/zad3.dir/clean
+clean: CMakeFiles/zad4.dir/clean
+clean: CMakeFiles/zad5.dir/clean
+clean: CMakeFiles/zad6.dir/clean
 clean: CMakeFiles/Kol1.dir/clean
 clean: CMakeFiles/Kolok1.dir/clean
 clean: CMakeFiles/Galerija.dir/clean
@@ -241,6 +280,23 @@ clean: CMakeFiles/ObjektVoObjekt.dir/clean
 clean: CMakeFiles/PrijatelFunkcii.dir/clean
 clean: CMakeFiles/Preoptovaruvanje1.dir/clean
 clean: CMakeFiles/String1.dir/clean
+clean: CMakeFiles/String2.dir/clean
+clean: CMakeFiles/String3.dir/clean
+clean: CMakeFiles/String4.dir/clean
+clean: CMakeFiles/String5.dir/clean
+clean: CMakeFiles/String6.dir/clean
+clean: CMakeFiles/String7.dir/clean
+clean: CMakeFiles/String8.dir/clean
+clean: CMakeFiles/Nasleduvanje1.dir/clean
+clean: CMakeFiles/Nasleduvanje2.dir/clean
+clean: CMakeFiles/Nasleduvanje3.dir/clean
+clean: CMakeFiles/Nasleduvanje4.dir/clean
+clean: CMakeFiles/Nasleduvanje5.dir/clean
+clean: CMakeFiles/Nasleduvanje6.dir/clean
+clean: CMakeFiles/Polimorfizam1.dir/clean
+clean: CMakeFiles/Polimorfizam2.dir/clean
+clean: CMakeFiles/Polimorfizam3.dir/clean
+clean: CMakeFiles/Polimorfizam4.dir/clean
 clean: CMakeFiles/Transakcii.dir/clean
 clean: CMakeFiles/Motor.dir/clean
 clean: CMakeFiles/Fudbaleri.dir/clean
@@ -338,6 +394,12 @@ clean: CMakeFiles/OperatoriStefan11.dir/clean
 clean: CMakeFiles/StudnentStefan.dir/clean
 clean: CMakeFiles/Sentence.dir/clean
 clean: CMakeFiles/StringBuiler.dir/clean
+clean: CMakeFiles/Aud23.dir/clean
+clean: CMakeFiles/Aud24.dir/clean
+clean: CMakeFiles/Aud25.dir/clean
+clean: CMakeFiles/Aud26.dir/clean
+clean: CMakeFiles/Aud27.dir/clean
+clean: CMakeFiles/Aud28.dir/clean
 clean: CMakeFiles/1.dir/clean
 clean: CMakeFiles/2.dir/clean
 clean: CMakeFiles/Wizz.cpp.dir/clean
@@ -346,18 +408,70 @@ clean: CMakeFiles/Wizz3.cpp.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Call.dir
+
+# All Build rule for target.
+CMakeFiles/Call.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Call.dir\build.make CMakeFiles/Call.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Call.dir\build.make CMakeFiles/Call.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=49 "Built target Call"
+.PHONY : CMakeFiles/Call.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Call.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Call.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Call.dir/rule
+
+# Convenience name for target.
+Call: CMakeFiles/Call.dir/rule
+.PHONY : Call
+
+# clean rule for target.
+CMakeFiles/Call.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Call.dir\build.make CMakeFiles/Call.dir/clean
+.PHONY : CMakeFiles/Call.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Bank.dir
+
+# All Build rule for target.
+CMakeFiles/Bank.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=46 "Built target Bank"
+.PHONY : CMakeFiles/Bank.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Bank.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Bank.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Bank.dir/rule
+
+# Convenience name for target.
+Bank: CMakeFiles/Bank.dir/rule
+.PHONY : Bank
+
+# clean rule for target.
+CMakeFiles/Bank.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/clean
+.PHONY : CMakeFiles/Bank.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/DOOMHAMMER.cpp.dir
 
 # All Build rule for target.
 CMakeFiles/DOOMHAMMER.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DOOMHAMMER.cpp.dir\build.make CMakeFiles/DOOMHAMMER.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DOOMHAMMER.cpp.dir\build.make CMakeFiles/DOOMHAMMER.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=57 "Built target DOOMHAMMER.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target DOOMHAMMER.cpp"
 .PHONY : CMakeFiles/DOOMHAMMER.cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DOOMHAMMER.cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/DOOMHAMMER.cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/DOOMHAMMER.cpp.dir/rule
@@ -378,12 +492,12 @@ CMakeFiles/DOOMHAMMER.cpp.dir/clean:
 CMakeFiles/ChocolateFactory.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChocolateFactory.dir\build.make CMakeFiles/ChocolateFactory.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChocolateFactory.dir\build.make CMakeFiles/ChocolateFactory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target ChocolateFactory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=51 "Built target ChocolateFactory"
 .PHONY : CMakeFiles/ChocolateFactory.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ChocolateFactory.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ChocolateFactory.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/ChocolateFactory.dir/rule
@@ -404,12 +518,12 @@ CMakeFiles/ChocolateFactory.dir/clean:
 CMakeFiles/StudentOnline.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentOnline.dir\build.make CMakeFiles/StudentOnline.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentOnline.dir\build.make CMakeFiles/StudentOnline.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target StudentOnline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=88 "Built target StudentOnline"
 .PHONY : CMakeFiles/StudentOnline.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/StudentOnline.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/StudentOnline.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/StudentOnline.dir/rule
@@ -424,13 +538,169 @@ CMakeFiles/StudentOnline.dir/clean:
 .PHONY : CMakeFiles/StudentOnline.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/zad1.dir
+
+# All Build rule for target.
+CMakeFiles/zad1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad1.dir\build.make CMakeFiles/zad1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad1.dir\build.make CMakeFiles/zad1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target zad1"
+.PHONY : CMakeFiles/zad1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/zad1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/zad1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/zad1.dir/rule
+
+# Convenience name for target.
+zad1: CMakeFiles/zad1.dir/rule
+.PHONY : zad1
+
+# clean rule for target.
+CMakeFiles/zad1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad1.dir\build.make CMakeFiles/zad1.dir/clean
+.PHONY : CMakeFiles/zad1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/zad2.dir
+
+# All Build rule for target.
+CMakeFiles/zad2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad2.dir\build.make CMakeFiles/zad2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad2.dir\build.make CMakeFiles/zad2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=96 "Built target zad2"
+.PHONY : CMakeFiles/zad2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/zad2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/zad2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/zad2.dir/rule
+
+# Convenience name for target.
+zad2: CMakeFiles/zad2.dir/rule
+.PHONY : zad2
+
+# clean rule for target.
+CMakeFiles/zad2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad2.dir\build.make CMakeFiles/zad2.dir/clean
+.PHONY : CMakeFiles/zad2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/zad3.dir
+
+# All Build rule for target.
+CMakeFiles/zad3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad3.dir\build.make CMakeFiles/zad3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad3.dir\build.make CMakeFiles/zad3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=97 "Built target zad3"
+.PHONY : CMakeFiles/zad3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/zad3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/zad3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/zad3.dir/rule
+
+# Convenience name for target.
+zad3: CMakeFiles/zad3.dir/rule
+.PHONY : zad3
+
+# clean rule for target.
+CMakeFiles/zad3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad3.dir\build.make CMakeFiles/zad3.dir/clean
+.PHONY : CMakeFiles/zad3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/zad4.dir
+
+# All Build rule for target.
+CMakeFiles/zad4.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad4.dir\build.make CMakeFiles/zad4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad4.dir\build.make CMakeFiles/zad4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target zad4"
+.PHONY : CMakeFiles/zad4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/zad4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/zad4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/zad4.dir/rule
+
+# Convenience name for target.
+zad4: CMakeFiles/zad4.dir/rule
+.PHONY : zad4
+
+# clean rule for target.
+CMakeFiles/zad4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad4.dir\build.make CMakeFiles/zad4.dir/clean
+.PHONY : CMakeFiles/zad4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/zad5.dir
+
+# All Build rule for target.
+CMakeFiles/zad5.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad5.dir\build.make CMakeFiles/zad5.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad5.dir\build.make CMakeFiles/zad5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=98 "Built target zad5"
+.PHONY : CMakeFiles/zad5.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/zad5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/zad5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/zad5.dir/rule
+
+# Convenience name for target.
+zad5: CMakeFiles/zad5.dir/rule
+.PHONY : zad5
+
+# clean rule for target.
+CMakeFiles/zad5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad5.dir\build.make CMakeFiles/zad5.dir/clean
+.PHONY : CMakeFiles/zad5.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/zad6.dir
+
+# All Build rule for target.
+CMakeFiles/zad6.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad6.dir\build.make CMakeFiles/zad6.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad6.dir\build.make CMakeFiles/zad6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target zad6"
+.PHONY : CMakeFiles/zad6.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/zad6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/zad6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/zad6.dir/rule
+
+# Convenience name for target.
+zad6: CMakeFiles/zad6.dir/rule
+.PHONY : zad6
+
+# clean rule for target.
+CMakeFiles/zad6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad6.dir\build.make CMakeFiles/zad6.dir/clean
+.PHONY : CMakeFiles/zad6.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Kol1.dir
 
 # All Build rule for target.
 CMakeFiles/Kol1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kol1.dir\build.make CMakeFiles/Kol1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kol1.dir\build.make CMakeFiles/Kol1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=69 "Built target Kol1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=61 "Built target Kol1"
 .PHONY : CMakeFiles/Kol1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -456,12 +726,12 @@ CMakeFiles/Kol1.dir/clean:
 CMakeFiles/Kolok1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kolok1.dir\build.make CMakeFiles/Kolok1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kolok1.dir\build.make CMakeFiles/Kolok1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=70 "Built target Kolok1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Kolok1"
 .PHONY : CMakeFiles/Kolok1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Kolok1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Kolok1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Kolok1.dir/rule
@@ -482,12 +752,12 @@ CMakeFiles/Kolok1.dir/clean:
 CMakeFiles/Galerija.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Galerija.dir\build.make CMakeFiles/Galerija.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Galerija.dir\build.make CMakeFiles/Galerija.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=66 "Built target Galerija"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Galerija"
 .PHONY : CMakeFiles/Galerija.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Galerija.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Galerija.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Galerija.dir/rule
@@ -508,12 +778,12 @@ CMakeFiles/Galerija.dir/clean:
 CMakeFiles/DatumiPovik.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DatumiPovik.dir\build.make CMakeFiles/DatumiPovik.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DatumiPovik.dir\build.make CMakeFiles/DatumiPovik.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=59 "Built target DatumiPovik"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target DatumiPovik"
 .PHONY : CMakeFiles/DatumiPovik.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DatumiPovik.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/DatumiPovik.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/DatumiPovik.dir/rule
@@ -534,12 +804,12 @@ CMakeFiles/DatumiPovik.dir/clean:
 CMakeFiles/ProductKolok.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target ProductKolok.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=77 "Built target ProductKolok.cpp"
 .PHONY : CMakeFiles/ProductKolok.cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ProductKolok.cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ProductKolok.cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/ProductKolok.cpp.dir/rule
@@ -560,7 +830,7 @@ CMakeFiles/ProductKolok.cpp.dir/clean:
 CMakeFiles/CallKolokvium.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=55 "Built target CallKolokvium.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=50 "Built target CallKolokvium.cpp"
 .PHONY : CMakeFiles/CallKolokvium.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -586,7 +856,7 @@ CMakeFiles/CallKolokvium.cpp.dir/clean:
 CMakeFiles/lanska3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lanska3.dir\build.make CMakeFiles/lanska3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lanska3.dir\build.make CMakeFiles/lanska3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=98 "Built target lanska3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=95 "Built target lanska3"
 .PHONY : CMakeFiles/lanska3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -664,12 +934,12 @@ CMakeFiles/zadacaStefan2.dir/clean:
 CMakeFiles/StefanStudentiKolokviumska.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StefanStudentiKolokviumska.dir\build.make CMakeFiles/StefanStudentiKolokviumska.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StefanStudentiKolokviumska.dir\build.make CMakeFiles/StefanStudentiKolokviumska.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target StefanStudentiKolokviumska"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=81 "Built target StefanStudentiKolokviumska"
 .PHONY : CMakeFiles/StefanStudentiKolokviumska.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/StefanStudentiKolokviumska.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/StefanStudentiKolokviumska.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/StefanStudentiKolokviumska.dir/rule
@@ -690,7 +960,7 @@ CMakeFiles/StefanStudentiKolokviumska.dir/clean:
 CMakeFiles/BusLine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BusLine.dir\build.make CMakeFiles/BusLine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BusLine.dir\build.make CMakeFiles/BusLine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=54 "Built target BusLine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=48 "Built target BusLine"
 .PHONY : CMakeFiles/BusLine.dir/all
 
 # Build rule for subdir invocation for target.
@@ -716,7 +986,7 @@ CMakeFiles/BusLine.dir/clean:
 CMakeFiles/Speaker.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Speaker.dir\build.make CMakeFiles/Speaker.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Speaker.dir\build.make CMakeFiles/Speaker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=85 "Built target Speaker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=80 "Built target Speaker"
 .PHONY : CMakeFiles/Speaker.dir/all
 
 # Build rule for subdir invocation for target.
@@ -742,7 +1012,7 @@ CMakeFiles/Speaker.dir/clean:
 CMakeFiles/Parovi1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parovi1.dir\build.make CMakeFiles/Parovi1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parovi1.dir\build.make CMakeFiles/Parovi1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=78 "Built target Parovi1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=72 "Built target Parovi1"
 .PHONY : CMakeFiles/Parovi1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -794,7 +1064,7 @@ CMakeFiles/Parovi2.dir/clean:
 CMakeFiles/File.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\File.dir\build.make CMakeFiles/File.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\File.dir\build.make CMakeFiles/File.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=64 "Built target File"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=57 "Built target File"
 .PHONY : CMakeFiles/File.dir/all
 
 # Build rule for subdir invocation for target.
@@ -820,12 +1090,12 @@ CMakeFiles/File.dir/clean:
 CMakeFiles/Char.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Char.dir\build.make CMakeFiles/Char.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Char.dir\build.make CMakeFiles/Char.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=56 "Built target Char"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Char"
 .PHONY : CMakeFiles/Char.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Char.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Char.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Char.dir/rule
@@ -846,7 +1116,7 @@ CMakeFiles/Char.dir/clean:
 CMakeFiles/Transaction.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Transaction.dir\build.make CMakeFiles/Transaction.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Transaction.dir\build.make CMakeFiles/Transaction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=91 "Built target Transaction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=89 "Built target Transaction"
 .PHONY : CMakeFiles/Transaction.dir/all
 
 # Build rule for subdir invocation for target.
@@ -872,7 +1142,7 @@ CMakeFiles/Transaction.dir/clean:
 CMakeFiles/DeliveryV.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeliveryV.dir\build.make CMakeFiles/DeliveryV.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeliveryV.dir\build.make CMakeFiles/DeliveryV.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=60 "Built target DeliveryV"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=54 "Built target DeliveryV"
 .PHONY : CMakeFiles/DeliveryV.dir/all
 
 # Build rule for subdir invocation for target.
@@ -898,12 +1168,12 @@ CMakeFiles/DeliveryV.dir/clean:
 CMakeFiles/DeliveryS.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeliveryS.dir\build.make CMakeFiles/DeliveryS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeliveryS.dir\build.make CMakeFiles/DeliveryS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target DeliveryS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=53 "Built target DeliveryS"
 .PHONY : CMakeFiles/DeliveryS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DeliveryS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/DeliveryS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/DeliveryS.dir/rule
@@ -950,12 +1220,12 @@ CMakeFiles/lanska2.dir/clean:
 CMakeFiles/P1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.dir\build.make CMakeFiles/P1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1.dir\build.make CMakeFiles/P1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target P1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=70 "Built target P1"
 .PHONY : CMakeFiles/P1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/P1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/P1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/P1.dir/rule
@@ -976,12 +1246,12 @@ CMakeFiles/P1.dir/clean:
 CMakeFiles/P2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.dir\build.make CMakeFiles/P2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.dir\build.make CMakeFiles/P2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=76 "Built target P2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target P2"
 .PHONY : CMakeFiles/P2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/P2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/P2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/P2.dir/rule
@@ -1002,7 +1272,7 @@ CMakeFiles/P2.dir/clean:
 CMakeFiles/P2.1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.dir\build.make CMakeFiles/P2.1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2.1.dir\build.make CMakeFiles/P2.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=77 "Built target P2.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=71 "Built target P2.1"
 .PHONY : CMakeFiles/P2.1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1028,12 +1298,12 @@ CMakeFiles/P2.1.dir/clean:
 CMakeFiles/Destruktor.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.dir\build.make CMakeFiles/Destruktor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.dir\build.make CMakeFiles/Destruktor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=61 "Built target Destruktor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Destruktor"
 .PHONY : CMakeFiles/Destruktor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Destruktor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Destruktor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Destruktor.dir/rule
@@ -1054,7 +1324,7 @@ CMakeFiles/Destruktor.dir/clean:
 CMakeFiles/Datumi.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datumi.dir\build.make CMakeFiles/Datumi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=58 "Built target Datumi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=52 "Built target Datumi"
 .PHONY : CMakeFiles/Datumi.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1080,12 +1350,12 @@ CMakeFiles/Datumi.dir/clean:
 CMakeFiles/MyClass.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.dir\build.make CMakeFiles/MyClass.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyClass.dir\build.make CMakeFiles/MyClass.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target MyClass"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=64 "Built target MyClass"
 .PHONY : CMakeFiles/MyClass.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MyClass.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MyClass.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/MyClass.dir/rule
@@ -1132,7 +1402,7 @@ CMakeFiles/C-DC_objekti.dir/clean:
 CMakeFiles/VgnezdenaKlasa.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VgnezdenaKlasa.dir\build.make CMakeFiles/VgnezdenaKlasa.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VgnezdenaKlasa.dir\build.make CMakeFiles/VgnezdenaKlasa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=93 "Built target VgnezdenaKlasa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=91 "Built target VgnezdenaKlasa"
 .PHONY : CMakeFiles/VgnezdenaKlasa.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1158,7 +1428,7 @@ CMakeFiles/VgnezdenaKlasa.dir/clean:
 CMakeFiles/ObjektVoObjekt.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjektVoObjekt.dir\build.make CMakeFiles/ObjektVoObjekt.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ObjektVoObjekt.dir\build.make CMakeFiles/ObjektVoObjekt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=73 "Built target ObjektVoObjekt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=68 "Built target ObjektVoObjekt"
 .PHONY : CMakeFiles/ObjektVoObjekt.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1184,7 +1454,7 @@ CMakeFiles/ObjektVoObjekt.dir/clean:
 CMakeFiles/PrijatelFunkcii.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrijatelFunkcii.dir\build.make CMakeFiles/PrijatelFunkcii.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrijatelFunkcii.dir\build.make CMakeFiles/PrijatelFunkcii.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=80 "Built target PrijatelFunkcii"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=76 "Built target PrijatelFunkcii"
 .PHONY : CMakeFiles/PrijatelFunkcii.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1210,12 +1480,12 @@ CMakeFiles/PrijatelFunkcii.dir/clean:
 CMakeFiles/Preoptovaruvanje1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Preoptovaruvanje1.dir\build.make CMakeFiles/Preoptovaruvanje1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Preoptovaruvanje1.dir\build.make CMakeFiles/Preoptovaruvanje1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=79 "Built target Preoptovaruvanje1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Preoptovaruvanje1"
 .PHONY : CMakeFiles/Preoptovaruvanje1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Preoptovaruvanje1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Preoptovaruvanje1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Preoptovaruvanje1.dir/rule
@@ -1236,7 +1506,7 @@ CMakeFiles/Preoptovaruvanje1.dir/clean:
 CMakeFiles/String1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\String1.dir\build.make CMakeFiles/String1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\String1.dir\build.make CMakeFiles/String1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=87 "Built target String1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=82 "Built target String1"
 .PHONY : CMakeFiles/String1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1254,6 +1524,448 @@ String1: CMakeFiles/String1.dir/rule
 CMakeFiles/String1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\String1.dir\build.make CMakeFiles/String1.dir/clean
 .PHONY : CMakeFiles/String1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/String2.dir
+
+# All Build rule for target.
+CMakeFiles/String2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String2.dir\build.make CMakeFiles/String2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String2.dir\build.make CMakeFiles/String2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target String2"
+.PHONY : CMakeFiles/String2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/String2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/String2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/String2.dir/rule
+
+# Convenience name for target.
+String2: CMakeFiles/String2.dir/rule
+.PHONY : String2
+
+# clean rule for target.
+CMakeFiles/String2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String2.dir\build.make CMakeFiles/String2.dir/clean
+.PHONY : CMakeFiles/String2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/String3.dir
+
+# All Build rule for target.
+CMakeFiles/String3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String3.dir\build.make CMakeFiles/String3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String3.dir\build.make CMakeFiles/String3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=83 "Built target String3"
+.PHONY : CMakeFiles/String3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/String3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/String3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/String3.dir/rule
+
+# Convenience name for target.
+String3: CMakeFiles/String3.dir/rule
+.PHONY : String3
+
+# clean rule for target.
+CMakeFiles/String3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String3.dir\build.make CMakeFiles/String3.dir/clean
+.PHONY : CMakeFiles/String3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/String4.dir
+
+# All Build rule for target.
+CMakeFiles/String4.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String4.dir\build.make CMakeFiles/String4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String4.dir\build.make CMakeFiles/String4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target String4"
+.PHONY : CMakeFiles/String4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/String4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/String4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/String4.dir/rule
+
+# Convenience name for target.
+String4: CMakeFiles/String4.dir/rule
+.PHONY : String4
+
+# clean rule for target.
+CMakeFiles/String4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String4.dir\build.make CMakeFiles/String4.dir/clean
+.PHONY : CMakeFiles/String4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/String5.dir
+
+# All Build rule for target.
+CMakeFiles/String5.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String5.dir\build.make CMakeFiles/String5.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String5.dir\build.make CMakeFiles/String5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=84 "Built target String5"
+.PHONY : CMakeFiles/String5.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/String5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/String5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/String5.dir/rule
+
+# Convenience name for target.
+String5: CMakeFiles/String5.dir/rule
+.PHONY : String5
+
+# clean rule for target.
+CMakeFiles/String5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String5.dir\build.make CMakeFiles/String5.dir/clean
+.PHONY : CMakeFiles/String5.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/String6.dir
+
+# All Build rule for target.
+CMakeFiles/String6.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String6.dir\build.make CMakeFiles/String6.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String6.dir\build.make CMakeFiles/String6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=85 "Built target String6"
+.PHONY : CMakeFiles/String6.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/String6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/String6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/String6.dir/rule
+
+# Convenience name for target.
+String6: CMakeFiles/String6.dir/rule
+.PHONY : String6
+
+# clean rule for target.
+CMakeFiles/String6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String6.dir\build.make CMakeFiles/String6.dir/clean
+.PHONY : CMakeFiles/String6.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/String7.dir
+
+# All Build rule for target.
+CMakeFiles/String7.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String7.dir\build.make CMakeFiles/String7.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String7.dir\build.make CMakeFiles/String7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target String7"
+.PHONY : CMakeFiles/String7.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/String7.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/String7.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/String7.dir/rule
+
+# Convenience name for target.
+String7: CMakeFiles/String7.dir/rule
+.PHONY : String7
+
+# clean rule for target.
+CMakeFiles/String7.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String7.dir\build.make CMakeFiles/String7.dir/clean
+.PHONY : CMakeFiles/String7.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/String8.dir
+
+# All Build rule for target.
+CMakeFiles/String8.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String8.dir\build.make CMakeFiles/String8.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String8.dir\build.make CMakeFiles/String8.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=86 "Built target String8"
+.PHONY : CMakeFiles/String8.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/String8.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/String8.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/String8.dir/rule
+
+# Convenience name for target.
+String8: CMakeFiles/String8.dir/rule
+.PHONY : String8
+
+# clean rule for target.
+CMakeFiles/String8.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\String8.dir\build.make CMakeFiles/String8.dir/clean
+.PHONY : CMakeFiles/String8.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Nasleduvanje1.dir
+
+# All Build rule for target.
+CMakeFiles/Nasleduvanje1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje1.dir\build.make CMakeFiles/Nasleduvanje1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje1.dir\build.make CMakeFiles/Nasleduvanje1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Nasleduvanje1"
+.PHONY : CMakeFiles/Nasleduvanje1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Nasleduvanje1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Nasleduvanje1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Nasleduvanje1.dir/rule
+
+# Convenience name for target.
+Nasleduvanje1: CMakeFiles/Nasleduvanje1.dir/rule
+.PHONY : Nasleduvanje1
+
+# clean rule for target.
+CMakeFiles/Nasleduvanje1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje1.dir\build.make CMakeFiles/Nasleduvanje1.dir/clean
+.PHONY : CMakeFiles/Nasleduvanje1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Nasleduvanje2.dir
+
+# All Build rule for target.
+CMakeFiles/Nasleduvanje2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje2.dir\build.make CMakeFiles/Nasleduvanje2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje2.dir\build.make CMakeFiles/Nasleduvanje2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=65 "Built target Nasleduvanje2"
+.PHONY : CMakeFiles/Nasleduvanje2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Nasleduvanje2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Nasleduvanje2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Nasleduvanje2.dir/rule
+
+# Convenience name for target.
+Nasleduvanje2: CMakeFiles/Nasleduvanje2.dir/rule
+.PHONY : Nasleduvanje2
+
+# clean rule for target.
+CMakeFiles/Nasleduvanje2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje2.dir\build.make CMakeFiles/Nasleduvanje2.dir/clean
+.PHONY : CMakeFiles/Nasleduvanje2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Nasleduvanje3.dir
+
+# All Build rule for target.
+CMakeFiles/Nasleduvanje3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje3.dir\build.make CMakeFiles/Nasleduvanje3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje3.dir\build.make CMakeFiles/Nasleduvanje3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=66 "Built target Nasleduvanje3"
+.PHONY : CMakeFiles/Nasleduvanje3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Nasleduvanje3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Nasleduvanje3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Nasleduvanje3.dir/rule
+
+# Convenience name for target.
+Nasleduvanje3: CMakeFiles/Nasleduvanje3.dir/rule
+.PHONY : Nasleduvanje3
+
+# clean rule for target.
+CMakeFiles/Nasleduvanje3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje3.dir\build.make CMakeFiles/Nasleduvanje3.dir/clean
+.PHONY : CMakeFiles/Nasleduvanje3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Nasleduvanje4.dir
+
+# All Build rule for target.
+CMakeFiles/Nasleduvanje4.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje4.dir\build.make CMakeFiles/Nasleduvanje4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje4.dir\build.make CMakeFiles/Nasleduvanje4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Nasleduvanje4"
+.PHONY : CMakeFiles/Nasleduvanje4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Nasleduvanje4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Nasleduvanje4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Nasleduvanje4.dir/rule
+
+# Convenience name for target.
+Nasleduvanje4: CMakeFiles/Nasleduvanje4.dir/rule
+.PHONY : Nasleduvanje4
+
+# clean rule for target.
+CMakeFiles/Nasleduvanje4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje4.dir\build.make CMakeFiles/Nasleduvanje4.dir/clean
+.PHONY : CMakeFiles/Nasleduvanje4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Nasleduvanje5.dir
+
+# All Build rule for target.
+CMakeFiles/Nasleduvanje5.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje5.dir\build.make CMakeFiles/Nasleduvanje5.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje5.dir\build.make CMakeFiles/Nasleduvanje5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=67 "Built target Nasleduvanje5"
+.PHONY : CMakeFiles/Nasleduvanje5.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Nasleduvanje5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Nasleduvanje5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Nasleduvanje5.dir/rule
+
+# Convenience name for target.
+Nasleduvanje5: CMakeFiles/Nasleduvanje5.dir/rule
+.PHONY : Nasleduvanje5
+
+# clean rule for target.
+CMakeFiles/Nasleduvanje5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje5.dir\build.make CMakeFiles/Nasleduvanje5.dir/clean
+.PHONY : CMakeFiles/Nasleduvanje5.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Nasleduvanje6.dir
+
+# All Build rule for target.
+CMakeFiles/Nasleduvanje6.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje6.dir\build.make CMakeFiles/Nasleduvanje6.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje6.dir\build.make CMakeFiles/Nasleduvanje6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Nasleduvanje6"
+.PHONY : CMakeFiles/Nasleduvanje6.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Nasleduvanje6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Nasleduvanje6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Nasleduvanje6.dir/rule
+
+# Convenience name for target.
+Nasleduvanje6: CMakeFiles/Nasleduvanje6.dir/rule
+.PHONY : Nasleduvanje6
+
+# clean rule for target.
+CMakeFiles/Nasleduvanje6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nasleduvanje6.dir\build.make CMakeFiles/Nasleduvanje6.dir/clean
+.PHONY : CMakeFiles/Nasleduvanje6.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Polimorfizam1.dir
+
+# All Build rule for target.
+CMakeFiles/Polimorfizam1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam1.dir\build.make CMakeFiles/Polimorfizam1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam1.dir\build.make CMakeFiles/Polimorfizam1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=73 "Built target Polimorfizam1"
+.PHONY : CMakeFiles/Polimorfizam1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Polimorfizam1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Polimorfizam1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Polimorfizam1.dir/rule
+
+# Convenience name for target.
+Polimorfizam1: CMakeFiles/Polimorfizam1.dir/rule
+.PHONY : Polimorfizam1
+
+# clean rule for target.
+CMakeFiles/Polimorfizam1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam1.dir\build.make CMakeFiles/Polimorfizam1.dir/clean
+.PHONY : CMakeFiles/Polimorfizam1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Polimorfizam2.dir
+
+# All Build rule for target.
+CMakeFiles/Polimorfizam2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam2.dir\build.make CMakeFiles/Polimorfizam2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam2.dir\build.make CMakeFiles/Polimorfizam2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Polimorfizam2"
+.PHONY : CMakeFiles/Polimorfizam2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Polimorfizam2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Polimorfizam2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Polimorfizam2.dir/rule
+
+# Convenience name for target.
+Polimorfizam2: CMakeFiles/Polimorfizam2.dir/rule
+.PHONY : Polimorfizam2
+
+# clean rule for target.
+CMakeFiles/Polimorfizam2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam2.dir\build.make CMakeFiles/Polimorfizam2.dir/clean
+.PHONY : CMakeFiles/Polimorfizam2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Polimorfizam3.dir
+
+# All Build rule for target.
+CMakeFiles/Polimorfizam3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam3.dir\build.make CMakeFiles/Polimorfizam3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam3.dir\build.make CMakeFiles/Polimorfizam3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=74 "Built target Polimorfizam3"
+.PHONY : CMakeFiles/Polimorfizam3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Polimorfizam3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Polimorfizam3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Polimorfizam3.dir/rule
+
+# Convenience name for target.
+Polimorfizam3: CMakeFiles/Polimorfizam3.dir/rule
+.PHONY : Polimorfizam3
+
+# clean rule for target.
+CMakeFiles/Polimorfizam3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam3.dir\build.make CMakeFiles/Polimorfizam3.dir/clean
+.PHONY : CMakeFiles/Polimorfizam3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Polimorfizam4.dir
+
+# All Build rule for target.
+CMakeFiles/Polimorfizam4.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam4.dir\build.make CMakeFiles/Polimorfizam4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam4.dir\build.make CMakeFiles/Polimorfizam4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=75 "Built target Polimorfizam4"
+.PHONY : CMakeFiles/Polimorfizam4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Polimorfizam4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Polimorfizam4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Polimorfizam4.dir/rule
+
+# Convenience name for target.
+Polimorfizam4: CMakeFiles/Polimorfizam4.dir/rule
+.PHONY : Polimorfizam4
+
+# clean rule for target.
+CMakeFiles/Polimorfizam4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polimorfizam4.dir\build.make CMakeFiles/Polimorfizam4.dir/clean
+.PHONY : CMakeFiles/Polimorfizam4.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Transakcii.dir
@@ -1288,12 +2000,12 @@ CMakeFiles/Transakcii.dir/clean:
 CMakeFiles/Motor.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor.dir\build.make CMakeFiles/Motor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor.dir\build.make CMakeFiles/Motor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=72 "Built target Motor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Motor"
 .PHONY : CMakeFiles/Motor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Motor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Motor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Motor.dir/rule
@@ -1314,7 +2026,7 @@ CMakeFiles/Motor.dir/clean:
 CMakeFiles/Fudbaleri.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fudbaleri.dir\build.make CMakeFiles/Fudbaleri.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fudbaleri.dir\build.make CMakeFiles/Fudbaleri.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=65 "Built target Fudbaleri"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=58 "Built target Fudbaleri"
 .PHONY : CMakeFiles/Fudbaleri.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1340,7 +2052,7 @@ CMakeFiles/Fudbaleri.dir/clean:
 CMakeFiles/Student.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Student.dir\build.make CMakeFiles/Student.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Student.dir\build.make CMakeFiles/Student.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=89 "Built target Student"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=87 "Built target Student"
 .PHONY : CMakeFiles/Student.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1366,12 +2078,12 @@ CMakeFiles/Student.dir/clean:
 CMakeFiles/Prodavnica.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prodavnica.dir\build.make CMakeFiles/Prodavnica.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prodavnica.dir\build.make CMakeFiles/Prodavnica.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=81 "Built target Prodavnica"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Prodavnica"
 .PHONY : CMakeFiles/Prodavnica.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Prodavnica.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Prodavnica.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Prodavnica.dir/rule
@@ -1392,12 +2104,12 @@ CMakeFiles/Prodavnica.dir/clean:
 CMakeFiles/Invoice.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Invoice.dir\build.make CMakeFiles/Invoice.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Invoice.dir\build.make CMakeFiles/Invoice.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=68 "Built target Invoice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Invoice"
 .PHONY : CMakeFiles/Invoice.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Invoice.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Invoice.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Invoice.dir/rule
@@ -1418,7 +2130,7 @@ CMakeFiles/Invoice.dir/clean:
 CMakeFiles/Book.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Book.dir\build.make CMakeFiles/Book.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Book.dir\build.make CMakeFiles/Book.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=52 "Built target Book"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=47 "Built target Book"
 .PHONY : CMakeFiles/Book.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1444,7 +2156,7 @@ CMakeFiles/Book.dir/clean:
 CMakeFiles/Vehicle.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vehicle.dir\build.make CMakeFiles/Vehicle.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vehicle.dir\build.make CMakeFiles/Vehicle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=92 "Built target Vehicle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=90 "Built target Vehicle"
 .PHONY : CMakeFiles/Vehicle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1470,7 +2182,7 @@ CMakeFiles/Vehicle.dir/clean:
 CMakeFiles/Prosek.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prosek.dir\build.make CMakeFiles/Prosek.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prosek.dir\build.make CMakeFiles/Prosek.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=83 "Built target Prosek"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=78 "Built target Prosek"
 .PHONY : CMakeFiles/Prosek.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1496,7 +2208,7 @@ CMakeFiles/Prosek.dir/clean:
 CMakeFiles/MobilePhone.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MobilePhone.dir\build.make CMakeFiles/MobilePhone.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MobilePhone.dir\build.make CMakeFiles/MobilePhone.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=71 "Built target MobilePhone"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=63 "Built target MobilePhone"
 .PHONY : CMakeFiles/MobilePhone.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1522,12 +2234,12 @@ CMakeFiles/MobilePhone.dir/clean:
 CMakeFiles/Kosarka.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kosarka.dir\build.make CMakeFiles/Kosarka.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kosarka.dir\build.make CMakeFiles/Kosarka.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Kosarka"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=62 "Built target Kosarka"
 .PHONY : CMakeFiles/Kosarka.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Kosarka.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Kosarka.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Kosarka.dir/rule
@@ -1574,7 +2286,7 @@ CMakeFiles/Drzavi.dir/clean:
 CMakeFiles/Alien.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Alien.dir\build.make CMakeFiles/Alien.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Alien.dir\build.make CMakeFiles/Alien.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=27 "Built target Alien"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=22 "Built target Alien"
 .PHONY : CMakeFiles/Alien.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1600,12 +2312,12 @@ CMakeFiles/Alien.dir/clean:
 CMakeFiles/BookClass.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BookClass.dir\build.make CMakeFiles/BookClass.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BookClass.dir\build.make CMakeFiles/BookClass.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=53 "Built target BookClass"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target BookClass"
 .PHONY : CMakeFiles/BookClass.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BookClass.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BookClass.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/BookClass.dir/rule
@@ -1626,7 +2338,7 @@ CMakeFiles/BookClass.dir/clean:
 CMakeFiles/Employee.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Employee.dir\build.make CMakeFiles/Employee.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Employee.dir\build.make CMakeFiles/Employee.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=63 "Built target Employee"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=56 "Built target Employee"
 .PHONY : CMakeFiles/Employee.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1678,12 +2390,12 @@ CMakeFiles/FoodProduct.dir/clean:
 CMakeFiles/Programmer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Programmer.dir\build.make CMakeFiles/Programmer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Programmer.dir\build.make CMakeFiles/Programmer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=82 "Built target Programmer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Programmer"
 .PHONY : CMakeFiles/Programmer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Programmer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Programmer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Programmer.dir/rule
@@ -1704,7 +2416,7 @@ CMakeFiles/Programmer.dir/clean:
 CMakeFiles/Gamer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gamer.dir\build.make CMakeFiles/Gamer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gamer.dir\build.make CMakeFiles/Gamer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=67 "Built target Gamer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=59 "Built target Gamer"
 .PHONY : CMakeFiles/Gamer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1730,12 +2442,12 @@ CMakeFiles/Gamer.dir/clean:
 CMakeFiles/Vraboten3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vraboten3.dir\build.make CMakeFiles/Vraboten3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vraboten3.dir\build.make CMakeFiles/Vraboten3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Vraboten3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=92 "Built target Vraboten3"
 .PHONY : CMakeFiles/Vraboten3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Vraboten3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Vraboten3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Vraboten3.dir/rule
@@ -1756,12 +2468,12 @@ CMakeFiles/Vraboten3.dir/clean:
 CMakeFiles/IDVraboten.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\IDVraboten.dir\build.make CMakeFiles/IDVraboten.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\IDVraboten.dir\build.make CMakeFiles/IDVraboten.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target IDVraboten"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=60 "Built target IDVraboten"
 .PHONY : CMakeFiles/IDVraboten.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/IDVraboten.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/IDVraboten.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/IDVraboten.dir/rule
@@ -1782,7 +2494,7 @@ CMakeFiles/IDVraboten.dir/clean:
 CMakeFiles/DrzavaTax.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DrzavaTax.dir\build.make CMakeFiles/DrzavaTax.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DrzavaTax.dir\build.make CMakeFiles/DrzavaTax.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=62 "Built target DrzavaTax"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=55 "Built target DrzavaTax"
 .PHONY : CMakeFiles/DrzavaTax.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1808,7 +2520,7 @@ CMakeFiles/DrzavaTax.dir/clean:
 CMakeFiles/1va.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1va.dir\build.make CMakeFiles/1va.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1va.dir\build.make CMakeFiles/1va.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=12 "Built target 1va"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=10 "Built target 1va"
 .PHONY : CMakeFiles/1va.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1834,7 +2546,7 @@ CMakeFiles/1va.dir/clean:
 CMakeFiles/2ra.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2ra.dir\build.make CMakeFiles/2ra.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2ra.dir\build.make CMakeFiles/2ra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=19 "Built target 2ra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=16 "Built target 2ra"
 .PHONY : CMakeFiles/2ra.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1860,7 +2572,7 @@ CMakeFiles/2ra.dir/clean:
 CMakeFiles/3ta.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3ta.dir\build.make CMakeFiles/3ta.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3ta.dir\build.make CMakeFiles/3ta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=21 "Built target 3ta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=17 "Built target 3ta"
 .PHONY : CMakeFiles/3ta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1912,7 +2624,7 @@ CMakeFiles/4ta.dir/clean:
 CMakeFiles/5ta.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5ta.dir\build.make CMakeFiles/5ta.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5ta.dir\build.make CMakeFiles/5ta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=22 "Built target 5ta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=18 "Built target 5ta"
 .PHONY : CMakeFiles/5ta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1938,7 +2650,7 @@ CMakeFiles/5ta.dir/clean:
 CMakeFiles/6ta.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6ta.dir\build.make CMakeFiles/6ta.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6ta.dir\build.make CMakeFiles/6ta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=23 "Built target 6ta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=19 "Built target 6ta"
 .PHONY : CMakeFiles/6ta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1964,12 +2676,12 @@ CMakeFiles/6ta.dir/clean:
 CMakeFiles/7ma.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\7ma.dir\build.make CMakeFiles/7ma.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\7ma.dir\build.make CMakeFiles/7ma.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=24 "Built target 7ma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target 7ma"
 .PHONY : CMakeFiles/7ma.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/7ma.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/7ma.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/7ma.dir/rule
@@ -1990,12 +2702,12 @@ CMakeFiles/7ma.dir/clean:
 CMakeFiles/8ma.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8ma.dir\build.make CMakeFiles/8ma.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8ma.dir\build.make CMakeFiles/8ma.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target 8ma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=20 "Built target 8ma"
 .PHONY : CMakeFiles/8ma.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/8ma.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/8ma.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/8ma.dir/rule
@@ -2016,7 +2728,7 @@ CMakeFiles/8ma.dir/clean:
 CMakeFiles/9ta.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9ta.dir\build.make CMakeFiles/9ta.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9ta.dir\build.make CMakeFiles/9ta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=26 "Built target 9ta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=21 "Built target 9ta"
 .PHONY : CMakeFiles/9ta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2068,12 +2780,12 @@ CMakeFiles/10ta.dir/clean:
 CMakeFiles/11ta.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11ta.dir\build.make CMakeFiles/11ta.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11ta.dir\build.make CMakeFiles/11ta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=2 "Built target 11ta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target 11ta"
 .PHONY : CMakeFiles/11ta.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/11ta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/11ta.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/11ta.dir/rule
@@ -2094,12 +2806,12 @@ CMakeFiles/11ta.dir/clean:
 CMakeFiles/12ta.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\12ta.dir\build.make CMakeFiles/12ta.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\12ta.dir\build.make CMakeFiles/12ta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=3 "Built target 12ta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target 12ta"
 .PHONY : CMakeFiles/12ta.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/12ta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/12ta.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/12ta.dir/rule
@@ -2120,7 +2832,7 @@ CMakeFiles/12ta.dir/clean:
 CMakeFiles/13ta.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13ta.dir\build.make CMakeFiles/13ta.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13ta.dir\build.make CMakeFiles/13ta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=4 "Built target 13ta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=3 "Built target 13ta"
 .PHONY : CMakeFiles/13ta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2146,12 +2858,12 @@ CMakeFiles/13ta.dir/clean:
 CMakeFiles/15ta.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15ta.dir\build.make CMakeFiles/15ta.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15ta.dir\build.make CMakeFiles/15ta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=7 "Built target 15ta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target 15ta"
 .PHONY : CMakeFiles/15ta.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/15ta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/15ta.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/15ta.dir/rule
@@ -2198,7 +2910,7 @@ CMakeFiles/14ta.dir/clean:
 CMakeFiles/16ta.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\16ta.dir\build.make CMakeFiles/16ta.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\16ta.dir\build.make CMakeFiles/16ta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=8 "Built target 16ta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=6 "Built target 16ta"
 .PHONY : CMakeFiles/16ta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2224,12 +2936,12 @@ CMakeFiles/16ta.dir/clean:
 CMakeFiles/17ta.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\17ta.dir\build.make CMakeFiles/17ta.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\17ta.dir\build.make CMakeFiles/17ta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target 17ta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=7 "Built target 17ta"
 .PHONY : CMakeFiles/17ta.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/17ta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/17ta.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/17ta.dir/rule
@@ -2250,7 +2962,7 @@ CMakeFiles/17ta.dir/clean:
 CMakeFiles/18ta.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\18ta.dir\build.make CMakeFiles/18ta.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\18ta.dir\build.make CMakeFiles/18ta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=10 "Built target 18ta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=8 "Built target 18ta"
 .PHONY : CMakeFiles/18ta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2276,7 +2988,7 @@ CMakeFiles/18ta.dir/clean:
 CMakeFiles/19ta.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\19ta.dir\build.make CMakeFiles/19ta.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\19ta.dir\build.make CMakeFiles/19ta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=11 "Built target 19ta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=9 "Built target 19ta"
 .PHONY : CMakeFiles/19ta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2302,12 +3014,12 @@ CMakeFiles/19ta.dir/clean:
 CMakeFiles/20ta.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\20ta.dir\build.make CMakeFiles/20ta.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\20ta.dir\build.make CMakeFiles/20ta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=14 "Built target 20ta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target 20ta"
 .PHONY : CMakeFiles/20ta.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/20ta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/20ta.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/20ta.dir/rule
@@ -2328,7 +3040,7 @@ CMakeFiles/20ta.dir/clean:
 CMakeFiles/21va.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\21va.dir\build.make CMakeFiles/21va.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\21va.dir\build.make CMakeFiles/21va.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=16 "Built target 21va"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=13 "Built target 21va"
 .PHONY : CMakeFiles/21va.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2380,12 +3092,12 @@ CMakeFiles/22ra.dir/clean:
 CMakeFiles/1vaEN.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1vaEN.dir\build.make CMakeFiles/1vaEN.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1vaEN.dir\build.make CMakeFiles/1vaEN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=13 "Built target 1vaEN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target 1vaEN"
 .PHONY : CMakeFiles/1vaEN.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1vaEN.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1vaEN.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/1vaEN.dir/rule
@@ -2406,12 +3118,12 @@ CMakeFiles/1vaEN.dir/clean:
 CMakeFiles/2vaEN.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2vaEN.dir\build.make CMakeFiles/2vaEN.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2vaEN.dir\build.make CMakeFiles/2vaEN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=20 "Built target 2vaEN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target 2vaEN"
 .PHONY : CMakeFiles/2vaEN.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2vaEN.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2vaEN.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/2vaEN.dir/rule
@@ -2432,12 +3144,12 @@ CMakeFiles/2vaEN.dir/clean:
 CMakeFiles/8maEN.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8maEN.dir\build.make CMakeFiles/8maEN.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8maEN.dir\build.make CMakeFiles/8maEN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=25 "Built target 8maEN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target 8maEN"
 .PHONY : CMakeFiles/8maEN.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/8maEN.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/8maEN.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/8maEN.dir/rule
@@ -2458,12 +3170,12 @@ CMakeFiles/8maEN.dir/clean:
 CMakeFiles/11taEN.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11taEN.dir\build.make CMakeFiles/11taEN.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11taEN.dir\build.make CMakeFiles/11taEN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target 11taEN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=2 "Built target 11taEN"
 .PHONY : CMakeFiles/11taEN.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/11taEN.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/11taEN.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/11taEN.dir/rule
@@ -2484,7 +3196,7 @@ CMakeFiles/11taEN.dir/clean:
 CMakeFiles/13taEN.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13taEN.dir\build.make CMakeFiles/13taEN.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13taEN.dir\build.make CMakeFiles/13taEN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=5 "Built target 13taEN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=4 "Built target 13taEN"
 .PHONY : CMakeFiles/13taEN.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2510,7 +3222,7 @@ CMakeFiles/13taEN.dir/clean:
 CMakeFiles/14taEN.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14taEN.dir\build.make CMakeFiles/14taEN.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14taEN.dir\build.make CMakeFiles/14taEN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=6 "Built target 14taEN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=5 "Built target 14taEN"
 .PHONY : CMakeFiles/14taEN.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2536,12 +3248,12 @@ CMakeFiles/14taEN.dir/clean:
 CMakeFiles/17taEN.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\17taEN.dir\build.make CMakeFiles/17taEN.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\17taEN.dir\build.make CMakeFiles/17taEN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=9 "Built target 17taEN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target 17taEN"
 .PHONY : CMakeFiles/17taEN.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/17taEN.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/17taEN.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/17taEN.dir/rule
@@ -2588,7 +3300,7 @@ CMakeFiles/18taEN.dir/clean:
 CMakeFiles/20taEN.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\20taEN.dir\build.make CMakeFiles/20taEN.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\20taEN.dir\build.make CMakeFiles/20taEN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=15 "Built target 20taEN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=12 "Built target 20taEN"
 .PHONY : CMakeFiles/20taEN.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2614,7 +3326,7 @@ CMakeFiles/20taEN.dir/clean:
 CMakeFiles/24taEN.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\24taEN.dir\build.make CMakeFiles/24taEN.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\24taEN.dir\build.make CMakeFiles/24taEN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=17 "Built target 24taEN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=14 "Built target 24taEN"
 .PHONY : CMakeFiles/24taEN.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2640,12 +3352,12 @@ CMakeFiles/24taEN.dir/clean:
 CMakeFiles/25taEN.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25taEN.dir\build.make CMakeFiles/25taEN.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25taEN.dir\build.make CMakeFiles/25taEN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=18 "Built target 25taEN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target 25taEN"
 .PHONY : CMakeFiles/25taEN.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/25taEN.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/25taEN.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/25taEN.dir/rule
@@ -2666,12 +3378,12 @@ CMakeFiles/25taEN.dir/clean:
 CMakeFiles/28maEN.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\28maEN.dir\build.make CMakeFiles/28maEN.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\28maEN.dir\build.make CMakeFiles/28maEN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target 28maEN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=15 "Built target 28maEN"
 .PHONY : CMakeFiles/28maEN.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/28maEN.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/28maEN.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/28maEN.dir/rule
@@ -2718,7 +3430,7 @@ CMakeFiles/Aud0.dir/clean:
 CMakeFiles/Aud1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud1.dir\build.make CMakeFiles/Aud1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud1.dir\build.make CMakeFiles/Aud1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=28 "Built target Aud1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=23 "Built target Aud1"
 .PHONY : CMakeFiles/Aud1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2744,12 +3456,12 @@ CMakeFiles/Aud1.dir/clean:
 CMakeFiles/Aud1.1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud1.1.dir\build.make CMakeFiles/Aud1.1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud1.1.dir\build.make CMakeFiles/Aud1.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=29 "Built target Aud1.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud1.1"
 .PHONY : CMakeFiles/Aud1.1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud1.1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud1.1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud1.1.dir/rule
@@ -2770,12 +3482,12 @@ CMakeFiles/Aud1.1.dir/clean:
 CMakeFiles/Aud1.2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud1.2.dir\build.make CMakeFiles/Aud1.2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud1.2.dir\build.make CMakeFiles/Aud1.2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud1.2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=24 "Built target Aud1.2"
 .PHONY : CMakeFiles/Aud1.2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud1.2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud1.2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud1.2.dir/rule
@@ -2796,12 +3508,12 @@ CMakeFiles/Aud1.2.dir/clean:
 CMakeFiles/Aud2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud2.dir\build.make CMakeFiles/Aud2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud2.dir\build.make CMakeFiles/Aud2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=40 "Built target Aud2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud2"
 .PHONY : CMakeFiles/Aud2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud2.dir/rule
@@ -2822,12 +3534,12 @@ CMakeFiles/Aud2.dir/clean:
 CMakeFiles/Aud3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud3.dir\build.make CMakeFiles/Aud3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud3.dir\build.make CMakeFiles/Aud3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=43 "Built target Aud3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud3"
 .PHONY : CMakeFiles/Aud3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud3.dir/rule
@@ -2848,12 +3560,12 @@ CMakeFiles/Aud3.dir/clean:
 CMakeFiles/Aud3.1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud3.1.dir\build.make CMakeFiles/Aud3.1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud3.1.dir\build.make CMakeFiles/Aud3.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud3.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=39 "Built target Aud3.1"
 .PHONY : CMakeFiles/Aud3.1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud3.1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud3.1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud3.1.dir/rule
@@ -2874,12 +3586,12 @@ CMakeFiles/Aud3.1.dir/clean:
 CMakeFiles/Aud4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud4.dir\build.make CMakeFiles/Aud4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud4.dir\build.make CMakeFiles/Aud4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=44 "Built target Aud4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud4"
 .PHONY : CMakeFiles/Aud4.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud4.dir/rule
@@ -2900,7 +3612,7 @@ CMakeFiles/Aud4.dir/clean:
 CMakeFiles/Aud4.1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud4.1.dir\build.make CMakeFiles/Aud4.1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud4.1.dir\build.make CMakeFiles/Aud4.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=45 "Built target Aud4.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=40 "Built target Aud4.1"
 .PHONY : CMakeFiles/Aud4.1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2926,12 +3638,12 @@ CMakeFiles/Aud4.1.dir/clean:
 CMakeFiles/Aud5.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.dir\build.make CMakeFiles/Aud5.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.dir\build.make CMakeFiles/Aud5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=41 "Built target Aud5"
 .PHONY : CMakeFiles/Aud5.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud5.dir/rule
@@ -2952,12 +3664,12 @@ CMakeFiles/Aud5.dir/clean:
 CMakeFiles/Aud5.1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.1.dir\build.make CMakeFiles/Aud5.1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.1.dir\build.make CMakeFiles/Aud5.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=46 "Built target Aud5.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud5.1"
 .PHONY : CMakeFiles/Aud5.1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud5.1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud5.1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud5.1.dir/rule
@@ -2978,7 +3690,7 @@ CMakeFiles/Aud5.1.dir/clean:
 CMakeFiles/Aud5.2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.2.dir\build.make CMakeFiles/Aud5.2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.2.dir\build.make CMakeFiles/Aud5.2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=47 "Built target Aud5.2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=42 "Built target Aud5.2"
 .PHONY : CMakeFiles/Aud5.2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3004,12 +3716,12 @@ CMakeFiles/Aud5.2.dir/clean:
 CMakeFiles/Aud6.0.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud6.0.dir\build.make CMakeFiles/Aud6.0.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud6.0.dir\build.make CMakeFiles/Aud6.0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=48 "Built target Aud6.0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud6.0"
 .PHONY : CMakeFiles/Aud6.0.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud6.0.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud6.0.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud6.0.dir/rule
@@ -3030,12 +3742,12 @@ CMakeFiles/Aud6.0.dir/clean:
 CMakeFiles/Aud7.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud7.dir\build.make CMakeFiles/Aud7.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud7.dir\build.make CMakeFiles/Aud7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=43 "Built target Aud7"
 .PHONY : CMakeFiles/Aud7.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud7.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud7.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud7.dir/rule
@@ -3056,7 +3768,7 @@ CMakeFiles/Aud7.dir/clean:
 CMakeFiles/Aud7.1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud7.1.dir\build.make CMakeFiles/Aud7.1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud7.1.dir\build.make CMakeFiles/Aud7.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=49 "Built target Aud7.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=44 "Built target Aud7.1"
 .PHONY : CMakeFiles/Aud7.1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3082,12 +3794,12 @@ CMakeFiles/Aud7.1.dir/clean:
 CMakeFiles/Aud8.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud8.dir\build.make CMakeFiles/Aud8.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud8.dir\build.make CMakeFiles/Aud8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=50 "Built target Aud8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud8"
 .PHONY : CMakeFiles/Aud8.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud8.dir/rule
@@ -3108,7 +3820,7 @@ CMakeFiles/Aud8.dir/clean:
 CMakeFiles/Aud8.1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud8.1.dir\build.make CMakeFiles/Aud8.1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud8.1.dir\build.make CMakeFiles/Aud8.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=51 "Built target Aud8.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=45 "Built target Aud8.1"
 .PHONY : CMakeFiles/Aud8.1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3160,7 +3872,7 @@ CMakeFiles/Aud9.dir/clean:
 CMakeFiles/Aud10.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud10.dir\build.make CMakeFiles/Aud10.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud10.dir\build.make CMakeFiles/Aud10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=30 "Built target Aud10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=25 "Built target Aud10"
 .PHONY : CMakeFiles/Aud10.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3186,12 +3898,12 @@ CMakeFiles/Aud10.dir/clean:
 CMakeFiles/Aud10.1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud10.1.dir\build.make CMakeFiles/Aud10.1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud10.1.dir\build.make CMakeFiles/Aud10.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=31 "Built target Aud10.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud10.1"
 .PHONY : CMakeFiles/Aud10.1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud10.1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud10.1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud10.1.dir/rule
@@ -3212,7 +3924,7 @@ CMakeFiles/Aud10.1.dir/clean:
 CMakeFiles/Aud11.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud11.dir\build.make CMakeFiles/Aud11.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud11.dir\build.make CMakeFiles/Aud11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=32 "Built target Aud11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=26 "Built target Aud11"
 .PHONY : CMakeFiles/Aud11.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3264,7 +3976,7 @@ CMakeFiles/Aud12.dir/clean:
 CMakeFiles/Aud12.1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud12.1.dir\build.make CMakeFiles/Aud12.1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud12.1.dir\build.make CMakeFiles/Aud12.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=33 "Built target Aud12.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=27 "Built target Aud12.1"
 .PHONY : CMakeFiles/Aud12.1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3290,12 +4002,12 @@ CMakeFiles/Aud12.1.dir/clean:
 CMakeFiles/Slika.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Slika.dir\build.make CMakeFiles/Slika.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Slika.dir\build.make CMakeFiles/Slika.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=84 "Built target Slika"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Slika"
 .PHONY : CMakeFiles/Slika.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Slika.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Slika.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Slika.dir/rule
@@ -3316,12 +4028,12 @@ CMakeFiles/Slika.dir/clean:
 CMakeFiles/Aud13.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud13.dir\build.make CMakeFiles/Aud13.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud13.dir\build.make CMakeFiles/Aud13.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=34 "Built target Aud13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud13"
 .PHONY : CMakeFiles/Aud13.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud13.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud13.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud13.dir/rule
@@ -3342,7 +4054,7 @@ CMakeFiles/Aud13.dir/clean:
 CMakeFiles/Aud13.1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud13.1.dir\build.make CMakeFiles/Aud13.1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud13.1.dir\build.make CMakeFiles/Aud13.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=35 "Built target Aud13.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=28 "Built target Aud13.1"
 .PHONY : CMakeFiles/Aud13.1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3368,12 +4080,12 @@ CMakeFiles/Aud13.1.dir/clean:
 CMakeFiles/Aud14.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud14.dir\build.make CMakeFiles/Aud14.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud14.dir\build.make CMakeFiles/Aud14.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud14"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=29 "Built target Aud14"
 .PHONY : CMakeFiles/Aud14.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud14.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud14.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud14.dir/rule
@@ -3394,12 +4106,12 @@ CMakeFiles/Aud14.dir/clean:
 CMakeFiles/Aud15.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud15.dir\build.make CMakeFiles/Aud15.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud15.dir\build.make CMakeFiles/Aud15.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=36 "Built target Aud15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud15"
 .PHONY : CMakeFiles/Aud15.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud15.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud15.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud15.dir/rule
@@ -3420,12 +4132,12 @@ CMakeFiles/Aud15.dir/clean:
 CMakeFiles/StaticPost.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticPost.dir\build.make CMakeFiles/StaticPost.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticPost.dir\build.make CMakeFiles/StaticPost.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=86 "Built target StaticPost"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target StaticPost"
 .PHONY : CMakeFiles/StaticPost.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/StaticPost.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/StaticPost.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/StaticPost.dir/rule
@@ -3446,7 +4158,7 @@ CMakeFiles/StaticPost.dir/clean:
 CMakeFiles/Aud16.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud16.dir\build.make CMakeFiles/Aud16.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud16.dir\build.make CMakeFiles/Aud16.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=37 "Built target Aud16"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=30 "Built target Aud16"
 .PHONY : CMakeFiles/Aud16.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3498,7 +4210,7 @@ CMakeFiles/Aud17.dir/clean:
 CMakeFiles/Aud18.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud18.dir\build.make CMakeFiles/Aud18.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud18.dir\build.make CMakeFiles/Aud18.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=38 "Built target Aud18"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=31 "Built target Aud18"
 .PHONY : CMakeFiles/Aud18.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3524,7 +4236,7 @@ CMakeFiles/Aud18.dir/clean:
 CMakeFiles/Aud19.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud19.dir\build.make CMakeFiles/Aud19.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud19.dir\build.make CMakeFiles/Aud19.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=39 "Built target Aud19"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=32 "Built target Aud19"
 .PHONY : CMakeFiles/Aud19.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3550,12 +4262,12 @@ CMakeFiles/Aud19.dir/clean:
 CMakeFiles/Vlatko1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vlatko1.dir\build.make CMakeFiles/Vlatko1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Vlatko1.dir\build.make CMakeFiles/Vlatko1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=94 "Built target Vlatko1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Vlatko1"
 .PHONY : CMakeFiles/Vlatko1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Vlatko1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Vlatko1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Vlatko1.dir/rule
@@ -3576,12 +4288,12 @@ CMakeFiles/Vlatko1.dir/clean:
 CMakeFiles/Aud20.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud20.dir\build.make CMakeFiles/Aud20.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud20.dir\build.make CMakeFiles/Aud20.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud20"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=33 "Built target Aud20"
 .PHONY : CMakeFiles/Aud20.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud20.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud20.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud20.dir/rule
@@ -3602,12 +4314,12 @@ CMakeFiles/Aud20.dir/clean:
 CMakeFiles/Aud21.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud21.dir\build.make CMakeFiles/Aud21.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud21.dir\build.make CMakeFiles/Aud21.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=41 "Built target Aud21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud21"
 .PHONY : CMakeFiles/Aud21.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Aud21.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud21.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Aud21.dir/rule
@@ -3628,7 +4340,7 @@ CMakeFiles/Aud21.dir/clean:
 CMakeFiles/Aud22.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud22.dir\build.make CMakeFiles/Aud22.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud22.dir\build.make CMakeFiles/Aud22.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=42 "Built target Aud22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=34 "Built target Aud22"
 .PHONY : CMakeFiles/Aud22.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3654,7 +4366,7 @@ CMakeFiles/Aud22.dir/clean:
 CMakeFiles/OperatoriStefan10.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatoriStefan10.dir\build.make CMakeFiles/OperatoriStefan10.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatoriStefan10.dir\build.make CMakeFiles/OperatoriStefan10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=74 "Built target OperatoriStefan10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=69 "Built target OperatoriStefan10"
 .PHONY : CMakeFiles/OperatoriStefan10.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3680,12 +4392,12 @@ CMakeFiles/OperatoriStefan10.dir/clean:
 CMakeFiles/OperatoriStefan11.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatoriStefan11.dir\build.make CMakeFiles/OperatoriStefan11.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatoriStefan11.dir\build.make CMakeFiles/OperatoriStefan11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=75 "Built target OperatoriStefan11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target OperatoriStefan11"
 .PHONY : CMakeFiles/OperatoriStefan11.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OperatoriStefan11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/OperatoriStefan11.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/OperatoriStefan11.dir/rule
@@ -3706,12 +4418,12 @@ CMakeFiles/OperatoriStefan11.dir/clean:
 CMakeFiles/StudnentStefan.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudnentStefan.dir\build.make CMakeFiles/StudnentStefan.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudnentStefan.dir\build.make CMakeFiles/StudnentStefan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=90 "Built target StudnentStefan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target StudnentStefan"
 .PHONY : CMakeFiles/StudnentStefan.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/StudnentStefan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/StudnentStefan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/StudnentStefan.dir/rule
@@ -3732,12 +4444,12 @@ CMakeFiles/StudnentStefan.dir/clean:
 CMakeFiles/Sentence.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sentence.dir\build.make CMakeFiles/Sentence.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sentence.dir\build.make CMakeFiles/Sentence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Sentence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=79 "Built target Sentence"
 .PHONY : CMakeFiles/Sentence.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Sentence.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Sentence.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Sentence.dir/rule
@@ -3758,12 +4470,12 @@ CMakeFiles/Sentence.dir/clean:
 CMakeFiles/StringBuiler.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringBuiler.dir\build.make CMakeFiles/StringBuiler.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringBuiler.dir\build.make CMakeFiles/StringBuiler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=88 "Built target StringBuiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target StringBuiler"
 .PHONY : CMakeFiles/StringBuiler.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/StringBuiler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/StringBuiler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/StringBuiler.dir/rule
@@ -3776,6 +4488,162 @@ StringBuiler: CMakeFiles/StringBuiler.dir/rule
 CMakeFiles/StringBuiler.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringBuiler.dir\build.make CMakeFiles/StringBuiler.dir/clean
 .PHONY : CMakeFiles/StringBuiler.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Aud23.dir
+
+# All Build rule for target.
+CMakeFiles/Aud23.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud23.dir\build.make CMakeFiles/Aud23.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud23.dir\build.make CMakeFiles/Aud23.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=35 "Built target Aud23"
+.PHONY : CMakeFiles/Aud23.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Aud23.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud23.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Aud23.dir/rule
+
+# Convenience name for target.
+Aud23: CMakeFiles/Aud23.dir/rule
+.PHONY : Aud23
+
+# clean rule for target.
+CMakeFiles/Aud23.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud23.dir\build.make CMakeFiles/Aud23.dir/clean
+.PHONY : CMakeFiles/Aud23.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Aud24.dir
+
+# All Build rule for target.
+CMakeFiles/Aud24.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud24.dir\build.make CMakeFiles/Aud24.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud24.dir\build.make CMakeFiles/Aud24.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud24"
+.PHONY : CMakeFiles/Aud24.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Aud24.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud24.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Aud24.dir/rule
+
+# Convenience name for target.
+Aud24: CMakeFiles/Aud24.dir/rule
+.PHONY : Aud24
+
+# clean rule for target.
+CMakeFiles/Aud24.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud24.dir\build.make CMakeFiles/Aud24.dir/clean
+.PHONY : CMakeFiles/Aud24.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Aud25.dir
+
+# All Build rule for target.
+CMakeFiles/Aud25.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud25.dir\build.make CMakeFiles/Aud25.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud25.dir\build.make CMakeFiles/Aud25.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=36 "Built target Aud25"
+.PHONY : CMakeFiles/Aud25.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Aud25.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud25.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Aud25.dir/rule
+
+# Convenience name for target.
+Aud25: CMakeFiles/Aud25.dir/rule
+.PHONY : Aud25
+
+# clean rule for target.
+CMakeFiles/Aud25.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud25.dir\build.make CMakeFiles/Aud25.dir/clean
+.PHONY : CMakeFiles/Aud25.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Aud26.dir
+
+# All Build rule for target.
+CMakeFiles/Aud26.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud26.dir\build.make CMakeFiles/Aud26.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud26.dir\build.make CMakeFiles/Aud26.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Aud26"
+.PHONY : CMakeFiles/Aud26.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Aud26.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud26.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Aud26.dir/rule
+
+# Convenience name for target.
+Aud26: CMakeFiles/Aud26.dir/rule
+.PHONY : Aud26
+
+# clean rule for target.
+CMakeFiles/Aud26.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud26.dir\build.make CMakeFiles/Aud26.dir/clean
+.PHONY : CMakeFiles/Aud26.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Aud27.dir
+
+# All Build rule for target.
+CMakeFiles/Aud27.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud27.dir\build.make CMakeFiles/Aud27.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud27.dir\build.make CMakeFiles/Aud27.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=37 "Built target Aud27"
+.PHONY : CMakeFiles/Aud27.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Aud27.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud27.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Aud27.dir/rule
+
+# Convenience name for target.
+Aud27: CMakeFiles/Aud27.dir/rule
+.PHONY : Aud27
+
+# clean rule for target.
+CMakeFiles/Aud27.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud27.dir\build.make CMakeFiles/Aud27.dir/clean
+.PHONY : CMakeFiles/Aud27.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Aud28.dir
+
+# All Build rule for target.
+CMakeFiles/Aud28.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud28.dir\build.make CMakeFiles/Aud28.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud28.dir\build.make CMakeFiles/Aud28.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=38 "Built target Aud28"
+.PHONY : CMakeFiles/Aud28.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Aud28.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aud28.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Aud28.dir/rule
+
+# Convenience name for target.
+Aud28: CMakeFiles/Aud28.dir/rule
+.PHONY : Aud28
+
+# clean rule for target.
+CMakeFiles/Aud28.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud28.dir\build.make CMakeFiles/Aud28.dir/clean
+.PHONY : CMakeFiles/Aud28.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/1.dir
@@ -3810,12 +4678,12 @@ CMakeFiles/1.dir/clean:
 CMakeFiles/2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target 2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=11 "Built target 2"
 .PHONY : CMakeFiles/2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/2.dir/rule
@@ -3836,12 +4704,12 @@ CMakeFiles/2.dir/clean:
 CMakeFiles/Wizz.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz.cpp.dir\build.make CMakeFiles/Wizz.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz.cpp.dir\build.make CMakeFiles/Wizz.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=95 "Built target Wizz.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num= "Built target Wizz.cpp"
 .PHONY : CMakeFiles/Wizz.cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Wizz.cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Wizz.cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Wizz.cpp.dir/rule
@@ -3862,7 +4730,7 @@ CMakeFiles/Wizz.cpp.dir/clean:
 CMakeFiles/Wizz2.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz2.cpp.dir\build.make CMakeFiles/Wizz2.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz2.cpp.dir\build.make CMakeFiles/Wizz2.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=96 "Built target Wizz2.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=93 "Built target Wizz2.cpp"
 .PHONY : CMakeFiles/Wizz2.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3888,7 +4756,7 @@ CMakeFiles/Wizz2.cpp.dir/clean:
 CMakeFiles/Wizz3.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz3.cpp.dir\build.make CMakeFiles/Wizz3.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wizz3.cpp.dir\build.make CMakeFiles/Wizz3.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=97 "Built target Wizz3.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=94 "Built target Wizz3.cpp"
 .PHONY : CMakeFiles/Wizz3.cpp.dir/all
 
 # Build rule for subdir invocation for target.

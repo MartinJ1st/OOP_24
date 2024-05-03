@@ -53,9 +53,9 @@ public:
     }
 
     void print() {
-        cout << "File name: " << this->name << "." << ex[this->ext] << endl;
+        cout << "File ime: " << this->name << "." << ex[this->ext] << endl;
         cout << "File owner: " << this->owner << endl;
-        cout << "File size: " << this->size << endl;
+        cout << "File n: " << this->size << endl;
     }
 
     bool equals(const File &other) {
@@ -93,7 +93,7 @@ public:
     }
 
     void print() {
-        cout << "Folder name: " << this->name << endl;
+        cout << "Folder ime: " << this->name << endl;
 
         for (int i = 0; i < files; i++)
             this->f[i].print();

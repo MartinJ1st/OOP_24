@@ -114,6 +114,11 @@ public:
         }
         return false;
     }
+
+    friend ostream &operator<<(ostream &os, const Call &call) {
+        os << "date: " << call.date << " duration: " << call.duration << " br1: " << call.br1 << " br2: " << call.br2;
+        return os;
+    }
 };
 
 void printCalls(Call *calls, int n, Datum &target) {

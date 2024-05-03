@@ -60,7 +60,7 @@ int main() {
 //using namespace std;
 //
 //struct Driver {
-//    string name;
+//    string ime;
 //    int time;
 //};
 //
@@ -83,7 +83,7 @@ int main() {
 //
 //    for (int i = 0; i < 3; ++i) {
 //        Driver *d = &race->drivers[i];
-//        cout << i + 1 << ". " << d->name << "  " << d->time / 60 << ":";
+//        cout << i + 1 << ". " << d->ime << "  " << d->time / 60 << ":";
 //        if (d->time % 60 < 10) {
 //            cout << "0";
 //        }
@@ -101,7 +101,7 @@ int main() {
 //        cin >> races[i].n;
 //
 //        for (int j = 0; j < races[i].n; ++j) {
-//            cin >> races[i].drivers[j].name;
+//            cin >> races[i].drivers[j].ime;
 //            cin >> races[i].drivers[j].time;
 //        }
 //    }
