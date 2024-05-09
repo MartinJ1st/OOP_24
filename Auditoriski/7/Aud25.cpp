@@ -110,7 +110,6 @@ public:
     }
 };
 
-
 int main() {
 
 //    HotelReservation *h = new HotelReservation("Ime", "Prezime", 4, 3);

@@ -194,6 +194,9 @@ add_executable(Aud26 Auditoriski/7/Aud26.cpp)
 add_executable(Aud27 Auditoriski/8/Aud27.cpp)
 add_executable(Aud28 Auditoriski/8/Aud28.cpp)
 
+add_executable(Aud29 Auditoriski/9/Aud29.cpp)
+add_executable(Aud30 Auditoriski/9/Aud30.cpp)
+
 
 add_executable(1 Labs/1.cpp)
 add_executable(2 Labs/2.cpp)

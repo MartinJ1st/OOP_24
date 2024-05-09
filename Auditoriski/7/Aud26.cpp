@@ -122,23 +122,8 @@ protected:
     User *niza;
     int n;
     string ime;
-public:
-    Group(string ime = "", int n = 0, User *niza = 0) {
-        this->ime = ime;
-        this->n = n;
-        this->niza = new User[n];
-        for (int i = 0; i < n; ++i) {
-            this->niza[i] = niza[i];
-        }
-    }
 
-//    Group(string ime = "") {
-//        this->ime = ime;
-//        n = 0;
-//        niza = new User[n];
-//    }
-
-    Group(const Group &g) {
+    void copy(const Group &g) {
         this->ime = g.ime;
         this->n = g.n;
         this->niza = new User[n];
@@ -147,15 +132,24 @@ public:
         }
     }
 
+public:
+    Group(string name = "") {
+        this->ime = name;
+        niza = new User[0];
+        n = 0;
+    }
+
+//    Group(string ime = "") {
+//        this->ime = ime;
+//        n = 0;
+//        niza = new User[n];
+//    }
+
+
     Group &operator=(const Group &g) {
         if (this != &g) {
             delete[] niza;
-            this->ime = g.ime;
-            this->n = g.n;
-            this->niza = new User[n];
-            for (int i = 0; i < n; ++i) {
-                this->niza[i] = g.niza[i];
-            }
+            copy(g);
         }
         return *this;
     }
@@ -164,7 +158,7 @@ public:
         delete[] niza;
     }
 
-    void addMemeber(User &u) {
+    virtual void addMember(User &u) {
         for (int i = 0; i < n; ++i) {
             if (niza[i] == u) {
                 return;
@@ -188,8 +182,19 @@ public:
         return suma * 1.0 / n;
     }
 
-    double rating() {
+    virtual double rating() {
         return (10 - average()) * n / 100.0;
+    }
+
+    friend ostream &operator<<(ostream &o, Group &g) {
+        o << "Group: " << g.ime << endl;
+        o << "Members: " << g.n << endl;
+        o << "Rating: " << g.rating() << endl;
+        o << "Members list:" << endl;
+        for (int i = 0; i < g.n; ++i) {
+            o << i + 1 << ". " << g.niza[i] << endl;
+        }
+        return o;
     }
 };
 
@@ -198,7 +203,7 @@ public:
     static int kapacitet;
     const static double koeficient;
 
-    PrivateGroup(string ime = "", int n = 0, User *niza = 0) : Group(ime, n, niza) {}
+    PrivateGroup(string name) : Group(name) {};
 
     PrivateGroup(const PrivateGroup &pg) : Group(pg) {}
 
@@ -209,12 +214,23 @@ public:
 
     void addMember(User &u) {
         if (n < kapacitet) {
-            Group::addMemeber(u);
+            Group::addMember(u);
         }
     }
 
     double rating() {
         return (10 - average()) * (n * 1.0 / kapacitet) * koeficient;
+    }
+
+    static void setCapacity(int kapacitet) {
+        kapacitet = kapacitet;
+    }
+
+    friend ostream &operator<<(ostream &out, const PrivateGroup &g) {
+        out << "Private ";
+        Group group(g);
+        out << group;
+        return out;
     }
 };
 
@@ -242,9 +258,7 @@ int main() {
         for (int j = 0; j < nUsers; j++) {
             User u;
             cin >> u;
-
             groups[i]->addMember(u);
-
         }
     }
 

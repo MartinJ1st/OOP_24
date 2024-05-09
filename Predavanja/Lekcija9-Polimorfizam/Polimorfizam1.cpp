@@ -56,6 +56,7 @@ int main() {
     DC d, e;
     d.f1(5); //nasledeno od BC
     //e.f1(2, 3.45); // ne e nasledeno od BC - error
+    e.BC::f1(2, 3.45); // VAKA BI TREBALO DA SE PRAVI
     d.f2(4); //nasledeno od BC
     return 0;
 }

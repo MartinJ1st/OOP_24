@@ -55,7 +55,7 @@ public:
 
     void print() {
         DebitAccount::print();
-        cout << " " << kamata << " " << limit << " " << minus<<endl;
+        cout << " " << kamata << " " << limit << " " << minus << endl;
     }
 
     void uplata(double iznos) {
@@ -78,10 +78,8 @@ public:
             double precekoruvanje = iznos - saldo;
             precekoruvanje *= (1 + (kamata / 100.0));
             if ((precekoruvanje + minus) <= limit) {
-                {
-                    saldo = 0;
-                    minus += precekoruvanje;
-                }
+                saldo = 0;
+                minus += precekoruvanje;
             } else {
                 cout << "Nemate dovolno sredstva na smetkata" << endl;
             }
