@@ -14,6 +14,9 @@ C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Athlete.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/zadaca1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/zadaca2.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/zadaca3.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/SmetkaZadaca.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/KamionLogistika.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/BukvaFrekvencija.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Kol1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Kolok1.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Galerija.dir

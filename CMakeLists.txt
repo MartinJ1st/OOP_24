@@ -26,7 +26,9 @@ add_executable(zadaca1 Labs/9_nedela/zadaca1.cpp)
 add_executable(zadaca2 Labs/9_nedela/zadaca2.cpp)
 add_executable(zadaca3 Labs/9_nedela/zadaca3.cpp)
 
-
+add_executable(SmetkaZadaca Auditoriski/10/SmetkaZadaca.cpp)
+add_executable(KamionLogistika Auditoriski/10/KamionLogistika.cpp)
+add_executable(BukvaFrekvencija Auditoriski/10/BukvaFrekvencija.cpp)
 
 
 add_executable(Kol1 Kolokviumski/Zadaci/Kol1.cpp)

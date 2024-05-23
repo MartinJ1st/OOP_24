@@ -324,6 +324,45 @@ zadaca3/fast:
 .PHONY : zadaca3/fast
 
 #=============================================================================
+# Target rules for targets named SmetkaZadaca
+
+# Build rule for target.
+SmetkaZadaca: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SmetkaZadaca
+.PHONY : SmetkaZadaca
+
+# fast build rule for target.
+SmetkaZadaca/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmetkaZadaca.dir\build.make CMakeFiles/SmetkaZadaca.dir/build
+.PHONY : SmetkaZadaca/fast
+
+#=============================================================================
+# Target rules for targets named KamionLogistika
+
+# Build rule for target.
+KamionLogistika: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 KamionLogistika
+.PHONY : KamionLogistika
+
+# fast build rule for target.
+KamionLogistika/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KamionLogistika.dir\build.make CMakeFiles/KamionLogistika.dir/build
+.PHONY : KamionLogistika/fast
+
+#=============================================================================
+# Target rules for targets named BukvaFrekvencija
+
+# Build rule for target.
+BukvaFrekvencija: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BukvaFrekvencija
+.PHONY : BukvaFrekvencija
+
+# fast build rule for target.
+BukvaFrekvencija/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BukvaFrekvencija.dir\build.make CMakeFiles/BukvaFrekvencija.dir/build
+.PHONY : BukvaFrekvencija/fast
+
+#=============================================================================
 # Target rules for targets named Kol1
 
 # Build rule for target.
@@ -3062,6 +3101,30 @@ Auditoriski/10/Aud33.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud33.dir\build.make CMakeFiles/Aud33.dir/Auditoriski/10/Aud33.cpp.s
 .PHONY : Auditoriski/10/Aud33.cpp.s
 
+Auditoriski/10/BukvaFrekvencija.obj: Auditoriski/10/BukvaFrekvencija.cpp.obj
+.PHONY : Auditoriski/10/BukvaFrekvencija.obj
+
+# target to build an object file
+Auditoriski/10/BukvaFrekvencija.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BukvaFrekvencija.dir\build.make CMakeFiles/BukvaFrekvencija.dir/Auditoriski/10/BukvaFrekvencija.cpp.obj
+.PHONY : Auditoriski/10/BukvaFrekvencija.cpp.obj
+
+Auditoriski/10/BukvaFrekvencija.i: Auditoriski/10/BukvaFrekvencija.cpp.i
+.PHONY : Auditoriski/10/BukvaFrekvencija.i
+
+# target to preprocess a source file
+Auditoriski/10/BukvaFrekvencija.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BukvaFrekvencija.dir\build.make CMakeFiles/BukvaFrekvencija.dir/Auditoriski/10/BukvaFrekvencija.cpp.i
+.PHONY : Auditoriski/10/BukvaFrekvencija.cpp.i
+
+Auditoriski/10/BukvaFrekvencija.s: Auditoriski/10/BukvaFrekvencija.cpp.s
+.PHONY : Auditoriski/10/BukvaFrekvencija.s
+
+# target to generate assembly for a file
+Auditoriski/10/BukvaFrekvencija.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BukvaFrekvencija.dir\build.make CMakeFiles/BukvaFrekvencija.dir/Auditoriski/10/BukvaFrekvencija.cpp.s
+.PHONY : Auditoriski/10/BukvaFrekvencija.cpp.s
+
 Auditoriski/10/Card.obj: Auditoriski/10/Card.cpp.obj
 .PHONY : Auditoriski/10/Card.obj
 
@@ -3110,6 +3173,30 @@ Auditoriski/10/Citizen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Citizen.dir\build.make CMakeFiles/Citizen.dir/Auditoriski/10/Citizen.cpp.s
 .PHONY : Auditoriski/10/Citizen.cpp.s
 
+Auditoriski/10/KamionLogistika.obj: Auditoriski/10/KamionLogistika.cpp.obj
+.PHONY : Auditoriski/10/KamionLogistika.obj
+
+# target to build an object file
+Auditoriski/10/KamionLogistika.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KamionLogistika.dir\build.make CMakeFiles/KamionLogistika.dir/Auditoriski/10/KamionLogistika.cpp.obj
+.PHONY : Auditoriski/10/KamionLogistika.cpp.obj
+
+Auditoriski/10/KamionLogistika.i: Auditoriski/10/KamionLogistika.cpp.i
+.PHONY : Auditoriski/10/KamionLogistika.i
+
+# target to preprocess a source file
+Auditoriski/10/KamionLogistika.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KamionLogistika.dir\build.make CMakeFiles/KamionLogistika.dir/Auditoriski/10/KamionLogistika.cpp.i
+.PHONY : Auditoriski/10/KamionLogistika.cpp.i
+
+Auditoriski/10/KamionLogistika.s: Auditoriski/10/KamionLogistika.cpp.s
+.PHONY : Auditoriski/10/KamionLogistika.s
+
+# target to generate assembly for a file
+Auditoriski/10/KamionLogistika.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KamionLogistika.dir\build.make CMakeFiles/KamionLogistika.dir/Auditoriski/10/KamionLogistika.cpp.s
+.PHONY : Auditoriski/10/KamionLogistika.cpp.s
+
 Auditoriski/10/ShapeStefan.obj: Auditoriski/10/ShapeStefan.cpp.obj
 .PHONY : Auditoriski/10/ShapeStefan.obj
 
@@ -3133,6 +3220,30 @@ Auditoriski/10/ShapeStefan.s: Auditoriski/10/ShapeStefan.cpp.s
 Auditoriski/10/ShapeStefan.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShapeStefan.dir\build.make CMakeFiles/ShapeStefan.dir/Auditoriski/10/ShapeStefan.cpp.s
 .PHONY : Auditoriski/10/ShapeStefan.cpp.s
+
+Auditoriski/10/SmetkaZadaca.obj: Auditoriski/10/SmetkaZadaca.cpp.obj
+.PHONY : Auditoriski/10/SmetkaZadaca.obj
+
+# target to build an object file
+Auditoriski/10/SmetkaZadaca.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmetkaZadaca.dir\build.make CMakeFiles/SmetkaZadaca.dir/Auditoriski/10/SmetkaZadaca.cpp.obj
+.PHONY : Auditoriski/10/SmetkaZadaca.cpp.obj
+
+Auditoriski/10/SmetkaZadaca.i: Auditoriski/10/SmetkaZadaca.cpp.i
+.PHONY : Auditoriski/10/SmetkaZadaca.i
+
+# target to preprocess a source file
+Auditoriski/10/SmetkaZadaca.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmetkaZadaca.dir\build.make CMakeFiles/SmetkaZadaca.dir/Auditoriski/10/SmetkaZadaca.cpp.i
+.PHONY : Auditoriski/10/SmetkaZadaca.cpp.i
+
+Auditoriski/10/SmetkaZadaca.s: Auditoriski/10/SmetkaZadaca.cpp.s
+.PHONY : Auditoriski/10/SmetkaZadaca.s
+
+# target to generate assembly for a file
+Auditoriski/10/SmetkaZadaca.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmetkaZadaca.dir\build.make CMakeFiles/SmetkaZadaca.dir/Auditoriski/10/SmetkaZadaca.cpp.s
+.PHONY : Auditoriski/10/SmetkaZadaca.cpp.s
 
 Auditoriski/10/VovedIsklucoci.obj: Auditoriski/10/VovedIsklucoci.cpp.obj
 .PHONY : Auditoriski/10/VovedIsklucoci.obj
@@ -7587,6 +7698,7 @@ help:
 	@echo ... Bank
 	@echo ... Book
 	@echo ... BookClass
+	@echo ... BukvaFrekvencija
 	@echo ... BusLine
 	@echo ... C-DC_objekti
 	@echo ... Call
@@ -7613,6 +7725,7 @@ help:
 	@echo ... IDVraboten
 	@echo ... Invoice
 	@echo ... Isklucoci1
+	@echo ... KamionLogistika
 	@echo ... Kol1
 	@echo ... Kolok1
 	@echo ... Kosarka
@@ -7646,6 +7759,7 @@ help:
 	@echo ... Sentence
 	@echo ... ShapeStefan
 	@echo ... Slika
+	@echo ... SmetkaZadaca
 	@echo ... Speaker
 	@echo ... StaticPost
 	@echo ... Stefan1AClass
@@ -7730,15 +7844,24 @@ help:
 	@echo ... Auditoriski/10/Aud33.obj
 	@echo ... Auditoriski/10/Aud33.i
 	@echo ... Auditoriski/10/Aud33.s
+	@echo ... Auditoriski/10/BukvaFrekvencija.obj
+	@echo ... Auditoriski/10/BukvaFrekvencija.i
+	@echo ... Auditoriski/10/BukvaFrekvencija.s
 	@echo ... Auditoriski/10/Card.obj
 	@echo ... Auditoriski/10/Card.i
 	@echo ... Auditoriski/10/Card.s
 	@echo ... Auditoriski/10/Citizen.obj
 	@echo ... Auditoriski/10/Citizen.i
 	@echo ... Auditoriski/10/Citizen.s
+	@echo ... Auditoriski/10/KamionLogistika.obj
+	@echo ... Auditoriski/10/KamionLogistika.i
+	@echo ... Auditoriski/10/KamionLogistika.s
 	@echo ... Auditoriski/10/ShapeStefan.obj
 	@echo ... Auditoriski/10/ShapeStefan.i
 	@echo ... Auditoriski/10/ShapeStefan.s
+	@echo ... Auditoriski/10/SmetkaZadaca.obj
+	@echo ... Auditoriski/10/SmetkaZadaca.i
+	@echo ... Auditoriski/10/SmetkaZadaca.s
 	@echo ... Auditoriski/10/VovedIsklucoci.obj
 	@echo ... Auditoriski/10/VovedIsklucoci.i
 	@echo ... Auditoriski/10/VovedIsklucoci.s
