@@ -259,6 +259,71 @@ zad6/fast:
 .PHONY : zad6/fast
 
 #=============================================================================
+# Target rules for targets named Hero
+
+# Build rule for target.
+Hero: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hero
+.PHONY : Hero
+
+# fast build rule for target.
+Hero/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hero.dir\build.make CMakeFiles/Hero.dir/build
+.PHONY : Hero/fast
+
+#=============================================================================
+# Target rules for targets named Athlete
+
+# Build rule for target.
+Athlete: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Athlete
+.PHONY : Athlete
+
+# fast build rule for target.
+Athlete/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Athlete.dir\build.make CMakeFiles/Athlete.dir/build
+.PHONY : Athlete/fast
+
+#=============================================================================
+# Target rules for targets named zadaca1
+
+# Build rule for target.
+zadaca1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 zadaca1
+.PHONY : zadaca1
+
+# fast build rule for target.
+zadaca1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadaca1.dir\build.make CMakeFiles/zadaca1.dir/build
+.PHONY : zadaca1/fast
+
+#=============================================================================
+# Target rules for targets named zadaca2
+
+# Build rule for target.
+zadaca2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 zadaca2
+.PHONY : zadaca2
+
+# fast build rule for target.
+zadaca2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadaca2.dir\build.make CMakeFiles/zadaca2.dir/build
+.PHONY : zadaca2/fast
+
+#=============================================================================
+# Target rules for targets named zadaca3
+
+# Build rule for target.
+zadaca3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 zadaca3
+.PHONY : zadaca3
+
+# fast build rule for target.
+zadaca3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadaca3.dir\build.make CMakeFiles/zadaca3.dir/build
+.PHONY : zadaca3/fast
+
+#=============================================================================
 # Target rules for targets named Kol1
 
 # Build rule for target.
@@ -896,6 +961,19 @@ Polimorfizam4/fast:
 .PHONY : Polimorfizam4/fast
 
 #=============================================================================
+# Target rules for targets named Isklucoci1
+
+# Build rule for target.
+Isklucoci1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Isklucoci1
+.PHONY : Isklucoci1
+
+# fast build rule for target.
+Isklucoci1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Isklucoci1.dir\build.make CMakeFiles/Isklucoci1.dir/build
+.PHONY : Isklucoci1/fast
+
+#=============================================================================
 # Target rules for targets named Transakcii
 
 # Build rule for target.
@@ -1453,6 +1531,149 @@ DrzavaTax/fast:
 22ra/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\22ra.dir\build.make CMakeFiles/22ra.dir/build
 .PHONY : 22ra/fast
+
+#=============================================================================
+# Target rules for targets named 1va-2k
+
+# Build rule for target.
+1va-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1va-2k
+.PHONY : 1va-2k
+
+# fast build rule for target.
+1va-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1va-2k.dir\build.make CMakeFiles/1va-2k.dir/build
+.PHONY : 1va-2k/fast
+
+#=============================================================================
+# Target rules for targets named 2ra-2k
+
+# Build rule for target.
+2ra-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2ra-2k
+.PHONY : 2ra-2k
+
+# fast build rule for target.
+2ra-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2ra-2k.dir\build.make CMakeFiles/2ra-2k.dir/build
+.PHONY : 2ra-2k/fast
+
+#=============================================================================
+# Target rules for targets named 3ta-2k
+
+# Build rule for target.
+3ta-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3ta-2k
+.PHONY : 3ta-2k
+
+# fast build rule for target.
+3ta-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3ta-2k.dir\build.make CMakeFiles/3ta-2k.dir/build
+.PHONY : 3ta-2k/fast
+
+#=============================================================================
+# Target rules for targets named 4ta-2k
+
+# Build rule for target.
+4ta-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 4ta-2k
+.PHONY : 4ta-2k
+
+# fast build rule for target.
+4ta-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4ta-2k.dir\build.make CMakeFiles/4ta-2k.dir/build
+.PHONY : 4ta-2k/fast
+
+#=============================================================================
+# Target rules for targets named 8ma-2k
+
+# Build rule for target.
+8ma-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 8ma-2k
+.PHONY : 8ma-2k
+
+# fast build rule for target.
+8ma-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8ma-2k.dir\build.make CMakeFiles/8ma-2k.dir/build
+.PHONY : 8ma-2k/fast
+
+#=============================================================================
+# Target rules for targets named 11ta-2k
+
+# Build rule for target.
+11ta-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 11ta-2k
+.PHONY : 11ta-2k
+
+# fast build rule for target.
+11ta-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11ta-2k.dir\build.make CMakeFiles/11ta-2k.dir/build
+.PHONY : 11ta-2k/fast
+
+#=============================================================================
+# Target rules for targets named 12ta-2k
+
+# Build rule for target.
+12ta-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12ta-2k
+.PHONY : 12ta-2k
+
+# fast build rule for target.
+12ta-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12ta-2k.dir\build.make CMakeFiles/12ta-2k.dir/build
+.PHONY : 12ta-2k/fast
+
+#=============================================================================
+# Target rules for targets named 13ta-2k
+
+# Build rule for target.
+13ta-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 13ta-2k
+.PHONY : 13ta-2k
+
+# fast build rule for target.
+13ta-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13ta-2k.dir\build.make CMakeFiles/13ta-2k.dir/build
+.PHONY : 13ta-2k/fast
+
+#=============================================================================
+# Target rules for targets named 14ta-2k
+
+# Build rule for target.
+14ta-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 14ta-2k
+.PHONY : 14ta-2k
+
+# fast build rule for target.
+14ta-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14ta-2k.dir\build.make CMakeFiles/14ta-2k.dir/build
+.PHONY : 14ta-2k/fast
+
+#=============================================================================
+# Target rules for targets named 16ta-2k
+
+# Build rule for target.
+16ta-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 16ta-2k
+.PHONY : 16ta-2k
+
+# fast build rule for target.
+16ta-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\16ta-2k.dir\build.make CMakeFiles/16ta-2k.dir/build
+.PHONY : 16ta-2k/fast
+
+#=============================================================================
+# Target rules for targets named 17ta-2k
+
+# Build rule for target.
+17ta-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 17ta-2k
+.PHONY : 17ta-2k
+
+# fast build rule for target.
+17ta-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\17ta-2k.dir\build.make CMakeFiles/17ta-2k.dir/build
+.PHONY : 17ta-2k/fast
 
 #=============================================================================
 # Target rules for targets named 1vaEN
@@ -2235,6 +2456,188 @@ Aud28/fast:
 .PHONY : Aud28/fast
 
 #=============================================================================
+# Target rules for targets named Stefan1AClass
+
+# Build rule for target.
+Stefan1AClass: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Stefan1AClass
+.PHONY : Stefan1AClass
+
+# fast build rule for target.
+Stefan1AClass/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stefan1AClass.dir\build.make CMakeFiles/Stefan1AClass.dir/build
+.PHONY : Stefan1AClass/fast
+
+#=============================================================================
+# Target rules for targets named Aud27Stefan
+
+# Build rule for target.
+Aud27Stefan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud27Stefan
+.PHONY : Aud27Stefan
+
+# fast build rule for target.
+Aud27Stefan/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud27Stefan.dir\build.make CMakeFiles/Aud27Stefan.dir/build
+.PHONY : Aud27Stefan/fast
+
+#=============================================================================
+# Target rules for targets named Aud29
+
+# Build rule for target.
+Aud29: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud29
+.PHONY : Aud29
+
+# fast build rule for target.
+Aud29/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud29.dir\build.make CMakeFiles/Aud29.dir/build
+.PHONY : Aud29/fast
+
+#=============================================================================
+# Target rules for targets named Aud30
+
+# Build rule for target.
+Aud30: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud30
+.PHONY : Aud30
+
+# fast build rule for target.
+Aud30/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud30.dir\build.make CMakeFiles/Aud30.dir/build
+.PHONY : Aud30/fast
+
+#=============================================================================
+# Target rules for targets named Aud29Stefan
+
+# Build rule for target.
+Aud29Stefan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud29Stefan
+.PHONY : Aud29Stefan
+
+# fast build rule for target.
+Aud29Stefan/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud29Stefan.dir\build.make CMakeFiles/Aud29Stefan.dir/build
+.PHONY : Aud29Stefan/fast
+
+#=============================================================================
+# Target rules for targets named Aud30Stefan
+
+# Build rule for target.
+Aud30Stefan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud30Stefan
+.PHONY : Aud30Stefan
+
+# fast build rule for target.
+Aud30Stefan/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud30Stefan.dir\build.make CMakeFiles/Aud30Stefan.dir/build
+.PHONY : Aud30Stefan/fast
+
+#=============================================================================
+# Target rules for targets named AdapterStefan
+
+# Build rule for target.
+AdapterStefan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AdapterStefan
+.PHONY : AdapterStefan
+
+# fast build rule for target.
+AdapterStefan/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AdapterStefan.dir\build.make CMakeFiles/AdapterStefan.dir/build
+.PHONY : AdapterStefan/fast
+
+#=============================================================================
+# Target rules for targets named VovedIsklucoci
+
+# Build rule for target.
+VovedIsklucoci: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 VovedIsklucoci
+.PHONY : VovedIsklucoci
+
+# fast build rule for target.
+VovedIsklucoci/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VovedIsklucoci.dir\build.make CMakeFiles/VovedIsklucoci.dir/build
+.PHONY : VovedIsklucoci/fast
+
+#=============================================================================
+# Target rules for targets named Card
+
+# Build rule for target.
+Card: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Card
+.PHONY : Card
+
+# fast build rule for target.
+Card/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Card.dir\build.make CMakeFiles/Card.dir/build
+.PHONY : Card/fast
+
+#=============================================================================
+# Target rules for targets named Aud31
+
+# Build rule for target.
+Aud31: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud31
+.PHONY : Aud31
+
+# fast build rule for target.
+Aud31/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud31.dir\build.make CMakeFiles/Aud31.dir/build
+.PHONY : Aud31/fast
+
+#=============================================================================
+# Target rules for targets named ShapeStefan
+
+# Build rule for target.
+ShapeStefan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ShapeStefan
+.PHONY : ShapeStefan
+
+# fast build rule for target.
+ShapeStefan/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShapeStefan.dir\build.make CMakeFiles/ShapeStefan.dir/build
+.PHONY : ShapeStefan/fast
+
+#=============================================================================
+# Target rules for targets named Aud32
+
+# Build rule for target.
+Aud32: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud32
+.PHONY : Aud32
+
+# fast build rule for target.
+Aud32/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud32.dir\build.make CMakeFiles/Aud32.dir/build
+.PHONY : Aud32/fast
+
+#=============================================================================
+# Target rules for targets named Aud33
+
+# Build rule for target.
+Aud33: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Aud33
+.PHONY : Aud33
+
+# fast build rule for target.
+Aud33/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud33.dir\build.make CMakeFiles/Aud33.dir/build
+.PHONY : Aud33/fast
+
+#=============================================================================
+# Target rules for targets named Citizen
+
+# Build rule for target.
+Citizen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Citizen
+.PHONY : Citizen
+
+# fast build rule for target.
+Citizen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Citizen.dir\build.make CMakeFiles/Citizen.dir/build
+.PHONY : Citizen/fast
+
+#=============================================================================
 # Target rules for targets named 1
 
 # Build rule for target.
@@ -2586,6 +2989,174 @@ Auditoriski/1/Aud5.s: Auditoriski/1/Aud5.cpp.s
 Auditoriski/1/Aud5.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud5.dir\build.make CMakeFiles/Aud5.dir/Auditoriski/1/Aud5.cpp.s
 .PHONY : Auditoriski/1/Aud5.cpp.s
+
+Auditoriski/10/Aud31.obj: Auditoriski/10/Aud31.cpp.obj
+.PHONY : Auditoriski/10/Aud31.obj
+
+# target to build an object file
+Auditoriski/10/Aud31.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud31.dir\build.make CMakeFiles/Aud31.dir/Auditoriski/10/Aud31.cpp.obj
+.PHONY : Auditoriski/10/Aud31.cpp.obj
+
+Auditoriski/10/Aud31.i: Auditoriski/10/Aud31.cpp.i
+.PHONY : Auditoriski/10/Aud31.i
+
+# target to preprocess a source file
+Auditoriski/10/Aud31.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud31.dir\build.make CMakeFiles/Aud31.dir/Auditoriski/10/Aud31.cpp.i
+.PHONY : Auditoriski/10/Aud31.cpp.i
+
+Auditoriski/10/Aud31.s: Auditoriski/10/Aud31.cpp.s
+.PHONY : Auditoriski/10/Aud31.s
+
+# target to generate assembly for a file
+Auditoriski/10/Aud31.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud31.dir\build.make CMakeFiles/Aud31.dir/Auditoriski/10/Aud31.cpp.s
+.PHONY : Auditoriski/10/Aud31.cpp.s
+
+Auditoriski/10/Aud32.obj: Auditoriski/10/Aud32.cpp.obj
+.PHONY : Auditoriski/10/Aud32.obj
+
+# target to build an object file
+Auditoriski/10/Aud32.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud32.dir\build.make CMakeFiles/Aud32.dir/Auditoriski/10/Aud32.cpp.obj
+.PHONY : Auditoriski/10/Aud32.cpp.obj
+
+Auditoriski/10/Aud32.i: Auditoriski/10/Aud32.cpp.i
+.PHONY : Auditoriski/10/Aud32.i
+
+# target to preprocess a source file
+Auditoriski/10/Aud32.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud32.dir\build.make CMakeFiles/Aud32.dir/Auditoriski/10/Aud32.cpp.i
+.PHONY : Auditoriski/10/Aud32.cpp.i
+
+Auditoriski/10/Aud32.s: Auditoriski/10/Aud32.cpp.s
+.PHONY : Auditoriski/10/Aud32.s
+
+# target to generate assembly for a file
+Auditoriski/10/Aud32.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud32.dir\build.make CMakeFiles/Aud32.dir/Auditoriski/10/Aud32.cpp.s
+.PHONY : Auditoriski/10/Aud32.cpp.s
+
+Auditoriski/10/Aud33.obj: Auditoriski/10/Aud33.cpp.obj
+.PHONY : Auditoriski/10/Aud33.obj
+
+# target to build an object file
+Auditoriski/10/Aud33.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud33.dir\build.make CMakeFiles/Aud33.dir/Auditoriski/10/Aud33.cpp.obj
+.PHONY : Auditoriski/10/Aud33.cpp.obj
+
+Auditoriski/10/Aud33.i: Auditoriski/10/Aud33.cpp.i
+.PHONY : Auditoriski/10/Aud33.i
+
+# target to preprocess a source file
+Auditoriski/10/Aud33.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud33.dir\build.make CMakeFiles/Aud33.dir/Auditoriski/10/Aud33.cpp.i
+.PHONY : Auditoriski/10/Aud33.cpp.i
+
+Auditoriski/10/Aud33.s: Auditoriski/10/Aud33.cpp.s
+.PHONY : Auditoriski/10/Aud33.s
+
+# target to generate assembly for a file
+Auditoriski/10/Aud33.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud33.dir\build.make CMakeFiles/Aud33.dir/Auditoriski/10/Aud33.cpp.s
+.PHONY : Auditoriski/10/Aud33.cpp.s
+
+Auditoriski/10/Card.obj: Auditoriski/10/Card.cpp.obj
+.PHONY : Auditoriski/10/Card.obj
+
+# target to build an object file
+Auditoriski/10/Card.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Card.dir\build.make CMakeFiles/Card.dir/Auditoriski/10/Card.cpp.obj
+.PHONY : Auditoriski/10/Card.cpp.obj
+
+Auditoriski/10/Card.i: Auditoriski/10/Card.cpp.i
+.PHONY : Auditoriski/10/Card.i
+
+# target to preprocess a source file
+Auditoriski/10/Card.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Card.dir\build.make CMakeFiles/Card.dir/Auditoriski/10/Card.cpp.i
+.PHONY : Auditoriski/10/Card.cpp.i
+
+Auditoriski/10/Card.s: Auditoriski/10/Card.cpp.s
+.PHONY : Auditoriski/10/Card.s
+
+# target to generate assembly for a file
+Auditoriski/10/Card.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Card.dir\build.make CMakeFiles/Card.dir/Auditoriski/10/Card.cpp.s
+.PHONY : Auditoriski/10/Card.cpp.s
+
+Auditoriski/10/Citizen.obj: Auditoriski/10/Citizen.cpp.obj
+.PHONY : Auditoriski/10/Citizen.obj
+
+# target to build an object file
+Auditoriski/10/Citizen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Citizen.dir\build.make CMakeFiles/Citizen.dir/Auditoriski/10/Citizen.cpp.obj
+.PHONY : Auditoriski/10/Citizen.cpp.obj
+
+Auditoriski/10/Citizen.i: Auditoriski/10/Citizen.cpp.i
+.PHONY : Auditoriski/10/Citizen.i
+
+# target to preprocess a source file
+Auditoriski/10/Citizen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Citizen.dir\build.make CMakeFiles/Citizen.dir/Auditoriski/10/Citizen.cpp.i
+.PHONY : Auditoriski/10/Citizen.cpp.i
+
+Auditoriski/10/Citizen.s: Auditoriski/10/Citizen.cpp.s
+.PHONY : Auditoriski/10/Citizen.s
+
+# target to generate assembly for a file
+Auditoriski/10/Citizen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Citizen.dir\build.make CMakeFiles/Citizen.dir/Auditoriski/10/Citizen.cpp.s
+.PHONY : Auditoriski/10/Citizen.cpp.s
+
+Auditoriski/10/ShapeStefan.obj: Auditoriski/10/ShapeStefan.cpp.obj
+.PHONY : Auditoriski/10/ShapeStefan.obj
+
+# target to build an object file
+Auditoriski/10/ShapeStefan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShapeStefan.dir\build.make CMakeFiles/ShapeStefan.dir/Auditoriski/10/ShapeStefan.cpp.obj
+.PHONY : Auditoriski/10/ShapeStefan.cpp.obj
+
+Auditoriski/10/ShapeStefan.i: Auditoriski/10/ShapeStefan.cpp.i
+.PHONY : Auditoriski/10/ShapeStefan.i
+
+# target to preprocess a source file
+Auditoriski/10/ShapeStefan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShapeStefan.dir\build.make CMakeFiles/ShapeStefan.dir/Auditoriski/10/ShapeStefan.cpp.i
+.PHONY : Auditoriski/10/ShapeStefan.cpp.i
+
+Auditoriski/10/ShapeStefan.s: Auditoriski/10/ShapeStefan.cpp.s
+.PHONY : Auditoriski/10/ShapeStefan.s
+
+# target to generate assembly for a file
+Auditoriski/10/ShapeStefan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShapeStefan.dir\build.make CMakeFiles/ShapeStefan.dir/Auditoriski/10/ShapeStefan.cpp.s
+.PHONY : Auditoriski/10/ShapeStefan.cpp.s
+
+Auditoriski/10/VovedIsklucoci.obj: Auditoriski/10/VovedIsklucoci.cpp.obj
+.PHONY : Auditoriski/10/VovedIsklucoci.obj
+
+# target to build an object file
+Auditoriski/10/VovedIsklucoci.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VovedIsklucoci.dir\build.make CMakeFiles/VovedIsklucoci.dir/Auditoriski/10/VovedIsklucoci.cpp.obj
+.PHONY : Auditoriski/10/VovedIsklucoci.cpp.obj
+
+Auditoriski/10/VovedIsklucoci.i: Auditoriski/10/VovedIsklucoci.cpp.i
+.PHONY : Auditoriski/10/VovedIsklucoci.i
+
+# target to preprocess a source file
+Auditoriski/10/VovedIsklucoci.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VovedIsklucoci.dir\build.make CMakeFiles/VovedIsklucoci.dir/Auditoriski/10/VovedIsklucoci.cpp.i
+.PHONY : Auditoriski/10/VovedIsklucoci.cpp.i
+
+Auditoriski/10/VovedIsklucoci.s: Auditoriski/10/VovedIsklucoci.cpp.s
+.PHONY : Auditoriski/10/VovedIsklucoci.s
+
+# target to generate assembly for a file
+Auditoriski/10/VovedIsklucoci.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VovedIsklucoci.dir\build.make CMakeFiles/VovedIsklucoci.dir/Auditoriski/10/VovedIsklucoci.cpp.s
+.PHONY : Auditoriski/10/VovedIsklucoci.cpp.s
 
 Auditoriski/2/Aud6.0.obj: Auditoriski/2/Aud6.0.cpp.obj
 .PHONY : Auditoriski/2/Aud6.0.obj
@@ -3427,6 +3998,30 @@ Auditoriski/8/Aud27.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud27.dir\build.make CMakeFiles/Aud27.dir/Auditoriski/8/Aud27.cpp.s
 .PHONY : Auditoriski/8/Aud27.cpp.s
 
+Auditoriski/8/Aud27Stefan.obj: Auditoriski/8/Aud27Stefan.cpp.obj
+.PHONY : Auditoriski/8/Aud27Stefan.obj
+
+# target to build an object file
+Auditoriski/8/Aud27Stefan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud27Stefan.dir\build.make CMakeFiles/Aud27Stefan.dir/Auditoriski/8/Aud27Stefan.cpp.obj
+.PHONY : Auditoriski/8/Aud27Stefan.cpp.obj
+
+Auditoriski/8/Aud27Stefan.i: Auditoriski/8/Aud27Stefan.cpp.i
+.PHONY : Auditoriski/8/Aud27Stefan.i
+
+# target to preprocess a source file
+Auditoriski/8/Aud27Stefan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud27Stefan.dir\build.make CMakeFiles/Aud27Stefan.dir/Auditoriski/8/Aud27Stefan.cpp.i
+.PHONY : Auditoriski/8/Aud27Stefan.cpp.i
+
+Auditoriski/8/Aud27Stefan.s: Auditoriski/8/Aud27Stefan.cpp.s
+.PHONY : Auditoriski/8/Aud27Stefan.s
+
+# target to generate assembly for a file
+Auditoriski/8/Aud27Stefan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud27Stefan.dir\build.make CMakeFiles/Aud27Stefan.dir/Auditoriski/8/Aud27Stefan.cpp.s
+.PHONY : Auditoriski/8/Aud27Stefan.cpp.s
+
 Auditoriski/8/Aud28.obj: Auditoriski/8/Aud28.cpp.obj
 .PHONY : Auditoriski/8/Aud28.obj
 
@@ -3450,6 +4045,150 @@ Auditoriski/8/Aud28.s: Auditoriski/8/Aud28.cpp.s
 Auditoriski/8/Aud28.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud28.dir\build.make CMakeFiles/Aud28.dir/Auditoriski/8/Aud28.cpp.s
 .PHONY : Auditoriski/8/Aud28.cpp.s
+
+Auditoriski/8/Stefan1AClass.obj: Auditoriski/8/Stefan1AClass.cpp.obj
+.PHONY : Auditoriski/8/Stefan1AClass.obj
+
+# target to build an object file
+Auditoriski/8/Stefan1AClass.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stefan1AClass.dir\build.make CMakeFiles/Stefan1AClass.dir/Auditoriski/8/Stefan1AClass.cpp.obj
+.PHONY : Auditoriski/8/Stefan1AClass.cpp.obj
+
+Auditoriski/8/Stefan1AClass.i: Auditoriski/8/Stefan1AClass.cpp.i
+.PHONY : Auditoriski/8/Stefan1AClass.i
+
+# target to preprocess a source file
+Auditoriski/8/Stefan1AClass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stefan1AClass.dir\build.make CMakeFiles/Stefan1AClass.dir/Auditoriski/8/Stefan1AClass.cpp.i
+.PHONY : Auditoriski/8/Stefan1AClass.cpp.i
+
+Auditoriski/8/Stefan1AClass.s: Auditoriski/8/Stefan1AClass.cpp.s
+.PHONY : Auditoriski/8/Stefan1AClass.s
+
+# target to generate assembly for a file
+Auditoriski/8/Stefan1AClass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stefan1AClass.dir\build.make CMakeFiles/Stefan1AClass.dir/Auditoriski/8/Stefan1AClass.cpp.s
+.PHONY : Auditoriski/8/Stefan1AClass.cpp.s
+
+Auditoriski/9/AdapterStefan.obj: Auditoriski/9/AdapterStefan.cpp.obj
+.PHONY : Auditoriski/9/AdapterStefan.obj
+
+# target to build an object file
+Auditoriski/9/AdapterStefan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AdapterStefan.dir\build.make CMakeFiles/AdapterStefan.dir/Auditoriski/9/AdapterStefan.cpp.obj
+.PHONY : Auditoriski/9/AdapterStefan.cpp.obj
+
+Auditoriski/9/AdapterStefan.i: Auditoriski/9/AdapterStefan.cpp.i
+.PHONY : Auditoriski/9/AdapterStefan.i
+
+# target to preprocess a source file
+Auditoriski/9/AdapterStefan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AdapterStefan.dir\build.make CMakeFiles/AdapterStefan.dir/Auditoriski/9/AdapterStefan.cpp.i
+.PHONY : Auditoriski/9/AdapterStefan.cpp.i
+
+Auditoriski/9/AdapterStefan.s: Auditoriski/9/AdapterStefan.cpp.s
+.PHONY : Auditoriski/9/AdapterStefan.s
+
+# target to generate assembly for a file
+Auditoriski/9/AdapterStefan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AdapterStefan.dir\build.make CMakeFiles/AdapterStefan.dir/Auditoriski/9/AdapterStefan.cpp.s
+.PHONY : Auditoriski/9/AdapterStefan.cpp.s
+
+Auditoriski/9/Aud29.obj: Auditoriski/9/Aud29.cpp.obj
+.PHONY : Auditoriski/9/Aud29.obj
+
+# target to build an object file
+Auditoriski/9/Aud29.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud29.dir\build.make CMakeFiles/Aud29.dir/Auditoriski/9/Aud29.cpp.obj
+.PHONY : Auditoriski/9/Aud29.cpp.obj
+
+Auditoriski/9/Aud29.i: Auditoriski/9/Aud29.cpp.i
+.PHONY : Auditoriski/9/Aud29.i
+
+# target to preprocess a source file
+Auditoriski/9/Aud29.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud29.dir\build.make CMakeFiles/Aud29.dir/Auditoriski/9/Aud29.cpp.i
+.PHONY : Auditoriski/9/Aud29.cpp.i
+
+Auditoriski/9/Aud29.s: Auditoriski/9/Aud29.cpp.s
+.PHONY : Auditoriski/9/Aud29.s
+
+# target to generate assembly for a file
+Auditoriski/9/Aud29.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud29.dir\build.make CMakeFiles/Aud29.dir/Auditoriski/9/Aud29.cpp.s
+.PHONY : Auditoriski/9/Aud29.cpp.s
+
+Auditoriski/9/Aud29Stefan.obj: Auditoriski/9/Aud29Stefan.cpp.obj
+.PHONY : Auditoriski/9/Aud29Stefan.obj
+
+# target to build an object file
+Auditoriski/9/Aud29Stefan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud29Stefan.dir\build.make CMakeFiles/Aud29Stefan.dir/Auditoriski/9/Aud29Stefan.cpp.obj
+.PHONY : Auditoriski/9/Aud29Stefan.cpp.obj
+
+Auditoriski/9/Aud29Stefan.i: Auditoriski/9/Aud29Stefan.cpp.i
+.PHONY : Auditoriski/9/Aud29Stefan.i
+
+# target to preprocess a source file
+Auditoriski/9/Aud29Stefan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud29Stefan.dir\build.make CMakeFiles/Aud29Stefan.dir/Auditoriski/9/Aud29Stefan.cpp.i
+.PHONY : Auditoriski/9/Aud29Stefan.cpp.i
+
+Auditoriski/9/Aud29Stefan.s: Auditoriski/9/Aud29Stefan.cpp.s
+.PHONY : Auditoriski/9/Aud29Stefan.s
+
+# target to generate assembly for a file
+Auditoriski/9/Aud29Stefan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud29Stefan.dir\build.make CMakeFiles/Aud29Stefan.dir/Auditoriski/9/Aud29Stefan.cpp.s
+.PHONY : Auditoriski/9/Aud29Stefan.cpp.s
+
+Auditoriski/9/Aud30.obj: Auditoriski/9/Aud30.cpp.obj
+.PHONY : Auditoriski/9/Aud30.obj
+
+# target to build an object file
+Auditoriski/9/Aud30.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud30.dir\build.make CMakeFiles/Aud30.dir/Auditoriski/9/Aud30.cpp.obj
+.PHONY : Auditoriski/9/Aud30.cpp.obj
+
+Auditoriski/9/Aud30.i: Auditoriski/9/Aud30.cpp.i
+.PHONY : Auditoriski/9/Aud30.i
+
+# target to preprocess a source file
+Auditoriski/9/Aud30.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud30.dir\build.make CMakeFiles/Aud30.dir/Auditoriski/9/Aud30.cpp.i
+.PHONY : Auditoriski/9/Aud30.cpp.i
+
+Auditoriski/9/Aud30.s: Auditoriski/9/Aud30.cpp.s
+.PHONY : Auditoriski/9/Aud30.s
+
+# target to generate assembly for a file
+Auditoriski/9/Aud30.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud30.dir\build.make CMakeFiles/Aud30.dir/Auditoriski/9/Aud30.cpp.s
+.PHONY : Auditoriski/9/Aud30.cpp.s
+
+Auditoriski/9/Aud30Stefan.obj: Auditoriski/9/Aud30Stefan.cpp.obj
+.PHONY : Auditoriski/9/Aud30Stefan.obj
+
+# target to build an object file
+Auditoriski/9/Aud30Stefan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud30Stefan.dir\build.make CMakeFiles/Aud30Stefan.dir/Auditoriski/9/Aud30Stefan.cpp.obj
+.PHONY : Auditoriski/9/Aud30Stefan.cpp.obj
+
+Auditoriski/9/Aud30Stefan.i: Auditoriski/9/Aud30Stefan.cpp.i
+.PHONY : Auditoriski/9/Aud30Stefan.i
+
+# target to preprocess a source file
+Auditoriski/9/Aud30Stefan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud30Stefan.dir\build.make CMakeFiles/Aud30Stefan.dir/Auditoriski/9/Aud30Stefan.cpp.i
+.PHONY : Auditoriski/9/Aud30Stefan.cpp.i
+
+Auditoriski/9/Aud30Stefan.s: Auditoriski/9/Aud30Stefan.cpp.s
+.PHONY : Auditoriski/9/Aud30Stefan.s
+
+# target to generate assembly for a file
+Auditoriski/9/Aud30Stefan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aud30Stefan.dir\build.make CMakeFiles/Aud30Stefan.dir/Auditoriski/9/Aud30Stefan.cpp.s
+.PHONY : Auditoriski/9/Aud30Stefan.cpp.s
 
 DOOMHAMMER.obj: DOOMHAMMER.cpp.obj
 .PHONY : DOOMHAMMER.obj
@@ -4339,485 +5078,749 @@ Kolokviumski/1kolokviumMK/9ta.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9ta.dir\build.make CMakeFiles/9ta.dir/Kolokviumski/1kolokviumMK/9ta.cpp.s
 .PHONY : Kolokviumski/1kolokviumMK/9ta.cpp.s
 
-Kolokviumski/BusLine.obj: Kolokviumski/BusLine.cpp.obj
-.PHONY : Kolokviumski/BusLine.obj
+Kolokviumski/2kolokviumMK/11ta-2k.obj: Kolokviumski/2kolokviumMK/11ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/11ta-2k.obj
 
 # target to build an object file
-Kolokviumski/BusLine.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BusLine.dir\build.make CMakeFiles/BusLine.dir/Kolokviumski/BusLine.cpp.obj
-.PHONY : Kolokviumski/BusLine.cpp.obj
+Kolokviumski/2kolokviumMK/11ta-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11ta-2k.dir\build.make CMakeFiles/11ta-2k.dir/Kolokviumski/2kolokviumMK/11ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/11ta-2k.cpp.obj
 
-Kolokviumski/BusLine.i: Kolokviumski/BusLine.cpp.i
-.PHONY : Kolokviumski/BusLine.i
+Kolokviumski/2kolokviumMK/11ta-2k.i: Kolokviumski/2kolokviumMK/11ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/11ta-2k.i
 
 # target to preprocess a source file
-Kolokviumski/BusLine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BusLine.dir\build.make CMakeFiles/BusLine.dir/Kolokviumski/BusLine.cpp.i
-.PHONY : Kolokviumski/BusLine.cpp.i
+Kolokviumski/2kolokviumMK/11ta-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11ta-2k.dir\build.make CMakeFiles/11ta-2k.dir/Kolokviumski/2kolokviumMK/11ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/11ta-2k.cpp.i
 
-Kolokviumski/BusLine.s: Kolokviumski/BusLine.cpp.s
-.PHONY : Kolokviumski/BusLine.s
+Kolokviumski/2kolokviumMK/11ta-2k.s: Kolokviumski/2kolokviumMK/11ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/11ta-2k.s
 
 # target to generate assembly for a file
-Kolokviumski/BusLine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BusLine.dir\build.make CMakeFiles/BusLine.dir/Kolokviumski/BusLine.cpp.s
-.PHONY : Kolokviumski/BusLine.cpp.s
+Kolokviumski/2kolokviumMK/11ta-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11ta-2k.dir\build.make CMakeFiles/11ta-2k.dir/Kolokviumski/2kolokviumMK/11ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/11ta-2k.cpp.s
 
-Kolokviumski/CallKolokvium.obj: Kolokviumski/CallKolokvium.cpp.obj
-.PHONY : Kolokviumski/CallKolokvium.obj
+Kolokviumski/2kolokviumMK/12ta-2k.obj: Kolokviumski/2kolokviumMK/12ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/12ta-2k.obj
 
 # target to build an object file
-Kolokviumski/CallKolokvium.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/Kolokviumski/CallKolokvium.cpp.obj
-.PHONY : Kolokviumski/CallKolokvium.cpp.obj
+Kolokviumski/2kolokviumMK/12ta-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12ta-2k.dir\build.make CMakeFiles/12ta-2k.dir/Kolokviumski/2kolokviumMK/12ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/12ta-2k.cpp.obj
 
-Kolokviumski/CallKolokvium.i: Kolokviumski/CallKolokvium.cpp.i
-.PHONY : Kolokviumski/CallKolokvium.i
+Kolokviumski/2kolokviumMK/12ta-2k.i: Kolokviumski/2kolokviumMK/12ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/12ta-2k.i
 
 # target to preprocess a source file
-Kolokviumski/CallKolokvium.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/Kolokviumski/CallKolokvium.cpp.i
-.PHONY : Kolokviumski/CallKolokvium.cpp.i
+Kolokviumski/2kolokviumMK/12ta-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12ta-2k.dir\build.make CMakeFiles/12ta-2k.dir/Kolokviumski/2kolokviumMK/12ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/12ta-2k.cpp.i
 
-Kolokviumski/CallKolokvium.s: Kolokviumski/CallKolokvium.cpp.s
-.PHONY : Kolokviumski/CallKolokvium.s
+Kolokviumski/2kolokviumMK/12ta-2k.s: Kolokviumski/2kolokviumMK/12ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/12ta-2k.s
 
 # target to generate assembly for a file
-Kolokviumski/CallKolokvium.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/Kolokviumski/CallKolokvium.cpp.s
-.PHONY : Kolokviumski/CallKolokvium.cpp.s
+Kolokviumski/2kolokviumMK/12ta-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12ta-2k.dir\build.make CMakeFiles/12ta-2k.dir/Kolokviumski/2kolokviumMK/12ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/12ta-2k.cpp.s
 
-Kolokviumski/Char.obj: Kolokviumski/Char.cpp.obj
-.PHONY : Kolokviumski/Char.obj
+Kolokviumski/2kolokviumMK/13ta-2k.obj: Kolokviumski/2kolokviumMK/13ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/13ta-2k.obj
 
 # target to build an object file
-Kolokviumski/Char.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Char.dir\build.make CMakeFiles/Char.dir/Kolokviumski/Char.cpp.obj
-.PHONY : Kolokviumski/Char.cpp.obj
+Kolokviumski/2kolokviumMK/13ta-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13ta-2k.dir\build.make CMakeFiles/13ta-2k.dir/Kolokviumski/2kolokviumMK/13ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/13ta-2k.cpp.obj
 
-Kolokviumski/Char.i: Kolokviumski/Char.cpp.i
-.PHONY : Kolokviumski/Char.i
+Kolokviumski/2kolokviumMK/13ta-2k.i: Kolokviumski/2kolokviumMK/13ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/13ta-2k.i
 
 # target to preprocess a source file
-Kolokviumski/Char.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Char.dir\build.make CMakeFiles/Char.dir/Kolokviumski/Char.cpp.i
-.PHONY : Kolokviumski/Char.cpp.i
+Kolokviumski/2kolokviumMK/13ta-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13ta-2k.dir\build.make CMakeFiles/13ta-2k.dir/Kolokviumski/2kolokviumMK/13ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/13ta-2k.cpp.i
 
-Kolokviumski/Char.s: Kolokviumski/Char.cpp.s
-.PHONY : Kolokviumski/Char.s
+Kolokviumski/2kolokviumMK/13ta-2k.s: Kolokviumski/2kolokviumMK/13ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/13ta-2k.s
 
 # target to generate assembly for a file
-Kolokviumski/Char.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Char.dir\build.make CMakeFiles/Char.dir/Kolokviumski/Char.cpp.s
-.PHONY : Kolokviumski/Char.cpp.s
+Kolokviumski/2kolokviumMK/13ta-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13ta-2k.dir\build.make CMakeFiles/13ta-2k.dir/Kolokviumski/2kolokviumMK/13ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/13ta-2k.cpp.s
 
-Kolokviumski/DatumiPovik.obj: Kolokviumski/DatumiPovik.cpp.obj
-.PHONY : Kolokviumski/DatumiPovik.obj
+Kolokviumski/2kolokviumMK/14ta-2k.obj: Kolokviumski/2kolokviumMK/14ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/14ta-2k.obj
 
 # target to build an object file
-Kolokviumski/DatumiPovik.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DatumiPovik.dir\build.make CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.obj
-.PHONY : Kolokviumski/DatumiPovik.cpp.obj
+Kolokviumski/2kolokviumMK/14ta-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14ta-2k.dir\build.make CMakeFiles/14ta-2k.dir/Kolokviumski/2kolokviumMK/14ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/14ta-2k.cpp.obj
 
-Kolokviumski/DatumiPovik.i: Kolokviumski/DatumiPovik.cpp.i
-.PHONY : Kolokviumski/DatumiPovik.i
+Kolokviumski/2kolokviumMK/14ta-2k.i: Kolokviumski/2kolokviumMK/14ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/14ta-2k.i
 
 # target to preprocess a source file
-Kolokviumski/DatumiPovik.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DatumiPovik.dir\build.make CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.i
-.PHONY : Kolokviumski/DatumiPovik.cpp.i
+Kolokviumski/2kolokviumMK/14ta-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14ta-2k.dir\build.make CMakeFiles/14ta-2k.dir/Kolokviumski/2kolokviumMK/14ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/14ta-2k.cpp.i
 
-Kolokviumski/DatumiPovik.s: Kolokviumski/DatumiPovik.cpp.s
-.PHONY : Kolokviumski/DatumiPovik.s
+Kolokviumski/2kolokviumMK/14ta-2k.s: Kolokviumski/2kolokviumMK/14ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/14ta-2k.s
 
 # target to generate assembly for a file
-Kolokviumski/DatumiPovik.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DatumiPovik.dir\build.make CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.s
-.PHONY : Kolokviumski/DatumiPovik.cpp.s
+Kolokviumski/2kolokviumMK/14ta-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14ta-2k.dir\build.make CMakeFiles/14ta-2k.dir/Kolokviumski/2kolokviumMK/14ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/14ta-2k.cpp.s
 
-Kolokviumski/DeliveryV.obj: Kolokviumski/DeliveryV.cpp.obj
-.PHONY : Kolokviumski/DeliveryV.obj
+Kolokviumski/2kolokviumMK/16ta-2k.obj: Kolokviumski/2kolokviumMK/16ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/16ta-2k.obj
 
 # target to build an object file
-Kolokviumski/DeliveryV.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeliveryV.dir\build.make CMakeFiles/DeliveryV.dir/Kolokviumski/DeliveryV.cpp.obj
-.PHONY : Kolokviumski/DeliveryV.cpp.obj
+Kolokviumski/2kolokviumMK/16ta-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\16ta-2k.dir\build.make CMakeFiles/16ta-2k.dir/Kolokviumski/2kolokviumMK/16ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/16ta-2k.cpp.obj
 
-Kolokviumski/DeliveryV.i: Kolokviumski/DeliveryV.cpp.i
-.PHONY : Kolokviumski/DeliveryV.i
+Kolokviumski/2kolokviumMK/16ta-2k.i: Kolokviumski/2kolokviumMK/16ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/16ta-2k.i
 
 # target to preprocess a source file
-Kolokviumski/DeliveryV.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeliveryV.dir\build.make CMakeFiles/DeliveryV.dir/Kolokviumski/DeliveryV.cpp.i
-.PHONY : Kolokviumski/DeliveryV.cpp.i
+Kolokviumski/2kolokviumMK/16ta-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\16ta-2k.dir\build.make CMakeFiles/16ta-2k.dir/Kolokviumski/2kolokviumMK/16ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/16ta-2k.cpp.i
 
-Kolokviumski/DeliveryV.s: Kolokviumski/DeliveryV.cpp.s
-.PHONY : Kolokviumski/DeliveryV.s
+Kolokviumski/2kolokviumMK/16ta-2k.s: Kolokviumski/2kolokviumMK/16ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/16ta-2k.s
 
 # target to generate assembly for a file
-Kolokviumski/DeliveryV.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeliveryV.dir\build.make CMakeFiles/DeliveryV.dir/Kolokviumski/DeliveryV.cpp.s
-.PHONY : Kolokviumski/DeliveryV.cpp.s
+Kolokviumski/2kolokviumMK/16ta-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\16ta-2k.dir\build.make CMakeFiles/16ta-2k.dir/Kolokviumski/2kolokviumMK/16ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/16ta-2k.cpp.s
 
-Kolokviumski/File.obj: Kolokviumski/File.cpp.obj
-.PHONY : Kolokviumski/File.obj
+Kolokviumski/2kolokviumMK/17ta-2k.obj: Kolokviumski/2kolokviumMK/17ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/17ta-2k.obj
 
 # target to build an object file
-Kolokviumski/File.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\File.dir\build.make CMakeFiles/File.dir/Kolokviumski/File.cpp.obj
-.PHONY : Kolokviumski/File.cpp.obj
+Kolokviumski/2kolokviumMK/17ta-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\17ta-2k.dir\build.make CMakeFiles/17ta-2k.dir/Kolokviumski/2kolokviumMK/17ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/17ta-2k.cpp.obj
 
-Kolokviumski/File.i: Kolokviumski/File.cpp.i
-.PHONY : Kolokviumski/File.i
+Kolokviumski/2kolokviumMK/17ta-2k.i: Kolokviumski/2kolokviumMK/17ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/17ta-2k.i
 
 # target to preprocess a source file
-Kolokviumski/File.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\File.dir\build.make CMakeFiles/File.dir/Kolokviumski/File.cpp.i
-.PHONY : Kolokviumski/File.cpp.i
+Kolokviumski/2kolokviumMK/17ta-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\17ta-2k.dir\build.make CMakeFiles/17ta-2k.dir/Kolokviumski/2kolokviumMK/17ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/17ta-2k.cpp.i
 
-Kolokviumski/File.s: Kolokviumski/File.cpp.s
-.PHONY : Kolokviumski/File.s
+Kolokviumski/2kolokviumMK/17ta-2k.s: Kolokviumski/2kolokviumMK/17ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/17ta-2k.s
 
 # target to generate assembly for a file
-Kolokviumski/File.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\File.dir\build.make CMakeFiles/File.dir/Kolokviumski/File.cpp.s
-.PHONY : Kolokviumski/File.cpp.s
+Kolokviumski/2kolokviumMK/17ta-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\17ta-2k.dir\build.make CMakeFiles/17ta-2k.dir/Kolokviumski/2kolokviumMK/17ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/17ta-2k.cpp.s
 
-Kolokviumski/Flight.obj: Kolokviumski/Flight.cpp.obj
-.PHONY : Kolokviumski/Flight.obj
+Kolokviumski/2kolokviumMK/1va-2k.obj: Kolokviumski/2kolokviumMK/1va-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/1va-2k.obj
 
 # target to build an object file
-Kolokviumski/Flight.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lanska3.dir\build.make CMakeFiles/lanska3.dir/Kolokviumski/Flight.cpp.obj
-.PHONY : Kolokviumski/Flight.cpp.obj
+Kolokviumski/2kolokviumMK/1va-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1va-2k.dir\build.make CMakeFiles/1va-2k.dir/Kolokviumski/2kolokviumMK/1va-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/1va-2k.cpp.obj
 
-Kolokviumski/Flight.i: Kolokviumski/Flight.cpp.i
-.PHONY : Kolokviumski/Flight.i
+Kolokviumski/2kolokviumMK/1va-2k.i: Kolokviumski/2kolokviumMK/1va-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/1va-2k.i
 
 # target to preprocess a source file
-Kolokviumski/Flight.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lanska3.dir\build.make CMakeFiles/lanska3.dir/Kolokviumski/Flight.cpp.i
-.PHONY : Kolokviumski/Flight.cpp.i
+Kolokviumski/2kolokviumMK/1va-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1va-2k.dir\build.make CMakeFiles/1va-2k.dir/Kolokviumski/2kolokviumMK/1va-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/1va-2k.cpp.i
 
-Kolokviumski/Flight.s: Kolokviumski/Flight.cpp.s
-.PHONY : Kolokviumski/Flight.s
+Kolokviumski/2kolokviumMK/1va-2k.s: Kolokviumski/2kolokviumMK/1va-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/1va-2k.s
 
 # target to generate assembly for a file
-Kolokviumski/Flight.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lanska3.dir\build.make CMakeFiles/lanska3.dir/Kolokviumski/Flight.cpp.s
-.PHONY : Kolokviumski/Flight.cpp.s
+Kolokviumski/2kolokviumMK/1va-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1va-2k.dir\build.make CMakeFiles/1va-2k.dir/Kolokviumski/2kolokviumMK/1va-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/1va-2k.cpp.s
 
-Kolokviumski/Galerija.obj: Kolokviumski/Galerija.cpp.obj
-.PHONY : Kolokviumski/Galerija.obj
+Kolokviumski/2kolokviumMK/2ra-2k.obj: Kolokviumski/2kolokviumMK/2ra-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/2ra-2k.obj
 
 # target to build an object file
-Kolokviumski/Galerija.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Galerija.dir\build.make CMakeFiles/Galerija.dir/Kolokviumski/Galerija.cpp.obj
-.PHONY : Kolokviumski/Galerija.cpp.obj
+Kolokviumski/2kolokviumMK/2ra-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2ra-2k.dir\build.make CMakeFiles/2ra-2k.dir/Kolokviumski/2kolokviumMK/2ra-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/2ra-2k.cpp.obj
 
-Kolokviumski/Galerija.i: Kolokviumski/Galerija.cpp.i
-.PHONY : Kolokviumski/Galerija.i
+Kolokviumski/2kolokviumMK/2ra-2k.i: Kolokviumski/2kolokviumMK/2ra-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/2ra-2k.i
 
 # target to preprocess a source file
-Kolokviumski/Galerija.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Galerija.dir\build.make CMakeFiles/Galerija.dir/Kolokviumski/Galerija.cpp.i
-.PHONY : Kolokviumski/Galerija.cpp.i
+Kolokviumski/2kolokviumMK/2ra-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2ra-2k.dir\build.make CMakeFiles/2ra-2k.dir/Kolokviumski/2kolokviumMK/2ra-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/2ra-2k.cpp.i
 
-Kolokviumski/Galerija.s: Kolokviumski/Galerija.cpp.s
-.PHONY : Kolokviumski/Galerija.s
+Kolokviumski/2kolokviumMK/2ra-2k.s: Kolokviumski/2kolokviumMK/2ra-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/2ra-2k.s
 
 # target to generate assembly for a file
-Kolokviumski/Galerija.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Galerija.dir\build.make CMakeFiles/Galerija.dir/Kolokviumski/Galerija.cpp.s
-.PHONY : Kolokviumski/Galerija.cpp.s
+Kolokviumski/2kolokviumMK/2ra-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2ra-2k.dir\build.make CMakeFiles/2ra-2k.dir/Kolokviumski/2kolokviumMK/2ra-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/2ra-2k.cpp.s
 
-Kolokviumski/HikingTrack.obj: Kolokviumski/HikingTrack.cpp.obj
-.PHONY : Kolokviumski/HikingTrack.obj
+Kolokviumski/2kolokviumMK/3ta-2k.obj: Kolokviumski/2kolokviumMK/3ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/3ta-2k.obj
 
 # target to build an object file
-Kolokviumski/HikingTrack.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lanska2.dir\build.make CMakeFiles/lanska2.dir/Kolokviumski/HikingTrack.cpp.obj
-.PHONY : Kolokviumski/HikingTrack.cpp.obj
+Kolokviumski/2kolokviumMK/3ta-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3ta-2k.dir\build.make CMakeFiles/3ta-2k.dir/Kolokviumski/2kolokviumMK/3ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/3ta-2k.cpp.obj
 
-Kolokviumski/HikingTrack.i: Kolokviumski/HikingTrack.cpp.i
-.PHONY : Kolokviumski/HikingTrack.i
+Kolokviumski/2kolokviumMK/3ta-2k.i: Kolokviumski/2kolokviumMK/3ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/3ta-2k.i
 
 # target to preprocess a source file
-Kolokviumski/HikingTrack.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lanska2.dir\build.make CMakeFiles/lanska2.dir/Kolokviumski/HikingTrack.cpp.i
-.PHONY : Kolokviumski/HikingTrack.cpp.i
+Kolokviumski/2kolokviumMK/3ta-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3ta-2k.dir\build.make CMakeFiles/3ta-2k.dir/Kolokviumski/2kolokviumMK/3ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/3ta-2k.cpp.i
 
-Kolokviumski/HikingTrack.s: Kolokviumski/HikingTrack.cpp.s
-.PHONY : Kolokviumski/HikingTrack.s
+Kolokviumski/2kolokviumMK/3ta-2k.s: Kolokviumski/2kolokviumMK/3ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/3ta-2k.s
 
 # target to generate assembly for a file
-Kolokviumski/HikingTrack.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lanska2.dir\build.make CMakeFiles/lanska2.dir/Kolokviumski/HikingTrack.cpp.s
-.PHONY : Kolokviumski/HikingTrack.cpp.s
+Kolokviumski/2kolokviumMK/3ta-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3ta-2k.dir\build.make CMakeFiles/3ta-2k.dir/Kolokviumski/2kolokviumMK/3ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/3ta-2k.cpp.s
 
-Kolokviumski/Kol1.obj: Kolokviumski/Kol1.cpp.obj
-.PHONY : Kolokviumski/Kol1.obj
+Kolokviumski/2kolokviumMK/4ta-2k.obj: Kolokviumski/2kolokviumMK/4ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/4ta-2k.obj
 
 # target to build an object file
-Kolokviumski/Kol1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kol1.dir\build.make CMakeFiles/Kol1.dir/Kolokviumski/Kol1.cpp.obj
-.PHONY : Kolokviumski/Kol1.cpp.obj
+Kolokviumski/2kolokviumMK/4ta-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4ta-2k.dir\build.make CMakeFiles/4ta-2k.dir/Kolokviumski/2kolokviumMK/4ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/4ta-2k.cpp.obj
 
-Kolokviumski/Kol1.i: Kolokviumski/Kol1.cpp.i
-.PHONY : Kolokviumski/Kol1.i
+Kolokviumski/2kolokviumMK/4ta-2k.i: Kolokviumski/2kolokviumMK/4ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/4ta-2k.i
 
 # target to preprocess a source file
-Kolokviumski/Kol1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kol1.dir\build.make CMakeFiles/Kol1.dir/Kolokviumski/Kol1.cpp.i
-.PHONY : Kolokviumski/Kol1.cpp.i
+Kolokviumski/2kolokviumMK/4ta-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4ta-2k.dir\build.make CMakeFiles/4ta-2k.dir/Kolokviumski/2kolokviumMK/4ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/4ta-2k.cpp.i
 
-Kolokviumski/Kol1.s: Kolokviumski/Kol1.cpp.s
-.PHONY : Kolokviumski/Kol1.s
+Kolokviumski/2kolokviumMK/4ta-2k.s: Kolokviumski/2kolokviumMK/4ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/4ta-2k.s
 
 # target to generate assembly for a file
-Kolokviumski/Kol1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kol1.dir\build.make CMakeFiles/Kol1.dir/Kolokviumski/Kol1.cpp.s
-.PHONY : Kolokviumski/Kol1.cpp.s
+Kolokviumski/2kolokviumMK/4ta-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4ta-2k.dir\build.make CMakeFiles/4ta-2k.dir/Kolokviumski/2kolokviumMK/4ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/4ta-2k.cpp.s
 
-Kolokviumski/Kolok1.obj: Kolokviumski/Kolok1.cpp.obj
-.PHONY : Kolokviumski/Kolok1.obj
+Kolokviumski/2kolokviumMK/8ma-2k.obj: Kolokviumski/2kolokviumMK/8ma-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/8ma-2k.obj
 
 # target to build an object file
-Kolokviumski/Kolok1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kolok1.dir\build.make CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.obj
-.PHONY : Kolokviumski/Kolok1.cpp.obj
+Kolokviumski/2kolokviumMK/8ma-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8ma-2k.dir\build.make CMakeFiles/8ma-2k.dir/Kolokviumski/2kolokviumMK/8ma-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/8ma-2k.cpp.obj
 
-Kolokviumski/Kolok1.i: Kolokviumski/Kolok1.cpp.i
-.PHONY : Kolokviumski/Kolok1.i
+Kolokviumski/2kolokviumMK/8ma-2k.i: Kolokviumski/2kolokviumMK/8ma-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/8ma-2k.i
 
 # target to preprocess a source file
-Kolokviumski/Kolok1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kolok1.dir\build.make CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.i
-.PHONY : Kolokviumski/Kolok1.cpp.i
+Kolokviumski/2kolokviumMK/8ma-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8ma-2k.dir\build.make CMakeFiles/8ma-2k.dir/Kolokviumski/2kolokviumMK/8ma-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/8ma-2k.cpp.i
 
-Kolokviumski/Kolok1.s: Kolokviumski/Kolok1.cpp.s
-.PHONY : Kolokviumski/Kolok1.s
+Kolokviumski/2kolokviumMK/8ma-2k.s: Kolokviumski/2kolokviumMK/8ma-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/8ma-2k.s
 
 # target to generate assembly for a file
-Kolokviumski/Kolok1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kolok1.dir\build.make CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.s
-.PHONY : Kolokviumski/Kolok1.cpp.s
+Kolokviumski/2kolokviumMK/8ma-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8ma-2k.dir\build.make CMakeFiles/8ma-2k.dir/Kolokviumski/2kolokviumMK/8ma-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/8ma-2k.cpp.s
 
-Kolokviumski/Parovi1.obj: Kolokviumski/Parovi1.cpp.obj
-.PHONY : Kolokviumski/Parovi1.obj
+Kolokviumski/Zadaci/BusLine.obj: Kolokviumski/Zadaci/BusLine.cpp.obj
+.PHONY : Kolokviumski/Zadaci/BusLine.obj
 
 # target to build an object file
-Kolokviumski/Parovi1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parovi1.dir\build.make CMakeFiles/Parovi1.dir/Kolokviumski/Parovi1.cpp.obj
-.PHONY : Kolokviumski/Parovi1.cpp.obj
+Kolokviumski/Zadaci/BusLine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BusLine.dir\build.make CMakeFiles/BusLine.dir/Kolokviumski/Zadaci/BusLine.cpp.obj
+.PHONY : Kolokviumski/Zadaci/BusLine.cpp.obj
 
-Kolokviumski/Parovi1.i: Kolokviumski/Parovi1.cpp.i
-.PHONY : Kolokviumski/Parovi1.i
+Kolokviumski/Zadaci/BusLine.i: Kolokviumski/Zadaci/BusLine.cpp.i
+.PHONY : Kolokviumski/Zadaci/BusLine.i
 
 # target to preprocess a source file
-Kolokviumski/Parovi1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parovi1.dir\build.make CMakeFiles/Parovi1.dir/Kolokviumski/Parovi1.cpp.i
-.PHONY : Kolokviumski/Parovi1.cpp.i
+Kolokviumski/Zadaci/BusLine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BusLine.dir\build.make CMakeFiles/BusLine.dir/Kolokviumski/Zadaci/BusLine.cpp.i
+.PHONY : Kolokviumski/Zadaci/BusLine.cpp.i
 
-Kolokviumski/Parovi1.s: Kolokviumski/Parovi1.cpp.s
-.PHONY : Kolokviumski/Parovi1.s
+Kolokviumski/Zadaci/BusLine.s: Kolokviumski/Zadaci/BusLine.cpp.s
+.PHONY : Kolokviumski/Zadaci/BusLine.s
 
 # target to generate assembly for a file
-Kolokviumski/Parovi1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parovi1.dir\build.make CMakeFiles/Parovi1.dir/Kolokviumski/Parovi1.cpp.s
-.PHONY : Kolokviumski/Parovi1.cpp.s
+Kolokviumski/Zadaci/BusLine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BusLine.dir\build.make CMakeFiles/BusLine.dir/Kolokviumski/Zadaci/BusLine.cpp.s
+.PHONY : Kolokviumski/Zadaci/BusLine.cpp.s
 
-Kolokviumski/Parovi2.obj: Kolokviumski/Parovi2.cpp.obj
-.PHONY : Kolokviumski/Parovi2.obj
+Kolokviumski/Zadaci/CallKolokvium.obj: Kolokviumski/Zadaci/CallKolokvium.cpp.obj
+.PHONY : Kolokviumski/Zadaci/CallKolokvium.obj
 
 # target to build an object file
-Kolokviumski/Parovi2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parovi2.dir\build.make CMakeFiles/Parovi2.dir/Kolokviumski/Parovi2.cpp.obj
-.PHONY : Kolokviumski/Parovi2.cpp.obj
+Kolokviumski/Zadaci/CallKolokvium.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/Kolokviumski/Zadaci/CallKolokvium.cpp.obj
+.PHONY : Kolokviumski/Zadaci/CallKolokvium.cpp.obj
 
-Kolokviumski/Parovi2.i: Kolokviumski/Parovi2.cpp.i
-.PHONY : Kolokviumski/Parovi2.i
+Kolokviumski/Zadaci/CallKolokvium.i: Kolokviumski/Zadaci/CallKolokvium.cpp.i
+.PHONY : Kolokviumski/Zadaci/CallKolokvium.i
 
 # target to preprocess a source file
-Kolokviumski/Parovi2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parovi2.dir\build.make CMakeFiles/Parovi2.dir/Kolokviumski/Parovi2.cpp.i
-.PHONY : Kolokviumski/Parovi2.cpp.i
+Kolokviumski/Zadaci/CallKolokvium.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/Kolokviumski/Zadaci/CallKolokvium.cpp.i
+.PHONY : Kolokviumski/Zadaci/CallKolokvium.cpp.i
 
-Kolokviumski/Parovi2.s: Kolokviumski/Parovi2.cpp.s
-.PHONY : Kolokviumski/Parovi2.s
+Kolokviumski/Zadaci/CallKolokvium.s: Kolokviumski/Zadaci/CallKolokvium.cpp.s
+.PHONY : Kolokviumski/Zadaci/CallKolokvium.s
 
 # target to generate assembly for a file
-Kolokviumski/Parovi2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parovi2.dir\build.make CMakeFiles/Parovi2.dir/Kolokviumski/Parovi2.cpp.s
-.PHONY : Kolokviumski/Parovi2.cpp.s
+Kolokviumski/Zadaci/CallKolokvium.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallKolokvium.cpp.dir\build.make CMakeFiles/CallKolokvium.cpp.dir/Kolokviumski/Zadaci/CallKolokvium.cpp.s
+.PHONY : Kolokviumski/Zadaci/CallKolokvium.cpp.s
 
-Kolokviumski/ProductKolok.obj: Kolokviumski/ProductKolok.cpp.obj
-.PHONY : Kolokviumski/ProductKolok.obj
+Kolokviumski/Zadaci/Char.obj: Kolokviumski/Zadaci/Char.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Char.obj
 
 # target to build an object file
-Kolokviumski/ProductKolok.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/Kolokviumski/ProductKolok.cpp.obj
-.PHONY : Kolokviumski/ProductKolok.cpp.obj
+Kolokviumski/Zadaci/Char.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Char.dir\build.make CMakeFiles/Char.dir/Kolokviumski/Zadaci/Char.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Char.cpp.obj
 
-Kolokviumski/ProductKolok.i: Kolokviumski/ProductKolok.cpp.i
-.PHONY : Kolokviumski/ProductKolok.i
+Kolokviumski/Zadaci/Char.i: Kolokviumski/Zadaci/Char.cpp.i
+.PHONY : Kolokviumski/Zadaci/Char.i
 
 # target to preprocess a source file
-Kolokviumski/ProductKolok.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/Kolokviumski/ProductKolok.cpp.i
-.PHONY : Kolokviumski/ProductKolok.cpp.i
+Kolokviumski/Zadaci/Char.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Char.dir\build.make CMakeFiles/Char.dir/Kolokviumski/Zadaci/Char.cpp.i
+.PHONY : Kolokviumski/Zadaci/Char.cpp.i
 
-Kolokviumski/ProductKolok.s: Kolokviumski/ProductKolok.cpp.s
-.PHONY : Kolokviumski/ProductKolok.s
+Kolokviumski/Zadaci/Char.s: Kolokviumski/Zadaci/Char.cpp.s
+.PHONY : Kolokviumski/Zadaci/Char.s
 
 # target to generate assembly for a file
-Kolokviumski/ProductKolok.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/Kolokviumski/ProductKolok.cpp.s
-.PHONY : Kolokviumski/ProductKolok.cpp.s
+Kolokviumski/Zadaci/Char.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Char.dir\build.make CMakeFiles/Char.dir/Kolokviumski/Zadaci/Char.cpp.s
+.PHONY : Kolokviumski/Zadaci/Char.cpp.s
 
-Kolokviumski/Speaker.obj: Kolokviumski/Speaker.cpp.obj
-.PHONY : Kolokviumski/Speaker.obj
+Kolokviumski/Zadaci/DatumiPovik.obj: Kolokviumski/Zadaci/DatumiPovik.cpp.obj
+.PHONY : Kolokviumski/Zadaci/DatumiPovik.obj
 
 # target to build an object file
-Kolokviumski/Speaker.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Speaker.dir\build.make CMakeFiles/Speaker.dir/Kolokviumski/Speaker.cpp.obj
-.PHONY : Kolokviumski/Speaker.cpp.obj
+Kolokviumski/Zadaci/DatumiPovik.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DatumiPovik.dir\build.make CMakeFiles/DatumiPovik.dir/Kolokviumski/Zadaci/DatumiPovik.cpp.obj
+.PHONY : Kolokviumski/Zadaci/DatumiPovik.cpp.obj
 
-Kolokviumski/Speaker.i: Kolokviumski/Speaker.cpp.i
-.PHONY : Kolokviumski/Speaker.i
+Kolokviumski/Zadaci/DatumiPovik.i: Kolokviumski/Zadaci/DatumiPovik.cpp.i
+.PHONY : Kolokviumski/Zadaci/DatumiPovik.i
 
 # target to preprocess a source file
-Kolokviumski/Speaker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Speaker.dir\build.make CMakeFiles/Speaker.dir/Kolokviumski/Speaker.cpp.i
-.PHONY : Kolokviumski/Speaker.cpp.i
+Kolokviumski/Zadaci/DatumiPovik.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DatumiPovik.dir\build.make CMakeFiles/DatumiPovik.dir/Kolokviumski/Zadaci/DatumiPovik.cpp.i
+.PHONY : Kolokviumski/Zadaci/DatumiPovik.cpp.i
 
-Kolokviumski/Speaker.s: Kolokviumski/Speaker.cpp.s
-.PHONY : Kolokviumski/Speaker.s
+Kolokviumski/Zadaci/DatumiPovik.s: Kolokviumski/Zadaci/DatumiPovik.cpp.s
+.PHONY : Kolokviumski/Zadaci/DatumiPovik.s
 
 # target to generate assembly for a file
-Kolokviumski/Speaker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Speaker.dir\build.make CMakeFiles/Speaker.dir/Kolokviumski/Speaker.cpp.s
-.PHONY : Kolokviumski/Speaker.cpp.s
+Kolokviumski/Zadaci/DatumiPovik.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DatumiPovik.dir\build.make CMakeFiles/DatumiPovik.dir/Kolokviumski/Zadaci/DatumiPovik.cpp.s
+.PHONY : Kolokviumski/Zadaci/DatumiPovik.cpp.s
 
-Kolokviumski/StefanStudentKolokviumska.obj: Kolokviumski/StefanStudentKolokviumska.cpp.obj
-.PHONY : Kolokviumski/StefanStudentKolokviumska.obj
+Kolokviumski/Zadaci/DeliveryV.obj: Kolokviumski/Zadaci/DeliveryV.cpp.obj
+.PHONY : Kolokviumski/Zadaci/DeliveryV.obj
 
 # target to build an object file
-Kolokviumski/StefanStudentKolokviumska.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StefanStudentiKolokviumska.dir\build.make CMakeFiles/StefanStudentiKolokviumska.dir/Kolokviumski/StefanStudentKolokviumska.cpp.obj
-.PHONY : Kolokviumski/StefanStudentKolokviumska.cpp.obj
+Kolokviumski/Zadaci/DeliveryV.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeliveryV.dir\build.make CMakeFiles/DeliveryV.dir/Kolokviumski/Zadaci/DeliveryV.cpp.obj
+.PHONY : Kolokviumski/Zadaci/DeliveryV.cpp.obj
 
-Kolokviumski/StefanStudentKolokviumska.i: Kolokviumski/StefanStudentKolokviumska.cpp.i
-.PHONY : Kolokviumski/StefanStudentKolokviumska.i
+Kolokviumski/Zadaci/DeliveryV.i: Kolokviumski/Zadaci/DeliveryV.cpp.i
+.PHONY : Kolokviumski/Zadaci/DeliveryV.i
 
 # target to preprocess a source file
-Kolokviumski/StefanStudentKolokviumska.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StefanStudentiKolokviumska.dir\build.make CMakeFiles/StefanStudentiKolokviumska.dir/Kolokviumski/StefanStudentKolokviumska.cpp.i
-.PHONY : Kolokviumski/StefanStudentKolokviumska.cpp.i
+Kolokviumski/Zadaci/DeliveryV.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeliveryV.dir\build.make CMakeFiles/DeliveryV.dir/Kolokviumski/Zadaci/DeliveryV.cpp.i
+.PHONY : Kolokviumski/Zadaci/DeliveryV.cpp.i
 
-Kolokviumski/StefanStudentKolokviumska.s: Kolokviumski/StefanStudentKolokviumska.cpp.s
-.PHONY : Kolokviumski/StefanStudentKolokviumska.s
+Kolokviumski/Zadaci/DeliveryV.s: Kolokviumski/Zadaci/DeliveryV.cpp.s
+.PHONY : Kolokviumski/Zadaci/DeliveryV.s
 
 # target to generate assembly for a file
-Kolokviumski/StefanStudentKolokviumska.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StefanStudentiKolokviumska.dir\build.make CMakeFiles/StefanStudentiKolokviumska.dir/Kolokviumski/StefanStudentKolokviumska.cpp.s
-.PHONY : Kolokviumski/StefanStudentKolokviumska.cpp.s
+Kolokviumski/Zadaci/DeliveryV.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeliveryV.dir\build.make CMakeFiles/DeliveryV.dir/Kolokviumski/Zadaci/DeliveryV.cpp.s
+.PHONY : Kolokviumski/Zadaci/DeliveryV.cpp.s
 
-Kolokviumski/Transaction.obj: Kolokviumski/Transaction.cpp.obj
-.PHONY : Kolokviumski/Transaction.obj
+Kolokviumski/Zadaci/File.obj: Kolokviumski/Zadaci/File.cpp.obj
+.PHONY : Kolokviumski/Zadaci/File.obj
 
 # target to build an object file
-Kolokviumski/Transaction.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Transaction.dir\build.make CMakeFiles/Transaction.dir/Kolokviumski/Transaction.cpp.obj
-.PHONY : Kolokviumski/Transaction.cpp.obj
+Kolokviumski/Zadaci/File.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\File.dir\build.make CMakeFiles/File.dir/Kolokviumski/Zadaci/File.cpp.obj
+.PHONY : Kolokviumski/Zadaci/File.cpp.obj
 
-Kolokviumski/Transaction.i: Kolokviumski/Transaction.cpp.i
-.PHONY : Kolokviumski/Transaction.i
+Kolokviumski/Zadaci/File.i: Kolokviumski/Zadaci/File.cpp.i
+.PHONY : Kolokviumski/Zadaci/File.i
 
 # target to preprocess a source file
-Kolokviumski/Transaction.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Transaction.dir\build.make CMakeFiles/Transaction.dir/Kolokviumski/Transaction.cpp.i
-.PHONY : Kolokviumski/Transaction.cpp.i
+Kolokviumski/Zadaci/File.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\File.dir\build.make CMakeFiles/File.dir/Kolokviumski/Zadaci/File.cpp.i
+.PHONY : Kolokviumski/Zadaci/File.cpp.i
 
-Kolokviumski/Transaction.s: Kolokviumski/Transaction.cpp.s
-.PHONY : Kolokviumski/Transaction.s
+Kolokviumski/Zadaci/File.s: Kolokviumski/Zadaci/File.cpp.s
+.PHONY : Kolokviumski/Zadaci/File.s
 
 # target to generate assembly for a file
-Kolokviumski/Transaction.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Transaction.dir\build.make CMakeFiles/Transaction.dir/Kolokviumski/Transaction.cpp.s
-.PHONY : Kolokviumski/Transaction.cpp.s
+Kolokviumski/Zadaci/File.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\File.dir\build.make CMakeFiles/File.dir/Kolokviumski/Zadaci/File.cpp.s
+.PHONY : Kolokviumski/Zadaci/File.cpp.s
 
-Kolokviumski/Uber.obj: Kolokviumski/Uber.cpp.obj
-.PHONY : Kolokviumski/Uber.obj
+Kolokviumski/Zadaci/Flight.obj: Kolokviumski/Zadaci/Flight.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Flight.obj
 
 # target to build an object file
-Kolokviumski/Uber.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeliveryS.dir\build.make CMakeFiles/DeliveryS.dir/Kolokviumski/Uber.cpp.obj
-.PHONY : Kolokviumski/Uber.cpp.obj
+Kolokviumski/Zadaci/Flight.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lanska3.dir\build.make CMakeFiles/lanska3.dir/Kolokviumski/Zadaci/Flight.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Flight.cpp.obj
 
-Kolokviumski/Uber.i: Kolokviumski/Uber.cpp.i
-.PHONY : Kolokviumski/Uber.i
+Kolokviumski/Zadaci/Flight.i: Kolokviumski/Zadaci/Flight.cpp.i
+.PHONY : Kolokviumski/Zadaci/Flight.i
 
 # target to preprocess a source file
-Kolokviumski/Uber.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeliveryS.dir\build.make CMakeFiles/DeliveryS.dir/Kolokviumski/Uber.cpp.i
-.PHONY : Kolokviumski/Uber.cpp.i
+Kolokviumski/Zadaci/Flight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lanska3.dir\build.make CMakeFiles/lanska3.dir/Kolokviumski/Zadaci/Flight.cpp.i
+.PHONY : Kolokviumski/Zadaci/Flight.cpp.i
 
-Kolokviumski/Uber.s: Kolokviumski/Uber.cpp.s
-.PHONY : Kolokviumski/Uber.s
+Kolokviumski/Zadaci/Flight.s: Kolokviumski/Zadaci/Flight.cpp.s
+.PHONY : Kolokviumski/Zadaci/Flight.s
 
 # target to generate assembly for a file
-Kolokviumski/Uber.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeliveryS.dir\build.make CMakeFiles/DeliveryS.dir/Kolokviumski/Uber.cpp.s
-.PHONY : Kolokviumski/Uber.cpp.s
+Kolokviumski/Zadaci/Flight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lanska3.dir\build.make CMakeFiles/lanska3.dir/Kolokviumski/Zadaci/Flight.cpp.s
+.PHONY : Kolokviumski/Zadaci/Flight.cpp.s
 
-Kolokviumski/zadacaStefan1.obj: Kolokviumski/zadacaStefan1.cpp.obj
-.PHONY : Kolokviumski/zadacaStefan1.obj
+Kolokviumski/Zadaci/Galerija.obj: Kolokviumski/Zadaci/Galerija.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Galerija.obj
 
 # target to build an object file
-Kolokviumski/zadacaStefan1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadacaStefan1.dir\build.make CMakeFiles/zadacaStefan1.dir/Kolokviumski/zadacaStefan1.cpp.obj
-.PHONY : Kolokviumski/zadacaStefan1.cpp.obj
+Kolokviumski/Zadaci/Galerija.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Galerija.dir\build.make CMakeFiles/Galerija.dir/Kolokviumski/Zadaci/Galerija.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Galerija.cpp.obj
 
-Kolokviumski/zadacaStefan1.i: Kolokviumski/zadacaStefan1.cpp.i
-.PHONY : Kolokviumski/zadacaStefan1.i
+Kolokviumski/Zadaci/Galerija.i: Kolokviumski/Zadaci/Galerija.cpp.i
+.PHONY : Kolokviumski/Zadaci/Galerija.i
 
 # target to preprocess a source file
-Kolokviumski/zadacaStefan1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadacaStefan1.dir\build.make CMakeFiles/zadacaStefan1.dir/Kolokviumski/zadacaStefan1.cpp.i
-.PHONY : Kolokviumski/zadacaStefan1.cpp.i
+Kolokviumski/Zadaci/Galerija.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Galerija.dir\build.make CMakeFiles/Galerija.dir/Kolokviumski/Zadaci/Galerija.cpp.i
+.PHONY : Kolokviumski/Zadaci/Galerija.cpp.i
 
-Kolokviumski/zadacaStefan1.s: Kolokviumski/zadacaStefan1.cpp.s
-.PHONY : Kolokviumski/zadacaStefan1.s
+Kolokviumski/Zadaci/Galerija.s: Kolokviumski/Zadaci/Galerija.cpp.s
+.PHONY : Kolokviumski/Zadaci/Galerija.s
 
 # target to generate assembly for a file
-Kolokviumski/zadacaStefan1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadacaStefan1.dir\build.make CMakeFiles/zadacaStefan1.dir/Kolokviumski/zadacaStefan1.cpp.s
-.PHONY : Kolokviumski/zadacaStefan1.cpp.s
+Kolokviumski/Zadaci/Galerija.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Galerija.dir\build.make CMakeFiles/Galerija.dir/Kolokviumski/Zadaci/Galerija.cpp.s
+.PHONY : Kolokviumski/Zadaci/Galerija.cpp.s
 
-Kolokviumski/zadacaStefan2.obj: Kolokviumski/zadacaStefan2.cpp.obj
-.PHONY : Kolokviumski/zadacaStefan2.obj
+Kolokviumski/Zadaci/HikingTrack.obj: Kolokviumski/Zadaci/HikingTrack.cpp.obj
+.PHONY : Kolokviumski/Zadaci/HikingTrack.obj
 
 # target to build an object file
-Kolokviumski/zadacaStefan2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadacaStefan2.dir\build.make CMakeFiles/zadacaStefan2.dir/Kolokviumski/zadacaStefan2.cpp.obj
-.PHONY : Kolokviumski/zadacaStefan2.cpp.obj
+Kolokviumski/Zadaci/HikingTrack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lanska2.dir\build.make CMakeFiles/lanska2.dir/Kolokviumski/Zadaci/HikingTrack.cpp.obj
+.PHONY : Kolokviumski/Zadaci/HikingTrack.cpp.obj
 
-Kolokviumski/zadacaStefan2.i: Kolokviumski/zadacaStefan2.cpp.i
-.PHONY : Kolokviumski/zadacaStefan2.i
+Kolokviumski/Zadaci/HikingTrack.i: Kolokviumski/Zadaci/HikingTrack.cpp.i
+.PHONY : Kolokviumski/Zadaci/HikingTrack.i
 
 # target to preprocess a source file
-Kolokviumski/zadacaStefan2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadacaStefan2.dir\build.make CMakeFiles/zadacaStefan2.dir/Kolokviumski/zadacaStefan2.cpp.i
-.PHONY : Kolokviumski/zadacaStefan2.cpp.i
+Kolokviumski/Zadaci/HikingTrack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lanska2.dir\build.make CMakeFiles/lanska2.dir/Kolokviumski/Zadaci/HikingTrack.cpp.i
+.PHONY : Kolokviumski/Zadaci/HikingTrack.cpp.i
 
-Kolokviumski/zadacaStefan2.s: Kolokviumski/zadacaStefan2.cpp.s
-.PHONY : Kolokviumski/zadacaStefan2.s
+Kolokviumski/Zadaci/HikingTrack.s: Kolokviumski/Zadaci/HikingTrack.cpp.s
+.PHONY : Kolokviumski/Zadaci/HikingTrack.s
 
 # target to generate assembly for a file
-Kolokviumski/zadacaStefan2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadacaStefan2.dir\build.make CMakeFiles/zadacaStefan2.dir/Kolokviumski/zadacaStefan2.cpp.s
-.PHONY : Kolokviumski/zadacaStefan2.cpp.s
+Kolokviumski/Zadaci/HikingTrack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lanska2.dir\build.make CMakeFiles/lanska2.dir/Kolokviumski/Zadaci/HikingTrack.cpp.s
+.PHONY : Kolokviumski/Zadaci/HikingTrack.cpp.s
+
+Kolokviumski/Zadaci/Kol1.obj: Kolokviumski/Zadaci/Kol1.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Kol1.obj
+
+# target to build an object file
+Kolokviumski/Zadaci/Kol1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kol1.dir\build.make CMakeFiles/Kol1.dir/Kolokviumski/Zadaci/Kol1.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Kol1.cpp.obj
+
+Kolokviumski/Zadaci/Kol1.i: Kolokviumski/Zadaci/Kol1.cpp.i
+.PHONY : Kolokviumski/Zadaci/Kol1.i
+
+# target to preprocess a source file
+Kolokviumski/Zadaci/Kol1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kol1.dir\build.make CMakeFiles/Kol1.dir/Kolokviumski/Zadaci/Kol1.cpp.i
+.PHONY : Kolokviumski/Zadaci/Kol1.cpp.i
+
+Kolokviumski/Zadaci/Kol1.s: Kolokviumski/Zadaci/Kol1.cpp.s
+.PHONY : Kolokviumski/Zadaci/Kol1.s
+
+# target to generate assembly for a file
+Kolokviumski/Zadaci/Kol1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kol1.dir\build.make CMakeFiles/Kol1.dir/Kolokviumski/Zadaci/Kol1.cpp.s
+.PHONY : Kolokviumski/Zadaci/Kol1.cpp.s
+
+Kolokviumski/Zadaci/Kolok1.obj: Kolokviumski/Zadaci/Kolok1.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Kolok1.obj
+
+# target to build an object file
+Kolokviumski/Zadaci/Kolok1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kolok1.dir\build.make CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Kolok1.cpp.obj
+
+Kolokviumski/Zadaci/Kolok1.i: Kolokviumski/Zadaci/Kolok1.cpp.i
+.PHONY : Kolokviumski/Zadaci/Kolok1.i
+
+# target to preprocess a source file
+Kolokviumski/Zadaci/Kolok1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kolok1.dir\build.make CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.i
+.PHONY : Kolokviumski/Zadaci/Kolok1.cpp.i
+
+Kolokviumski/Zadaci/Kolok1.s: Kolokviumski/Zadaci/Kolok1.cpp.s
+.PHONY : Kolokviumski/Zadaci/Kolok1.s
+
+# target to generate assembly for a file
+Kolokviumski/Zadaci/Kolok1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kolok1.dir\build.make CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.s
+.PHONY : Kolokviumski/Zadaci/Kolok1.cpp.s
+
+Kolokviumski/Zadaci/Parovi1.obj: Kolokviumski/Zadaci/Parovi1.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Parovi1.obj
+
+# target to build an object file
+Kolokviumski/Zadaci/Parovi1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parovi1.dir\build.make CMakeFiles/Parovi1.dir/Kolokviumski/Zadaci/Parovi1.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Parovi1.cpp.obj
+
+Kolokviumski/Zadaci/Parovi1.i: Kolokviumski/Zadaci/Parovi1.cpp.i
+.PHONY : Kolokviumski/Zadaci/Parovi1.i
+
+# target to preprocess a source file
+Kolokviumski/Zadaci/Parovi1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parovi1.dir\build.make CMakeFiles/Parovi1.dir/Kolokviumski/Zadaci/Parovi1.cpp.i
+.PHONY : Kolokviumski/Zadaci/Parovi1.cpp.i
+
+Kolokviumski/Zadaci/Parovi1.s: Kolokviumski/Zadaci/Parovi1.cpp.s
+.PHONY : Kolokviumski/Zadaci/Parovi1.s
+
+# target to generate assembly for a file
+Kolokviumski/Zadaci/Parovi1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parovi1.dir\build.make CMakeFiles/Parovi1.dir/Kolokviumski/Zadaci/Parovi1.cpp.s
+.PHONY : Kolokviumski/Zadaci/Parovi1.cpp.s
+
+Kolokviumski/Zadaci/Parovi2.obj: Kolokviumski/Zadaci/Parovi2.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Parovi2.obj
+
+# target to build an object file
+Kolokviumski/Zadaci/Parovi2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parovi2.dir\build.make CMakeFiles/Parovi2.dir/Kolokviumski/Zadaci/Parovi2.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Parovi2.cpp.obj
+
+Kolokviumski/Zadaci/Parovi2.i: Kolokviumski/Zadaci/Parovi2.cpp.i
+.PHONY : Kolokviumski/Zadaci/Parovi2.i
+
+# target to preprocess a source file
+Kolokviumski/Zadaci/Parovi2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parovi2.dir\build.make CMakeFiles/Parovi2.dir/Kolokviumski/Zadaci/Parovi2.cpp.i
+.PHONY : Kolokviumski/Zadaci/Parovi2.cpp.i
+
+Kolokviumski/Zadaci/Parovi2.s: Kolokviumski/Zadaci/Parovi2.cpp.s
+.PHONY : Kolokviumski/Zadaci/Parovi2.s
+
+# target to generate assembly for a file
+Kolokviumski/Zadaci/Parovi2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parovi2.dir\build.make CMakeFiles/Parovi2.dir/Kolokviumski/Zadaci/Parovi2.cpp.s
+.PHONY : Kolokviumski/Zadaci/Parovi2.cpp.s
+
+Kolokviumski/Zadaci/ProductKolok.obj: Kolokviumski/Zadaci/ProductKolok.cpp.obj
+.PHONY : Kolokviumski/Zadaci/ProductKolok.obj
+
+# target to build an object file
+Kolokviumski/Zadaci/ProductKolok.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/Kolokviumski/Zadaci/ProductKolok.cpp.obj
+.PHONY : Kolokviumski/Zadaci/ProductKolok.cpp.obj
+
+Kolokviumski/Zadaci/ProductKolok.i: Kolokviumski/Zadaci/ProductKolok.cpp.i
+.PHONY : Kolokviumski/Zadaci/ProductKolok.i
+
+# target to preprocess a source file
+Kolokviumski/Zadaci/ProductKolok.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/Kolokviumski/Zadaci/ProductKolok.cpp.i
+.PHONY : Kolokviumski/Zadaci/ProductKolok.cpp.i
+
+Kolokviumski/Zadaci/ProductKolok.s: Kolokviumski/Zadaci/ProductKolok.cpp.s
+.PHONY : Kolokviumski/Zadaci/ProductKolok.s
+
+# target to generate assembly for a file
+Kolokviumski/Zadaci/ProductKolok.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProductKolok.cpp.dir\build.make CMakeFiles/ProductKolok.cpp.dir/Kolokviumski/Zadaci/ProductKolok.cpp.s
+.PHONY : Kolokviumski/Zadaci/ProductKolok.cpp.s
+
+Kolokviumski/Zadaci/Speaker.obj: Kolokviumski/Zadaci/Speaker.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Speaker.obj
+
+# target to build an object file
+Kolokviumski/Zadaci/Speaker.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Speaker.dir\build.make CMakeFiles/Speaker.dir/Kolokviumski/Zadaci/Speaker.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Speaker.cpp.obj
+
+Kolokviumski/Zadaci/Speaker.i: Kolokviumski/Zadaci/Speaker.cpp.i
+.PHONY : Kolokviumski/Zadaci/Speaker.i
+
+# target to preprocess a source file
+Kolokviumski/Zadaci/Speaker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Speaker.dir\build.make CMakeFiles/Speaker.dir/Kolokviumski/Zadaci/Speaker.cpp.i
+.PHONY : Kolokviumski/Zadaci/Speaker.cpp.i
+
+Kolokviumski/Zadaci/Speaker.s: Kolokviumski/Zadaci/Speaker.cpp.s
+.PHONY : Kolokviumski/Zadaci/Speaker.s
+
+# target to generate assembly for a file
+Kolokviumski/Zadaci/Speaker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Speaker.dir\build.make CMakeFiles/Speaker.dir/Kolokviumski/Zadaci/Speaker.cpp.s
+.PHONY : Kolokviumski/Zadaci/Speaker.cpp.s
+
+Kolokviumski/Zadaci/StefanStudentKolokviumska.obj: Kolokviumski/Zadaci/StefanStudentKolokviumska.cpp.obj
+.PHONY : Kolokviumski/Zadaci/StefanStudentKolokviumska.obj
+
+# target to build an object file
+Kolokviumski/Zadaci/StefanStudentKolokviumska.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StefanStudentiKolokviumska.dir\build.make CMakeFiles/StefanStudentiKolokviumska.dir/Kolokviumski/Zadaci/StefanStudentKolokviumska.cpp.obj
+.PHONY : Kolokviumski/Zadaci/StefanStudentKolokviumska.cpp.obj
+
+Kolokviumski/Zadaci/StefanStudentKolokviumska.i: Kolokviumski/Zadaci/StefanStudentKolokviumska.cpp.i
+.PHONY : Kolokviumski/Zadaci/StefanStudentKolokviumska.i
+
+# target to preprocess a source file
+Kolokviumski/Zadaci/StefanStudentKolokviumska.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StefanStudentiKolokviumska.dir\build.make CMakeFiles/StefanStudentiKolokviumska.dir/Kolokviumski/Zadaci/StefanStudentKolokviumska.cpp.i
+.PHONY : Kolokviumski/Zadaci/StefanStudentKolokviumska.cpp.i
+
+Kolokviumski/Zadaci/StefanStudentKolokviumska.s: Kolokviumski/Zadaci/StefanStudentKolokviumska.cpp.s
+.PHONY : Kolokviumski/Zadaci/StefanStudentKolokviumska.s
+
+# target to generate assembly for a file
+Kolokviumski/Zadaci/StefanStudentKolokviumska.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StefanStudentiKolokviumska.dir\build.make CMakeFiles/StefanStudentiKolokviumska.dir/Kolokviumski/Zadaci/StefanStudentKolokviumska.cpp.s
+.PHONY : Kolokviumski/Zadaci/StefanStudentKolokviumska.cpp.s
+
+Kolokviumski/Zadaci/Transaction.obj: Kolokviumski/Zadaci/Transaction.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Transaction.obj
+
+# target to build an object file
+Kolokviumski/Zadaci/Transaction.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Transaction.dir\build.make CMakeFiles/Transaction.dir/Kolokviumski/Zadaci/Transaction.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Transaction.cpp.obj
+
+Kolokviumski/Zadaci/Transaction.i: Kolokviumski/Zadaci/Transaction.cpp.i
+.PHONY : Kolokviumski/Zadaci/Transaction.i
+
+# target to preprocess a source file
+Kolokviumski/Zadaci/Transaction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Transaction.dir\build.make CMakeFiles/Transaction.dir/Kolokviumski/Zadaci/Transaction.cpp.i
+.PHONY : Kolokviumski/Zadaci/Transaction.cpp.i
+
+Kolokviumski/Zadaci/Transaction.s: Kolokviumski/Zadaci/Transaction.cpp.s
+.PHONY : Kolokviumski/Zadaci/Transaction.s
+
+# target to generate assembly for a file
+Kolokviumski/Zadaci/Transaction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Transaction.dir\build.make CMakeFiles/Transaction.dir/Kolokviumski/Zadaci/Transaction.cpp.s
+.PHONY : Kolokviumski/Zadaci/Transaction.cpp.s
+
+Kolokviumski/Zadaci/Uber.obj: Kolokviumski/Zadaci/Uber.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Uber.obj
+
+# target to build an object file
+Kolokviumski/Zadaci/Uber.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeliveryS.dir\build.make CMakeFiles/DeliveryS.dir/Kolokviumski/Zadaci/Uber.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Uber.cpp.obj
+
+Kolokviumski/Zadaci/Uber.i: Kolokviumski/Zadaci/Uber.cpp.i
+.PHONY : Kolokviumski/Zadaci/Uber.i
+
+# target to preprocess a source file
+Kolokviumski/Zadaci/Uber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeliveryS.dir\build.make CMakeFiles/DeliveryS.dir/Kolokviumski/Zadaci/Uber.cpp.i
+.PHONY : Kolokviumski/Zadaci/Uber.cpp.i
+
+Kolokviumski/Zadaci/Uber.s: Kolokviumski/Zadaci/Uber.cpp.s
+.PHONY : Kolokviumski/Zadaci/Uber.s
+
+# target to generate assembly for a file
+Kolokviumski/Zadaci/Uber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeliveryS.dir\build.make CMakeFiles/DeliveryS.dir/Kolokviumski/Zadaci/Uber.cpp.s
+.PHONY : Kolokviumski/Zadaci/Uber.cpp.s
+
+Kolokviumski/Zadaci/zadacaStefan1.obj: Kolokviumski/Zadaci/zadacaStefan1.cpp.obj
+.PHONY : Kolokviumski/Zadaci/zadacaStefan1.obj
+
+# target to build an object file
+Kolokviumski/Zadaci/zadacaStefan1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadacaStefan1.dir\build.make CMakeFiles/zadacaStefan1.dir/Kolokviumski/Zadaci/zadacaStefan1.cpp.obj
+.PHONY : Kolokviumski/Zadaci/zadacaStefan1.cpp.obj
+
+Kolokviumski/Zadaci/zadacaStefan1.i: Kolokviumski/Zadaci/zadacaStefan1.cpp.i
+.PHONY : Kolokviumski/Zadaci/zadacaStefan1.i
+
+# target to preprocess a source file
+Kolokviumski/Zadaci/zadacaStefan1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadacaStefan1.dir\build.make CMakeFiles/zadacaStefan1.dir/Kolokviumski/Zadaci/zadacaStefan1.cpp.i
+.PHONY : Kolokviumski/Zadaci/zadacaStefan1.cpp.i
+
+Kolokviumski/Zadaci/zadacaStefan1.s: Kolokviumski/Zadaci/zadacaStefan1.cpp.s
+.PHONY : Kolokviumski/Zadaci/zadacaStefan1.s
+
+# target to generate assembly for a file
+Kolokviumski/Zadaci/zadacaStefan1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadacaStefan1.dir\build.make CMakeFiles/zadacaStefan1.dir/Kolokviumski/Zadaci/zadacaStefan1.cpp.s
+.PHONY : Kolokviumski/Zadaci/zadacaStefan1.cpp.s
+
+Kolokviumski/Zadaci/zadacaStefan2.obj: Kolokviumski/Zadaci/zadacaStefan2.cpp.obj
+.PHONY : Kolokviumski/Zadaci/zadacaStefan2.obj
+
+# target to build an object file
+Kolokviumski/Zadaci/zadacaStefan2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadacaStefan2.dir\build.make CMakeFiles/zadacaStefan2.dir/Kolokviumski/Zadaci/zadacaStefan2.cpp.obj
+.PHONY : Kolokviumski/Zadaci/zadacaStefan2.cpp.obj
+
+Kolokviumski/Zadaci/zadacaStefan2.i: Kolokviumski/Zadaci/zadacaStefan2.cpp.i
+.PHONY : Kolokviumski/Zadaci/zadacaStefan2.i
+
+# target to preprocess a source file
+Kolokviumski/Zadaci/zadacaStefan2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadacaStefan2.dir\build.make CMakeFiles/zadacaStefan2.dir/Kolokviumski/Zadaci/zadacaStefan2.cpp.i
+.PHONY : Kolokviumski/Zadaci/zadacaStefan2.cpp.i
+
+Kolokviumski/Zadaci/zadacaStefan2.s: Kolokviumski/Zadaci/zadacaStefan2.cpp.s
+.PHONY : Kolokviumski/Zadaci/zadacaStefan2.s
+
+# target to generate assembly for a file
+Kolokviumski/Zadaci/zadacaStefan2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadacaStefan2.dir\build.make CMakeFiles/zadacaStefan2.dir/Kolokviumski/Zadaci/zadacaStefan2.cpp.s
+.PHONY : Kolokviumski/Zadaci/zadacaStefan2.cpp.s
 
 Labs/1.obj: Labs/1.cpp.obj
 .PHONY : Labs/1.obj
@@ -5563,6 +6566,126 @@ Labs/6_nedela/zad6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\zad6.dir\build.make CMakeFiles/zad6.dir/Labs/6_nedela/zad6.cpp.s
 .PHONY : Labs/6_nedela/zad6.cpp.s
 
+Labs/8_nedela/Athlete.obj: Labs/8_nedela/Athlete.cpp.obj
+.PHONY : Labs/8_nedela/Athlete.obj
+
+# target to build an object file
+Labs/8_nedela/Athlete.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Athlete.dir\build.make CMakeFiles/Athlete.dir/Labs/8_nedela/Athlete.cpp.obj
+.PHONY : Labs/8_nedela/Athlete.cpp.obj
+
+Labs/8_nedela/Athlete.i: Labs/8_nedela/Athlete.cpp.i
+.PHONY : Labs/8_nedela/Athlete.i
+
+# target to preprocess a source file
+Labs/8_nedela/Athlete.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Athlete.dir\build.make CMakeFiles/Athlete.dir/Labs/8_nedela/Athlete.cpp.i
+.PHONY : Labs/8_nedela/Athlete.cpp.i
+
+Labs/8_nedela/Athlete.s: Labs/8_nedela/Athlete.cpp.s
+.PHONY : Labs/8_nedela/Athlete.s
+
+# target to generate assembly for a file
+Labs/8_nedela/Athlete.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Athlete.dir\build.make CMakeFiles/Athlete.dir/Labs/8_nedela/Athlete.cpp.s
+.PHONY : Labs/8_nedela/Athlete.cpp.s
+
+Labs/8_nedela/Hero.obj: Labs/8_nedela/Hero.cpp.obj
+.PHONY : Labs/8_nedela/Hero.obj
+
+# target to build an object file
+Labs/8_nedela/Hero.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hero.dir\build.make CMakeFiles/Hero.dir/Labs/8_nedela/Hero.cpp.obj
+.PHONY : Labs/8_nedela/Hero.cpp.obj
+
+Labs/8_nedela/Hero.i: Labs/8_nedela/Hero.cpp.i
+.PHONY : Labs/8_nedela/Hero.i
+
+# target to preprocess a source file
+Labs/8_nedela/Hero.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hero.dir\build.make CMakeFiles/Hero.dir/Labs/8_nedela/Hero.cpp.i
+.PHONY : Labs/8_nedela/Hero.cpp.i
+
+Labs/8_nedela/Hero.s: Labs/8_nedela/Hero.cpp.s
+.PHONY : Labs/8_nedela/Hero.s
+
+# target to generate assembly for a file
+Labs/8_nedela/Hero.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hero.dir\build.make CMakeFiles/Hero.dir/Labs/8_nedela/Hero.cpp.s
+.PHONY : Labs/8_nedela/Hero.cpp.s
+
+Labs/9_nedela/zadaca1.obj: Labs/9_nedela/zadaca1.cpp.obj
+.PHONY : Labs/9_nedela/zadaca1.obj
+
+# target to build an object file
+Labs/9_nedela/zadaca1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadaca1.dir\build.make CMakeFiles/zadaca1.dir/Labs/9_nedela/zadaca1.cpp.obj
+.PHONY : Labs/9_nedela/zadaca1.cpp.obj
+
+Labs/9_nedela/zadaca1.i: Labs/9_nedela/zadaca1.cpp.i
+.PHONY : Labs/9_nedela/zadaca1.i
+
+# target to preprocess a source file
+Labs/9_nedela/zadaca1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadaca1.dir\build.make CMakeFiles/zadaca1.dir/Labs/9_nedela/zadaca1.cpp.i
+.PHONY : Labs/9_nedela/zadaca1.cpp.i
+
+Labs/9_nedela/zadaca1.s: Labs/9_nedela/zadaca1.cpp.s
+.PHONY : Labs/9_nedela/zadaca1.s
+
+# target to generate assembly for a file
+Labs/9_nedela/zadaca1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadaca1.dir\build.make CMakeFiles/zadaca1.dir/Labs/9_nedela/zadaca1.cpp.s
+.PHONY : Labs/9_nedela/zadaca1.cpp.s
+
+Labs/9_nedela/zadaca2.obj: Labs/9_nedela/zadaca2.cpp.obj
+.PHONY : Labs/9_nedela/zadaca2.obj
+
+# target to build an object file
+Labs/9_nedela/zadaca2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadaca2.dir\build.make CMakeFiles/zadaca2.dir/Labs/9_nedela/zadaca2.cpp.obj
+.PHONY : Labs/9_nedela/zadaca2.cpp.obj
+
+Labs/9_nedela/zadaca2.i: Labs/9_nedela/zadaca2.cpp.i
+.PHONY : Labs/9_nedela/zadaca2.i
+
+# target to preprocess a source file
+Labs/9_nedela/zadaca2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadaca2.dir\build.make CMakeFiles/zadaca2.dir/Labs/9_nedela/zadaca2.cpp.i
+.PHONY : Labs/9_nedela/zadaca2.cpp.i
+
+Labs/9_nedela/zadaca2.s: Labs/9_nedela/zadaca2.cpp.s
+.PHONY : Labs/9_nedela/zadaca2.s
+
+# target to generate assembly for a file
+Labs/9_nedela/zadaca2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadaca2.dir\build.make CMakeFiles/zadaca2.dir/Labs/9_nedela/zadaca2.cpp.s
+.PHONY : Labs/9_nedela/zadaca2.cpp.s
+
+Labs/9_nedela/zadaca3.obj: Labs/9_nedela/zadaca3.cpp.obj
+.PHONY : Labs/9_nedela/zadaca3.obj
+
+# target to build an object file
+Labs/9_nedela/zadaca3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadaca3.dir\build.make CMakeFiles/zadaca3.dir/Labs/9_nedela/zadaca3.cpp.obj
+.PHONY : Labs/9_nedela/zadaca3.cpp.obj
+
+Labs/9_nedela/zadaca3.i: Labs/9_nedela/zadaca3.cpp.i
+.PHONY : Labs/9_nedela/zadaca3.i
+
+# target to preprocess a source file
+Labs/9_nedela/zadaca3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadaca3.dir\build.make CMakeFiles/zadaca3.dir/Labs/9_nedela/zadaca3.cpp.i
+.PHONY : Labs/9_nedela/zadaca3.cpp.i
+
+Labs/9_nedela/zadaca3.s: Labs/9_nedela/zadaca3.cpp.s
+.PHONY : Labs/9_nedela/zadaca3.s
+
+# target to generate assembly for a file
+Labs/9_nedela/zadaca3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zadaca3.dir\build.make CMakeFiles/zadaca3.dir/Labs/9_nedela/zadaca3.cpp.s
+.PHONY : Labs/9_nedela/zadaca3.cpp.s
+
 Predavanja/C-DC_objekti.obj: Predavanja/C-DC_objekti.cpp.obj
 .PHONY : Predavanja/C-DC_objekti.obj
 
@@ -5634,6 +6757,30 @@ Predavanja/Destruktor.s: Predavanja/Destruktor.cpp.s
 Predavanja/Destruktor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Destruktor.dir\build.make CMakeFiles/Destruktor.dir/Predavanja/Destruktor.cpp.s
 .PHONY : Predavanja/Destruktor.cpp.s
+
+Predavanja/Lekcija11-Isklucoci/Isklucoci1.obj: Predavanja/Lekcija11-Isklucoci/Isklucoci1.cpp.obj
+.PHONY : Predavanja/Lekcija11-Isklucoci/Isklucoci1.obj
+
+# target to build an object file
+Predavanja/Lekcija11-Isklucoci/Isklucoci1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Isklucoci1.dir\build.make CMakeFiles/Isklucoci1.dir/Predavanja/Lekcija11-Isklucoci/Isklucoci1.cpp.obj
+.PHONY : Predavanja/Lekcija11-Isklucoci/Isklucoci1.cpp.obj
+
+Predavanja/Lekcija11-Isklucoci/Isklucoci1.i: Predavanja/Lekcija11-Isklucoci/Isklucoci1.cpp.i
+.PHONY : Predavanja/Lekcija11-Isklucoci/Isklucoci1.i
+
+# target to preprocess a source file
+Predavanja/Lekcija11-Isklucoci/Isklucoci1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Isklucoci1.dir\build.make CMakeFiles/Isklucoci1.dir/Predavanja/Lekcija11-Isklucoci/Isklucoci1.cpp.i
+.PHONY : Predavanja/Lekcija11-Isklucoci/Isklucoci1.cpp.i
+
+Predavanja/Lekcija11-Isklucoci/Isklucoci1.s: Predavanja/Lekcija11-Isklucoci/Isklucoci1.cpp.s
+.PHONY : Predavanja/Lekcija11-Isklucoci/Isklucoci1.s
+
+# target to generate assembly for a file
+Predavanja/Lekcija11-Isklucoci/Isklucoci1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Isklucoci1.dir\build.make CMakeFiles/Isklucoci1.dir/Predavanja/Lekcija11-Isklucoci/Isklucoci1.cpp.s
+.PHONY : Predavanja/Lekcija11-Isklucoci/Isklucoci1.cpp.s
 
 Predavanja/Lekcija7-String/String1.obj: Predavanja/Lekcija7-String/String1.cpp.obj
 .PHONY : Predavanja/Lekcija7-String/String1.obj
@@ -6342,20 +7489,27 @@ help:
 	@echo ... 1
 	@echo ... 10ta
 	@echo ... 11ta
+	@echo ... 11ta-2k
 	@echo ... 11taEN
 	@echo ... 12ta
+	@echo ... 12ta-2k
 	@echo ... 13ta
+	@echo ... 13ta-2k
 	@echo ... 13taEN
 	@echo ... 14ta
+	@echo ... 14ta-2k
 	@echo ... 14taEN
 	@echo ... 15ta
 	@echo ... 16ta
+	@echo ... 16ta-2k
 	@echo ... 17ta
+	@echo ... 17ta-2k
 	@echo ... 17taEN
 	@echo ... 18ta
 	@echo ... 18taEN
 	@echo ... 19ta
 	@echo ... 1va
+	@echo ... 1va-2k
 	@echo ... 1vaEN
 	@echo ... 2
 	@echo ... 20ta
@@ -6366,16 +7520,22 @@ help:
 	@echo ... 25taEN
 	@echo ... 28maEN
 	@echo ... 2ra
+	@echo ... 2ra-2k
 	@echo ... 2vaEN
 	@echo ... 3ta
+	@echo ... 3ta-2k
 	@echo ... 4ta
+	@echo ... 4ta-2k
 	@echo ... 5ta
 	@echo ... 6ta
 	@echo ... 7ma
 	@echo ... 8ma
+	@echo ... 8ma-2k
 	@echo ... 8maEN
 	@echo ... 9ta
+	@echo ... AdapterStefan
 	@echo ... Alien
+	@echo ... Athlete
 	@echo ... Aud0
 	@echo ... Aud1
 	@echo ... Aud1.1
@@ -6402,9 +7562,17 @@ help:
 	@echo ... Aud25
 	@echo ... Aud26
 	@echo ... Aud27
+	@echo ... Aud27Stefan
 	@echo ... Aud28
+	@echo ... Aud29
+	@echo ... Aud29Stefan
 	@echo ... Aud3
 	@echo ... Aud3.1
+	@echo ... Aud30
+	@echo ... Aud30Stefan
+	@echo ... Aud31
+	@echo ... Aud32
+	@echo ... Aud33
 	@echo ... Aud4
 	@echo ... Aud4.1
 	@echo ... Aud5
@@ -6423,8 +7591,10 @@ help:
 	@echo ... C-DC_objekti
 	@echo ... Call
 	@echo ... CallKolokvium.cpp
+	@echo ... Card
 	@echo ... Char
 	@echo ... ChocolateFactory
+	@echo ... Citizen
 	@echo ... DOOMHAMMER.cpp
 	@echo ... Datumi
 	@echo ... DatumiPovik
@@ -6439,8 +7609,10 @@ help:
 	@echo ... Fudbaleri
 	@echo ... Galerija
 	@echo ... Gamer
+	@echo ... Hero
 	@echo ... IDVraboten
 	@echo ... Invoice
+	@echo ... Isklucoci1
 	@echo ... Kol1
 	@echo ... Kolok1
 	@echo ... Kosarka
@@ -6472,9 +7644,11 @@ help:
 	@echo ... Programmer
 	@echo ... Prosek
 	@echo ... Sentence
+	@echo ... ShapeStefan
 	@echo ... Slika
 	@echo ... Speaker
 	@echo ... StaticPost
+	@echo ... Stefan1AClass
 	@echo ... StefanStudentiKolokviumska
 	@echo ... String1
 	@echo ... String2
@@ -6493,6 +7667,7 @@ help:
 	@echo ... Vehicle
 	@echo ... VgnezdenaKlasa
 	@echo ... Vlatko1
+	@echo ... VovedIsklucoci
 	@echo ... Vraboten3
 	@echo ... Wizz.cpp
 	@echo ... Wizz2.cpp
@@ -6505,6 +7680,9 @@ help:
 	@echo ... zad4
 	@echo ... zad5
 	@echo ... zad6
+	@echo ... zadaca1
+	@echo ... zadaca2
+	@echo ... zadaca3
 	@echo ... zadacaStefan1
 	@echo ... zadacaStefan2
 	@echo ... Auditoriski/1/Aud0.obj
@@ -6543,6 +7721,27 @@ help:
 	@echo ... Auditoriski/1/Aud5.obj
 	@echo ... Auditoriski/1/Aud5.i
 	@echo ... Auditoriski/1/Aud5.s
+	@echo ... Auditoriski/10/Aud31.obj
+	@echo ... Auditoriski/10/Aud31.i
+	@echo ... Auditoriski/10/Aud31.s
+	@echo ... Auditoriski/10/Aud32.obj
+	@echo ... Auditoriski/10/Aud32.i
+	@echo ... Auditoriski/10/Aud32.s
+	@echo ... Auditoriski/10/Aud33.obj
+	@echo ... Auditoriski/10/Aud33.i
+	@echo ... Auditoriski/10/Aud33.s
+	@echo ... Auditoriski/10/Card.obj
+	@echo ... Auditoriski/10/Card.i
+	@echo ... Auditoriski/10/Card.s
+	@echo ... Auditoriski/10/Citizen.obj
+	@echo ... Auditoriski/10/Citizen.i
+	@echo ... Auditoriski/10/Citizen.s
+	@echo ... Auditoriski/10/ShapeStefan.obj
+	@echo ... Auditoriski/10/ShapeStefan.i
+	@echo ... Auditoriski/10/ShapeStefan.s
+	@echo ... Auditoriski/10/VovedIsklucoci.obj
+	@echo ... Auditoriski/10/VovedIsklucoci.i
+	@echo ... Auditoriski/10/VovedIsklucoci.s
 	@echo ... Auditoriski/2/Aud6.0.obj
 	@echo ... Auditoriski/2/Aud6.0.i
 	@echo ... Auditoriski/2/Aud6.0.s
@@ -6648,9 +7847,30 @@ help:
 	@echo ... Auditoriski/8/Aud27.obj
 	@echo ... Auditoriski/8/Aud27.i
 	@echo ... Auditoriski/8/Aud27.s
+	@echo ... Auditoriski/8/Aud27Stefan.obj
+	@echo ... Auditoriski/8/Aud27Stefan.i
+	@echo ... Auditoriski/8/Aud27Stefan.s
 	@echo ... Auditoriski/8/Aud28.obj
 	@echo ... Auditoriski/8/Aud28.i
 	@echo ... Auditoriski/8/Aud28.s
+	@echo ... Auditoriski/8/Stefan1AClass.obj
+	@echo ... Auditoriski/8/Stefan1AClass.i
+	@echo ... Auditoriski/8/Stefan1AClass.s
+	@echo ... Auditoriski/9/AdapterStefan.obj
+	@echo ... Auditoriski/9/AdapterStefan.i
+	@echo ... Auditoriski/9/AdapterStefan.s
+	@echo ... Auditoriski/9/Aud29.obj
+	@echo ... Auditoriski/9/Aud29.i
+	@echo ... Auditoriski/9/Aud29.s
+	@echo ... Auditoriski/9/Aud29Stefan.obj
+	@echo ... Auditoriski/9/Aud29Stefan.i
+	@echo ... Auditoriski/9/Aud29Stefan.s
+	@echo ... Auditoriski/9/Aud30.obj
+	@echo ... Auditoriski/9/Aud30.i
+	@echo ... Auditoriski/9/Aud30.s
+	@echo ... Auditoriski/9/Aud30Stefan.obj
+	@echo ... Auditoriski/9/Aud30Stefan.i
+	@echo ... Auditoriski/9/Aud30Stefan.s
 	@echo ... DOOMHAMMER.obj
 	@echo ... DOOMHAMMER.i
 	@echo ... DOOMHAMMER.s
@@ -6762,66 +7982,99 @@ help:
 	@echo ... Kolokviumski/1kolokviumMK/9ta.obj
 	@echo ... Kolokviumski/1kolokviumMK/9ta.i
 	@echo ... Kolokviumski/1kolokviumMK/9ta.s
-	@echo ... Kolokviumski/BusLine.obj
-	@echo ... Kolokviumski/BusLine.i
-	@echo ... Kolokviumski/BusLine.s
-	@echo ... Kolokviumski/CallKolokvium.obj
-	@echo ... Kolokviumski/CallKolokvium.i
-	@echo ... Kolokviumski/CallKolokvium.s
-	@echo ... Kolokviumski/Char.obj
-	@echo ... Kolokviumski/Char.i
-	@echo ... Kolokviumski/Char.s
-	@echo ... Kolokviumski/DatumiPovik.obj
-	@echo ... Kolokviumski/DatumiPovik.i
-	@echo ... Kolokviumski/DatumiPovik.s
-	@echo ... Kolokviumski/DeliveryV.obj
-	@echo ... Kolokviumski/DeliveryV.i
-	@echo ... Kolokviumski/DeliveryV.s
-	@echo ... Kolokviumski/File.obj
-	@echo ... Kolokviumski/File.i
-	@echo ... Kolokviumski/File.s
-	@echo ... Kolokviumski/Flight.obj
-	@echo ... Kolokviumski/Flight.i
-	@echo ... Kolokviumski/Flight.s
-	@echo ... Kolokviumski/Galerija.obj
-	@echo ... Kolokviumski/Galerija.i
-	@echo ... Kolokviumski/Galerija.s
-	@echo ... Kolokviumski/HikingTrack.obj
-	@echo ... Kolokviumski/HikingTrack.i
-	@echo ... Kolokviumski/HikingTrack.s
-	@echo ... Kolokviumski/Kol1.obj
-	@echo ... Kolokviumski/Kol1.i
-	@echo ... Kolokviumski/Kol1.s
-	@echo ... Kolokviumski/Kolok1.obj
-	@echo ... Kolokviumski/Kolok1.i
-	@echo ... Kolokviumski/Kolok1.s
-	@echo ... Kolokviumski/Parovi1.obj
-	@echo ... Kolokviumski/Parovi1.i
-	@echo ... Kolokviumski/Parovi1.s
-	@echo ... Kolokviumski/Parovi2.obj
-	@echo ... Kolokviumski/Parovi2.i
-	@echo ... Kolokviumski/Parovi2.s
-	@echo ... Kolokviumski/ProductKolok.obj
-	@echo ... Kolokviumski/ProductKolok.i
-	@echo ... Kolokviumski/ProductKolok.s
-	@echo ... Kolokviumski/Speaker.obj
-	@echo ... Kolokviumski/Speaker.i
-	@echo ... Kolokviumski/Speaker.s
-	@echo ... Kolokviumski/StefanStudentKolokviumska.obj
-	@echo ... Kolokviumski/StefanStudentKolokviumska.i
-	@echo ... Kolokviumski/StefanStudentKolokviumska.s
-	@echo ... Kolokviumski/Transaction.obj
-	@echo ... Kolokviumski/Transaction.i
-	@echo ... Kolokviumski/Transaction.s
-	@echo ... Kolokviumski/Uber.obj
-	@echo ... Kolokviumski/Uber.i
-	@echo ... Kolokviumski/Uber.s
-	@echo ... Kolokviumski/zadacaStefan1.obj
-	@echo ... Kolokviumski/zadacaStefan1.i
-	@echo ... Kolokviumski/zadacaStefan1.s
-	@echo ... Kolokviumski/zadacaStefan2.obj
-	@echo ... Kolokviumski/zadacaStefan2.i
-	@echo ... Kolokviumski/zadacaStefan2.s
+	@echo ... Kolokviumski/2kolokviumMK/11ta-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/11ta-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/11ta-2k.s
+	@echo ... Kolokviumski/2kolokviumMK/12ta-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/12ta-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/12ta-2k.s
+	@echo ... Kolokviumski/2kolokviumMK/13ta-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/13ta-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/13ta-2k.s
+	@echo ... Kolokviumski/2kolokviumMK/14ta-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/14ta-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/14ta-2k.s
+	@echo ... Kolokviumski/2kolokviumMK/16ta-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/16ta-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/16ta-2k.s
+	@echo ... Kolokviumski/2kolokviumMK/17ta-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/17ta-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/17ta-2k.s
+	@echo ... Kolokviumski/2kolokviumMK/1va-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/1va-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/1va-2k.s
+	@echo ... Kolokviumski/2kolokviumMK/2ra-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/2ra-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/2ra-2k.s
+	@echo ... Kolokviumski/2kolokviumMK/3ta-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/3ta-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/3ta-2k.s
+	@echo ... Kolokviumski/2kolokviumMK/4ta-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/4ta-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/4ta-2k.s
+	@echo ... Kolokviumski/2kolokviumMK/8ma-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/8ma-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/8ma-2k.s
+	@echo ... Kolokviumski/Zadaci/BusLine.obj
+	@echo ... Kolokviumski/Zadaci/BusLine.i
+	@echo ... Kolokviumski/Zadaci/BusLine.s
+	@echo ... Kolokviumski/Zadaci/CallKolokvium.obj
+	@echo ... Kolokviumski/Zadaci/CallKolokvium.i
+	@echo ... Kolokviumski/Zadaci/CallKolokvium.s
+	@echo ... Kolokviumski/Zadaci/Char.obj
+	@echo ... Kolokviumski/Zadaci/Char.i
+	@echo ... Kolokviumski/Zadaci/Char.s
+	@echo ... Kolokviumski/Zadaci/DatumiPovik.obj
+	@echo ... Kolokviumski/Zadaci/DatumiPovik.i
+	@echo ... Kolokviumski/Zadaci/DatumiPovik.s
+	@echo ... Kolokviumski/Zadaci/DeliveryV.obj
+	@echo ... Kolokviumski/Zadaci/DeliveryV.i
+	@echo ... Kolokviumski/Zadaci/DeliveryV.s
+	@echo ... Kolokviumski/Zadaci/File.obj
+	@echo ... Kolokviumski/Zadaci/File.i
+	@echo ... Kolokviumski/Zadaci/File.s
+	@echo ... Kolokviumski/Zadaci/Flight.obj
+	@echo ... Kolokviumski/Zadaci/Flight.i
+	@echo ... Kolokviumski/Zadaci/Flight.s
+	@echo ... Kolokviumski/Zadaci/Galerija.obj
+	@echo ... Kolokviumski/Zadaci/Galerija.i
+	@echo ... Kolokviumski/Zadaci/Galerija.s
+	@echo ... Kolokviumski/Zadaci/HikingTrack.obj
+	@echo ... Kolokviumski/Zadaci/HikingTrack.i
+	@echo ... Kolokviumski/Zadaci/HikingTrack.s
+	@echo ... Kolokviumski/Zadaci/Kol1.obj
+	@echo ... Kolokviumski/Zadaci/Kol1.i
+	@echo ... Kolokviumski/Zadaci/Kol1.s
+	@echo ... Kolokviumski/Zadaci/Kolok1.obj
+	@echo ... Kolokviumski/Zadaci/Kolok1.i
+	@echo ... Kolokviumski/Zadaci/Kolok1.s
+	@echo ... Kolokviumski/Zadaci/Parovi1.obj
+	@echo ... Kolokviumski/Zadaci/Parovi1.i
+	@echo ... Kolokviumski/Zadaci/Parovi1.s
+	@echo ... Kolokviumski/Zadaci/Parovi2.obj
+	@echo ... Kolokviumski/Zadaci/Parovi2.i
+	@echo ... Kolokviumski/Zadaci/Parovi2.s
+	@echo ... Kolokviumski/Zadaci/ProductKolok.obj
+	@echo ... Kolokviumski/Zadaci/ProductKolok.i
+	@echo ... Kolokviumski/Zadaci/ProductKolok.s
+	@echo ... Kolokviumski/Zadaci/Speaker.obj
+	@echo ... Kolokviumski/Zadaci/Speaker.i
+	@echo ... Kolokviumski/Zadaci/Speaker.s
+	@echo ... Kolokviumski/Zadaci/StefanStudentKolokviumska.obj
+	@echo ... Kolokviumski/Zadaci/StefanStudentKolokviumska.i
+	@echo ... Kolokviumski/Zadaci/StefanStudentKolokviumska.s
+	@echo ... Kolokviumski/Zadaci/Transaction.obj
+	@echo ... Kolokviumski/Zadaci/Transaction.i
+	@echo ... Kolokviumski/Zadaci/Transaction.s
+	@echo ... Kolokviumski/Zadaci/Uber.obj
+	@echo ... Kolokviumski/Zadaci/Uber.i
+	@echo ... Kolokviumski/Zadaci/Uber.s
+	@echo ... Kolokviumski/Zadaci/zadacaStefan1.obj
+	@echo ... Kolokviumski/Zadaci/zadacaStefan1.i
+	@echo ... Kolokviumski/Zadaci/zadacaStefan1.s
+	@echo ... Kolokviumski/Zadaci/zadacaStefan2.obj
+	@echo ... Kolokviumski/Zadaci/zadacaStefan2.i
+	@echo ... Kolokviumski/Zadaci/zadacaStefan2.s
 	@echo ... Labs/1.obj
 	@echo ... Labs/1.i
 	@echo ... Labs/1.s
@@ -6915,6 +8168,21 @@ help:
 	@echo ... Labs/6_nedela/zad6.obj
 	@echo ... Labs/6_nedela/zad6.i
 	@echo ... Labs/6_nedela/zad6.s
+	@echo ... Labs/8_nedela/Athlete.obj
+	@echo ... Labs/8_nedela/Athlete.i
+	@echo ... Labs/8_nedela/Athlete.s
+	@echo ... Labs/8_nedela/Hero.obj
+	@echo ... Labs/8_nedela/Hero.i
+	@echo ... Labs/8_nedela/Hero.s
+	@echo ... Labs/9_nedela/zadaca1.obj
+	@echo ... Labs/9_nedela/zadaca1.i
+	@echo ... Labs/9_nedela/zadaca1.s
+	@echo ... Labs/9_nedela/zadaca2.obj
+	@echo ... Labs/9_nedela/zadaca2.i
+	@echo ... Labs/9_nedela/zadaca2.s
+	@echo ... Labs/9_nedela/zadaca3.obj
+	@echo ... Labs/9_nedela/zadaca3.i
+	@echo ... Labs/9_nedela/zadaca3.s
 	@echo ... Predavanja/C-DC_objekti.obj
 	@echo ... Predavanja/C-DC_objekti.i
 	@echo ... Predavanja/C-DC_objekti.s
@@ -6924,6 +8192,9 @@ help:
 	@echo ... Predavanja/Destruktor.obj
 	@echo ... Predavanja/Destruktor.i
 	@echo ... Predavanja/Destruktor.s
+	@echo ... Predavanja/Lekcija11-Isklucoci/Isklucoci1.obj
+	@echo ... Predavanja/Lekcija11-Isklucoci/Isklucoci1.i
+	@echo ... Predavanja/Lekcija11-Isklucoci/Isklucoci1.s
 	@echo ... Predavanja/Lekcija7-String/String1.obj
 	@echo ... Predavanja/Lekcija7-String/String1.i
 	@echo ... Predavanja/Lekcija7-String/String1.s

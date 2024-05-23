@@ -68,28 +68,28 @@ include CMakeFiles/DatumiPovik.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DatumiPovik.dir/flags.make
 
-CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.obj: CMakeFiles/DatumiPovik.dir/flags.make
-CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/DatumiPovik.cpp
-CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.obj: CMakeFiles/DatumiPovik.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.obj -MF CMakeFiles\DatumiPovik.dir\Kolokviumski\DatumiPovik.cpp.obj.d -o CMakeFiles\DatumiPovik.dir\Kolokviumski\DatumiPovik.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\DatumiPovik.cpp
+CMakeFiles/DatumiPovik.dir/Kolokviumski/Zadaci/DatumiPovik.cpp.obj: CMakeFiles/DatumiPovik.dir/flags.make
+CMakeFiles/DatumiPovik.dir/Kolokviumski/Zadaci/DatumiPovik.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/Zadaci/DatumiPovik.cpp
+CMakeFiles/DatumiPovik.dir/Kolokviumski/Zadaci/DatumiPovik.cpp.obj: CMakeFiles/DatumiPovik.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DatumiPovik.dir/Kolokviumski/Zadaci/DatumiPovik.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DatumiPovik.dir/Kolokviumski/Zadaci/DatumiPovik.cpp.obj -MF CMakeFiles\DatumiPovik.dir\Kolokviumski\Zadaci\DatumiPovik.cpp.obj.d -o CMakeFiles\DatumiPovik.dir\Kolokviumski\Zadaci\DatumiPovik.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\Zadaci\DatumiPovik.cpp
 
-CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\DatumiPovik.cpp > CMakeFiles\DatumiPovik.dir\Kolokviumski\DatumiPovik.cpp.i
+CMakeFiles/DatumiPovik.dir/Kolokviumski/Zadaci/DatumiPovik.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DatumiPovik.dir/Kolokviumski/Zadaci/DatumiPovik.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\Zadaci\DatumiPovik.cpp > CMakeFiles\DatumiPovik.dir\Kolokviumski\Zadaci\DatumiPovik.cpp.i
 
-CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\DatumiPovik.cpp -o CMakeFiles\DatumiPovik.dir\Kolokviumski\DatumiPovik.cpp.s
+CMakeFiles/DatumiPovik.dir/Kolokviumski/Zadaci/DatumiPovik.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DatumiPovik.dir/Kolokviumski/Zadaci/DatumiPovik.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\Zadaci\DatumiPovik.cpp -o CMakeFiles\DatumiPovik.dir\Kolokviumski\Zadaci\DatumiPovik.cpp.s
 
 # Object files for target DatumiPovik
 DatumiPovik_OBJECTS = \
-"CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.obj"
+"CMakeFiles/DatumiPovik.dir/Kolokviumski/Zadaci/DatumiPovik.cpp.obj"
 
 # External object files for target DatumiPovik
 DatumiPovik_EXTERNAL_OBJECTS =
 
-DatumiPovik.exe: CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.obj
+DatumiPovik.exe: CMakeFiles/DatumiPovik.dir/Kolokviumski/Zadaci/DatumiPovik.cpp.obj
 DatumiPovik.exe: CMakeFiles/DatumiPovik.dir/build.make
 DatumiPovik.exe: CMakeFiles/DatumiPovik.dir/linkLibs.rsp
 DatumiPovik.exe: CMakeFiles/DatumiPovik.dir/objects1.rsp

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Galerija.dir/Kolokviumski/Galerija.cpp.obj"
-  "CMakeFiles/Galerija.dir/Kolokviumski/Galerija.cpp.obj.d"
+  "CMakeFiles/Galerija.dir/Kolokviumski/Zadaci/Galerija.cpp.obj"
+  "CMakeFiles/Galerija.dir/Kolokviumski/Zadaci/Galerija.cpp.obj.d"
   "Galerija.exe"
   "Galerija.exe.manifest"
   "Galerija.pdb"

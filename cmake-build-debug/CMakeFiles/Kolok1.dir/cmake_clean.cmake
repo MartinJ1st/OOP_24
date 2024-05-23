@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.obj"
-  "CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.obj.d"
+  "CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.obj"
+  "CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.obj.d"
   "Kolok1.exe"
   "Kolok1.exe.manifest"
   "Kolok1.pdb"

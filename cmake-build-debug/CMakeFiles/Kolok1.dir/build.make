@@ -68,28 +68,28 @@ include CMakeFiles/Kolok1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Kolok1.dir/flags.make
 
-CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.obj: CMakeFiles/Kolok1.dir/flags.make
-CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/Kolok1.cpp
-CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.obj: CMakeFiles/Kolok1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.obj -MF CMakeFiles\Kolok1.dir\Kolokviumski\Kolok1.cpp.obj.d -o CMakeFiles\Kolok1.dir\Kolokviumski\Kolok1.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\Kolok1.cpp
+CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.obj: CMakeFiles/Kolok1.dir/flags.make
+CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/Zadaci/Kolok1.cpp
+CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.obj: CMakeFiles/Kolok1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.obj -MF CMakeFiles\Kolok1.dir\Kolokviumski\Zadaci\Kolok1.cpp.obj.d -o CMakeFiles\Kolok1.dir\Kolokviumski\Zadaci\Kolok1.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\Zadaci\Kolok1.cpp
 
-CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\Kolok1.cpp > CMakeFiles\Kolok1.dir\Kolokviumski\Kolok1.cpp.i
+CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\Zadaci\Kolok1.cpp > CMakeFiles\Kolok1.dir\Kolokviumski\Zadaci\Kolok1.cpp.i
 
-CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\Kolok1.cpp -o CMakeFiles\Kolok1.dir\Kolokviumski\Kolok1.cpp.s
+CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\Zadaci\Kolok1.cpp -o CMakeFiles\Kolok1.dir\Kolokviumski\Zadaci\Kolok1.cpp.s
 
 # Object files for target Kolok1
 Kolok1_OBJECTS = \
-"CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.obj"
+"CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.obj"
 
 # External object files for target Kolok1
 Kolok1_EXTERNAL_OBJECTS =
 
-Kolok1.exe: CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.obj
+Kolok1.exe: CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.obj
 Kolok1.exe: CMakeFiles/Kolok1.dir/build.make
 Kolok1.exe: CMakeFiles/Kolok1.dir/linkLibs.rsp
 Kolok1.exe: CMakeFiles/Kolok1.dir/objects1.rsp

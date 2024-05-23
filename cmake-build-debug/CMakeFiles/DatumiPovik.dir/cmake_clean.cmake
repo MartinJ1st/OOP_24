@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.obj"
-  "CMakeFiles/DatumiPovik.dir/Kolokviumski/DatumiPovik.cpp.obj.d"
+  "CMakeFiles/DatumiPovik.dir/Kolokviumski/Zadaci/DatumiPovik.cpp.obj"
+  "CMakeFiles/DatumiPovik.dir/Kolokviumski/Zadaci/DatumiPovik.cpp.obj.d"
   "DatumiPovik.exe"
   "DatumiPovik.exe.manifest"
   "DatumiPovik.pdb"

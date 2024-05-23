@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/Kolok1.cpp" "CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.obj" "gcc" "CMakeFiles/Kolok1.dir/Kolokviumski/Kolok1.cpp.obj.d"
+  "C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/Zadaci/Kolok1.cpp" "CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.obj" "gcc" "CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
