@@ -11,7 +11,7 @@ public:
 
 };
 
-class Discountable {
+class Discountable { //interfejs
 public:
 
     virtual int getPrice() = 0;
@@ -87,6 +87,17 @@ int totalDiscount(Discountable **products, int n) {
     return sum;
 }
 
+int countFoodProducts(Discountable **products, int n) {
+    int counter = 0;
+    for (int i=0;i<n;i++) {
+        FoodProduct * casted = dynamic_cast<FoodProduct *>(products[i]);
+        if (casted!=0) {
+            ++counter;
+        }
+    }
+    return counter;
+}
+
 int main() {
 
 //    FoodProduct fp("burger", 200, 1100);
@@ -117,5 +128,8 @@ int main() {
     }
 
     cout << "TOTAL DISCOUNT" << totalDiscount(products, n);
+
+    cout << "Total number of food products" << countFoodProducts(products, n);
+    cout << "Total number of digital products" << n - countFoodProducts(products, n);
     return 0;
 }

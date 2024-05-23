@@ -3,11 +3,46 @@
 
 using namespace std;
 
+
+class NegativeValueException {
+private:
+    double height;
+
+public:
+    NegativeValueException(double height) {
+        this->height = height;
+    }
+
+    void message() {
+        cout << "Negative value!!!";
+    }
+};
+
+class NotSufficientAmountException {
+private:
+    double amount;
+    double balance;
+public:
+    NotSufficientAmountException(double amount, double balance) {
+        this->amount = amount;
+        this->balance = balance;
+    }
+
+    void message() {
+        cout << "You are trying to withdraw " << amount << ", but you have " << balance;
+    }
+};
+
 class Shape {
 protected:
     double height;
 public:
-    Shape(double height) : height(height) {}
+    Shape(double height) {
+        if (height <= 0) {
+            throw NegativeValueException(height);
+        }
+        this->height = height;
+    }
 
     void print() {
         cout << getShapeType() << " volume: " << volume() << endl;
@@ -43,6 +78,9 @@ private:
     double radius;
 public:
     Cylinder(double height, double radius) : Shape(height) {
+        if (radius <= 0) {
+            throw NegativeValueException(radius);
+        }
         this->radius = radius;
     }
 
@@ -86,7 +124,12 @@ class Cubiod : public Shape {
 private:
     float a, b;
 public:
-    Cubiod(double height, float a, float b) : Shape(height), a(a), b(b) {}
+    Cubiod(double height, float a, float b) : Shape(height) {
+        if (a <= 0) { throw NegativeValueException(a); }
+        if (b <= 0) { throw NegativeValueException(b); }
+        this->a = a;
+        this->b = b;
+    }
 
     string getShapeType() override {
         return "Cuboid";
@@ -142,21 +185,28 @@ int main() {
         int type;
         double height;
         cin >> type >> height; //1-cylindar,2-cone,3-cuboid
-        if (type == 1) {
-            double radius;
-            cin >> radius;
-            shapes[i] = new Cylinder(height, radius);
+        try {
+            if (type == 1) {
+                double radius;
+                cin >> radius;
+                shapes[i] = new Cylinder(height, radius);
 
-        } else if (type == 2) {
-            double radius;
-            cin >> radius;
-            shapes[i] = new Cone(height, radius);
-        } else if (type == 3) {
-            float a, b;
-            cin >> a >> b;
-            shapes[i] = new Cubiod(height, a, b);
-        } else {
-            shapes[i] = new Cube(height);
+            } else if (type == 2) {
+                double radius;
+                cin >> radius;
+                shapes[i] = new Cone(height, radius);
+            } else if (type == 3) {
+                float a, b;
+                cin >> a >> b;
+                shapes[i] = new Cubiod(height, a, b);
+            } else {
+                shapes[i] = new Cube(height);
+            }
+        } catch (NegativeValueException &e) {
+            e.message();
+            i--;
+            n--;
+
         }
     }
     for (int i = 0; i < n; ++i) {

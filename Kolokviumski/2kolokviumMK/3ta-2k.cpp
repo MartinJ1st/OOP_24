@@ -3,6 +3,16 @@
 
 using namespace std;
 
+class NoCourseException {
+private:
+    int indeks;
+public:
+    NoCourseException(int indeks) : indeks(indeks) {}
+
+    void print() {
+        cout << "Demonstratorot so indeks " << indeks << " ne drzi laboratoriski vezbi" << endl;
+    }
+};
 
 class Kurs {
 private:
@@ -65,8 +75,17 @@ public:
 
     ~Student() { delete[] ocenki; }
 
-    //dopolni ja klasata
+    virtual int getBodovi() {
+        int br = 0;
+        for (int i = 0; i < brojOcenki; ++i) {
+            if (ocenki[i] > 5) { ++br; }
+        }
+        return br / brojOcenki * 100;
+    }
 
+    virtual void pecati() {
+        cout << indeks;
+    }
 };
 
 class Predavach {
@@ -108,6 +127,10 @@ public:
 
     char *const getImeIPrezime() const { return imeIPrezime; }
 
+    const Kurs getKursevi(int i) const {
+        return kursevi[i];
+    }
+
     Kurs operator[](int i) const {
         if (i < brojKursevi && i >= 0)
             return kursevi[i];
@@ -124,11 +147,58 @@ public:
 };
 
 
-class Demonstrator : virtual public Predavach, virtual public Student {
+class Demonstrator : public Predavach, public Student {
 private:
+    int brojCasovi;
+public:
 
+    //Demonstrator(indeks, ocenki, brojOcenki, imeIPrezime, kursevi, brojKursevi, brojCasovi)
+    Demonstrator(int index, int *ocenki, int brojOcenki, char *imeIPrezime,
+                 Kurs *kursevi, int brojKursevi, int brojCasovi) :
+            Student(indeks, ocenki, brojOcenki), Predavach(imeIPrezime, kursevi, brojKursevi), brojCasovi(brojCasovi) {}
 
+    int getBodovi() override {
+        if (getBrojKursevi() == 0) {
+            throw NoCourseException(indeks);
+        }
+        int poeni = Student::getBodovi();
+        return poeni + (20 * brojCasovi) / getBrojKursevi();
+    }
+
+    void pecati() {
+        Student::pecati();
+        Predavach::pecati();
+    }
 };
+
+Student &vratiNajdobroRangiran(Student **studenti, int n) {
+    Student *najgolem = studenti[0];
+    for (int i = 0; i < n; ++i) {
+        try {
+            if (studenti[i]->getBodovi() > najgolem->getBodovi()) {
+                najgolem = studenti[i];
+            }
+        } catch (NoCourseException e) {
+            e.print();
+        }
+    }
+    return *najgolem;
+}
+
+void pecatiDemonstratoriKurs(const char *kurs, Student **studenti, int n) {
+    for (int i = 0; i < n; i++) {
+        Demonstrator *casted = dynamic_cast<Demonstrator *>(studenti[i]);
+        if (casted) {
+            for (int j = 0; j < casted->getBrojKursevi(); j++) {
+                if (strcmp(casted->getKursevi(j).getIme(), kurs) == 0) {
+                    casted->pecati();
+                    cout << endl;
+                    break;
+                }
+            }
+        }
+    }
+}
 
 
 int main() {

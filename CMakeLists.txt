@@ -18,6 +18,17 @@ add_executable(zad4 Labs/6_nedela/zad4.cpp)
 add_executable(zad5 Labs/6_nedela/zad5.cpp)
 add_executable(zad6 Labs/6_nedela/zad6.cpp)
 
+
+add_executable(Hero Labs/8_nedela/Hero.cpp)
+add_executable(Athlete Labs/8_nedela/Athlete.cpp)
+
+add_executable(zadaca1 Labs/9_nedela/zadaca1.cpp)
+add_executable(zadaca2 Labs/9_nedela/zadaca2.cpp)
+add_executable(zadaca3 Labs/9_nedela/zadaca3.cpp)
+
+
+
+
 add_executable(Kol1 Kolokviumski/Zadaci/Kol1.cpp)
 add_executable(Kolok1 Kolokviumski/Zadaci/Kolok1.cpp)
 add_executable(Galerija Kolokviumski/Zadaci/Galerija.cpp)
@@ -74,7 +85,7 @@ add_executable(Polimorfizam2 Predavanja/Lekcija9-Polimorfizam/Polimorfizam2.cpp)
 add_executable(Polimorfizam3 Predavanja/Lekcija9-Polimorfizam/Polimorfizam3.cpp)
 add_executable(Polimorfizam4 Predavanja/Lekcija9-Polimorfizam/Polimorfizam4.cpp)
 
-
+add_executable(Isklucoci1 Predavanja/Lekcija11-Isklucoci/Isklucoci1.cpp)
 
 
 add_executable(Transakcii Labs/1_nedela/Transakcii.cpp)
@@ -130,6 +141,11 @@ add_executable(3ta-2k Kolokviumski/2kolokviumMK/3ta-2k.cpp)
 add_executable(4ta-2k Kolokviumski/2kolokviumMK/4ta-2k.cpp)
 add_executable(8ma-2k Kolokviumski/2kolokviumMK/8ma-2k.cpp)
 add_executable(11ta-2k Kolokviumski/2kolokviumMK/11ta-2k.cpp)
+add_executable(12ta-2k Kolokviumski/2kolokviumMK/12ta-2k.cpp)
+add_executable(13ta-2k Kolokviumski/2kolokviumMK/13ta-2k.cpp)
+add_executable(14ta-2k Kolokviumski/2kolokviumMK/14ta-2k.cpp)
+add_executable(16ta-2k Kolokviumski/2kolokviumMK/16ta-2k.cpp)
+add_executable(17ta-2k Kolokviumski/2kolokviumMK/17ta-2k.cpp)
 
 
 add_executable(1vaEN Kolokviumski/1kolokviumEN/1vaEN.cpp)
@@ -207,7 +223,15 @@ add_executable(Aud29 Auditoriski/9/Aud29.cpp)
 add_executable(Aud30 Auditoriski/9/Aud30.cpp)
 add_executable(Aud29Stefan Auditoriski/9/Aud29Stefan.cpp)
 add_executable(Aud30Stefan Auditoriski/9/Aud30Stefan.cpp)
+add_executable(AdapterStefan Auditoriski/9/AdapterStefan.cpp)
 
+add_executable(VovedIsklucoci Auditoriski/10/VovedIsklucoci.cpp)
+add_executable(Card Auditoriski/10/Card.cpp)
+add_executable(Aud31 Auditoriski/10/Aud31.cpp)
+add_executable(ShapeStefan Auditoriski/10/ShapeStefan.cpp)
+add_executable(Aud32 Auditoriski/10/Aud32.cpp)
+add_executable(Aud33 Auditoriski/10/Aud33.cpp)
+add_executable(Citizen Auditoriski/10/Citizen.cpp)
 
 add_executable(1 Labs/1.cpp)
 add_executable(2 Labs/2.cpp)
