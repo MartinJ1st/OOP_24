@@ -135,7 +135,7 @@ public:
             return;
         }
         for (int i = 0; i < n; i++) {
-            cout << "List number: " << i + 1 << " List info: ";
+            cout << "List number_products: " << i + 1 << " List info: ";
             lists[i].print();
         }
         cout << "Sum: " << sum() << " Average: " << average() << endl;

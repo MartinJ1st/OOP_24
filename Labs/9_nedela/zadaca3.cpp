@@ -2,7 +2,7 @@
 //
 //the relative frequency of all lowercase letters
 //the relative frequency of all uppercase letters
-//The relative frequency of a given character(s) is calculated as the ratio of the total occurrences of that/those character(s) to the total number of characters in the text (ignoring spaces and special characters).
+//The relative frequency of a given character(s) is calculated as the ratio of the total occurrences of that/those character(s) to the total number_products of characters in the text (ignoring spaces and special characters).
 //
 //Do not modify the function writeToFile().
 

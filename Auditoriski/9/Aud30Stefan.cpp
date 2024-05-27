@@ -129,7 +129,7 @@ int main() {
 
     cout << "TOTAL DISCOUNT" << totalDiscount(products, n);
 
-    cout << "Total number of food products" << countFoodProducts(products, n);
-    cout << "Total number of digital products" << n - countFoodProducts(products, n);
+    cout << "Total number_products of food products" << countFoodProducts(products, n);
+    cout << "Total number_products of digital products" << n - countFoodProducts(products, n);
     return 0;
 }

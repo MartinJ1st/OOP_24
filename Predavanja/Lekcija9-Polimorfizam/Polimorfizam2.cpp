@@ -61,10 +61,10 @@ public :
     Kamion(int TezMasinskiDel, int sp, char const *nm, int
     PrikolkaTez);
 
-//interfejs za postavuvanje na dvete polinja za tezina
+//interfejs za postavuvanje na dvete polinja za tezinaProbivanje
     void PostaviTezina(int engine_wt, int trailer_wt);
 
-// i metod sto ja vrakja vkupnata tezina
+// i metod sto ja vrakja vkupnata tezinaProbivanje
     int VratiTezina() const;
 
 private: // podatoci
@@ -92,7 +92,7 @@ int main() {
 //    Avtomobil a(790, 220, "Fiat"), *ap;;// a e Avtomobil , но истовремено и
 //// Zemjeno и Vozilo
 //    Kamion t(2600, 85, "Scania", 7000);
-//    v = l;// ова е OK , но ќе се ископира само l.tezina во v.tezina
+//    v = l;// ова е OK , но ќе се ископира само l.tezina во v.tezinaProbivanje
 //// l=v не може што да се ископира во l.brzina
 //    v = a;
 //    v = t;
@@ -148,7 +148,7 @@ int main() {
     Kamion *trp;
     trp = reinterpret_cast <Kamion *>(vp);
     cout << "Kamion tip: " << trp->VratiIme() << endl;
-    cout << "Kamion tezina: " << trp->VratiTezina() << endl;
+    cout << "Kamion tezinaProbivanje: " << trp->VratiTezina() << endl;
 
     trp = dynamic_cast<Kamion *>(vp);
     if (trp)

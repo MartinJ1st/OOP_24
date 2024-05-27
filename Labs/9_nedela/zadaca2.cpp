@@ -3,8 +3,8 @@
 //the flight code (a string of up to 40 characters)
 //the departure city (a string of up to 100 characters)
 //the arrival city (a string of up to 100 characters)
-//the flight price (a decimal number)
-//the baggage price (a decimal number)
+//the flight price (a decimal number_products)
+//the baggage price (a decimal number_products)
 //For this class, implement the following methods:
 //
 //a function calculateTotalPrice() that returns the sum of the flight price and the baggage price
@@ -12,8 +12,8 @@
 //[ Code From To Price]
 //Implement an EconomyFlight class that, in addition to the basic flight information, also stores:
 //
-//the seat number (a string of up to 4 characters)
-//In this class, appropriately override the calculateTotalPrice() function so that the base flight price is calculated with a LOYALTY_DISCOUNT, which is a static variable in the class amounting to a 20% discount. Additionally, if the first letter of the seat code is 'C' or 'F', the flight price increases by 30% because the seat is by the window. If the first letter of the seat code is not A, B, C, D, E, or F when calculating the price, throw an InvalidSeatNumberException that prints the message "Invalid Seat Number Exception". LOYALTY_DISCOUNT is a static variable and can only be changed by the airline company.
+//the seat number_products (a string of up to 4 characters)
+//In this class, appropriately override the calculateTotalPrice() function so that the base flight price is calculated with a LOYALTY_DISCOUNT, which is a static variable in the class amounting to a 20% basic_discount. Additionally, if the first letter of the seat code is 'C' or 'F', the flight price increases by 30% because the seat is by the window. If the first letter of the seat code is not A, B, C, D, E, or F when calculating the price, throw an InvalidSeatNumberException that prints the message "Invalid Seat Number Exception". LOYALTY_DISCOUNT is a static variable and can only be changed by the airline company.
 //
 //Appropriately override the displayInfo function in the class to print in the format:
 //

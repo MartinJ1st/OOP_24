@@ -2,7 +2,7 @@
 //
 //ID (array 12 digits),
 //event (char array max 100)
-//base price (decimal number)
+//base price (decimal number_products)
 //The ticket store offers two types of tickets that should be defined in two separate classes: Online and Offline. For the Online type keep additional data if the member who byes the ticket is premium user or not, and for the second type Offline additionally keep if it has reservation for seat or not.
 //
 //For the classes implement:
@@ -20,9 +20,9 @@
 //for Offline - price is increased for 10% of the basic price if there is seat reservation
 //Implemented additional functions with signature void vkupenPrihod(Tickets ** t, int n, int from, int to) that will print the total income of the tickets that are not fake. (10 points)
 //
-//In the class Tickets there is integer that is shared between all tickets and it is the discount of the basic price for all objects. Initial value of this variable is 0. For manipulation of this variable implement the following static method: (5 pionts)
+//In the class Tickets there is integer that is shared between all tickets and it is the basic_discount of the basic price for all objects. Initial value of this variable is 0. For manipulation of this variable implement the following static method: (5 pionts)
 //
-//void changeDiscount(int d) - for changing discount
+//void changeDiscount(int d) - for changing basic_discount
 #include <iostream>
 #include <cstring>
 

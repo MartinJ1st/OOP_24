@@ -584,6 +584,32 @@ Transaction/fast:
 .PHONY : Transaction/fast
 
 #=============================================================================
+# Target rules for targets named Parking
+
+# Build rule for target.
+Parking: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Parking
+.PHONY : Parking
+
+# fast build rule for target.
+Parking/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parking.dir\build.make CMakeFiles/Parking.dir/build
+.PHONY : Parking/fast
+
+#=============================================================================
+# Target rules for targets named Fitness
+
+# Build rule for target.
+Fitness: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Fitness
+.PHONY : Fitness
+
+# fast build rule for target.
+Fitness/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fitness.dir\build.make CMakeFiles/Fitness.dir/build
+.PHONY : Fitness/fast
+
+#=============================================================================
 # Target rules for targets named DeliveryV
 
 # Build rule for target.
@@ -1624,6 +1650,45 @@ DrzavaTax/fast:
 .PHONY : 4ta-2k/fast
 
 #=============================================================================
+# Target rules for targets named 5ta-2k
+
+# Build rule for target.
+5ta-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 5ta-2k
+.PHONY : 5ta-2k
+
+# fast build rule for target.
+5ta-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5ta-2k.dir\build.make CMakeFiles/5ta-2k.dir/build
+.PHONY : 5ta-2k/fast
+
+#=============================================================================
+# Target rules for targets named 6ta-2k
+
+# Build rule for target.
+6ta-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6ta-2k
+.PHONY : 6ta-2k
+
+# fast build rule for target.
+6ta-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6ta-2k.dir\build.make CMakeFiles/6ta-2k.dir/build
+.PHONY : 6ta-2k/fast
+
+#=============================================================================
+# Target rules for targets named 7ma-2k
+
+# Build rule for target.
+7ma-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 7ma-2k
+.PHONY : 7ma-2k
+
+# fast build rule for target.
+7ma-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7ma-2k.dir\build.make CMakeFiles/7ma-2k.dir/build
+.PHONY : 7ma-2k/fast
+
+#=============================================================================
 # Target rules for targets named 8ma-2k
 
 # Build rule for target.
@@ -1635,6 +1700,32 @@ DrzavaTax/fast:
 8ma-2k/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8ma-2k.dir\build.make CMakeFiles/8ma-2k.dir/build
 .PHONY : 8ma-2k/fast
+
+#=============================================================================
+# Target rules for targets named 9ta-2k
+
+# Build rule for target.
+9ta-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 9ta-2k
+.PHONY : 9ta-2k
+
+# fast build rule for target.
+9ta-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9ta-2k.dir\build.make CMakeFiles/9ta-2k.dir/build
+.PHONY : 9ta-2k/fast
+
+#=============================================================================
+# Target rules for targets named 10ta-2k
+
+# Build rule for target.
+10ta-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10ta-2k
+.PHONY : 10ta-2k
+
+# fast build rule for target.
+10ta-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10ta-2k.dir\build.make CMakeFiles/10ta-2k.dir/build
+.PHONY : 10ta-2k/fast
 
 #=============================================================================
 # Target rules for targets named 11ta-2k
@@ -1687,6 +1778,19 @@ DrzavaTax/fast:
 14ta-2k/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14ta-2k.dir\build.make CMakeFiles/14ta-2k.dir/build
 .PHONY : 14ta-2k/fast
+
+#=============================================================================
+# Target rules for targets named 15ta-2k
+
+# Build rule for target.
+15ta-2k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 15ta-2k
+.PHONY : 15ta-2k
+
+# fast build rule for target.
+15ta-2k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15ta-2k.dir\build.make CMakeFiles/15ta-2k.dir/build
+.PHONY : 15ta-2k/fast
 
 #=============================================================================
 # Target rules for targets named 16ta-2k
@@ -5189,6 +5293,30 @@ Kolokviumski/1kolokviumMK/9ta.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9ta.dir\build.make CMakeFiles/9ta.dir/Kolokviumski/1kolokviumMK/9ta.cpp.s
 .PHONY : Kolokviumski/1kolokviumMK/9ta.cpp.s
 
+Kolokviumski/2kolokviumMK/10ta-2k.obj: Kolokviumski/2kolokviumMK/10ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/10ta-2k.obj
+
+# target to build an object file
+Kolokviumski/2kolokviumMK/10ta-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10ta-2k.dir\build.make CMakeFiles/10ta-2k.dir/Kolokviumski/2kolokviumMK/10ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/10ta-2k.cpp.obj
+
+Kolokviumski/2kolokviumMK/10ta-2k.i: Kolokviumski/2kolokviumMK/10ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/10ta-2k.i
+
+# target to preprocess a source file
+Kolokviumski/2kolokviumMK/10ta-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10ta-2k.dir\build.make CMakeFiles/10ta-2k.dir/Kolokviumski/2kolokviumMK/10ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/10ta-2k.cpp.i
+
+Kolokviumski/2kolokviumMK/10ta-2k.s: Kolokviumski/2kolokviumMK/10ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/10ta-2k.s
+
+# target to generate assembly for a file
+Kolokviumski/2kolokviumMK/10ta-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10ta-2k.dir\build.make CMakeFiles/10ta-2k.dir/Kolokviumski/2kolokviumMK/10ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/10ta-2k.cpp.s
+
 Kolokviumski/2kolokviumMK/11ta-2k.obj: Kolokviumski/2kolokviumMK/11ta-2k.cpp.obj
 .PHONY : Kolokviumski/2kolokviumMK/11ta-2k.obj
 
@@ -5284,6 +5412,30 @@ Kolokviumski/2kolokviumMK/14ta-2k.s: Kolokviumski/2kolokviumMK/14ta-2k.cpp.s
 Kolokviumski/2kolokviumMK/14ta-2k.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14ta-2k.dir\build.make CMakeFiles/14ta-2k.dir/Kolokviumski/2kolokviumMK/14ta-2k.cpp.s
 .PHONY : Kolokviumski/2kolokviumMK/14ta-2k.cpp.s
+
+Kolokviumski/2kolokviumMK/15ta-2k.obj: Kolokviumski/2kolokviumMK/15ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/15ta-2k.obj
+
+# target to build an object file
+Kolokviumski/2kolokviumMK/15ta-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15ta-2k.dir\build.make CMakeFiles/15ta-2k.dir/Kolokviumski/2kolokviumMK/15ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/15ta-2k.cpp.obj
+
+Kolokviumski/2kolokviumMK/15ta-2k.i: Kolokviumski/2kolokviumMK/15ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/15ta-2k.i
+
+# target to preprocess a source file
+Kolokviumski/2kolokviumMK/15ta-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15ta-2k.dir\build.make CMakeFiles/15ta-2k.dir/Kolokviumski/2kolokviumMK/15ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/15ta-2k.cpp.i
+
+Kolokviumski/2kolokviumMK/15ta-2k.s: Kolokviumski/2kolokviumMK/15ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/15ta-2k.s
+
+# target to generate assembly for a file
+Kolokviumski/2kolokviumMK/15ta-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15ta-2k.dir\build.make CMakeFiles/15ta-2k.dir/Kolokviumski/2kolokviumMK/15ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/15ta-2k.cpp.s
 
 Kolokviumski/2kolokviumMK/16ta-2k.obj: Kolokviumski/2kolokviumMK/16ta-2k.cpp.obj
 .PHONY : Kolokviumski/2kolokviumMK/16ta-2k.obj
@@ -5429,6 +5581,78 @@ Kolokviumski/2kolokviumMK/4ta-2k.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4ta-2k.dir\build.make CMakeFiles/4ta-2k.dir/Kolokviumski/2kolokviumMK/4ta-2k.cpp.s
 .PHONY : Kolokviumski/2kolokviumMK/4ta-2k.cpp.s
 
+Kolokviumski/2kolokviumMK/5ta-2k.obj: Kolokviumski/2kolokviumMK/5ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/5ta-2k.obj
+
+# target to build an object file
+Kolokviumski/2kolokviumMK/5ta-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5ta-2k.dir\build.make CMakeFiles/5ta-2k.dir/Kolokviumski/2kolokviumMK/5ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/5ta-2k.cpp.obj
+
+Kolokviumski/2kolokviumMK/5ta-2k.i: Kolokviumski/2kolokviumMK/5ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/5ta-2k.i
+
+# target to preprocess a source file
+Kolokviumski/2kolokviumMK/5ta-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5ta-2k.dir\build.make CMakeFiles/5ta-2k.dir/Kolokviumski/2kolokviumMK/5ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/5ta-2k.cpp.i
+
+Kolokviumski/2kolokviumMK/5ta-2k.s: Kolokviumski/2kolokviumMK/5ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/5ta-2k.s
+
+# target to generate assembly for a file
+Kolokviumski/2kolokviumMK/5ta-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5ta-2k.dir\build.make CMakeFiles/5ta-2k.dir/Kolokviumski/2kolokviumMK/5ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/5ta-2k.cpp.s
+
+Kolokviumski/2kolokviumMK/6ta-2k.obj: Kolokviumski/2kolokviumMK/6ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/6ta-2k.obj
+
+# target to build an object file
+Kolokviumski/2kolokviumMK/6ta-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6ta-2k.dir\build.make CMakeFiles/6ta-2k.dir/Kolokviumski/2kolokviumMK/6ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/6ta-2k.cpp.obj
+
+Kolokviumski/2kolokviumMK/6ta-2k.i: Kolokviumski/2kolokviumMK/6ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/6ta-2k.i
+
+# target to preprocess a source file
+Kolokviumski/2kolokviumMK/6ta-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6ta-2k.dir\build.make CMakeFiles/6ta-2k.dir/Kolokviumski/2kolokviumMK/6ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/6ta-2k.cpp.i
+
+Kolokviumski/2kolokviumMK/6ta-2k.s: Kolokviumski/2kolokviumMK/6ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/6ta-2k.s
+
+# target to generate assembly for a file
+Kolokviumski/2kolokviumMK/6ta-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6ta-2k.dir\build.make CMakeFiles/6ta-2k.dir/Kolokviumski/2kolokviumMK/6ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/6ta-2k.cpp.s
+
+Kolokviumski/2kolokviumMK/7ma-2k.obj: Kolokviumski/2kolokviumMK/7ma-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/7ma-2k.obj
+
+# target to build an object file
+Kolokviumski/2kolokviumMK/7ma-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7ma-2k.dir\build.make CMakeFiles/7ma-2k.dir/Kolokviumski/2kolokviumMK/7ma-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/7ma-2k.cpp.obj
+
+Kolokviumski/2kolokviumMK/7ma-2k.i: Kolokviumski/2kolokviumMK/7ma-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/7ma-2k.i
+
+# target to preprocess a source file
+Kolokviumski/2kolokviumMK/7ma-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7ma-2k.dir\build.make CMakeFiles/7ma-2k.dir/Kolokviumski/2kolokviumMK/7ma-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/7ma-2k.cpp.i
+
+Kolokviumski/2kolokviumMK/7ma-2k.s: Kolokviumski/2kolokviumMK/7ma-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/7ma-2k.s
+
+# target to generate assembly for a file
+Kolokviumski/2kolokviumMK/7ma-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7ma-2k.dir\build.make CMakeFiles/7ma-2k.dir/Kolokviumski/2kolokviumMK/7ma-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/7ma-2k.cpp.s
+
 Kolokviumski/2kolokviumMK/8ma-2k.obj: Kolokviumski/2kolokviumMK/8ma-2k.cpp.obj
 .PHONY : Kolokviumski/2kolokviumMK/8ma-2k.obj
 
@@ -5452,6 +5676,30 @@ Kolokviumski/2kolokviumMK/8ma-2k.s: Kolokviumski/2kolokviumMK/8ma-2k.cpp.s
 Kolokviumski/2kolokviumMK/8ma-2k.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8ma-2k.dir\build.make CMakeFiles/8ma-2k.dir/Kolokviumski/2kolokviumMK/8ma-2k.cpp.s
 .PHONY : Kolokviumski/2kolokviumMK/8ma-2k.cpp.s
+
+Kolokviumski/2kolokviumMK/9ta-2k.obj: Kolokviumski/2kolokviumMK/9ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/9ta-2k.obj
+
+# target to build an object file
+Kolokviumski/2kolokviumMK/9ta-2k.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9ta-2k.dir\build.make CMakeFiles/9ta-2k.dir/Kolokviumski/2kolokviumMK/9ta-2k.cpp.obj
+.PHONY : Kolokviumski/2kolokviumMK/9ta-2k.cpp.obj
+
+Kolokviumski/2kolokviumMK/9ta-2k.i: Kolokviumski/2kolokviumMK/9ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/9ta-2k.i
+
+# target to preprocess a source file
+Kolokviumski/2kolokviumMK/9ta-2k.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9ta-2k.dir\build.make CMakeFiles/9ta-2k.dir/Kolokviumski/2kolokviumMK/9ta-2k.cpp.i
+.PHONY : Kolokviumski/2kolokviumMK/9ta-2k.cpp.i
+
+Kolokviumski/2kolokviumMK/9ta-2k.s: Kolokviumski/2kolokviumMK/9ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/9ta-2k.s
+
+# target to generate assembly for a file
+Kolokviumski/2kolokviumMK/9ta-2k.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9ta-2k.dir\build.make CMakeFiles/9ta-2k.dir/Kolokviumski/2kolokviumMK/9ta-2k.cpp.s
+.PHONY : Kolokviumski/2kolokviumMK/9ta-2k.cpp.s
 
 Kolokviumski/Zadaci/BusLine.obj: Kolokviumski/Zadaci/BusLine.cpp.obj
 .PHONY : Kolokviumski/Zadaci/BusLine.obj
@@ -5597,6 +5845,30 @@ Kolokviumski/Zadaci/File.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\File.dir\build.make CMakeFiles/File.dir/Kolokviumski/Zadaci/File.cpp.s
 .PHONY : Kolokviumski/Zadaci/File.cpp.s
 
+Kolokviumski/Zadaci/Fitness.obj: Kolokviumski/Zadaci/Fitness.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Fitness.obj
+
+# target to build an object file
+Kolokviumski/Zadaci/Fitness.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fitness.dir\build.make CMakeFiles/Fitness.dir/Kolokviumski/Zadaci/Fitness.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Fitness.cpp.obj
+
+Kolokviumski/Zadaci/Fitness.i: Kolokviumski/Zadaci/Fitness.cpp.i
+.PHONY : Kolokviumski/Zadaci/Fitness.i
+
+# target to preprocess a source file
+Kolokviumski/Zadaci/Fitness.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fitness.dir\build.make CMakeFiles/Fitness.dir/Kolokviumski/Zadaci/Fitness.cpp.i
+.PHONY : Kolokviumski/Zadaci/Fitness.cpp.i
+
+Kolokviumski/Zadaci/Fitness.s: Kolokviumski/Zadaci/Fitness.cpp.s
+.PHONY : Kolokviumski/Zadaci/Fitness.s
+
+# target to generate assembly for a file
+Kolokviumski/Zadaci/Fitness.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fitness.dir\build.make CMakeFiles/Fitness.dir/Kolokviumski/Zadaci/Fitness.cpp.s
+.PHONY : Kolokviumski/Zadaci/Fitness.cpp.s
+
 Kolokviumski/Zadaci/Flight.obj: Kolokviumski/Zadaci/Flight.cpp.obj
 .PHONY : Kolokviumski/Zadaci/Flight.obj
 
@@ -5716,6 +5988,30 @@ Kolokviumski/Zadaci/Kolok1.s: Kolokviumski/Zadaci/Kolok1.cpp.s
 Kolokviumski/Zadaci/Kolok1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kolok1.dir\build.make CMakeFiles/Kolok1.dir/Kolokviumski/Zadaci/Kolok1.cpp.s
 .PHONY : Kolokviumski/Zadaci/Kolok1.cpp.s
+
+Kolokviumski/Zadaci/Parking.obj: Kolokviumski/Zadaci/Parking.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Parking.obj
+
+# target to build an object file
+Kolokviumski/Zadaci/Parking.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parking.dir\build.make CMakeFiles/Parking.dir/Kolokviumski/Zadaci/Parking.cpp.obj
+.PHONY : Kolokviumski/Zadaci/Parking.cpp.obj
+
+Kolokviumski/Zadaci/Parking.i: Kolokviumski/Zadaci/Parking.cpp.i
+.PHONY : Kolokviumski/Zadaci/Parking.i
+
+# target to preprocess a source file
+Kolokviumski/Zadaci/Parking.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parking.dir\build.make CMakeFiles/Parking.dir/Kolokviumski/Zadaci/Parking.cpp.i
+.PHONY : Kolokviumski/Zadaci/Parking.cpp.i
+
+Kolokviumski/Zadaci/Parking.s: Kolokviumski/Zadaci/Parking.cpp.s
+.PHONY : Kolokviumski/Zadaci/Parking.s
+
+# target to generate assembly for a file
+Kolokviumski/Zadaci/Parking.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Parking.dir\build.make CMakeFiles/Parking.dir/Kolokviumski/Zadaci/Parking.cpp.s
+.PHONY : Kolokviumski/Zadaci/Parking.cpp.s
 
 Kolokviumski/Zadaci/Parovi1.obj: Kolokviumski/Zadaci/Parovi1.cpp.obj
 .PHONY : Kolokviumski/Zadaci/Parovi1.obj
@@ -7599,6 +7895,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 1
 	@echo ... 10ta
+	@echo ... 10ta-2k
 	@echo ... 11ta
 	@echo ... 11ta-2k
 	@echo ... 11taEN
@@ -7611,6 +7908,7 @@ help:
 	@echo ... 14ta-2k
 	@echo ... 14taEN
 	@echo ... 15ta
+	@echo ... 15ta-2k
 	@echo ... 16ta
 	@echo ... 16ta-2k
 	@echo ... 17ta
@@ -7638,12 +7936,16 @@ help:
 	@echo ... 4ta
 	@echo ... 4ta-2k
 	@echo ... 5ta
+	@echo ... 5ta-2k
 	@echo ... 6ta
+	@echo ... 6ta-2k
 	@echo ... 7ma
+	@echo ... 7ma-2k
 	@echo ... 8ma
 	@echo ... 8ma-2k
 	@echo ... 8maEN
 	@echo ... 9ta
+	@echo ... 9ta-2k
 	@echo ... AdapterStefan
 	@echo ... Alien
 	@echo ... Athlete
@@ -7717,6 +8019,7 @@ help:
 	@echo ... Drzavi
 	@echo ... Employee
 	@echo ... File
+	@echo ... Fitness
 	@echo ... FoodProduct
 	@echo ... Fudbaleri
 	@echo ... Galerija
@@ -7744,6 +8047,7 @@ help:
 	@echo ... P1
 	@echo ... P2
 	@echo ... P2.1
+	@echo ... Parking
 	@echo ... Parovi1
 	@echo ... Parovi2
 	@echo ... Polimorfizam1
@@ -8105,6 +8409,9 @@ help:
 	@echo ... Kolokviumski/1kolokviumMK/9ta.obj
 	@echo ... Kolokviumski/1kolokviumMK/9ta.i
 	@echo ... Kolokviumski/1kolokviumMK/9ta.s
+	@echo ... Kolokviumski/2kolokviumMK/10ta-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/10ta-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/10ta-2k.s
 	@echo ... Kolokviumski/2kolokviumMK/11ta-2k.obj
 	@echo ... Kolokviumski/2kolokviumMK/11ta-2k.i
 	@echo ... Kolokviumski/2kolokviumMK/11ta-2k.s
@@ -8117,6 +8424,9 @@ help:
 	@echo ... Kolokviumski/2kolokviumMK/14ta-2k.obj
 	@echo ... Kolokviumski/2kolokviumMK/14ta-2k.i
 	@echo ... Kolokviumski/2kolokviumMK/14ta-2k.s
+	@echo ... Kolokviumski/2kolokviumMK/15ta-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/15ta-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/15ta-2k.s
 	@echo ... Kolokviumski/2kolokviumMK/16ta-2k.obj
 	@echo ... Kolokviumski/2kolokviumMK/16ta-2k.i
 	@echo ... Kolokviumski/2kolokviumMK/16ta-2k.s
@@ -8135,9 +8445,21 @@ help:
 	@echo ... Kolokviumski/2kolokviumMK/4ta-2k.obj
 	@echo ... Kolokviumski/2kolokviumMK/4ta-2k.i
 	@echo ... Kolokviumski/2kolokviumMK/4ta-2k.s
+	@echo ... Kolokviumski/2kolokviumMK/5ta-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/5ta-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/5ta-2k.s
+	@echo ... Kolokviumski/2kolokviumMK/6ta-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/6ta-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/6ta-2k.s
+	@echo ... Kolokviumski/2kolokviumMK/7ma-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/7ma-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/7ma-2k.s
 	@echo ... Kolokviumski/2kolokviumMK/8ma-2k.obj
 	@echo ... Kolokviumski/2kolokviumMK/8ma-2k.i
 	@echo ... Kolokviumski/2kolokviumMK/8ma-2k.s
+	@echo ... Kolokviumski/2kolokviumMK/9ta-2k.obj
+	@echo ... Kolokviumski/2kolokviumMK/9ta-2k.i
+	@echo ... Kolokviumski/2kolokviumMK/9ta-2k.s
 	@echo ... Kolokviumski/Zadaci/BusLine.obj
 	@echo ... Kolokviumski/Zadaci/BusLine.i
 	@echo ... Kolokviumski/Zadaci/BusLine.s
@@ -8156,6 +8478,9 @@ help:
 	@echo ... Kolokviumski/Zadaci/File.obj
 	@echo ... Kolokviumski/Zadaci/File.i
 	@echo ... Kolokviumski/Zadaci/File.s
+	@echo ... Kolokviumski/Zadaci/Fitness.obj
+	@echo ... Kolokviumski/Zadaci/Fitness.i
+	@echo ... Kolokviumski/Zadaci/Fitness.s
 	@echo ... Kolokviumski/Zadaci/Flight.obj
 	@echo ... Kolokviumski/Zadaci/Flight.i
 	@echo ... Kolokviumski/Zadaci/Flight.s
@@ -8171,6 +8496,9 @@ help:
 	@echo ... Kolokviumski/Zadaci/Kolok1.obj
 	@echo ... Kolokviumski/Zadaci/Kolok1.i
 	@echo ... Kolokviumski/Zadaci/Kolok1.s
+	@echo ... Kolokviumski/Zadaci/Parking.obj
+	@echo ... Kolokviumski/Zadaci/Parking.i
+	@echo ... Kolokviumski/Zadaci/Parking.s
 	@echo ... Kolokviumski/Zadaci/Parovi1.obj
 	@echo ... Kolokviumski/Zadaci/Parovi1.i
 	@echo ... Kolokviumski/Zadaci/Parovi1.s

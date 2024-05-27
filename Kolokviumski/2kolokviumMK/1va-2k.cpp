@@ -98,8 +98,8 @@ void mostExpensiveBook(Book **books, int n) {
         }
     }
     cout << "FINKI-Education" << endl;
-    cout << "Total number of online books: " << counter1 << endl;
-    cout << "Total number of print books: " << counter2 << endl;
+    cout << "Total number_products of online books: " << counter1 << endl;
+    cout << "Total number_products of print books: " << counter2 << endl;
     cout << "The most expensive book is:" << endl;
     cout << *max;
 }

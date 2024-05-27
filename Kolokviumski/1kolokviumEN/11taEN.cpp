@@ -86,7 +86,7 @@ public:
             discount = d;
         else {
             cout << "TESTING EXCEPTION" << endl;
-            cout << "Invalid discount value: " << d;
+            cout << "Invalid basic_discount value: " << d;
         }
     }
 
@@ -194,7 +194,7 @@ int main() {
         cin.getline(name, 100);
         cin.getline(ingr, 100);
         cin >> price;
-        //cin >> discount;
+        //cin >> basic_discount;
         cout << "CONSTRUCTOR" << endl;
         IceCream ic1(name, ingr, price);
         cout << ic1 << endl;

@@ -7,7 +7,7 @@
 //поени од трет натпревар (цел број)
 //Да се направат потребните методи за класата, како и метод за печатење на информации за кошаркарот во следен формат
 //
-// "Player: product_name surname with number: number has avg_pts points on average".
+// "Player: product_name surname with number_products: number_products has avg_pts points on average".
 //
 //Од стандарден влез се внесуваат име, презиме, број на дрес и поени за сите три натпревари за еден кошаркар.
 //
@@ -70,7 +70,7 @@ public:
     }
 
     void print() {
-        cout << "Player: " << name << " " << surname << " with number: " << num << " ";
+        cout << "Player: " << name << " " << surname << " with number_products: " << num << " ";
         cout << "has " << avg_pts() << " points on average\n";
     }
 

@@ -5,12 +5,14 @@ using namespace std;
 
 class NoCourseException {
 private:
-    int indeks;
+    int id;
 public:
-    NoCourseException(int indeks) : indeks(indeks) {}
+    NoCourseException(int id) {
+        this->id = id;
+    }
 
     void print() {
-        cout << "Demonstratorot so indeks " << indeks << " ne drzi laboratoriski vezbi" << endl;
+        cout << "Demonstratorot so indeks " << id << " ne drzi laboratoriski vezbi" << endl;
     }
 };
 
@@ -35,6 +37,10 @@ public:
 
     char const *getIme() const {
         return ime;
+    }
+
+    int getKrediti() const {
+        return krediti;
     }
 
     void pecati() const { cout << ime << " " << krediti << "ECTS"; }
@@ -76,16 +82,19 @@ public:
     ~Student() { delete[] ocenki; }
 
     virtual int getBodovi() {
-        int br = 0;
-        for (int i = 0; i < brojOcenki; ++i) {
-            if (ocenki[i] > 5) { ++br; }
+        float counter = 0;
+        for (int i = 0; i < brojOcenki; i++) {
+            if (ocenki[i] > 5) {
+                counter++;
+            }
         }
-        return br / brojOcenki * 100;
+        return counter/brojOcenki*100;
     }
 
     virtual void pecati() {
         cout << indeks;
     }
+
 };
 
 class Predavach {
@@ -137,7 +146,7 @@ public:
         else return Kurs();
     }
 
-    void pecati() const {
+    virtual void pecati() const {
         cout << imeIPrezime << " (";
         for (int i = 0; i < brojKursevi; i++) {
             kursevi[i].pecati();
@@ -146,43 +155,61 @@ public:
     }
 };
 
-
-class Demonstrator : public Predavach, public Student {
+class Demonstrator : public Student, public Predavach {
 private:
-    int brojCasovi;
+    int casovi;
 public:
+    Demonstrator(int indeks, int *ocenki, int brojOcenki, char *imeIPrezime, Kurs *kursevi, int brojKursevi, int casovi)
+            : Student(indeks, ocenki, brojOcenki), Predavach(imeIPrezime, kursevi, brojKursevi), casovi(casovi) {
 
-    //Demonstrator(indeks, ocenki, brojOcenki, imeIPrezime, kursevi, brojKursevi, brojCasovi)
-    Demonstrator(int index, int *ocenki, int brojOcenki, char *imeIPrezime,
-                 Kurs *kursevi, int brojKursevi, int brojCasovi) :
-            Student(indeks, ocenki, brojOcenki), Predavach(imeIPrezime, kursevi, brojKursevi), brojCasovi(brojCasovi) {}
+    }
 
-    int getBodovi() override {
+    Demonstrator(const Demonstrator &other) : Student(other), Predavach(other) {
+        this->casovi = other.casovi;
+    }
+
+    Demonstrator &operator=(const Demonstrator &other) {
+        if (this != &other) {
+            Student::operator=(other);
+            Predavach::operator=(other);
+            this->casovi = other.casovi;
+        }
+        return *this;
+    }
+
+    int getBodovi() {
         if (getBrojKursevi() == 0) {
             throw NoCourseException(indeks);
+        } else {
+            int pocetno = Student::getBodovi();
+            float temp;
+            temp = (20 * casovi) / getBrojKursevi();
+            int rez;
+            rez = pocetno + temp;
+            return rez;
         }
-        int poeni = Student::getBodovi();
-        return poeni + (20 * brojCasovi) / getBrojKursevi();
     }
 
     void pecati() {
         Student::pecati();
+        cout<<": ";
         Predavach::pecati();
     }
+
 };
 
 Student &vratiNajdobroRangiran(Student **studenti, int n) {
-    Student *najgolem = studenti[0];
-    for (int i = 0; i < n; ++i) {
+    Student *max = studenti[0];
+    for (int i = 0; i < n; i++) {
         try {
-            if (studenti[i]->getBodovi() > najgolem->getBodovi()) {
-                najgolem = studenti[i];
+            if (studenti[i]->getBodovi() > max->getBodovi()) {
+                max = studenti[i];
             }
         } catch (NoCourseException e) {
             e.print();
         }
     }
-    return *najgolem;
+    return *max;
 }
 
 void pecatiDemonstratoriKurs(const char *kurs, Student **studenti, int n) {
@@ -190,9 +217,9 @@ void pecatiDemonstratoriKurs(const char *kurs, Student **studenti, int n) {
         Demonstrator *casted = dynamic_cast<Demonstrator *>(studenti[i]);
         if (casted) {
             for (int j = 0; j < casted->getBrojKursevi(); j++) {
-                if (strcmp(casted->getKursevi(j).getIme(), kurs) == 0) {
+                if (strcmp(casted->getKursevi(j).getIme(), kurs)==0) {
                     casted->pecati();
-                    cout << endl;
+                    cout<<endl;
                     break;
                 }
             }
@@ -201,181 +228,181 @@ void pecatiDemonstratoriKurs(const char *kurs, Student **studenti, int n) {
 }
 
 
-int main() {
+int main(){
 
     Kurs kursevi[10];
-    int indeks, brojKursevi, ocenki[20], ocenka, brojOcenki, tip, brojCasovi, krediti;
-    char ime[20], imeIPrezime[50];
+    int indeks,brojKursevi, ocenki[20],ocenka,brojOcenki,tip,brojCasovi,krediti;
+    char ime[20],imeIPrezime[50];
 
-    cin >> tip;
+    cin>>tip;
 
-    if (tip == 1) //test class Demonstrator
+    if (tip==1) //test class Demonstrator
     {
-        cout << "-----TEST Demonstrator-----" << endl;
-        cin >> indeks >> brojOcenki;
-        for (int i = 0; i < brojOcenki; i++) {
-            cin >> ocenka;
-            ocenki[i] = ocenka;
+        cout<<"-----TEST Demonstrator-----"<<endl;
+        cin>>indeks>>brojOcenki;
+        for (int i=0;i<brojOcenki;i++){
+            cin>>ocenka;
+            ocenki[i]=ocenka;
         }
-        cin >> imeIPrezime >> brojKursevi;
-        for (int i = 0; i < brojKursevi; i++) {
-            cin >> ime >> krediti;
-            kursevi[i] = Kurs(ime, krediti);
+        cin>>imeIPrezime>>brojKursevi;
+        for (int i=0;i<brojKursevi;i++){
+            cin>>ime>>krediti;
+            kursevi[i]=Kurs(ime,krediti);
         }
-        cin >> brojCasovi;
+        cin>>brojCasovi;
 
-        Demonstrator d(indeks, ocenki, brojOcenki, imeIPrezime, kursevi, brojKursevi, brojCasovi);
-        cout << "Objekt od klasata Demonstrator e kreiran";
+        Demonstrator d(indeks,ocenki,brojOcenki,imeIPrezime,kursevi,brojKursevi,brojCasovi);
+        cout<<"Objekt od klasata Demonstrator e kreiran";
 
-    } else if (tip == 2) //funkcija pecati vo Student
+    } else if (tip==2) //funkcija pecati vo Student
     {
-        cout << "-----TEST pecati-----" << endl;
-        cin >> indeks >> brojOcenki;
-        for (int i = 0; i < brojOcenki; i++) {
-            cin >> ocenka;
-            ocenki[i] = ocenka;
+        cout<<"-----TEST pecati-----"<<endl;
+        cin>>indeks>>brojOcenki;
+        for (int i=0;i<brojOcenki;i++){
+            cin>>ocenka;
+            ocenki[i]=ocenka;
         }
 
-        Student s(indeks, ocenki, brojOcenki);
+        Student s(indeks,ocenki,brojOcenki);
         s.pecati();
 
-    } else if (tip == 3) //funkcija getVkupnaOcenka vo Student
+    } else if (tip==3) //funkcija getVkupnaOcenka vo Student
     {
-        cout << "-----TEST getVkupnaOcenka-----" << endl;
-        cin >> indeks >> brojOcenki;
-        for (int i = 0; i < brojOcenki; i++) {
-            cin >> ocenka;
-            ocenki[i] = ocenka;
+        cout<<"-----TEST getVkupnaOcenka-----"<<endl;
+        cin>>indeks>>brojOcenki;
+        for (int i=0;i<brojOcenki;i++){
+            cin>>ocenka;
+            ocenki[i]=ocenka;
         }
-        Student s(indeks, ocenki, brojOcenki);
-        cout << "Broj na bodovi: " << s.getBodovi() << endl;
+        Student s(indeks,ocenki,brojOcenki);
+        cout<<"Broj na bodovi: "<<s.getBodovi()<<endl;
 
-    } else if (tip == 4) //funkcija getVkupnaOcenka vo Demonstrator
+    } else if (tip==4) //funkcija getVkupnaOcenka vo Demonstrator
     {
-        cout << "-----TEST getVkupnaOcenka-----" << endl;
-        cin >> indeks >> brojOcenki;
-        for (int i = 0; i < brojOcenki; i++) {
-            cin >> ocenka;
-            ocenki[i] = ocenka;
+        cout<<"-----TEST getVkupnaOcenka-----"<<endl;
+        cin>>indeks>>brojOcenki;
+        for (int i=0;i<brojOcenki;i++){
+            cin>>ocenka;
+            ocenki[i]=ocenka;
         }
-        cin >> imeIPrezime >> brojKursevi;
-        for (int i = 0; i < brojKursevi; i++) {
-            cin >> ime >> krediti;
-            kursevi[i] = Kurs(ime, krediti);
+        cin>>imeIPrezime>>brojKursevi;
+        for (int i=0;i<brojKursevi;i++){
+            cin>>ime>>krediti;
+            kursevi[i]=Kurs(ime,krediti);
         }
-        cin >> brojCasovi;
+        cin>>brojCasovi;
 
-        Demonstrator d(indeks, ocenki, brojOcenki, imeIPrezime, kursevi, brojKursevi, brojCasovi);
-        cout << "Broj na bodovi: " << d.getBodovi() << endl;
+        Demonstrator d(indeks,ocenki,brojOcenki,imeIPrezime,kursevi,brojKursevi,brojCasovi);
+        cout<<"Broj na bodovi: "<<d.getBodovi()<<endl;
 
-    } else if (tip == 5) //funkcija pecati vo Demonstrator
+    } else if (tip==5) //funkcija pecati vo Demonstrator
     {
-        cout << "-----TEST pecati -----" << endl;
-        cin >> indeks >> brojOcenki;
-        for (int i = 0; i < brojOcenki; i++) {
-            cin >> ocenka;
-            ocenki[i] = ocenka;
+        cout<<"-----TEST pecati -----"<<endl;
+        cin>>indeks>>brojOcenki;
+        for (int i=0;i<brojOcenki;i++){
+            cin>>ocenka;
+            ocenki[i]=ocenka;
         }
-        cin >> imeIPrezime >> brojKursevi;
-        for (int i = 0; i < brojKursevi; i++) {
-            cin >> ime >> krediti;
-            kursevi[i] = Kurs(ime, krediti);
+        cin>>imeIPrezime>>brojKursevi;
+        for (int i=0;i<brojKursevi;i++){
+            cin>>ime>>krediti;
+            kursevi[i]=Kurs(ime,krediti);
         }
-        cin >> brojCasovi;
+        cin>>brojCasovi;
 
-        Demonstrator d(indeks, ocenki, brojOcenki, imeIPrezime, kursevi, brojKursevi, brojCasovi);
+        Demonstrator d(indeks,ocenki,brojOcenki,imeIPrezime,kursevi,brojKursevi,brojCasovi);
         d.pecati();
 
-    } else if (tip == 6) //site klasi
+    } else if (tip==6) //site klasi
     {
-        cout << "-----TEST Student i Demonstrator-----" << endl;
-        cin >> indeks >> brojOcenki;
-        for (int i = 0; i < brojOcenki; i++) {
-            cin >> ocenka;
-            ocenki[i] = ocenka;
+        cout<<"-----TEST Student i Demonstrator-----"<<endl;
+        cin>>indeks>>brojOcenki;
+        for (int i=0;i<brojOcenki;i++){
+            cin>>ocenka;
+            ocenki[i]=ocenka;
         }
-        cin >> imeIPrezime >> brojKursevi;
-        for (int i = 0; i < brojKursevi; i++) {
-            cin >> ime >> krediti;
-            kursevi[i] = Kurs(ime, krediti);
+        cin>>imeIPrezime>>brojKursevi;
+        for (int i=0;i<brojKursevi;i++){
+            cin>>ime>>krediti;
+            kursevi[i]=Kurs(ime,krediti);
         }
-        cin >> brojCasovi;
+        cin>>brojCasovi;
 
-        Student *s = new Demonstrator(indeks, ocenki, brojOcenki, imeIPrezime, kursevi, brojKursevi, brojCasovi);
+        Student *s=new Demonstrator(indeks,ocenki,brojOcenki,imeIPrezime,kursevi,brojKursevi,brojCasovi);
         s->pecati();
-        cout << "\nBroj na bodovi: " << s->getBodovi() << endl;
+        cout<<"\nBroj na bodovi: "<<s->getBodovi()<<endl;
         delete s;
 
 
-    } else if (tip == 7) //funkcija vratiNajdobroRangiran
+    } else if (tip==7) //funkcija vratiNajdobroRangiran
     {
-        cout << "-----TEST vratiNajdobroRangiran-----" << endl;
+        cout<<"-----TEST vratiNajdobroRangiran-----"<<endl;
         int k, opt;
-        cin >> k;
-        Student **studenti = new Student *[k];
-        for (int j = 0; j < k; j++) {
-            cin >> opt; //1 Student 2 Demonstrator
-            cin >> indeks >> brojOcenki;
-            for (int i = 0; i < brojOcenki; i++) {
-                cin >> ocenka;
-                ocenki[i] = ocenka;
+        cin>>k;
+        Student **studenti=new Student*[k];
+        for (int j=0;j<k;j++){
+            cin>>opt; //1 Student 2 Demonstrator
+            cin>>indeks>>brojOcenki;
+            for (int i=0;i<brojOcenki;i++)
+            {
+                cin>>ocenka;
+                ocenki[i]=ocenka;
             }
-            if (opt == 1) {
-                studenti[j] = new Student(indeks, ocenki, brojOcenki);
-            } else {
-                cin >> imeIPrezime >> brojKursevi;
-                for (int i = 0; i < brojKursevi; i++) {
-                    cin >> ime >> krediti;
-                    kursevi[i] = Kurs(ime, krediti);
+            if (opt==1){
+                studenti[j]=new Student(indeks,ocenki,brojOcenki);
+            }else{
+                cin>>imeIPrezime>>brojKursevi;
+                for (int i=0;i<brojKursevi;i++){
+                    cin>>ime>>krediti;
+                    kursevi[i]=Kurs(ime,krediti);
                 }
-                cin >> brojCasovi;
-                studenti[j] = new Demonstrator(indeks, ocenki, brojOcenki, imeIPrezime, kursevi, brojKursevi,
-                                               brojCasovi);
+                cin>>brojCasovi;
+                studenti[j]=new Demonstrator(indeks,ocenki,brojOcenki,imeIPrezime,kursevi,brojKursevi,brojCasovi);
             }
         }
-        Student &najdobar = vratiNajdobroRangiran(studenti, k);
-        cout << "Maksimalniot broj na bodovi e:" << najdobar.getBodovi();
-        cout << "\nNajdobro rangiran:";
+        Student& najdobar=vratiNajdobroRangiran(studenti,k);
+        cout<<"Maksimalniot broj na bodovi e:"<<najdobar.getBodovi();
+        cout<<"\nNajdobro rangiran:";
         najdobar.pecati();
 
-        for (int j = 0; j < k; j++) delete studenti[j];
-        delete[] studenti;
-    } else if (tip == 8) //funkcija pecatiDemonstratoriKurs
+        for (int j=0;j<k;j++) delete studenti[j];
+        delete [] studenti;
+    } else if (tip==8) //funkcija pecatiDemonstratoriKurs
     {
-        cout << "-----TEST pecatiDemonstratoriKurs-----" << endl;
+        cout<<"-----TEST pecatiDemonstratoriKurs-----"<<endl;
         int k, opt;
-        cin >> k;
-        Student **studenti = new Student *[k];
-        for (int j = 0; j < k; j++) {
-            cin >> opt; //1 Student 2 Demonstrator
-            cin >> indeks >> brojOcenki;
-            for (int i = 0; i < brojOcenki; i++) {
-                cin >> ocenka;
-                ocenki[i] = ocenka;
+        cin>>k;
+        Student **studenti=new Student*[k];
+        for (int j=0;j<k;j++){
+            cin>>opt; //1 Student 2 Demonstrator
+            cin>>indeks>>brojOcenki;
+            for (int i=0;i<brojOcenki;i++)
+            {
+                cin>>ocenka;
+                ocenki[i]=ocenka;
             }
-            if (opt == 1) {
-                studenti[j] = new Student(indeks, ocenki, brojOcenki);
-            } else {
-                cin >> imeIPrezime >> brojKursevi;
-                for (int i = 0; i < brojKursevi; i++) {
-                    cin >> ime >> krediti;
-                    kursevi[i] = Kurs(ime, krediti);
+            if (opt==1){
+                studenti[j]=new Student(indeks,ocenki,brojOcenki);
+            }else{
+                cin>>imeIPrezime>>brojKursevi;
+                for (int i=0;i<brojKursevi;i++)
+                {
+                    cin>>ime>>krediti;
+                    kursevi[i]=Kurs(ime,krediti);
                 }
-                cin >> brojCasovi;
-                studenti[j] = new Demonstrator(indeks, ocenki, brojOcenki, imeIPrezime, kursevi, brojKursevi,
-                                               brojCasovi);
+                cin>>brojCasovi;
+                studenti[j]=new Demonstrator(indeks,ocenki,brojOcenki,imeIPrezime,kursevi,brojKursevi,brojCasovi);
             }
         }
         char kurs[20];
-        cin >> kurs;
-        cout << "Demonstratori na " << kurs << " se:" << endl;
-        pecatiDemonstratoriKurs(kurs, studenti, k);
-        for (int j = 0; j < k; j++) delete studenti[j];
-        delete[] studenti;
+        cin>>kurs;
+        cout<<"Demonstratori na "<<kurs<<" se:"<<endl;
+        pecatiDemonstratoriKurs (kurs,studenti,k);
+        for (int j=0;j<k;j++) delete studenti[j];
+        delete [] studenti;
 
     }
 
 
     return 0;
 }
-

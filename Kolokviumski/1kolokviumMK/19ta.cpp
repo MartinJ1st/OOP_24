@@ -181,7 +181,7 @@ int main() {
         cin.getline(name,100);
         cin.getline(ingr,100);
         cin >> price;
-        //cin >> discount;
+        //cin >> basic_discount;
         cout << "CONSTRUCTOR" << endl;
         IceCream ic1(name, ingr, price);
         cout << ic1 << endl;
@@ -261,7 +261,7 @@ int main() {
     char filename[100];
     char ingr[100];
     float expense;
-    int discount;
+    int basic_discount;
 
     int testCase;
 
@@ -272,17 +272,17 @@ int main() {
         cin.getline(filename,100);
         cin.getline(ingr,100);
         cin >> expense;
-        cin >> discount;
+        cin >> basic_discount;
         cout << "CONSTRUCTOR" << endl;
         IceCream ic1(filename, ingr, expense);
-        ic1.setDiscount(discount);
+        ic1.setDiscount(basic_discount);
         cin.get();
         cin.getline(filename,100);
         cin.getline(ingr,100);
         cin >> expense;
-        cin >> discount;
+        cin >> basic_discount;
         IceCream ic2(filename, ingr, expense);
-        ic2.setDiscount(discount);
+        ic2.setDiscount(basic_discount);
         cout << "OPERATOR <<" << endl;
         cout << ic1 << endl;
         cout << ic2 << endl;
@@ -314,8 +314,8 @@ int main() {
         cout << ic1 << endl;
         cout << ic2 << endl;
 
-        cin >> discount;
-        ic1.setDiscount(discount);
+        cin >> basic_discount;
+        ic1.setDiscount(basic_discount);
 
 
     } else if(testCase == 3) {

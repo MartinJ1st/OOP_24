@@ -14,12 +14,34 @@ public:
         strcpy(this->ingredients, ingredients);
     }
 
+    const char *getName() const {
+        return name;
+    }
+
+    const char *getIngredients() const {
+        return ingredients;
+    }
+
+    float getPizzaPrice() const {
+        return pizzaPrice;
+    }
+
+    void setPizzaPrice(float pizzaPrice) {
+        this->pizzaPrice = pizzaPrice;
+    }
+
     virtual float price() = 0;
+
+    bool operator<(Pizza &rhs) {
+        return price() < rhs.price();
+    }
+
+    virtual ~Pizza() {}
 };
 
 
 enum Size {
-    SMALL = 1, LARGE, FAMILY
+    SMALL, LARGE, FAMILY
 };
 
 class FlatPizza : public Pizza {
@@ -30,33 +52,93 @@ public:
                                                                                                         pizzaPrice),
                                                                                                   size(size) {}
 
-    float price() override {
-        return pizzaPrice * (1 + (size / 10));
+    Size getSize() const {
+        return size;
     }
 
-    friend ostream &operator<<(ostream&o,const FlatPizza&fp){
-       //За рамна пица:[име]: [состојки], [големина] - [продажната цена на пицата].
-       o<<fp.name<<": "<<fp.ingredients<<", "<<fp.size<<" - "<<fp->price()
+    void setSize(Size size) {
+        this->size = size;
     }
+
+    float price() override {
+        if (size == SMALL) {
+            return pizzaPrice * 1.1;
+        } else if (size == LARGE) {
+            return pizzaPrice * 1.2;
+        } else if (size == FAMILY) {
+            return pizzaPrice * 1.3;
+        }
+    }
+
+    friend ostream &operator<<(ostream &o, FlatPizza &fp) {
+        o << fp.name << ": " << fp.ingredients << ", ";
+        switch (fp.size) {
+            case SMALL:
+                cout << "small" << " - ";
+                break;
+            case LARGE:
+                cout << "large" << " - ";
+                break;
+            case FAMILY:
+                cout << "family" << " - ";
+                break;
+        }
+        cout << fp.price() << endl;
+        return o;
+    }
+
+    ~FlatPizza() override {}
 };
 
 class FoldedPizza : public Pizza {
 private:
     bool beloBrasno;
 public:
-    FoldedPizza(char *name = "", char *ingredients = "", float pizzaPrice = 0, bool beloBrasno = false)
+    FoldedPizza(char *name = "", char *ingredients = "", float pizzaPrice = 0.0, bool beloBrasno = true)
             : Pizza(name, ingredients, pizzaPrice), beloBrasno(beloBrasno) {}
+
 
     float price() {
         if (beloBrasno) {
-            return float(price() * 1.1);
+            return pizzaPrice * 1.1;
         } else {
-            return float(price() * 1.3);
+            return pizzaPrice * 1.3;
         }
     }
-};
-// Testing
 
+    void setWhiteFlour(bool beloBrasno) {
+        this->beloBrasno = beloBrasno;
+    }
+
+    friend ostream &operator<<(ostream &o, FoldedPizza &fp) {
+        //За преклопена пица: [име]: [состојки], [wf - ако е со бело брашно / nwf - ако не е со бело брашно] - [продажната цена на пицата]
+        o << fp.name << ": " << fp.ingredients << ", ";
+        if (fp.beloBrasno) {
+            o << "wf - ";
+        } else {
+            o << "nwf - ";
+        }
+        cout << fp.price() << endl;
+        return o;
+    }
+};
+
+void expensivePizza(Pizza **p, int n) {
+    Pizza *max = p[0];
+    for (int i = 0; i < n; i++) {
+        if (*max < *p[i]) {
+            max = p[i];
+        }
+    }
+    FlatPizza *casted1 = dynamic_cast<FlatPizza *>(max);
+    FoldedPizza *casted2 = dynamic_cast<FoldedPizza *>(max);
+
+    if (casted1) {
+        cout << *casted1<<endl;
+    } else if (casted2) {
+        cout << *casted2<<endl;
+    }
+}
 
 int main() {
     int test_case;

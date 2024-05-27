@@ -3,23 +3,153 @@
 
 using namespace std;
 
+
 class Koncert {
-    char name[20];
-    char location[20];
-    static double seasonsales;
-    double price;
+protected:
+    char naziv[20], location[20];
+    static float POPUST;
+    float cena_bilet;
 public:
-    Koncert(char *name = "", char *location = "", double seasonsales = 0, double price = 0) {
-        strcpy(this->name, name);
+    Koncert(char *naziv = "", char *location = "", float cena_bilet = 0) {
+        strcpy(this->naziv, naziv);
         strcpy(this->location, location);
-        this->seasonsales = seasonsales;
-        this->price = price;
+        this->cena_bilet = cena_bilet;
     }
 
+    virtual ~Koncert() {}
+
+    Koncert(const Koncert &k) {
+        strcpy(this->naziv, k.naziv);
+        strcpy(this->location, k.location);
+        this->cena_bilet = k.cena_bilet;
+    }
+
+    const char *getNaziv() const {
+        return naziv;
+    }
+
+    const char *getLocation() const {
+        return location;
+    }
+
+    static float getSezonskiPopust() {
+        return POPUST;
+    }
+
+    static void setSezonskiPopust(float popust) {
+        POPUST = popust;
+    }
+
+    float getCenaBilet() const {
+        return cena_bilet;
+    }
+
+    void setCenaBilet(float cenaBilet) {
+        cena_bilet = cenaBilet;
+    }
+
+    virtual float cena() {
+        return cena_bilet * (1 - POPUST);
+    }
 };
 
-double Koncert::seasonsales = 0.20;
+float Koncert::POPUST = 0.20;
 
+class ElektronskiKoncert : public Koncert {
+private:
+    char *DJ;
+    float vreme;
+    bool dnevna;
+
+public:
+    ElektronskiKoncert(char *naziv = "", char *location = "", float cenaBilet = 0, char *DJ = "", float vreme = 0,
+                       bool dnevna = true)
+            : Koncert(naziv, location, cenaBilet), vreme(vreme), dnevna(dnevna) {
+        this->DJ = new char[strlen(DJ + 1)];
+        strcpy(this->DJ, DJ);
+    }
+
+    virtual ~ElektronskiKoncert() override {
+        delete[]DJ;
+    }
+
+    ElektronskiKoncert(const ElektronskiKoncert &ek) : Koncert(ek) {
+        this->vreme = ek.vreme;
+        this->dnevna = ek.dnevna;
+        this->DJ = new char[strlen(ek.DJ + 1)];
+        strcpy(this->DJ, DJ);
+    }
+
+    ElektronskiKoncert &operator=(const ElektronskiKoncert &ek) {
+        if (this != &ek) {
+            strcpy(this->naziv, ek.naziv);
+            strcpy(this->location, ek.location);
+            this->cena_bilet = ek.cena_bilet;
+            delete[] DJ;
+            this->DJ = new char[strlen(ek.DJ + 1)];
+            strcpy(this->DJ, ek.DJ);
+        }
+        return *this;
+    }
+
+    float cena() override {
+        float nova = Koncert::cena();
+        if (vreme > 7) {
+            nova += 360;
+        } else if (vreme > 5) {
+            nova += 150;
+        }
+
+        if (dnevna) {
+            nova -= 50;
+        } else {
+            nova += 100;
+        }
+        return nova;
+    }
+};
+
+void najskapKoncert(Koncert **koncerti, int n) {
+    Koncert *max = koncerti[0];
+    int br = 0;
+    for (int i = 0; i < n; ++i) {
+        ElektronskiKoncert *cast = dynamic_cast<ElektronskiKoncert *>(koncerti[i]);
+
+        if (koncerti[i]->cena() > max->cena()) {
+            max = koncerti[i];
+        }
+        if (cast) {
+            br++;
+        }
+    }
+    cout << "Najskap koncert: " << max->getNaziv() << " " << max->cena() << endl;
+    cout << "Elektronski koncerti: " << br << " od vkupno " << n << endl;
+}
+
+bool prebarajKoncert(Koncert **koncerti, int n, char *naziv, bool elektronski) {
+    bool flag = false;
+    for (int i = 0; i < n; ++i) {
+        if (elektronski) {
+            ElektronskiKoncert *cast = dynamic_cast<ElektronskiKoncert *>(koncerti[i]);
+            if (cast) {
+                if (strcmp(cast->getNaziv(), naziv) == 0) {
+                    flag = true;
+                    cout << cast->getNaziv() << " " << cast->cena() << endl;
+                }
+            }
+        } else {
+            if (strcmp(koncerti[i]->getNaziv(), naziv) == 0) {
+                flag = true;
+                cout << koncerti[i]->getNaziv() << " " << koncerti[i]->cena() << endl;
+            }
+        }
+    }
+    if (flag) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 int main() {
 

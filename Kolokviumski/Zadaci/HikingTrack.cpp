@@ -30,7 +30,7 @@ public:
     }
 
     void printTrackType() {
-        //cout<<type<<weight; type: descent i climb - tezina E,M,H
+        //cout<<type<<weight; type: descent i climb - tezinaProbivanje E,M,H
         // type: descent - ako e pomala od 0
         // type: climb - ako e pogolema od 0
         // strmnina: kolicnik od razlikata na dvete koti so dozlinata

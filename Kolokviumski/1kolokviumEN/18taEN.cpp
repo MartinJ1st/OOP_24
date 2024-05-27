@@ -97,7 +97,7 @@ ostream & operator<<(ostream & o, const Podcast& p) {
      <<"\nregular expense: $" << p.price;
 
     if (p.discount){
-        o<<", bought on discount";
+        o<<", bought on basic_discount";
     }
     return o;
 }

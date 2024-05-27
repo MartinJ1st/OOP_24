@@ -47,7 +47,7 @@ public:
 
 //    MobilePhone(const MobilePhone &m) {
 //        strcpy(model, m.model);
-//        number = m.number;
+//        number_products = m.number_products;
 //        year = m.year;
 //}
 

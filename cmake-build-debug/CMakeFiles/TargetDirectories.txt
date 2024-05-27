@@ -34,6 +34,8 @@ C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Parovi2.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/File.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Char.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Transaction.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Parking.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Fitness.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/DeliveryV.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/DeliveryS.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/lanska2.dir
@@ -114,11 +116,17 @@ C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/1va-2k.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/2ra-2k.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/3ta-2k.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/4ta-2k.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/5ta-2k.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/6ta-2k.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/7ma-2k.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/8ma-2k.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/9ta-2k.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/10ta-2k.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/11ta-2k.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/12ta-2k.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/13ta-2k.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/14ta-2k.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/15ta-2k.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/16ta-2k.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/17ta-2k.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/1vaEN.dir

@@ -47,7 +47,7 @@ float Student::totalGPA = 0.0;
 
 int main() {
     int n;
-    cout << "Enter number of students" << endl;
+    cout << "Enter number_products of students" << endl;
     cin >> n;
     Student students[n];
     char name[30], id[10];

@@ -13,7 +13,7 @@ struct student {
         cin >> index;
         cout << "Enter ime" << endl;
         cin >> name;
-        cout << "Enter phone number" << endl;
+        cout << "Enter phone number_products" << endl;
         cin >> phone_number;
     }
 

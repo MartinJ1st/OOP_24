@@ -91,10 +91,10 @@ public :
     Kamion(int TezMasinskiDel, int sp, char const *nm, int
     PrikolkaTez);
 
-//interfejs za postavuvanje na dvete polinja za tezina
+//interfejs za postavuvanje na dvete polinja za tezinaProbivanje
     void PostaviTezina(int engine_wt, int trailer_wt);
 
-// i metod sto ja vrakja vkupnata tezina
+// i metod sto ja vrakja vkupnata tezinaProbivanje
     int VratiTezina() const;
 
 private: // podatoci

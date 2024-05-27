@@ -46,7 +46,7 @@ public:
     }
 
     friend ostream &operator<<(ostream &out, const Product &p) {
-        out << p.name << " Regular expense: " << p.price << " Price with discount: " << p.priceWithDiscount()
+        out << p.name << " Regular expense: " << p.price << " Price with basic_discount: " << p.priceWithDiscount()
             << " Quantity: " << p.quantity << endl;
         return out;
     }

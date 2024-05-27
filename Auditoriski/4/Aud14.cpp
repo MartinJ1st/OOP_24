@@ -110,7 +110,7 @@ void checkOutBook(LibraryMember &member, Library &lib, int &index) {
 int main() {
     Library l1;
     int n;
-    cout << "Enter the number of books" << endl;
+    cout << "Enter the number_products of books" << endl;
     cin >> n;
     char name[30], author[30];
     bool availability;

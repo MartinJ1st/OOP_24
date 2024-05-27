@@ -20,7 +20,7 @@ int main() {
     cout << "stod(\"" << str2 << "\") is " << strDouble2 <<
          endl;
     string pi = "pi is " + to_string(3.1415926);
-    string perfect = to_string(1 + 2 + 4 + 7 + 14) + " is a perfect number";
+    string perfect = to_string(1 + 2 + 4 + 7 + 14) + " is a perfect number_products";
     cout << pi << endl;
     cout << perfect << endl;
     return 0;

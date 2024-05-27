@@ -209,7 +209,7 @@ void AlcoholicDrink::total(AlcoholicDrink **ad, int n) {
     }
 
     cout << "Total expense: " << sum << "\n";
-    cout << "Total expense with discount: " << sum - discount << "\n";
+    cout << "Total expense with basic_discount: " << sum - discount << "\n";
 }
 
 void lowestPrice(AlcoholicDrink **ad, int n) {

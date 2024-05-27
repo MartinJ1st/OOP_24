@@ -47,9 +47,9 @@ public:
 
     void message() {
         if (!numberOfChars)
-            cout << "Non-digit account number form" << endl;
+            cout << "Non-digit account number_products form" << endl;
         else
-            cout << "Error in the number of chars" << endl;
+            cout << "Error in the number_products of chars" << endl;
 
     }
 };
@@ -230,7 +230,7 @@ public:
             }
         }
 
-        cout << "Name (acc. number):" << this->name << "(" << this->number << ")" << endl;
+        cout << "Name (acc. number_products):" << this->name << "(" << this->number << ")" << endl;
         for (int i = 0; i < k; i++)
             if (isInflow) {
                 if (tmp[i].getAmount() >= 0)

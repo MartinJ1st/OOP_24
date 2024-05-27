@@ -90,7 +90,7 @@ int main() {
         cout << "Sent:" << endl;
         poraka.print();
     } else {
-        cout << "Invalid email address!" << endl;
+        cout << "Invalid email e_adresa!" << endl;
     }
     return 0;
 }
