@@ -53,18 +53,18 @@
 //protected:
 //    string groupNAME;
 //    string surname;
-//    long int number;
+//    long int number_products;
 //    double balance;
 //public:
-//    DebitAccount(string groupNAME = "", string surname = "", long int number = 0, double balance = 0.0) {
+//    DebitAccount(string groupNAME = "", string surname = "", long int number_products = 0, double balance = 0.0) {
 //        this->groupNAME = groupNAME;
 //        this->surname = surname;
-//        this->number = number;
+//        this->number_products = number_products;
 //        this->balance = balance;
 //    }
 //
 //    void print() {
-//        cout << groupNAME << " " << surname << " " << number << " " << balance;
+//        cout << groupNAME << " " << surname << " " << number_products << " " << balance;
 //    }
 //
 //    void uplata(double amount) {
@@ -86,8 +86,8 @@
 //    double limit; // kolku moze da se izvade von balance
 //    double minus; // kolku moze da se odi vo negativni pari
 //public:
-//    CreditAccount(string groupNAME = "", string surname = "", long int number = 0, double balance = 0.0, double kamata = 0,
-//                  double limit = 0, double minus = 0) : DebitAccount(groupNAME, surname, number, balance) {
+//    CreditAccount(string groupNAME = "", string surname = "", long int number_products = 0, double balance = 0.0, double kamata = 0,
+//                  double limit = 0, double minus = 0) : DebitAccount(groupNAME, surname, number_products, balance) {
 //        this->kamata = kamata;
 //        this->limit = limit;
 //        this->minus = minus;
