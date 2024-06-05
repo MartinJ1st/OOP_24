@@ -1,4 +1,4 @@
-//Write a program that reads from a file named "text.txt" and prints to the standard output:
+//Write a program that reads from a file named "text1.txt" and prints to the standard output:
 //
 //the relative frequency of all lowercase letters
 //the relative frequency of all uppercase letters
@@ -15,7 +15,7 @@
 using namespace std;
 
 void writeToFile() {
-    std::ofstream outFile("text.txt");
+    std::ofstream outFile("text1.txt");
     char c;
     while ((c = std::cin.get()) != '#') {
         outFile.put(c);
@@ -24,30 +24,27 @@ void writeToFile() {
 }
 
 int main() {
-    writeToFile();
+//    writeToFile();
 
-    ifstream inFile("text.txt");
-    if (!inFile) {
-        cout << "Unable to open file text.txt";
+    ifstream inFile("C:\\Users\\Media\\CLionProjects\\OOP_24\\Kolokviumski\\text1.txt");
+    if (!inFile.is_open()) {
+        cout << "Unable to open file text1.txt";
         return -1;
     }
 
     int totalChars = 0;
-    int lowercaseCount = 0;
-    int uppercaseCount = 0;
-    char ch;
+    int bukvaCounter = 0;
+    char ch, bukva;
+    cin>>bukva;
     while (inFile.get(ch)) {
         if (isalpha(ch)) {
             totalChars++;
-            if (islower(ch)) {
-                lowercaseCount++;
-            } else if (isupper(ch)) {
-                uppercaseCount++;
+            if (tolower(ch) == tolower(bukva)) {
+                bukvaCounter++;
             }
         }
     }
 
-    cout << setprecision(4) << fixed << (double) uppercaseCount / totalChars << endl;
-    cout << setprecision(4) << fixed << (double) lowercaseCount / totalChars << endl;
+    cout << setprecision(4) << fixed << (double) bukvaCounter / totalChars << endl;
     return 0;
 }

@@ -1,4 +1,4 @@
-//Write a program that reads from a file named "text.txt" and prints to the standard output:
+//Write a program that reads from a file named "text1.txt" and prints to the standard output:
 //
 //the relative frequency of all lowercase letters
 //the relative frequency of all uppercase letters
@@ -15,7 +15,7 @@
 using namespace std;
 
 void writeToFile() {
-    std::ofstream outFile("text.txt");
+    std::ofstream outFile("text1.txt");
     char c;
     while ((c = std::cin.get()) != '#') {
         outFile.put(c);
@@ -26,9 +26,9 @@ void writeToFile() {
 int main() {
     writeToFile();
 
-    ifstream inFile("text.txt");
+    ifstream inFile("text1.txt");
     if (!inFile) {
-        cout << "Unable to open file text.txt";
+        cout << "Unable to open file text1.txt";
         return -1;
     }
 
