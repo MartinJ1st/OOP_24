@@ -61,6 +61,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/FBPost-Datoteka.dir/DependInfo.cmake"
   "CMakeFiles/Post-Diamond.dir/DependInfo.cmake"
   "CMakeFiles/DOOMHAMMER.cpp.dir/DependInfo.cmake"
+  "CMakeFiles/DOOMHAMMER2.cpp.dir/DependInfo.cmake"
   "CMakeFiles/ChocolateFactory.dir/DependInfo.cmake"
   "CMakeFiles/StudentOnline.dir/DependInfo.cmake"
   "CMakeFiles/zad1.dir/DependInfo.cmake"

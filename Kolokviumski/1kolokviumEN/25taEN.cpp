@@ -12,7 +12,7 @@
 //
 //ID - event - computed price
 //
-//method bool falsifikat(int from, int to) for checking if the ticket is fake. You should check if the last 4 digits of the ID of the ticket are in the range [from-to] (10 points)
+//method bool falsifikat(int from, int to) for checking if the ticket is fake. You should CHECK if the last 4 digits of the ID of the ticket are in the range [from-to] (10 points)
 //
 //method float presmetajCena() for computing the price of the separate types of tickets on the following way: (10 points)
 //

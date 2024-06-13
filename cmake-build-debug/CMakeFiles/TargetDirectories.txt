@@ -7,6 +7,7 @@ C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/FBPost-Read.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/FBPost-Datoteka.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/Post-Diamond.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/DOOMHAMMER.cpp.dir
+C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/DOOMHAMMER2.cpp.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/ChocolateFactory.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/StudentOnline.dir
 C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/CMakeFiles/zad1.dir

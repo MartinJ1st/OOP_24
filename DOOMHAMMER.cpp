@@ -892,36 +892,141 @@
 //}
 //
 
-#include <iostream>
-#include <string>
+//#include <iostream>
+//#include <string>
+//
+//using namespace std;
+//
+//class HotelReservation {
+//protected:
+//    string ime, prezime;
+//    int brDena, brLica;
+//public:
+//    HotelReservation(string ime = "", string prezime = "", int brDena = 0, int brLica = 0) {
+//        this->ime = ime;
+//        this->prezime = prezime;
+//        this->brDena = brDena;
+//        this->brLica = brLica;
+//    }
+//
+//    void print() {
+//        cout << ime << " " << prezime << " " << brDena << " " << brLica;
+//    }
+//
+//    virtual int price() {
+//        return brDena * brLica * 25;
+//    }
+//
+//    virtual int price(int amount) {
+//        if (amount > price()) {
+//            return amount - price();
+//        } else {
+//            cout << "Nema pari" << endl;
+//            return -1;
+//        }
+//    }
+//};
+//
+//
+//class HalfBoardHotelReservation : public HotelReservation {
+//public:
+//    HalfBoardHotelReservation(string ime = "", string prezime = "", int brDena = 0, int brLica = 0) : HotelReservation(ime,
+//                                                                                                                  prezime,
+//                                                                                                                  brDena,
+//                                                                                                                  brLica) {}
+//
+//    int price() {
+//        return HotelReservation::price() + brDena * brLica * 5;
+//    }
+//
+//    int price(int amount) {
+//        if (amount > price()) {
+//            return amount - price();
+//        } else {
+//            cout << "Nema pari" << endl;
+//            return -1;
+//        }
+//    }
+//
+//    void print() {
+//        HotelReservation::print();
+//        cout << " - HalfHotel";
+//    }
+//};
+//
+//class Hotel {
+//    string name;
+//    double saldo;
+//public:
+//    Hotel(string name = "", double saldo = 0.0) : name(name), saldo(saldo) {}
+//
+//    void print() {
+//        cout << name << " " << saldo << endl;
+//    }
+//
+//    int pay(HotelReservation &hr, int amount) {
+//        if (hr.price(amount) >= 0) {
+//            saldo += hr.price();
+//            return hr.price(amount);
+//        } else {
+//            return -1;
+//        }
+//    }
+//};
+//
+//
+//int main() {
+//
+//    Hotel h("Bristol");
+//    HotelReservation *hr1 = new HotelReservation("Petko", "Petkovski", 5, 5);
+//    int cena = h.pay(*hr1, 1000);
+//    if (cena != -1)
+//        cout << "Kusur : " << cena << endl;
+//    HalfBoardHotelReservation *hr2 =
+//            new HalfBoardHotelReservation("Risto", "Ristovski", 5, 5);
+//    cena = h.pay(*hr2, 1000);
+//    if (cena != -1)
+//        cout << "Kusur : " << cena << endl;
+//    //покажувач кон основна класа покажува кон објект од изведена
+//    HotelReservation *hr3 = new HalfBoardHotelReservation("Ana", "Anovska", 4, 2);
+//    cena = h.pay(*hr3, 100);
+//    if (cena != -1)
+//        cout << "Kusur : " << cena << endl;
+//    HalfBoardHotelReservation hr4("Tome", "Tomovski", 5, 3);
+//    cena = h.pay(hr4, 1000);
+//    if (cena != -1)
+//        cout << "Kusur : " << cena << endl;
+//}
+
+#include<iostream>
+#include<cstring>
 
 using namespace std;
 
 class HotelReservation {
 protected:
-    string ime, prezime;
-    int brDena, brLica;
+    int denovi;
+    int broj_lica;
+    string ime;
+    string prezime;
+
 public:
-    HotelReservation(string ime = "", string prezime = "", int brDena = 0, int brLica = 0) {
+    HotelReservation(string ime, string prezime, int denovi, int broj_lica) {
         this->ime = ime;
         this->prezime = prezime;
-        this->brDena = brDena;
-        this->brLica = brLica;
+        this->denovi = denovi;
+        this->broj_lica = broj_lica;
     }
 
-    void print() {
-        cout << ime << " " << prezime << " " << brDena << " " << brLica;
+    virtual int price() {
+        return denovi * broj_lica * 25;
     }
 
-    int price() {
-        return brDena * brLica * 25;
-    }
-
-    int price(int amount) {
-        if (amount > price()) {
+    virtual int price(int amount) {
+        if (amount >= price())
             return amount - price();
-        } else {
-            cout << "Nema pari" << endl;
+        else {
+            cout << "Za vashata rezervacija treba da naplatite " << price() << endl;
             return -1;
         }
     }
@@ -930,50 +1035,41 @@ public:
 
 class HalfBoardHotelReservation : public HotelReservation {
 public:
-    HalfBoardHotelReservation(string ime = "", string prezime = "", int brDena = 0, int brLica = 0) : HotelReservation(ime,
-                                                                                                                  prezime,
-                                                                                                                  brDena,
-                                                                                                                  brLica) {}
+    HalfBoardHotelReservation(string ime, string prezime, int denovi, int
+    broj_lica) : HotelReservation(ime, prezime, denovi, broj_lica) {}
 
-    int price() {
-        return HotelReservation::price() + brDena * brLica * 5;
-    }
-
+    //препокривање на price(int amount)
     int price(int amount) {
-        if (amount > price()) {
-            return amount - price();
-        } else {
-            cout << "Nema pari" << endl;
+        int cena = HotelReservation::price() + broj_lica * 5; // пристап до protected податокот broj_lica
+        if (amount >= cena)
+            return amount - cena;
+        else {
+            cout << "Za vashata rezervacija treba da naplatite " << cena << endl;
             return -1;
         }
-    }
-
-    void print() {
-        HotelReservation::print();
-        cout << " - HalfHotel";
     }
 };
 
 class Hotel {
-    string name;
-    double saldo;
+private:
+    string ime;
+    int saldo;
 public:
-    Hotel(string name = "", double saldo = 0.0) : name(name), saldo(saldo) {}
-
-    void print() {
-        cout << name << " " << saldo << endl;
+    Hotel(string ime) {
+        this->ime = ime;
+        saldo = 0;
     }
 
-    int pay(HotelReservation &hr, int amount) {
-        if (hr.price(amount) >= 0) {
-            saldo += hr.price();
-            return hr.price(amount);
-        } else {
-            return -1;
-        }
+    // референца кон основната класа може да референцира објекти и кон изведените класи
+    int pay(HotelReservation &hr, int uplata) {
+        int kusur = hr.price(uplata); //полиморфизам
+        // која дефиниција на price ќе се повика?
+        // важно: vrtiCena е виртуелна функција
+        if (kusur != -1)
+            saldo += uplata - kusur;
+        return kusur;
     }
 };
-
 
 int main() {
 
@@ -997,3 +1093,4 @@ int main() {
     if (cena != -1)
         cout << "Kusur : " << cena << endl;
 }
+

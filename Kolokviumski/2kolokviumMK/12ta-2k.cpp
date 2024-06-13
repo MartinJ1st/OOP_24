@@ -18,7 +18,7 @@ protected:
     char model[100];
     tip type;
     int godina;
-    static float check;
+    static float CHECK;
 public:
     Device(char *model = "", tip type = SMARTPHONE, int godina = 1999) : type(type), godina(godina) {
         strcpy(this->model, model);
@@ -31,7 +31,7 @@ public:
     }
 
     float proverka() {
-        float proverka = check;
+        float proverka = CHECK;
         if (godina > 2015) {
             proverka += 2;
         }
@@ -76,15 +76,15 @@ public:
     }
 
     static float getCheck() {
-        return check;
+        return CHECK;
     }
 
     static void setPocetniCasovi(float check) {
-        Device::check = check;
+        Device::CHECK = check;
     }
 };
 
-float Device::check = 1;
+float Device::CHECK = 1;
 
 class MobileServis {
 private:

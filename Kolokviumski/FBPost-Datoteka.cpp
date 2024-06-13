@@ -4,6 +4,20 @@
 
 using namespace std;
 
+void wtf() {
+    ofstream fout("input.txt");
+    string username,content;
+    int cases,isPhoto,likes,shares,retweets,replis;
+    string line;
+    while (getline(cin, line)) {
+        if (line == "----") {
+            break;
+        }
+        fout << line << endl;
+    }
+}
+
+
 class Post {
 protected:
     string username, content;
@@ -174,6 +188,8 @@ void writeToFile(ofstream &o, Post *post) {
 
 
 int main() {
+    wtf();
+
     ifstream inFile("input.txt");
     ofstream outFile("output.txt");
 

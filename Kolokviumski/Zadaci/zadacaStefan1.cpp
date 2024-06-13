@@ -166,9 +166,9 @@ int main() {
     if (testCase == 1) {
         cout << "TESTING WORD CONSTRUCTORS" << endl;
         Word w("OOP");
-        cout << "check 1 passed" << endl;
+        cout << "CHECK 1 passed" << endl;
         Word w1("OOP", 2);
-        cout << "check 2 passed" << endl;
+        cout << "CHECK 2 passed" << endl;
     } else if (testCase == 2) {
         cout << "TESTING WORD METHOD PRINT" << endl;
         Word w("OOP");

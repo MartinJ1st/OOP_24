@@ -3,8 +3,8 @@ project(OOP24)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Call Kolokviumski/1kolokvium/Call.cpp)
-add_executable(Bank Kolokviumski/1kolokvium/Bank.cpp)
+add_executable(Call Kolokviumski/KOLOKVIUM/Call.cpp)
+add_executable(Bank Kolokviumski/KOLOKVIUM/Bank.cpp)
 add_executable(asdf Kolokviumski/asdf.cpp)
 add_executable(zzff Kolokviumski/zzff.cpp)
 add_executable(DatotekiBooks Kolokviumski/DatotekiBooks.cpp)
@@ -13,6 +13,7 @@ add_executable(FBPost-Datoteka Kolokviumski/FBPost-Datoteka.cpp)
 add_executable(Post-Diamond Kolokviumski/Post-Diamond.cpp)
 
 add_executable(DOOMHAMMER.cpp DOOMHAMMER.cpp)
+add_executable(DOOMHAMMER2.cpp DOOMHAMMER2.cpp)
 
 add_executable(ChocolateFactory Labs/4_nedela/ChocolateFactory.cpp)
 add_executable(StudentOnline Labs/4_nedela/StudentOnline.cpp)

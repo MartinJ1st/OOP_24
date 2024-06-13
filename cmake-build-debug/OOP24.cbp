@@ -413,6 +413,50 @@
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="DOOMHAMMER2.cpp">
+				<Option output="C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/DOOMHAMMER2.cpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/Makefile&quot;  VERBOSE=1 DOOMHAMMER2.cpp"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DOOMHAMMER2.cpp/fast">
+				<Option output="C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/DOOMHAMMER2.cpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/Makefile&quot;  VERBOSE=1 DOOMHAMMER2.cpp/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ChocolateFactory">
 				<Option output="C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug/ChocolateFactory.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Media/CLionProjects/OOP_24/cmake-build-debug"/>
@@ -11034,11 +11078,8 @@
 		<Unit filename="C:/Users/Media/CLionProjects/OOP_24/DOOMHAMMER.cpp">
 			<Option target="DOOMHAMMER.cpp"/>
 		</Unit>
-		<Unit filename="C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/1kolokvium/Bank.cpp">
-			<Option target="Bank"/>
-		</Unit>
-		<Unit filename="C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/1kolokvium/Call.cpp">
-			<Option target="Call"/>
+		<Unit filename="C:/Users/Media/CLionProjects/OOP_24/DOOMHAMMER2.cpp">
+			<Option target="DOOMHAMMER2.cpp"/>
 		</Unit>
 		<Unit filename="C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/1kolokviumEN/11taEN.cpp">
 			<Option target="11taEN"/>
@@ -11240,6 +11281,12 @@
 		</Unit>
 		<Unit filename="C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/GameException.cpp">
 			<Option target="GameException"/>
+		</Unit>
+		<Unit filename="C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/KOLOKVIUM/Bank.cpp">
+			<Option target="Bank"/>
+		</Unit>
+		<Unit filename="C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/KOLOKVIUM/Call.cpp">
+			<Option target="Call"/>
 		</Unit>
 		<Unit filename="C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/LabsZadaci/LabsZadaca10.cpp">
 			<Option target="LabsZadaca10"/>

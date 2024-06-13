@@ -233,6 +233,19 @@ DOOMHAMMER.cpp/fast:
 .PHONY : DOOMHAMMER.cpp/fast
 
 #=============================================================================
+# Target rules for targets named DOOMHAMMER2.cpp
+
+# Build rule for target.
+DOOMHAMMER2.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DOOMHAMMER2.cpp
+.PHONY : DOOMHAMMER2.cpp
+
+# fast build rule for target.
+DOOMHAMMER2.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DOOMHAMMER2.cpp.dir\build.make CMakeFiles/DOOMHAMMER2.cpp.dir/build
+.PHONY : DOOMHAMMER2.cpp/fast
+
+#=============================================================================
 # Target rules for targets named ChocolateFactory
 
 # Build rule for target.
@@ -5028,53 +5041,29 @@ DOOMHAMMER.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DOOMHAMMER.cpp.dir\build.make CMakeFiles/DOOMHAMMER.cpp.dir/DOOMHAMMER.cpp.s
 .PHONY : DOOMHAMMER.cpp.s
 
-Kolokviumski/1kolokvium/Bank.obj: Kolokviumski/1kolokvium/Bank.cpp.obj
-.PHONY : Kolokviumski/1kolokvium/Bank.obj
+DOOMHAMMER2.obj: DOOMHAMMER2.cpp.obj
+.PHONY : DOOMHAMMER2.obj
 
 # target to build an object file
-Kolokviumski/1kolokvium/Bank.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/Kolokviumski/1kolokvium/Bank.cpp.obj
-.PHONY : Kolokviumski/1kolokvium/Bank.cpp.obj
+DOOMHAMMER2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DOOMHAMMER2.cpp.dir\build.make CMakeFiles/DOOMHAMMER2.cpp.dir/DOOMHAMMER2.cpp.obj
+.PHONY : DOOMHAMMER2.cpp.obj
 
-Kolokviumski/1kolokvium/Bank.i: Kolokviumski/1kolokvium/Bank.cpp.i
-.PHONY : Kolokviumski/1kolokvium/Bank.i
-
-# target to preprocess a source file
-Kolokviumski/1kolokvium/Bank.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/Kolokviumski/1kolokvium/Bank.cpp.i
-.PHONY : Kolokviumski/1kolokvium/Bank.cpp.i
-
-Kolokviumski/1kolokvium/Bank.s: Kolokviumski/1kolokvium/Bank.cpp.s
-.PHONY : Kolokviumski/1kolokvium/Bank.s
-
-# target to generate assembly for a file
-Kolokviumski/1kolokvium/Bank.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/Kolokviumski/1kolokvium/Bank.cpp.s
-.PHONY : Kolokviumski/1kolokvium/Bank.cpp.s
-
-Kolokviumski/1kolokvium/Call.obj: Kolokviumski/1kolokvium/Call.cpp.obj
-.PHONY : Kolokviumski/1kolokvium/Call.obj
-
-# target to build an object file
-Kolokviumski/1kolokvium/Call.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Call.dir\build.make CMakeFiles/Call.dir/Kolokviumski/1kolokvium/Call.cpp.obj
-.PHONY : Kolokviumski/1kolokvium/Call.cpp.obj
-
-Kolokviumski/1kolokvium/Call.i: Kolokviumski/1kolokvium/Call.cpp.i
-.PHONY : Kolokviumski/1kolokvium/Call.i
+DOOMHAMMER2.i: DOOMHAMMER2.cpp.i
+.PHONY : DOOMHAMMER2.i
 
 # target to preprocess a source file
-Kolokviumski/1kolokvium/Call.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Call.dir\build.make CMakeFiles/Call.dir/Kolokviumski/1kolokvium/Call.cpp.i
-.PHONY : Kolokviumski/1kolokvium/Call.cpp.i
+DOOMHAMMER2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DOOMHAMMER2.cpp.dir\build.make CMakeFiles/DOOMHAMMER2.cpp.dir/DOOMHAMMER2.cpp.i
+.PHONY : DOOMHAMMER2.cpp.i
 
-Kolokviumski/1kolokvium/Call.s: Kolokviumski/1kolokvium/Call.cpp.s
-.PHONY : Kolokviumski/1kolokvium/Call.s
+DOOMHAMMER2.s: DOOMHAMMER2.cpp.s
+.PHONY : DOOMHAMMER2.s
 
 # target to generate assembly for a file
-Kolokviumski/1kolokvium/Call.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Call.dir\build.make CMakeFiles/Call.dir/Kolokviumski/1kolokvium/Call.cpp.s
-.PHONY : Kolokviumski/1kolokvium/Call.cpp.s
+DOOMHAMMER2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DOOMHAMMER2.cpp.dir\build.make CMakeFiles/DOOMHAMMER2.cpp.dir/DOOMHAMMER2.cpp.s
+.PHONY : DOOMHAMMER2.cpp.s
 
 Kolokviumski/1kolokviumEN/11taEN.obj: Kolokviumski/1kolokviumEN/11taEN.cpp.obj
 .PHONY : Kolokviumski/1kolokviumEN/11taEN.obj
@@ -6683,6 +6672,54 @@ Kolokviumski/GameException.s: Kolokviumski/GameException.cpp.s
 Kolokviumski/GameException.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameException.dir\build.make CMakeFiles/GameException.dir/Kolokviumski/GameException.cpp.s
 .PHONY : Kolokviumski/GameException.cpp.s
+
+Kolokviumski/KOLOKVIUM/Bank.obj: Kolokviumski/KOLOKVIUM/Bank.cpp.obj
+.PHONY : Kolokviumski/KOLOKVIUM/Bank.obj
+
+# target to build an object file
+Kolokviumski/KOLOKVIUM/Bank.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/Kolokviumski/KOLOKVIUM/Bank.cpp.obj
+.PHONY : Kolokviumski/KOLOKVIUM/Bank.cpp.obj
+
+Kolokviumski/KOLOKVIUM/Bank.i: Kolokviumski/KOLOKVIUM/Bank.cpp.i
+.PHONY : Kolokviumski/KOLOKVIUM/Bank.i
+
+# target to preprocess a source file
+Kolokviumski/KOLOKVIUM/Bank.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/Kolokviumski/KOLOKVIUM/Bank.cpp.i
+.PHONY : Kolokviumski/KOLOKVIUM/Bank.cpp.i
+
+Kolokviumski/KOLOKVIUM/Bank.s: Kolokviumski/KOLOKVIUM/Bank.cpp.s
+.PHONY : Kolokviumski/KOLOKVIUM/Bank.s
+
+# target to generate assembly for a file
+Kolokviumski/KOLOKVIUM/Bank.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bank.dir\build.make CMakeFiles/Bank.dir/Kolokviumski/KOLOKVIUM/Bank.cpp.s
+.PHONY : Kolokviumski/KOLOKVIUM/Bank.cpp.s
+
+Kolokviumski/KOLOKVIUM/Call.obj: Kolokviumski/KOLOKVIUM/Call.cpp.obj
+.PHONY : Kolokviumski/KOLOKVIUM/Call.obj
+
+# target to build an object file
+Kolokviumski/KOLOKVIUM/Call.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Call.dir\build.make CMakeFiles/Call.dir/Kolokviumski/KOLOKVIUM/Call.cpp.obj
+.PHONY : Kolokviumski/KOLOKVIUM/Call.cpp.obj
+
+Kolokviumski/KOLOKVIUM/Call.i: Kolokviumski/KOLOKVIUM/Call.cpp.i
+.PHONY : Kolokviumski/KOLOKVIUM/Call.i
+
+# target to preprocess a source file
+Kolokviumski/KOLOKVIUM/Call.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Call.dir\build.make CMakeFiles/Call.dir/Kolokviumski/KOLOKVIUM/Call.cpp.i
+.PHONY : Kolokviumski/KOLOKVIUM/Call.cpp.i
+
+Kolokviumski/KOLOKVIUM/Call.s: Kolokviumski/KOLOKVIUM/Call.cpp.s
+.PHONY : Kolokviumski/KOLOKVIUM/Call.s
+
+# target to generate assembly for a file
+Kolokviumski/KOLOKVIUM/Call.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Call.dir\build.make CMakeFiles/Call.dir/Kolokviumski/KOLOKVIUM/Call.cpp.s
+.PHONY : Kolokviumski/KOLOKVIUM/Call.cpp.s
 
 Kolokviumski/LabsZadaci/LabsZadaca10.obj: Kolokviumski/LabsZadaci/LabsZadaca10.cpp.obj
 .PHONY : Kolokviumski/LabsZadaci/LabsZadaca10.obj
@@ -9322,6 +9359,7 @@ help:
 	@echo ... ChocolateFactory
 	@echo ... Citizen
 	@echo ... DOOMHAMMER.cpp
+	@echo ... DOOMHAMMER2.cpp
 	@echo ... DatotekiBooks
 	@echo ... Datumi
 	@echo ... DatumiPovik
@@ -9649,12 +9687,9 @@ help:
 	@echo ... DOOMHAMMER.obj
 	@echo ... DOOMHAMMER.i
 	@echo ... DOOMHAMMER.s
-	@echo ... Kolokviumski/1kolokvium/Bank.obj
-	@echo ... Kolokviumski/1kolokvium/Bank.i
-	@echo ... Kolokviumski/1kolokvium/Bank.s
-	@echo ... Kolokviumski/1kolokvium/Call.obj
-	@echo ... Kolokviumski/1kolokvium/Call.i
-	@echo ... Kolokviumski/1kolokvium/Call.s
+	@echo ... DOOMHAMMER2.obj
+	@echo ... DOOMHAMMER2.i
+	@echo ... DOOMHAMMER2.s
 	@echo ... Kolokviumski/1kolokviumEN/11taEN.obj
 	@echo ... Kolokviumski/1kolokviumEN/11taEN.i
 	@echo ... Kolokviumski/1kolokviumEN/11taEN.s
@@ -9856,6 +9891,12 @@ help:
 	@echo ... Kolokviumski/GameException.obj
 	@echo ... Kolokviumski/GameException.i
 	@echo ... Kolokviumski/GameException.s
+	@echo ... Kolokviumski/KOLOKVIUM/Bank.obj
+	@echo ... Kolokviumski/KOLOKVIUM/Bank.i
+	@echo ... Kolokviumski/KOLOKVIUM/Bank.s
+	@echo ... Kolokviumski/KOLOKVIUM/Call.obj
+	@echo ... Kolokviumski/KOLOKVIUM/Call.i
+	@echo ... Kolokviumski/KOLOKVIUM/Call.s
 	@echo ... Kolokviumski/LabsZadaci/LabsZadaca10.obj
 	@echo ... Kolokviumski/LabsZadaci/LabsZadaca10.i
 	@echo ... Kolokviumski/LabsZadaci/LabsZadaca10.s
