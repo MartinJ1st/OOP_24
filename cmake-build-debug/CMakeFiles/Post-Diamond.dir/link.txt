@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\Post-Diamond.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\Post-Diamond.dir/objects.a @CMakeFiles\Post-Diamond.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Post-Diamond.dir/objects.a -Wl,--no-whole-archive -o Post-Diamond.exe -Wl,--out-implib,libPost-Diamond.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Post-Diamond.dir\linkLibs.rsp
