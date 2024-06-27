@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,29 +72,45 @@ CMakeFiles/1.dir/Labs/1.cpp.obj: CMakeFiles/1.dir/flags.make
 CMakeFiles/1.dir/Labs/1.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Labs/1.cpp
 CMakeFiles/1.dir/Labs/1.cpp.obj: CMakeFiles/1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1.dir/Labs/1.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/1.dir/Labs/1.cpp.obj -MF CMakeFiles\1.dir\Labs\1.cpp.obj.d -o CMakeFiles\1.dir\Labs\1.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Labs\1.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/1.dir/Labs/1.cpp.obj -MF CMakeFiles\1.dir\Labs\1.cpp.obj.d -o CMakeFiles\1.dir\Labs\1.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Labs\1.cpp
 
 CMakeFiles/1.dir/Labs/1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/1.dir/Labs/1.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Labs\1.cpp > CMakeFiles\1.dir\Labs\1.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Labs\1.cpp > CMakeFiles\1.dir\Labs\1.cpp.i
 
 CMakeFiles/1.dir/Labs/1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/1.dir/Labs/1.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Labs\1.cpp -o CMakeFiles\1.dir\Labs\1.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Labs\1.cpp -o CMakeFiles\1.dir\Labs\1.cpp.s
+
+CMakeFiles/1.dir/Kolokviumski/LabsZadaci/LabsZadaca2.cpp.obj: CMakeFiles/1.dir/flags.make
+CMakeFiles/1.dir/Kolokviumski/LabsZadaci/LabsZadaca2.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/LabsZadaci/LabsZadaca2.cpp
+CMakeFiles/1.dir/Kolokviumski/LabsZadaci/LabsZadaca2.cpp.obj: CMakeFiles/1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/1.dir/Kolokviumski/LabsZadaci/LabsZadaca2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/1.dir/Kolokviumski/LabsZadaci/LabsZadaca2.cpp.obj -MF CMakeFiles\1.dir\Kolokviumski\LabsZadaci\LabsZadaca2.cpp.obj.d -o CMakeFiles\1.dir\Kolokviumski\LabsZadaci\LabsZadaca2.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\LabsZadaci\LabsZadaca2.cpp
+
+CMakeFiles/1.dir/Kolokviumski/LabsZadaci/LabsZadaca2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/1.dir/Kolokviumski/LabsZadaci/LabsZadaca2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\LabsZadaci\LabsZadaca2.cpp > CMakeFiles\1.dir\Kolokviumski\LabsZadaci\LabsZadaca2.cpp.i
+
+CMakeFiles/1.dir/Kolokviumski/LabsZadaci/LabsZadaca2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/1.dir/Kolokviumski/LabsZadaci/LabsZadaca2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\LabsZadaci\LabsZadaca2.cpp -o CMakeFiles\1.dir\Kolokviumski\LabsZadaci\LabsZadaca2.cpp.s
 
 # Object files for target 1
 1_OBJECTS = \
-"CMakeFiles/1.dir/Labs/1.cpp.obj"
+"CMakeFiles/1.dir/Labs/1.cpp.obj" \
+"CMakeFiles/1.dir/Kolokviumski/LabsZadaci/LabsZadaca2.cpp.obj"
 
 # External object files for target 1
 1_EXTERNAL_OBJECTS =
 
 1.exe: CMakeFiles/1.dir/Labs/1.cpp.obj
+1.exe: CMakeFiles/1.dir/Kolokviumski/LabsZadaci/LabsZadaca2.cpp.obj
 1.exe: CMakeFiles/1.dir/build.make
 1.exe: CMakeFiles/1.dir/linkLibs.rsp
 1.exe: CMakeFiles/1.dir/objects1.rsp
 1.exe: CMakeFiles/1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

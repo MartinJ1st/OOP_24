@@ -149,8 +149,8 @@ Post *readFbPost(istream &infile) {
     int likes, shares;
     getline(infile, username);
     getline(infile, content);
-    cin >> isPhoto >> likes >> shares;
-    cin.ignore();
+    infile >> isPhoto >> likes >> shares;
+    infile.ignore();
     return new FacebookPost(username, content, isPhoto, likes, shares);
 }
 

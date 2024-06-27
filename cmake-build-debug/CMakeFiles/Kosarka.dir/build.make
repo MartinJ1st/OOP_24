@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/Kosarka.dir/Labs/2_nedela/Kosarka.cpp.obj: CMakeFiles/Kosarka.dir/fla
 CMakeFiles/Kosarka.dir/Labs/2_nedela/Kosarka.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Labs/2_nedela/Kosarka.cpp
 CMakeFiles/Kosarka.dir/Labs/2_nedela/Kosarka.cpp.obj: CMakeFiles/Kosarka.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Kosarka.dir/Labs/2_nedela/Kosarka.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Kosarka.dir/Labs/2_nedela/Kosarka.cpp.obj -MF CMakeFiles\Kosarka.dir\Labs\2_nedela\Kosarka.cpp.obj.d -o CMakeFiles\Kosarka.dir\Labs\2_nedela\Kosarka.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Labs\2_nedela\Kosarka.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Kosarka.dir/Labs/2_nedela/Kosarka.cpp.obj -MF CMakeFiles\Kosarka.dir\Labs\2_nedela\Kosarka.cpp.obj.d -o CMakeFiles\Kosarka.dir\Labs\2_nedela\Kosarka.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Labs\2_nedela\Kosarka.cpp
 
 CMakeFiles/Kosarka.dir/Labs/2_nedela/Kosarka.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Kosarka.dir/Labs/2_nedela/Kosarka.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Labs\2_nedela\Kosarka.cpp > CMakeFiles\Kosarka.dir\Labs\2_nedela\Kosarka.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Labs\2_nedela\Kosarka.cpp > CMakeFiles\Kosarka.dir\Labs\2_nedela\Kosarka.cpp.i
 
 CMakeFiles/Kosarka.dir/Labs/2_nedela/Kosarka.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Kosarka.dir/Labs/2_nedela/Kosarka.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Labs\2_nedela\Kosarka.cpp -o CMakeFiles\Kosarka.dir\Labs\2_nedela\Kosarka.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Labs\2_nedela\Kosarka.cpp -o CMakeFiles\Kosarka.dir\Labs\2_nedela\Kosarka.cpp.s
 
 # Object files for target Kosarka
 Kosarka_OBJECTS = \

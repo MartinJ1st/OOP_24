@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/Prosek.dir/Labs/1_nedela/Prosek.cpp.obj: CMakeFiles/Prosek.dir/flags.
 CMakeFiles/Prosek.dir/Labs/1_nedela/Prosek.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Labs/1_nedela/Prosek.cpp
 CMakeFiles/Prosek.dir/Labs/1_nedela/Prosek.cpp.obj: CMakeFiles/Prosek.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Prosek.dir/Labs/1_nedela/Prosek.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Prosek.dir/Labs/1_nedela/Prosek.cpp.obj -MF CMakeFiles\Prosek.dir\Labs\1_nedela\Prosek.cpp.obj.d -o CMakeFiles\Prosek.dir\Labs\1_nedela\Prosek.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Labs\1_nedela\Prosek.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Prosek.dir/Labs/1_nedela/Prosek.cpp.obj -MF CMakeFiles\Prosek.dir\Labs\1_nedela\Prosek.cpp.obj.d -o CMakeFiles\Prosek.dir\Labs\1_nedela\Prosek.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Labs\1_nedela\Prosek.cpp
 
 CMakeFiles/Prosek.dir/Labs/1_nedela/Prosek.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Prosek.dir/Labs/1_nedela/Prosek.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Labs\1_nedela\Prosek.cpp > CMakeFiles\Prosek.dir\Labs\1_nedela\Prosek.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Labs\1_nedela\Prosek.cpp > CMakeFiles\Prosek.dir\Labs\1_nedela\Prosek.cpp.i
 
 CMakeFiles/Prosek.dir/Labs/1_nedela/Prosek.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Prosek.dir/Labs/1_nedela/Prosek.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Labs\1_nedela\Prosek.cpp -o CMakeFiles\Prosek.dir\Labs\1_nedela\Prosek.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Labs\1_nedela\Prosek.cpp -o CMakeFiles\Prosek.dir\Labs\1_nedela\Prosek.cpp.s
 
 # Object files for target Prosek
 Prosek_OBJECTS = \

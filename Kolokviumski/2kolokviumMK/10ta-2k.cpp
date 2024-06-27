@@ -43,7 +43,7 @@ public:
         return naslov;
     }
 
-    const char *getCategory() const {
+    const char *const getCategory() const {
         return category;
     }
 

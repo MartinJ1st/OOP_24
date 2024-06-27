@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/P1.dir/Predavanja/P1.cpp.obj: CMakeFiles/P1.dir/flags.make
 CMakeFiles/P1.dir/Predavanja/P1.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Predavanja/P1.cpp
 CMakeFiles/P1.dir/Predavanja/P1.cpp.obj: CMakeFiles/P1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/P1.dir/Predavanja/P1.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/P1.dir/Predavanja/P1.cpp.obj -MF CMakeFiles\P1.dir\Predavanja\P1.cpp.obj.d -o CMakeFiles\P1.dir\Predavanja\P1.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Predavanja\P1.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/P1.dir/Predavanja/P1.cpp.obj -MF CMakeFiles\P1.dir\Predavanja\P1.cpp.obj.d -o CMakeFiles\P1.dir\Predavanja\P1.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Predavanja\P1.cpp
 
 CMakeFiles/P1.dir/Predavanja/P1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/P1.dir/Predavanja/P1.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Predavanja\P1.cpp > CMakeFiles\P1.dir\Predavanja\P1.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Predavanja\P1.cpp > CMakeFiles\P1.dir\Predavanja\P1.cpp.i
 
 CMakeFiles/P1.dir/Predavanja/P1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/P1.dir/Predavanja/P1.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Predavanja\P1.cpp -o CMakeFiles\P1.dir\Predavanja\P1.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Predavanja\P1.cpp -o CMakeFiles\P1.dir\Predavanja\P1.cpp.s
 
 # Object files for target P1
 P1_OBJECTS = \

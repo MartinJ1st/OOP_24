@@ -1,21 +1,7 @@
 #include <iostream>
 #include <string>
-#include <fstream>
 
 using namespace std;
-
-void wtf() {
-    ofstream fout("input.txt");
-    string ime, prezime;
-    int points;
-    string line;
-    while (getline(cin, line)) {
-        if (line == "----") {
-            break;
-        }
-        fout << line << endl;
-    }
-}
 
 class Post {
 protected:
@@ -208,7 +194,7 @@ int main() {
         }
         cout << "The most popular post with photo has a popularity of: " << mostPopularPostWithPhoto(posts, n) << endl;
         cout << "The least popular twitter post is: " << endl;
-        Post *result = leastPopularTwitterPost(posts, n);
+            Post *result = leastPopularTwitterPost(posts, n);
         if (result == nullptr) {
             cout << "None";
         } else {

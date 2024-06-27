@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.obj: CMakeFiles/Wizz.cpp.dir/flags.m
 CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Predavanja/Wizz.cpp
 CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.obj: CMakeFiles/Wizz.cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.obj -MF CMakeFiles\Wizz.cpp.dir\Predavanja\Wizz.cpp.obj.d -o CMakeFiles\Wizz.cpp.dir\Predavanja\Wizz.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Predavanja\Wizz.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.obj -MF CMakeFiles\Wizz.cpp.dir\Predavanja\Wizz.cpp.obj.d -o CMakeFiles\Wizz.cpp.dir\Predavanja\Wizz.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Predavanja\Wizz.cpp
 
 CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Predavanja\Wizz.cpp > CMakeFiles\Wizz.cpp.dir\Predavanja\Wizz.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Predavanja\Wizz.cpp > CMakeFiles\Wizz.cpp.dir\Predavanja\Wizz.cpp.i
 
 CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Wizz.cpp.dir/Predavanja/Wizz.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Predavanja\Wizz.cpp -o CMakeFiles\Wizz.cpp.dir\Predavanja\Wizz.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Predavanja\Wizz.cpp -o CMakeFiles\Wizz.cpp.dir\Predavanja\Wizz.cpp.s
 
 # Object files for target Wizz.cpp
 Wizz_cpp_OBJECTS = \

@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/Gamer.dir/Labs/3_nedela/Gamer.cpp.obj: CMakeFiles/Gamer.dir/flags.mak
 CMakeFiles/Gamer.dir/Labs/3_nedela/Gamer.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Labs/3_nedela/Gamer.cpp
 CMakeFiles/Gamer.dir/Labs/3_nedela/Gamer.cpp.obj: CMakeFiles/Gamer.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Gamer.dir/Labs/3_nedela/Gamer.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Gamer.dir/Labs/3_nedela/Gamer.cpp.obj -MF CMakeFiles\Gamer.dir\Labs\3_nedela\Gamer.cpp.obj.d -o CMakeFiles\Gamer.dir\Labs\3_nedela\Gamer.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Labs\3_nedela\Gamer.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Gamer.dir/Labs/3_nedela/Gamer.cpp.obj -MF CMakeFiles\Gamer.dir\Labs\3_nedela\Gamer.cpp.obj.d -o CMakeFiles\Gamer.dir\Labs\3_nedela\Gamer.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Labs\3_nedela\Gamer.cpp
 
 CMakeFiles/Gamer.dir/Labs/3_nedela/Gamer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Gamer.dir/Labs/3_nedela/Gamer.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Labs\3_nedela\Gamer.cpp > CMakeFiles\Gamer.dir\Labs\3_nedela\Gamer.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Labs\3_nedela\Gamer.cpp > CMakeFiles\Gamer.dir\Labs\3_nedela\Gamer.cpp.i
 
 CMakeFiles/Gamer.dir/Labs/3_nedela/Gamer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Gamer.dir/Labs/3_nedela/Gamer.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Labs\3_nedela\Gamer.cpp -o CMakeFiles\Gamer.dir\Labs\3_nedela\Gamer.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Labs\3_nedela\Gamer.cpp -o CMakeFiles\Gamer.dir\Labs\3_nedela\Gamer.cpp.s
 
 # Object files for target Gamer
 Gamer_OBJECTS = \

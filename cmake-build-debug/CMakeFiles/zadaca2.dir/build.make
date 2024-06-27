@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/zadaca2.dir/Labs/9_nedela/FlightsException.cpp.obj: CMakeFiles/zadaca
 CMakeFiles/zadaca2.dir/Labs/9_nedela/FlightsException.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Labs/9_nedela/FlightsException.cpp
 CMakeFiles/zadaca2.dir/Labs/9_nedela/FlightsException.cpp.obj: CMakeFiles/zadaca2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zadaca2.dir/Labs/9_nedela/FlightsException.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zadaca2.dir/Labs/9_nedela/FlightsException.cpp.obj -MF CMakeFiles\zadaca2.dir\Labs\9_nedela\FlightsException.cpp.obj.d -o CMakeFiles\zadaca2.dir\Labs\9_nedela\FlightsException.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Labs\9_nedela\FlightsException.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zadaca2.dir/Labs/9_nedela/FlightsException.cpp.obj -MF CMakeFiles\zadaca2.dir\Labs\9_nedela\FlightsException.cpp.obj.d -o CMakeFiles\zadaca2.dir\Labs\9_nedela\FlightsException.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Labs\9_nedela\FlightsException.cpp
 
 CMakeFiles/zadaca2.dir/Labs/9_nedela/FlightsException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/zadaca2.dir/Labs/9_nedela/FlightsException.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Labs\9_nedela\FlightsException.cpp > CMakeFiles\zadaca2.dir\Labs\9_nedela\FlightsException.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Labs\9_nedela\FlightsException.cpp > CMakeFiles\zadaca2.dir\Labs\9_nedela\FlightsException.cpp.i
 
 CMakeFiles/zadaca2.dir/Labs/9_nedela/FlightsException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/zadaca2.dir/Labs/9_nedela/FlightsException.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Labs\9_nedela\FlightsException.cpp -o CMakeFiles\zadaca2.dir\Labs\9_nedela\FlightsException.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Labs\9_nedela\FlightsException.cpp -o CMakeFiles\zadaca2.dir\Labs\9_nedela\FlightsException.cpp.s
 
 # Object files for target zadaca2
 zadaca2_OBJECTS = \

@@ -1,0 +1,2 @@
+TESTING METHOD checkItemAvailability
+Price for model NIKE_AIR_MAX_96_IT_PREMIUM with size: 42 is: 11331

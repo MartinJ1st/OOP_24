@@ -59,6 +59,7 @@ int main() {
         string name, surname;
         int year;
         iss >> name >> surname >> year;
+        iss.ignore();
         people[index++] = Person(name, surname, year);
     }
     for (int i = 0; i < 3; ++i) {

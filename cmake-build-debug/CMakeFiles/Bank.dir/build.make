@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/Bank.dir/Kolokviumski/KOLOKVIUM/Bank.cpp.obj: CMakeFiles/Bank.dir/fla
 CMakeFiles/Bank.dir/Kolokviumski/KOLOKVIUM/Bank.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/KOLOKVIUM/Bank.cpp
 CMakeFiles/Bank.dir/Kolokviumski/KOLOKVIUM/Bank.cpp.obj: CMakeFiles/Bank.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Bank.dir/Kolokviumski/KOLOKVIUM/Bank.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bank.dir/Kolokviumski/KOLOKVIUM/Bank.cpp.obj -MF CMakeFiles\Bank.dir\Kolokviumski\KOLOKVIUM\Bank.cpp.obj.d -o CMakeFiles\Bank.dir\Kolokviumski\KOLOKVIUM\Bank.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\KOLOKVIUM\Bank.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bank.dir/Kolokviumski/KOLOKVIUM/Bank.cpp.obj -MF CMakeFiles\Bank.dir\Kolokviumski\KOLOKVIUM\Bank.cpp.obj.d -o CMakeFiles\Bank.dir\Kolokviumski\KOLOKVIUM\Bank.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\KOLOKVIUM\Bank.cpp
 
 CMakeFiles/Bank.dir/Kolokviumski/KOLOKVIUM/Bank.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bank.dir/Kolokviumski/KOLOKVIUM/Bank.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\KOLOKVIUM\Bank.cpp > CMakeFiles\Bank.dir\Kolokviumski\KOLOKVIUM\Bank.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\KOLOKVIUM\Bank.cpp > CMakeFiles\Bank.dir\Kolokviumski\KOLOKVIUM\Bank.cpp.i
 
 CMakeFiles/Bank.dir/Kolokviumski/KOLOKVIUM/Bank.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bank.dir/Kolokviumski/KOLOKVIUM/Bank.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\KOLOKVIUM\Bank.cpp -o CMakeFiles\Bank.dir\Kolokviumski\KOLOKVIUM\Bank.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Kolokviumski\KOLOKVIUM\Bank.cpp -o CMakeFiles\Bank.dir\Kolokviumski\KOLOKVIUM\Bank.cpp.s
 
 # Object files for target Bank
 Bank_OBJECTS = \

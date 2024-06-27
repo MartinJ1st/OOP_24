@@ -1,7 +1,43 @@
-Library name: FINKI Library
+Central City Library
 To Kill a Mockingbird Harper Lee 1960
 1984 George Orwell 1949
 The Great Gatsby F. Scott Fitzgerald 1925
 Pride and Prejudice Jane Austen 1813
 Moby Dick Herman Melville 1851
+Brave New World Aldous Huxley 1932
+The Catcher in the Rye J.D. Salinger 1951
+The Hobbit J.R.R. Tolkien 1937
+Harry Potter and the Sorcerer's Stone J.K. Rowling 1997
+The Da Vinci Code Dan Brown 2003
+The Alchemist Paulo Coelho 1988
+One Hundred Years of Solitude Gabriel Garcia Marquez 1967
+The Picture of Dorian Gray Oscar Wilde 1890
+The Old Man and the Sea Ernest Hemingway 1952
+Animal Farm George Orwell 1945
+Lord of the Flies William Golding 1954
+Fahrenheit 451 Ray Bradbury 1953
+The Kite Runner Khaled Hosseini 2003
+Beloved Toni Morrison 1987
+Life of Pi Yann Martel 2001
+Slaughterhouse-Five Kurt Vonnegut 1969
+The Road Cormac McCarthy 2006
+The Shining Stephen King 1977
+The Adventures of Huckleberry Finn Mark Twain 1884
+Catch-22 Joseph Heller 1961
+The Secret Garden Frances Hodgson Burnett 1911
+The Chronicles of Narnia C.S. Lewis 1956
+The Grapes of Wrath John Steinbeck 1939
+The Count of Monte Cristo Alexandre Dumas 1844
+A Tale of Two Cities Charles Dickens 1859
+Frankenstein Mary Shelley 1818
+Dracula Bram Stoker 1897
+Gulliver's Travels Jonathan Swift 1726
+The Brothers Karamazov Fyodor Dostoevsky 1880
+Middlemarch George Eliot 1871
+Anna Karenina Leo Tolstoy 1877
+Madame Bovary Gustave Flaubert 1857
+It Stephen King 1986
+Misery Stephen King 1987
+Carrie Stephen King 1974
+The Dark Tower: The Gunslinger Stephen King 1982
 

@@ -3,15 +3,20 @@
 
 using namespace std;
 
-//your code here
+class InvalidTimeException {
+public:
+    void message() {
+        cout << "Invalid Time" << endl;
+    }
+};
 
 class Race {
-private:
+protected:
     char city[40];
     int year, month;
     float bestTime, length;
 public:
-    Race(char *city, int year, int month, float bestTime, float length) {
+    Race(const char *city = "", int year = 1950, int month = 1, float bestTime = 60, float length = 0) {
         strcpy(this->city, city);
         this->year = year;
         this->month = month;
@@ -29,7 +34,7 @@ public:
 
     ~Race() {}
 
-    float complexity() {
+    virtual float complexity() {
         return (bestTime / length);
     }
 
@@ -39,9 +44,78 @@ public:
     }
 };
 
-class MotoGPRace{
+class MotoGPRace : public Race {
+private:
+    float *practiceTimes;
+    int n;
+    int laps;
+    static float coef;
+public:
 
+    MotoGPRace(const char *city = "", int year = 1950, int month = 1, float bestTime = 60, float length = 0,
+               const float *practiceTimes = nullptr, int n = 0,
+               int laps = 0)
+            : Race(city, year, month, bestTime, length), n(n), laps(laps) {
+        this->practiceTimes = new float[n];
+        for (int i = 0; i < n; ++i) {
+            this->practiceTimes[i] = practiceTimes[i];
+        }
+    }
+
+
+    float average() {
+        float sum = 0;
+        for (int i = 0; i < n; ++i) {
+            sum += practiceTimes[i];
+        }
+        return sum / (float) n;
+    }
+
+    float complexity() override {
+        float res = Race::complexity() + (average() * coef);
+        if (laps > 22) {
+            res *= 1.2;
+        }
+        return res;
+    }
+
+    static void setK(float coef) {
+        MotoGPRace::coef = coef;
+    }
+
+    MotoGPRace &operator+=(float time) {
+        if (time < 9.5) {
+            throw InvalidTimeException();
+        } else {
+            float *tmp = new float[n + 1];
+            for (int i = 0; i < n; ++i) {
+                tmp[i] = practiceTimes[i];
+            }
+            tmp[n++] = time;
+            delete[]practiceTimes;
+            practiceTimes = tmp;
+        }
+        return *this;
+    }
+
+    MotoGPRace operator++(int) {
+        MotoGPRace temp = *this; // Save the current state
+        laps++;
+        return temp; // Return the saved state
+    }
+
+    int getNumberLaps() {
+        return laps;
+    }
+
+    void setNumberLaps(int laps) {
+        MotoGPRace::laps = laps;
+    }
 };
+
+
+float MotoGPRace::coef = 0.4;
+
 
 int main() {
     int testCase;
@@ -114,7 +188,9 @@ int main() {
             MotoGPRace *nn = dynamic_cast<MotoGPRace *>(rArray[i]);
             if (nn != 0) {
                 flag = 0;
-                (*nn) += best;
+                try { (*nn) += best; } catch (InvalidTimeException e) {
+                    e.message();
+                }
                 break;
             }
         }
@@ -137,8 +213,12 @@ int main() {
         float time1, time2;
         cin >> time1 >> time2;
 
-        mgt += time1;
-        mgt += time2;
+        try {
+            mgt += time1;
+            mgt += time2;
+        } catch (InvalidTimeException e) {
+            e.message();
+        }
 
         cout << mgt;
     }
@@ -235,11 +315,18 @@ int main() {
             MotoGPRace *pok = dynamic_cast<MotoGPRace *>(rArray[i]);
             if (pok != 0) {
                 (*pok)++;
-                (*pok) += newBest;
+                try {
+                    (*pok) += newBest;
+                } catch (InvalidTimeException e) {
+                    e.message();
+                }
                 if (flag == 1) {
                     flag = 0;
-                    *pok += 1.4;
-
+                    try {
+                        *pok += 1.4;
+                    } catch (InvalidTimeException e) {
+                        e.message();
+                    }
                 }
             }
         }

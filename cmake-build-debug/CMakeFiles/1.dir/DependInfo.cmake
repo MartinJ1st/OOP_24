@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Media/CLionProjects/OOP_24/Kolokviumski/LabsZadaci/LabsZadaca2.cpp" "CMakeFiles/1.dir/Kolokviumski/LabsZadaci/LabsZadaca2.cpp.obj" "gcc" "CMakeFiles/1.dir/Kolokviumski/LabsZadaci/LabsZadaca2.cpp.obj.d"
   "C:/Users/Media/CLionProjects/OOP_24/Labs/1.cpp" "CMakeFiles/1.dir/Labs/1.cpp.obj" "gcc" "CMakeFiles/1.dir/Labs/1.cpp.obj.d"
   )
 

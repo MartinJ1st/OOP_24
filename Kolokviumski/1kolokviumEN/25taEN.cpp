@@ -47,7 +47,7 @@ protected:
     }
 
 public:
-    Tickets(int *ID, char *nastan, float price) {
+    Tickets(int *ID = nullptr, char *nastan = "", float price = 0) {
         for (int i = 0; i < 12; i++) {
             this->ID[i] = ID[i];
         }

@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/SmetkaZadaca.dir/Auditoriski/10/SmetkaZadaca.cpp.obj: CMakeFiles/Smet
 CMakeFiles/SmetkaZadaca.dir/Auditoriski/10/SmetkaZadaca.cpp.obj: C:/Users/Media/CLionProjects/OOP_24/Auditoriski/10/SmetkaZadaca.cpp
 CMakeFiles/SmetkaZadaca.dir/Auditoriski/10/SmetkaZadaca.cpp.obj: CMakeFiles/SmetkaZadaca.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Media\CLionProjects\OOP_24\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SmetkaZadaca.dir/Auditoriski/10/SmetkaZadaca.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SmetkaZadaca.dir/Auditoriski/10/SmetkaZadaca.cpp.obj -MF CMakeFiles\SmetkaZadaca.dir\Auditoriski\10\SmetkaZadaca.cpp.obj.d -o CMakeFiles\SmetkaZadaca.dir\Auditoriski\10\SmetkaZadaca.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Auditoriski\10\SmetkaZadaca.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SmetkaZadaca.dir/Auditoriski/10/SmetkaZadaca.cpp.obj -MF CMakeFiles\SmetkaZadaca.dir\Auditoriski\10\SmetkaZadaca.cpp.obj.d -o CMakeFiles\SmetkaZadaca.dir\Auditoriski\10\SmetkaZadaca.cpp.obj -c C:\Users\Media\CLionProjects\OOP_24\Auditoriski\10\SmetkaZadaca.cpp
 
 CMakeFiles/SmetkaZadaca.dir/Auditoriski/10/SmetkaZadaca.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SmetkaZadaca.dir/Auditoriski/10/SmetkaZadaca.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Auditoriski\10\SmetkaZadaca.cpp > CMakeFiles\SmetkaZadaca.dir\Auditoriski\10\SmetkaZadaca.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Media\CLionProjects\OOP_24\Auditoriski\10\SmetkaZadaca.cpp > CMakeFiles\SmetkaZadaca.dir\Auditoriski\10\SmetkaZadaca.cpp.i
 
 CMakeFiles/SmetkaZadaca.dir/Auditoriski/10/SmetkaZadaca.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SmetkaZadaca.dir/Auditoriski/10/SmetkaZadaca.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Auditoriski\10\SmetkaZadaca.cpp -o CMakeFiles\SmetkaZadaca.dir\Auditoriski\10\SmetkaZadaca.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Media\CLionProjects\OOP_24\Auditoriski\10\SmetkaZadaca.cpp -o CMakeFiles\SmetkaZadaca.dir\Auditoriski\10\SmetkaZadaca.cpp.s
 
 # Object files for target SmetkaZadaca
 SmetkaZadaca_OBJECTS = \

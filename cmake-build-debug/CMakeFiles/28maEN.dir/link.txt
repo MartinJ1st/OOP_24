@@ -1,3 +1,3 @@
-"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\28maEN.dir/objects.a
-C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\28maEN.dir/objects.a @CMakeFiles\28maEN.dir\objects1.rsp
-C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\28maEN.dir/objects.a -Wl,--no-whole-archive -o 28maEN.exe -Wl,--out-implib,lib28maEN.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\28maEN.dir\linkLibs.rsp
+"C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\28maEN.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\ar.exe qc CMakeFiles\28maEN.dir/objects.a @CMakeFiles\28maEN.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~2.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\28maEN.dir/objects.a -Wl,--no-whole-archive -o 28maEN.exe -Wl,--out-implib,lib28maEN.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\28maEN.dir\linkLibs.rsp

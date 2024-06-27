@@ -5,9 +5,16 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Call Kolokviumski/KOLOKVIUM/Call.cpp)
 add_executable(Bank Kolokviumski/KOLOKVIUM/Bank.cpp)
+add_executable(StudentsDatoteki Kolokviumski/KOLOKVIUM/StudentsDatoteki.cpp)
+add_executable(ProductDatoteki Kolokviumski/KOLOKVIUM/ProductDatoteki.cpp)
+add_executable(Museum Kolokviumski/KOLOKVIUM/Museum.cpp)
+add_executable(Library Kolokviumski/KOLOKVIUM/Library.cpp)
+
+
 add_executable(asdf Kolokviumski/asdf.cpp)
 add_executable(zzff Kolokviumski/zzff.cpp)
 add_executable(DatotekiBooks Kolokviumski/DatotekiBooks.cpp)
+add_executable(DatotekiBooksWhile Kolokviumski/DatotekiBooksWhile.cpp)
 add_executable(FBPost-Read Kolokviumski/FBPost-Read.cpp)
 add_executable(FBPost-Datoteka Kolokviumski/FBPost-Datoteka.cpp)
 add_executable(Post-Diamond Kolokviumski/Post-Diamond.cpp)
@@ -39,9 +46,20 @@ add_executable(31vaSPEn2kol Kolokviumski/DatotekiC/31SPEn2kol.cpp)
 
 add_executable(datoteka Kolokviumski/datoteka.cpp)
 
-
+add_executable(LabsZadaca1 Kolokviumski/LabsZadaci/LabsZadaca1.cpp)
+add_executable(LabsZadaca2 Kolokviumski/LabsZadaci/LabsZadaca2.cpp)
+add_executable(LabsZadaca3 Kolokviumski/LabsZadaci/LabsZadaca3.cpp)
+add_executable(LabsZadaca4 Kolokviumski/LabsZadaci/LabsZadaca4.cpp)
+add_executable(LabsZadaca5 Kolokviumski/LabsZadaci/LabsZadaca5.cpp)
+add_executable(LabsZadaca6 Kolokviumski/LabsZadaci/LabsZadaca6.cpp)
+add_executable(LabsZadaca7 Kolokviumski/LabsZadaci/LabsZadaca7.cpp)
+add_executable(LabsZadaca8 Kolokviumski/LabsZadaci/LabsZadaca8.cpp)
+add_executable(LabsZadaca9 Kolokviumski/LabsZadaci/LabsZadaca9.cpp)
 add_executable(LabsZadaca10 Kolokviumski/LabsZadaci/LabsZadaca10.cpp)
+add_executable(LabsZadaca11 Kolokviumski/LabsZadaci/LabsZadaca11.cpp)
 add_executable(LabsZadaca12 Kolokviumski/LabsZadaci/LabsZadaca12.cpp)
+add_executable(LabsZadaca13 Kolokviumski/LabsZadaci/LabsZadaca13.cpp)
+add_executable(LabsZadaca14 Kolokviumski/LabsZadaci/LabsZadaca14.cpp)
 
 add_executable(Hero Labs/8_nedela/Hero.cpp)
 add_executable(Athlete Labs/8_nedela/Athlete.cpp)
@@ -53,6 +71,8 @@ add_executable(zadaca3 Labs/9_nedela/DatotekaBukva.cpp)
 add_executable(l10z1 Labs/10_nedela/FilterTemplate.cpp)
 add_executable(l10z2 Labs/10_nedela/SentenceVectors.cpp)
 add_executable(l10z3 Labs/10_nedela/SpeakerVector.cpp)
+
+add_executable(Secret Labs/Secret.cpp)
 
 
 add_executable(SmetkaZadaca Auditoriski/10/SmetkaZadaca.cpp)
@@ -191,6 +211,7 @@ add_executable(14taEN Kolokviumski/1kolokviumEN/14taEN.cpp)
 add_executable(17taEN Kolokviumski/1kolokviumEN/17taEN.cpp)
 add_executable(18taEN Kolokviumski/1kolokviumEN/18taEN.cpp)
 add_executable(20taEN Kolokviumski/1kolokviumEN/20taEN.cpp)
+add_executable(22taEN Kolokviumski/1kolokviumEN/22taEN.cpp)
 add_executable(24taEN Kolokviumski/1kolokviumEN/24taEN.cpp)
 add_executable(25taEN Kolokviumski/1kolokviumEN/25taEN.cpp)
 add_executable(28maEN Kolokviumski/1kolokviumEN/28maEN.cpp)
@@ -265,6 +286,7 @@ add_executable(Aud31 Auditoriski/10/Aud31.cpp)
 add_executable(ShapeStefan Auditoriski/10/ShapeStefan.cpp)
 add_executable(Aud32 Auditoriski/10/Aud32.cpp)
 add_executable(Aud33 Auditoriski/10/Aud33.cpp)
+add_executable(Aud33.1 Auditoriski/10/Aud33.1.cpp)
 add_executable(Citizen Auditoriski/10/Citizen.cpp)
 
 add_executable(Aud34 Auditoriski/11/Aud34.cpp)
@@ -274,7 +296,8 @@ add_executable(Aud37 Auditoriski/11/Aud37.cpp)
 add_executable(Aud38 Auditoriski/11/Aud38.cpp)
 add_executable(Aud39 Auditoriski/11/Aud39.cpp)
 
-add_executable(1 Labs/1.cpp)
+add_executable(1 Labs/1.cpp
+        Kolokviumski/LabsZadaci/LabsZadaca2.cpp)
 add_executable(2 Labs/2.cpp)
 
 add_executable(Wizz.cpp Predavanja/Wizz.cpp)
