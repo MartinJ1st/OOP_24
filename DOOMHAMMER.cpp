@@ -1,180 +1,274 @@
+//#include<iostream>
+//#include<cstring>
+//
+//using namespace std;
+//
+////class Character {
+////    char ch;
+////public:
+////    Character(char ch = '\0') {
+////        this->ch = ch;
+////    }
+////
+////    void chRead() {
+////        cin >> ch;
+////    }
+////
+////    void chCheck() {
+////        if (!isalpha(ch)) cout << "Not a valid character!" << endl;
+////        else {
+////            if (islower(ch)) {
+////                ch = toupper((ch));
+////            }
+////            cout << ch << endl;
+////        }
+////    }
+////};
+////
+////int main() {
+////    int n;
+////    cin >> n;
+////    Character ch[n];
+////    for (int i = 0; i < n; ++i) {
+////        ch[i].chRead();
+////    }
+////    for (int i = 0; i < n; ++i) {
+////        ch[i].chCheck();
+////    }
+////}
+//
+////Да се дефинира класа Letter во која се чува еден знак ch. За класата да се дефинираат:
+////set метода
+////lowerLetter метода со којашто ќе се претвори буквата во мала.
+//// Доколку не е буква да испечати порака за грешка
+//// "Character is not a letter" (методи за користење: isalpha и tolower).
+////print метода за печатење на вредноста на ch.
+////Забранети се промени во main.
+//
+//class Letter {
+//private:
+//    char c;
+//public:
+//
+//    Letter(char c = 'a') {
+//        this->c = c;
+//    }
+//
+//    void set(char c) {
+//        this->c = c;
+//    }
+//
+//    void lowerLetter() {
+//        if (!isalpha(c)) {
+//            cout << "Character is not a letter" << endl;
+//        } else {
+//            c = tolower(c);
+//        }
+//    }
+//
+//    void print() {
+//        cout << c << endl;
+//    }
+//};
+//
+//
+//int main() {
+//    Letter obj; //letter
+//    int n;
+//    cin >> n;
+//    int cmd;
+//    char k;
+//    for (int i = 0; i < n; i++) {
+//        cin >> cmd;
+//        switch (cmd) {
+//            case 1: {
+//                cin >> k;
+//                obj.set(k);
+//                obj.print();
+//                break;
+//            }
+//            case 2: {
+//                obj.lowerLetter();
+//                obj.print();
+//                break;
+//            }
+//            case 3: {
+//                cin >> k;
+//                Letter obj2; //default
+//                obj2.set(k);
+//                obj2.lowerLetter();
+//                obj2.print();
+//                break;
+//            }
+//            default: {
+//                obj.print();
+//                break;
+//            }
+//        }
+//    }
+//}
+
 #include <iostream>
-#include <fstream>
 #include <cstring>
 
 using namespace std;
 
-void wtf() {
-    ofstream fout("flight_input.txt");
-    string line;
-    while (getline(cin, line)) {
-        if (line == "----") {
-            break;
-        }
-        fout << line << endl;
-    }
-}
 
-void rff1() {
-    ifstream fin("flight_output1.txt");
-    string line;
-    while (getline(fin, line)) {
-        cout << line << endl;
-    }
-}
-
-void rff2() {
-    ifstream fin("flight_output2.txt");
-    string line;
-    while (getline(fin, line)) {
-        cout << line << endl;
-    }
-}
-
-void rff3() {
-    ifstream fin("flight_output3.txt");
-    string line;
-    while (getline(fin, line)) {
-        cout << line << endl;
-    }
-}
-
-class InvalidSeatNumberException {
-public:
-    void message() {
-        cout << "Invalid Seat Number Exception" << endl;
-    }
-};
-
-class Flight {
+class Transport {
 protected:
-    char code[40];
-    char from[100];
-    char to[100];
-    double price;
-    double baggagePrice;
-
+    char destinacija[20];
+    int base_price;
+    int rastojanie;
 public:
-    Flight(const char *code = "", const char *from = "", const char *to = "", double price = 0, double baggagePrice = 0)
-            : price(price), baggagePrice(baggagePrice) {
-        strcpy(this->code, code);
-        strcpy(this->from, from);
-        strcpy(this->to, to);
+    Transport(char *destinacija = "", int basePrice = 0, int rastojanie = 0)
+            : base_price(basePrice), rastojanie(rastojanie) {
+        strcpy(this->destinacija, destinacija);
     }
 
-    virtual double calculateTotalPrice() {
-        return price + baggagePrice;
+    const char *getDestinacija() const {
+        return destinacija;
     }
 
-    friend ostream &operator<<(ostream &o, Flight &f) {
-        o << f.code << " " << f.from << " " << f.to << " " << f.calculateTotalPrice() << endl;
-        return o;
+    int getBasePrice() const {
+        return base_price;
+    }
+
+    void setBasePrice(int basePrice) {
+        base_price = basePrice;
+    }
+
+    int getRastojanie() const {
+        return rastojanie;
+    }
+
+    void setRastojanie(int rastojanie) {
+        Transport::rastojanie = rastojanie;
+    }
+
+    virtual float cenaTransport() {
+        return base_price;
+    }
+
+    bool operator<(Transport &t) {
+        return this->rastojanie < t.rastojanie;
+    }
+
+    Transport &operator=(const Transport &t) {
+        if (this != &t) {
+            this->rastojanie = t.rastojanie;
+            this->base_price = t.base_price;
+            strcpy(this->destinacija, t.destinacija);
+        }
+        return *this;
     }
 };
 
-class EconomyFlight : public Flight {
+class AvtomobilTransport : public Transport {
 private:
-    char seatNumber[4];
-    static double LOYALTY_DISCOUNT;
+    bool shofer;
+
 public:
-    EconomyFlight(Flight &f, char *seatNumber) : Flight(f) {
-        strcpy(this->seatNumber, seatNumber);
+    AvtomobilTransport(char *destinacija, int basePrice, int rastojanie, bool shofer)
+            : Transport(destinacija, basePrice, rastojanie), shofer(shofer) {}
+
+    float cenaTransport() override {
+        float cena = Transport::cenaTransport();
+        if (shofer) {
+            cena *= 1.2;
+        }
+        return cena;
     }
 
-    double calculateTotalPrice() override {
-        double sum = Flight::calculateTotalPrice();
-        if (seatNumber[0] == 'C' || seatNumber[0] == 'F') {
-            sum *= 1.3;
+    AvtomobilTransport &operator=(const AvtomobilTransport &t) {
+        if (this != &t) {
+            Transport::operator=(t);
+            this->shofer = t.shofer;
         }
-        if (seatNumber[0] < 'A' || seatNumber[0] > 'F') {
-            throw InvalidSeatNumberException();
-        }
-        return sum * (1 - (LOYALTY_DISCOUNT/100));
-    }
-
-    friend ostream &operator<<(ostream &o, EconomyFlight &e) {
-        try {
-            e.calculateTotalPrice();
-        } catch (InvalidSeatNumberException e) {
-            e.message();
-            return o;
-        }
-        o << e.code << " " << e.from << " " << e.to << " " << e.seatNumber << endl;
-        o << "Total price: $" << e.calculateTotalPrice() << endl;
-        return o;
-    }
-
-    static void setLoyaltyDiscount(double loyaltyDiscount) {
-        LOYALTY_DISCOUNT = loyaltyDiscount;
+        return *this;
     }
 };
 
-double EconomyFlight::LOYALTY_DISCOUNT = 20;
+class KombeTransport : public Transport {
+private:
+    int lugje;
+
+public:
+    KombeTransport(char *destinacija, int basePrice, int rastojanie, int lugje)
+            : Transport(destinacija, basePrice, rastojanie), lugje(lugje) {}
+
+    float cenaTransport() override {
+        return (Transport::cenaTransport() - (200 * lugje));
+    }
+
+    KombeTransport &operator=(const KombeTransport &t) {
+        if (this != &t) {
+            Transport::operator=(t);
+            this->lugje = t.lugje;
+        }
+        return *this;
+    }
+};
+
+void pecatiPoloshiPonudi(Transport **ponudi, int n, Transport &t) {
+    int found = 0;
+    for (int i = 0; i < n; ++i) {
+        if (t.cenaTransport() < ponudi[i]->cenaTransport()) {
+            ++found;
+        }
+    }
+    Transport **tmp = new Transport *[found];
+    int j = 0;
+    for (int i = 0; i < n; ++i) {
+        if (t.cenaTransport() < ponudi[i]->cenaTransport()) {
+            tmp[j++] = ponudi[i];
+        }
+    }
+
+    for (int i = 0; i < found; ++i) {
+        for (int k = i + 1; k < found; ++k) {
+            if (tmp[i]->cenaTransport() > tmp[k]->cenaTransport()) {
+                Transport *tmp2 = tmp[i];
+                tmp[i] = tmp[k];
+                tmp[k] = tmp2;
+            }
+        }
+    }
+
+    for (int i = 0; i < found; ++i) {
+        cout << tmp[i]->getDestinacija() << " " << tmp[i]->getRastojanie() << " " << tmp[i]->cenaTransport() << endl;
+    }
+}
+
 
 int main() {
-    //so datoteki
 
-    wtf();
+    char destinacija[20];
+    int tip, cena, rastojanie, lugje;
+    bool shofer;
+    int n;
+    cin >> n;
+    Transport **ponudi;
+    ponudi = new Transport *[n];
 
-    ifstream fin("flight_input.txt");
-    ofstream out1("flight_output1.txt");
-    ofstream out2("flight_output2.txt");
-    ofstream out3("flight_output3.txt");
+    for (int i = 0; i < n; i++) {
 
-    int testCase;
-    fin >> testCase;
-    char code[100];
-    char from[100];
-    char to[100];
-    double price;
-    double baggagePrice;
-    char seatNumber[4];
+        cin >> tip >> destinacija >> cena >> rastojanie;
+        if (tip == 1) {
+            cin >> shofer;
+            ponudi[i] = new AvtomobilTransport(destinacija, cena, rastojanie, shofer);
 
-    if (testCase == 1) {
-        cout << "===== Testiranje na klasite ======" << endl;
-        int n;
-        fin >> n;
-        for (int i = 0; i < n; i++) {
-            fin >> code >> from >> to >> price >> baggagePrice >> seatNumber;
-            Flight f = Flight(code, from, to, price, baggagePrice);
-            EconomyFlight ec = EconomyFlight(f, seatNumber);
-            out1 << ec;
+        } else {
+            cin >> lugje;
+            ponudi[i] = new KombeTransport(destinacija, cena, rastojanie, lugje);
         }
-    }
-    if (testCase == 2) {
-        cout << "===== Testiranje na isklucoci ======" << endl;
-        int n;
-        fin >> n;
-        for (int i = 0; i < n; i++) {
-            fin >> code >> from >> to >> price >> baggagePrice >> seatNumber;
 
-                Flight f = Flight(code, from, to, price, baggagePrice);
-                EconomyFlight ec = EconomyFlight(f, seatNumber);
-            try {
-                out2 << ec;
-            } catch (InvalidSeatNumberException e) {
-                e.message();
-            }
 
-        }
-    }
-    if (testCase == 3) {
-        cout << "===== Testiranje na static clenovi ======" << endl;
-        fin >> code >> from >> to >> price >> baggagePrice >> seatNumber;
-        Flight f = Flight(code, from, to, price, baggagePrice);
-        EconomyFlight ec = EconomyFlight(f, seatNumber);
-        out3 << ec;
-        EconomyFlight::setLoyaltyDiscount(50);
-        out3 << ec;
     }
 
-    fin.close();
-    out1.close();
-    out2.close();
-    out3.close();
+    AvtomobilTransport nov("Ohrid", 2000, 600, false);
+    pecatiPoloshiPonudi(ponudi, n, nov);
 
-    rff1();
-    rff2();
-    rff3();
+    for (int i = 0; i < n; i++) delete ponudi[i];
+    delete[] ponudi;
     return 0;
 }

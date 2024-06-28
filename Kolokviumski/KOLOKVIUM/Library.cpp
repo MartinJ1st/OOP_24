@@ -102,6 +102,18 @@ int findMostExpensiveNationalLibrary(Library **l, int n) {
     return ind;
 }
 
+void statistika(Library **l, int n) {
+    int nl = 0, al = 0;
+    for (int i = 0; i < n; ++i) {
+        if (dynamic_cast<NationalLibrary *>(l[i])) {
+            ++nl;
+        } else if (dynamic_cast<AcademicLibrary *>(l[i])) {
+            ++al;
+        }
+    }
+    cout << nl << " " << al;
+}
+
 
 int main() {
     int n, testCase, type;
@@ -165,6 +177,8 @@ int main() {
         }
         cout << "findMostExpensiveNationalLibrary method OK" << endl;
     }
+
+    statistika(m, n);
 
 
     for (int i = 0; i < n; ++i) {

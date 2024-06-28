@@ -295,6 +295,7 @@ add_executable(Aud36 Auditoriski/11/Aud36.cpp)
 add_executable(Aud37 Auditoriski/11/Aud37.cpp)
 add_executable(Aud38 Auditoriski/11/Aud38.cpp)
 add_executable(Aud39 Auditoriski/11/Aud39.cpp)
+add_executable(KolokviumskaTemplates Auditoriski/11/KolokviusmkaTemplates.cpp)
 
 add_executable(1 Labs/1.cpp
         Kolokviumski/LabsZadaci/LabsZadaca2.cpp)
